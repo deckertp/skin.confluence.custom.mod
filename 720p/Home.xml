@@ -994,6 +994,7 @@
 						<property name="HiLiteItem">$INFO[Skin.String(HomeItem.1.Type)]</property>
 						<property name="AddOnSet">$INFO[Skin.String(HomeItem.1.Addon)]</property>
 						<property name="WidgetSet">$INFO[Skin.String(HomeItem.1.Widget)]</property>
+						<property name="PlayListType">$INFO[Window(home).Property(HomePlayListOne.Type)]</property>
 						<visible>!IsEmpty(Skin.String(HomeItem.1.Path))</visible>
 					</item>
 					<item id="2">
@@ -1008,6 +1009,7 @@
 						<property name="HiLiteItem">$INFO[Skin.String(HomeItem.2.Type)]</property>
 						<property name="AddOnSet">$INFO[Skin.String(HomeItem.2.Addon)]</property>
 						<property name="WidgetSet">$INFO[Skin.String(HomeItem.2.Widget)]</property>
+						<property name="PlayListType">$INFO[Window(home).Property(HomePlayListTwo.Type)]</property>
 						<visible>!IsEmpty(Skin.String(HomeItem.2.Path))</visible>
 					</item>
 					<item id="3">
@@ -1022,6 +1024,7 @@
 						<property name="HiLiteItem">$INFO[Skin.String(HomeItem.3.Type)]</property>
 						<property name="AddOnSet">$INFO[Skin.String(HomeItem.3.Addon)]</property>
 						<property name="WidgetSet">$INFO[Skin.String(HomeItem.3.Widget)]</property>
+						<property name="PlayListType">$INFO[Window(home).Property(HomePlayListThree.Type)]</property>
 						<visible>!IsEmpty(Skin.String(HomeItem.3.Path))</visible>
 					</item>
 					<item id="4">
@@ -1036,6 +1039,7 @@
 						<property name="HiLiteItem">$INFO[Skin.String(HomeItem.4.Type)]</property>
 						<property name="AddOnSet">$INFO[Skin.String(HomeItem.4.Addon)]</property>
 						<property name="WidgetSet">$INFO[Skin.String(HomeItem.4.Widget)]</property>
+						<property name="PlayListType">$INFO[Window(home).Property(HomePlayListFour.Type)]</property>
 						<visible>!IsEmpty(Skin.String(HomeItem.4.Path))</visible>
 					</item>
 					<item id="5">
@@ -1050,6 +1054,7 @@
 						<property name="HiLiteItem">$INFO[Skin.String(HomeItem.5.Type)]</property>
 						<property name="AddOnSet">$INFO[Skin.String(HomeItem.5.Addon)]</property>
 						<property name="WidgetSet">$INFO[Skin.String(HomeItem.5.Widget)]</property>
+						<property name="PlayListType">$INFO[Window(home).Property(HomePlayListFive.Type)]</property>
 						<visible>!IsEmpty(Skin.String(HomeItem.5.Path))</visible>
 					</item>
 					<item id="6">
@@ -1064,6 +1069,7 @@
 						<property name="HiLiteItem">$INFO[Skin.String(HomeItem.6.Type)]</property>
 						<property name="AddOnSet">$INFO[Skin.String(HomeItem.6.Addon)]</property>
 						<property name="WidgetSet">$INFO[Skin.String(HomeItem.6.Widget)]</property>
+						<property name="PlayListType">$INFO[Window(home).Property(HomePlayListSix.Type)]</property>
 						<visible>!IsEmpty(Skin.String(HomeItem.6.Path))</visible>
 					</item>
 					<item id="7">
@@ -1078,6 +1084,7 @@
 						<property name="HiLiteItem">$INFO[Skin.String(HomeItem.7.Type)]</property>
 						<property name="AddOnSet">$INFO[Skin.String(HomeItem.7.Addon)]</property>
 						<property name="WidgetSet">$INFO[Skin.String(HomeItem.7.Widget)]</property>
+						<property name="PlayListType">$INFO[Window(home).Property(HomePlayListSeven.Type)]</property>
 						<visible>!IsEmpty(Skin.String(HomeItem.7.Path))</visible>
 					</item>
 					<item id="8">
@@ -1092,6 +1099,7 @@
 						<property name="HiLiteItem">$INFO[Skin.String(HomeItem.8.Type)]</property>
 						<property name="AddOnSet">$INFO[Skin.String(HomeItem.8.Addon)]</property>
 						<property name="WidgetSet">$INFO[Skin.String(HomeItem.8.Widget)]</property>
+						<property name="PlayListType">$INFO[Window(home).Property(HomePlayListEight.Type)]</property>
 						<visible>!IsEmpty(Skin.String(HomeItem.8.Path))</visible>
 					</item>
 					<item id="9">
@@ -1106,6 +1114,7 @@
 						<property name="HiLiteItem">$INFO[Skin.String(HomeItem.9.Type)]</property>
 						<property name="AddOnSet">$INFO[Skin.String(HomeItem.9.Addon)]</property>
 						<property name="WidgetSet">$INFO[Skin.String(HomeItem.9.Widget)]</property>
+						<property name="PlayListType">$INFO[Window(home).Property(HomePlayListNine.Type)]</property>
 						<visible>!IsEmpty(Skin.String(HomeItem.9.Path))</visible>
 					</item>
 					<item id="10">
@@ -1120,6 +1129,7 @@
 						<property name="HiLiteItem">$INFO[Skin.String(HomeItem.10.Type)]</property>
 						<property name="AddOnSet">$INFO[Skin.String(HomeItem.10.Addon)]</property>
 						<property name="WidgetSet">$INFO[Skin.String(HomeItem.10.Widget)]</property>
+						<property name="PlayListType">$INFO[Window(home).Property(HomePlayListTen.Type)]</property>
 						<visible>!IsEmpty(Skin.String(HomeItem.10.Path))</visible>
 					</item>
 					<item id="11">
