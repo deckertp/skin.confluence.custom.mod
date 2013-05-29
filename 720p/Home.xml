@@ -2,6 +2,7 @@
 <window>
 	<defaultcontrol always="true">9000</defaultcontrol>
 	<allowoverlay>no</allowoverlay>
+	<include condition="!Skin.HasSetting(InitialSetUpRun)">DefaultInitialSetup</include>
 	<onload condition="!IsEmpty(Window(home).Property(MenuItemSelected))">ClearProperty(MenuItemSelected,Home)</onload>
 	<onload condition="!IsEmpty(Window(home).Property(MenuItemActive))">ClearProperty(MenuItemActive,Home)</onload>
 	<onload condition="!IsEmpty(Window(home).Property(SubMenuBackground))">ClearProperty(SubMenuBackground,Home)</onload>
@@ -20,7 +21,6 @@
 	<onload condition="!Skin.HasSetting(DisableScriptPlayList) + !IsEmpty(Skin.String(HomeItem.8.Playlist))">XBMC.RunScript(script.randomandlastitems,playlist=$INFO[Skin.String(HomeItem.8.Playlist)],method=$VAR[RandomOrLastAction],limit=10,unwatched=$VAR[RandomOrLastUnWatched],resume=False,property=HomePlayListEight)</onload>
 	<onload condition="!Skin.HasSetting(DisableScriptPlayList) + !IsEmpty(Skin.String(HomeItem.9.Playlist))">XBMC.RunScript(script.randomandlastitems,playlist=$INFO[Skin.String(HomeItem.9.Playlist)],method=$VAR[RandomOrLastAction],limit=10,unwatched=$VAR[RandomOrLastUnWatched],resume=False,property=HomePlayListNine)</onload>
 	<onload condition="!Skin.HasSetting(DisableScriptPlayList) + !IsEmpty(Skin.String(HomeItem.10.Playlist))">XBMC.RunScript(script.randomandlastitems,playlist=$INFO[Skin.String(HomeItem.10.Playlist)],method=$VAR[RandomOrLastAction],limit=10,unwatched=$VAR[RandomOrLastUnWatched],resume=False,property=HomePlayListTen)</onload>
-	<include condition="!Skin.HasSetting(InitialSetUpRun)">DefaultInitialSetup</include>
 	<controls>
 		<include>CommonBackground</include>
 		<control type="image">
