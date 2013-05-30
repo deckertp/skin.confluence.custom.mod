@@ -173,9 +173,10 @@
 		<value>$INFO[ListItem.label]</value>
 	</variable>
 	<variable name="VideoDescription" type="text">
-		<value condition="Skin.HasSetting(MediaShortDescription) + IsEmpty(ListItem.PlotOutline)">$INFO[ListItem.Tagline]</value>
-		<value condition="Skin.HasSetting(MediaShortDescription)">$INFO[ListItem.PlotOutline]</value>
-		<value>$INFO[ListItem.Plot]</value>
+		<value condition="Skin.HasSetting(MediaShortDescription) + !IsEmpty(ListItem.PlotOutline)">$INFO[ListItem.PlotOutline]</value>
+		<value condition="Skin.HasSetting(MediaShortDescription) + !IsEmpty(ListItem.Tagline)">$INFO[ListItem.Tagline]</value>
+		<value condition="!Skin.HasSetting(MediaShortDescription) + !IsEmpty(ListItem.Plot)">$INFO[ListItem.Plot]</value>
+		 <value>$LOCALIZE[161]</value>
 	</variable>
 	<variable name="UsrMPAACountry" type="text">
 		<value condition="!IsEmpty(Skin.String(MPAACountryCert))">$INFO[Skin.String(MPAACountryCert)]</value>
