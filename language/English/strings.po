@@ -1176,7 +1176,17 @@ msgctxt "#31625"
 msgid "Western"
 msgstr ""
 
-#empty strings from id 31626 to 31697
+#empty strings from id 31626 to 31671
+
+msgctxt "#31672"
+msgid "Hide RainDrop Effect"
+msgstr ""
+
+msgctxt "#31673"
+msgid "Enable Album Art Background Wall"
+msgstr ""
+
+#empty strings from id 31674 to 31697
 
 msgctxt "#31698"
 msgid "Media Certification Country"
