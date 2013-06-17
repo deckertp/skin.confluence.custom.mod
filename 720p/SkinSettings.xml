@@ -2,6 +2,7 @@
 <window>
 	<defaultcontrol always="true">9000</defaultcontrol>
 	<include condition="!Skin.HasSetting(InitialSetUpRun)">DefaultInitialSetup</include>
+	<onload condition="System.HasAddon(script.favourites)">XBMC.RunScript(script.favourites)</onload>
 	<onload>SetProperty(MenuItemActive,Settings,Home)</onload>
 	<onload condition="stringcompare(Container(9008).ListItem.Label,$LOCALIZE[31700]) + stringcompare(Skin.String(MPAACountryCert),$LOCALIZE[31701])">Control.Move(9008,1)</onload>
 	<onload condition="stringcompare(Container(9008).ListItem.Label,$LOCALIZE[31700]) + stringcompare(Skin.String(MPAACountryCert),$LOCALIZE[31702])">Control.Move(9008,2)</onload>
@@ -441,15 +442,15 @@
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 					</control>
 					<control type="radiobutton" id="116">
-						<description>Lower Main Menu</description>
+						<description>Raise Main Menu</description>
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
 						<textcolor>grey2</textcolor>
 						<focusedcolor>white</focusedcolor>
 						<label>31137</label>
-						<onclick>Skin.ToggleSetting(LowerMainMenuBar)</onclick>
-						<selected>Skin.HasSetting(LowerMainMenuBar)</selected>
+						<onclick>Skin.ToggleSetting(RaiseMainMenuBar)</onclick>
+						<selected>!Skin.HasSetting(RaiseMainMenuBar)</selected>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 					</control>
@@ -1766,7 +1767,7 @@
 						<onclick>SetProperty(UsrSelectBtn,UserSubOne.6,home)</onclick>
 						<onclick>ActivateWindow(2115)</onclick>
 						<onclick condition="!IsEmpty(Skin.String(UserSubOne.6.Label))">Skin.SetString(UserSubOne.6.Label)</onclick>
-						<enable>!Skin.HasSetting(LowerMainMenuBar) | Skin.HasSetting(AutoHidePowerBtn)</enable>
+						<enable>Skin.HasSetting(RaiseMainMenuBar) | Skin.HasSetting(AutoHidePowerBtn)</enable>
 					</control>
 					<control type="label" id="307">
 						<width>750</width>
@@ -1861,7 +1862,7 @@
 						<onclick>SetProperty(UsrSelectBtn,UserSubTwo.6,home)</onclick>
 						<onclick>ActivateWindow(2115)</onclick>
 						<onclick condition="!IsEmpty(Skin.String(UserSubTwo.6.Label))">Skin.SetString(UserSubTwo.6.Label)</onclick>
-						<enable>!Skin.HasSetting(LowerMainMenuBar) | Skin.HasSetting(AutoHidePowerBtn)</enable>
+						<enable>Skin.HasSetting(RaiseMainMenuBar) | Skin.HasSetting(AutoHidePowerBtn)</enable>
 					</control>
 					<control type="label" id="314">
 						<width>750</width>
@@ -1956,7 +1957,7 @@
 						<onclick>SetProperty(UsrSelectBtn,SubVideos.6,home)</onclick>
 						<onclick>ActivateWindow(2115)</onclick>
 						<onclick condition="!IsEmpty(Skin.String(SubVideos.6.Label)) + !stringcompare(Skin.String(SubVideos.6.Path),Hidden)">Skin.SetString(SubVideos.6.Label)</onclick>
-						<enable>!Skin.HasSetting(LowerMainMenuBar) | Skin.HasSetting(AutoHidePowerBtn)</enable>
+						<enable>Skin.HasSetting(RaiseMainMenuBar) | Skin.HasSetting(AutoHidePowerBtn)</enable>
 					</control>
 					<control type="label" id="321">
 						<width>750</width>
@@ -2051,7 +2052,7 @@
 						<onclick>SetProperty(UsrSelectBtn,SubMovies.6,home)</onclick>
 						<onclick>ActivateWindow(2115)</onclick>
 						<onclick condition="!IsEmpty(Skin.String(SubMovies.6.Label)) + !stringcompare(Skin.String(SubMovies.6.Path),Hidden)">Skin.SetString(SubMovies.6.Label)</onclick>
-						<enable>!Skin.HasSetting(LowerMainMenuBar) | Skin.HasSetting(AutoHidePowerBtn)</enable>
+						<enable>Skin.HasSetting(RaiseMainMenuBar) | Skin.HasSetting(AutoHidePowerBtn)</enable>
 					</control>
 					<control type="label" id="328">
 						<width>750</width>
@@ -2146,7 +2147,7 @@
 						<onclick>SetProperty(UsrSelectBtn,SubTVShows.6,home)</onclick>
 						<onclick>ActivateWindow(2115)</onclick>
 						<onclick condition="!IsEmpty(Skin.String(SubTVShows.6.Label)) + !stringcompare(Skin.String(SubTVShows.6.Path),Hidden)">Skin.SetString(SubTVShows.6.Label)</onclick>
-						<enable>!Skin.HasSetting(LowerMainMenuBar) | Skin.HasSetting(AutoHidePowerBtn)</enable>
+						<enable>Skin.HasSetting(RaiseMainMenuBar) | Skin.HasSetting(AutoHidePowerBtn)</enable>
 					</control>
 					<control type="label" id="335">
 						<width>750</width>
@@ -2241,7 +2242,7 @@
 						<onclick>SetProperty(UsrSelectBtn,SubMusic.6,home)</onclick>
 						<onclick>ActivateWindow(2115)</onclick>
 						<onclick condition="!IsEmpty(Skin.String(SubMusic.6.Label)) + !stringcompare(Skin.String(SubMusic.6.Path),Hidden)">Skin.SetString(SubMusic.6.Label)</onclick>
-						<enable>!Skin.HasSetting(LowerMainMenuBar) | Skin.HasSetting(AutoHidePowerBtn)</enable>
+						<enable>Skin.HasSetting(RaiseMainMenuBar) | Skin.HasSetting(AutoHidePowerBtn)</enable>
 					</control>
 				</control>
 				<control type="scrollbar" id="61">
@@ -2634,12 +2635,12 @@
 						<focusedcolor>white</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
-						<onclick>Skin.ToggleSetting(IndividualBackgrounds)</onclick>
+						<onclick>Skin.ToggleSetting(GlobalBackground)</onclick>
 						<onleft>9000</onleft>
 						<onright>9000</onright>
 						<onup>505</onup>
 						<ondown>504</ondown>
-						<selected>!Skin.HasSetting(IndividualBackgrounds)</selected>
+						<selected>Skin.HasSetting(GlobalBackground)</selected>
 					</control>
 					<control type="button" id="504">
 						<description>Menu Item Next Button</description>
@@ -2760,7 +2761,7 @@
 								<icon>$INFO[Skin.CurrentTheme,special://skin/backgrounds/,.jpg]</icon>
 								<thumb>$INFO[Skin.String(CustomBackgroundPath)]</thumb>
 								<property name="HiLiteItem">Global</property>
-								<visible>!Skin.HasSetting(IndividualBackgrounds)</visible>
+								<visible>Skin.HasSetting(GlobalBackground)</visible>
 							</item>
 							<item id="2">
 								<description>Home Menu Item One</description>
@@ -2769,7 +2770,7 @@
 								<icon>$INFO[Skin.CurrentTheme,special://skin/backgrounds/,.jpg]</icon>
 								<thumb>$INFO[Skin.String(HomeItem.1.FanArt)]</thumb>
 								<property name="HiLiteItem">$INFO[Skin.String(HomeItem.1.Type)]</property>
-								<visible>!IsEmpty(Skin.String(HomeItem.1.Path)) + Skin.HasSetting(IndividualBackgrounds)</visible>
+								<visible>!IsEmpty(Skin.String(HomeItem.1.Path)) + !Skin.HasSetting(GlobalBackground)</visible>
 							</item>
 							<item id="3">
 								<description>Home Menu Item Two</description>
@@ -2778,7 +2779,7 @@
 								<icon>$INFO[Skin.CurrentTheme,special://skin/backgrounds/,.jpg]</icon>
 								<thumb>$INFO[Skin.String(HomeItem.2.FanArt)]</thumb>
 								<property name="HiLiteItem">$INFO[Skin.String(HomeItem.2.Type)]</property>
-								<visible>!IsEmpty(Skin.String(HomeItem.2.Path)) + Skin.HasSetting(IndividualBackgrounds)</visible>
+								<visible>!IsEmpty(Skin.String(HomeItem.2.Path)) + !Skin.HasSetting(GlobalBackground)</visible>
 							</item>
 							<item id="4">
 								<description>Home Menu Item Three</description>
@@ -2787,7 +2788,7 @@
 								<icon>$INFO[Skin.CurrentTheme,special://skin/backgrounds/,.jpg]</icon>
 								<thumb>$INFO[Skin.String(HomeItem.3.FanArt)]</thumb>
 								<property name="HiLiteItem">$INFO[Skin.String(HomeItem.3.Type)]</property>
-								<visible>!IsEmpty(Skin.String(HomeItem.3.Path)) + Skin.HasSetting(IndividualBackgrounds)</visible>
+								<visible>!IsEmpty(Skin.String(HomeItem.3.Path)) + !Skin.HasSetting(GlobalBackground)</visible>
 							</item>
 							<item id="5">
 								<description>Home Menu Item Four</description>
@@ -2796,7 +2797,7 @@
 								<icon>$INFO[Skin.CurrentTheme,special://skin/backgrounds/,.jpg]</icon>
 								<thumb>$INFO[Skin.String(HomeItem.4.FanArt)]</thumb>
 								<property name="HiLiteItem">$INFO[Skin.String(HomeItem.4.Type)]</property>
-								<visible>!IsEmpty(Skin.String(HomeItem.4.Path)) + Skin.HasSetting(IndividualBackgrounds)</visible>
+								<visible>!IsEmpty(Skin.String(HomeItem.4.Path)) + !Skin.HasSetting(GlobalBackground)</visible>
 							</item>
 							<item id="6">
 								<description>Home Menu Item Five</description>
@@ -2805,7 +2806,7 @@
 								<icon>$INFO[Skin.CurrentTheme,special://skin/backgrounds/,.jpg]</icon>
 								<thumb>$INFO[Skin.String(HomeItem.5.FanArt)]</thumb>
 								<property name="HiLiteItem">$INFO[Skin.String(HomeItem.5.Type)]</property>
-								<visible>!IsEmpty(Skin.String(HomeItem.5.Path)) + Skin.HasSetting(IndividualBackgrounds)</visible>
+								<visible>!IsEmpty(Skin.String(HomeItem.5.Path)) + !Skin.HasSetting(GlobalBackground)</visible>
 							</item>
 							<item id="7">
 								<description>Home Menu Item Six</description>
@@ -2814,7 +2815,7 @@
 								<icon>$INFO[Skin.CurrentTheme,special://skin/backgrounds/,.jpg]</icon>
 								<thumb>$INFO[Skin.String(HomeItem.6.FanArt)]</thumb>
 								<property name="HiLiteItem">$INFO[Skin.String(HomeItem.6.Type)]</property>
-								<visible>!IsEmpty(Skin.String(HomeItem.6.Path)) + Skin.HasSetting(IndividualBackgrounds)</visible>
+								<visible>!IsEmpty(Skin.String(HomeItem.6.Path)) + !Skin.HasSetting(GlobalBackground)</visible>
 							</item>
 							<item id="8">
 								<description>Home Menu Item Seven</description>
@@ -2823,7 +2824,7 @@
 								<icon>$INFO[Skin.CurrentTheme,special://skin/backgrounds/,.jpg]</icon>
 								<thumb>$INFO[Skin.String(HomeItem.7.FanArt)]</thumb>
 								<property name="HiLiteItem">$INFO[Skin.String(HomeItem.7.Type)]</property>
-								<visible>!IsEmpty(Skin.String(HomeItem.7.Path)) + Skin.HasSetting(IndividualBackgrounds)</visible>
+								<visible>!IsEmpty(Skin.String(HomeItem.7.Path)) + !Skin.HasSetting(GlobalBackground)</visible>
 							</item>
 							<item id="9">
 								<description>Home Menu Item Eight</description>
@@ -2832,7 +2833,7 @@
 								<icon>$INFO[Skin.CurrentTheme,special://skin/backgrounds/,.jpg]</icon>
 								<thumb>$INFO[Skin.String(HomeItem.8.FanArt)]</thumb>
 								<property name="HiLiteItem">$INFO[Skin.String(HomeItem.8.Type)]</property>
-								<visible>!IsEmpty(Skin.String(HomeItem.8.Path)) + Skin.HasSetting(IndividualBackgrounds)</visible>
+								<visible>!IsEmpty(Skin.String(HomeItem.8.Path)) + !Skin.HasSetting(GlobalBackground)</visible>
 							</item>
 							<item id="10">
 								<description>Home Menu Item Nine</description>
@@ -2841,7 +2842,7 @@
 								<icon>$INFO[Skin.CurrentTheme,special://skin/backgrounds/,.jpg]</icon>
 								<thumb>$INFO[Skin.String(HomeItem.9.FanArt)]</thumb>
 								<property name="HiLiteItem">$INFO[Skin.String(HomeItem.9.Type)]</property>
-								<visible>!IsEmpty(Skin.String(HomeItem.9.Path)) + Skin.HasSetting(IndividualBackgrounds)</visible>
+								<visible>!IsEmpty(Skin.String(HomeItem.9.Path)) + !Skin.HasSetting(GlobalBackground)</visible>
 							</item>
 							<item id="11">
 								<description>Home Menu Item Ten</description>
@@ -2850,7 +2851,7 @@
 								<icon>$INFO[Skin.CurrentTheme,special://skin/backgrounds/,.jpg]</icon>
 								<thumb>$INFO[Skin.String(HomeItem.10.FanArt)]</thumb>
 								<property name="HiLiteItem">$INFO[Skin.String(HomeItem.10.Type)]</property>
-								<visible>!IsEmpty(Skin.String(HomeItem.10.Path)) + Skin.HasSetting(IndividualBackgrounds)</visible>
+								<visible>!IsEmpty(Skin.String(HomeItem.10.Path)) + !Skin.HasSetting(GlobalBackground)</visible>
 							</item>
 							<item id="12">
 								<description>DVD Tray</description>
@@ -2859,7 +2860,7 @@
 								<icon>$INFO[Skin.CurrentTheme,special://skin/backgrounds/,.jpg]</icon>
 								<thumb>$INFO[Skin.String(HomeItem.11.FanArt)]</thumb>
 								<property name="HiLiteItem">PlayDisc</property>
-								<visible>Skin.HasSetting(IndividualBackgrounds)</visible>
+								<visible>!Skin.HasSetting(GlobalBackground)</visible>
 							</item>
 							<item id="13">
 								<description>Home Menu Settings</description>
@@ -2868,7 +2869,7 @@
 								<icon>$INFO[Skin.CurrentTheme,special://skin/backgrounds/,.jpg]</icon>
 								<thumb>$INFO[Skin.String(HomeItem.12.FanArt)]</thumb>
 								<property name="HiLiteItem">Settings</property>
-								<visible>!Skin.HasSetting(HideHomeMenuSystem) + Skin.HasSetting(IndividualBackgrounds)</visible>
+								<visible>!Skin.HasSetting(HideHomeMenuSystem) + !Skin.HasSetting(GlobalBackground)</visible>
 							</item>
 							<item id="14">
 								<description>Search Button</description>
@@ -2877,7 +2878,7 @@
 								<icon>$INFO[Skin.CurrentTheme,special://skin/backgrounds/,.jpg]</icon>
 								<thumb>$INFO[Skin.String(SearchBtnBackground)]</thumb>
 								<property name="HiLiteItem">MenuButton</property>
-								<visible>!Skin.HasSetting(HideHomeSearch) + Skin.HasSetting(IndividualBackgrounds)</visible>
+								<visible>!Skin.HasSetting(HideHomeSearch) + !Skin.HasSetting(GlobalBackground)</visible>
 							</item>
 							<item id="15">
 								<description>Power Button</description>
@@ -2886,7 +2887,7 @@
 								<icon>$INFO[Skin.CurrentTheme,special://skin/backgrounds/,.jpg]</icon>
 								<thumb>$INFO[Skin.String(PowerBtnBackground)]</thumb>
 								<property name="HiLiteItem">MenuButton</property>
-								<visible>!Skin.HasSetting(AutoHidePowerBtn) + Skin.HasSetting(IndividualBackgrounds)</visible>
+								<visible>!Skin.HasSetting(AutoHidePowerBtn) + !Skin.HasSetting(GlobalBackground)</visible>
 							</item>
 							<item id="16">
 								<description>Favourites Button</description>
@@ -2895,7 +2896,7 @@
 								<icon>$INFO[Skin.CurrentTheme,special://skin/backgrounds/,.jpg]</icon>
 								<thumb>$INFO[Skin.String(FavBtnBackground)]</thumb>
 								<property name="HiLiteItem">MenuButton</property>
-								<visible>Skin.HasSetting(IndividualBackgrounds)</visible>
+								<visible>!Skin.HasSetting(GlobalBackground)</visible>
 							</item>
 						</content>
 					</control>
@@ -3008,6 +3009,10 @@
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
 								<onclick condition="stringcompare(Skin.String(HomeItem.1.Type),Weather)">Skin.Reset(ShowWeatherFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.1.Type),Movies)">Skin.Reset(ShowMovieDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.1.Type),TVShows)">Skin.Reset(ShowTVShowDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.1.Type),Music)">Skin.Reset(ShowMusicDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.1.Type),Concerts)">Skin.Reset(ShowConcertDBFanart)</onclick>
 								<onclick>Skin.SetImage(HomeItem.1.FanArt)</onclick>
 								<onleft>503</onleft>
 								<onright>501</onright>
@@ -3028,6 +3033,10 @@
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
 								<onclick condition="stringcompare(Skin.String(HomeItem.1.Type),Weather)">Skin.Reset(ShowWeatherFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.1.Type),Movies)">Skin.Reset(ShowMovieDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.1.Type),TVShows)">Skin.Reset(ShowTVShowDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.1.Type),Music)">Skin.Reset(ShowMusicDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.1.Type),Concerts)">Skin.Reset(ShowConcertDBFanart)</onclick>
 								<onclick>Skin.SetPath(HomeItem.1.FanArt)</onclick>
 								<onleft>500</onleft>
 								<onright>502</onright>
@@ -3048,6 +3057,10 @@
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
 								<onclick condition="stringcompare(Skin.String(HomeItem.1.Type),Weather)">Skin.SetBool(ShowWeatherFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.1.Type),Movies)">Skin.SetBool(ShowMovieDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.1.Type),TVShows)">Skin.SetBool(ShowTVShowDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.1.Type),Music)">Skin.SetBool(ShowMusicDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.1.Type),Concerts)">Skin.SetBool(ShowConcertDBFanart)</onclick>
 								<onclick>Skin.SetString(HomeItem.1.FanArt,$VAR[SetMenuOneBackground])</onclick>
 								<onleft>501</onleft>
 								<onright>503</onright>
@@ -3068,6 +3081,10 @@
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
 								<onclick condition="stringcompare(Skin.String(HomeItem.1.Type),Weather)">Skin.Reset(ShowWeatherFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.1.Type),Movies)">Skin.Reset(ShowMovieDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.1.Type),TVShows)">Skin.Reset(ShowTVShowDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.1.Type),Music)">Skin.Reset(ShowMusicDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.1.Type),Concerts)">Skin.Reset(ShowConcertDBFanart)</onclick>
 								<onclick>Skin.Reset(HomeItem.1.FanArt)</onclick>
 								<onleft>502</onleft>
 								<onright>500</onright>
@@ -3091,6 +3108,10 @@
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
 								<onclick condition="stringcompare(Skin.String(HomeItem.2.Type),Weather)">Skin.Reset(ShowWeatherFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.2.Type),Movies)">Skin.Reset(ShowMovieDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.2.Type),TVShows)">Skin.Reset(ShowTVShowDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.2.Type),Music)">Skin.Reset(ShowMusicDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.2.Type),Concerts)">Skin.Reset(ShowConcertDBFanart)</onclick>
 								<onclick>Skin.SetImage(HomeItem.2.FanArt)</onclick>
 								<onleft>503</onleft>
 								<onright>501</onright>
@@ -3111,6 +3132,10 @@
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
 								<onclick condition="stringcompare(Skin.String(HomeItem.2.Type),Weather)">Skin.Reset(ShowWeatherFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.2.Type),Movies)">Skin.Reset(ShowMovieDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.2.Type),TVShows)">Skin.Reset(ShowTVShowDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.2.Type),Music)">Skin.Reset(ShowMusicDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.2.Type),Concerts)">Skin.Reset(ShowConcertDBFanart)</onclick>
 								<onclick>Skin.SetPath(HomeItem.2.FanArt)</onclick>
 								<onleft>500</onleft>
 								<onright>502</onright>
@@ -3131,6 +3156,10 @@
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
 								<onclick condition="stringcompare(Skin.String(HomeItem.2.Type),Weather)">Skin.SetBool(ShowWeatherFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.2.Type),Movies)">Skin.SetBool(ShowMovieDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.2.Type),TVShows)">Skin.SetBool(ShowTVShowDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.2.Type),Music)">Skin.SetBool(ShowMusicDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.2.Type),Concerts)">Skin.SetBool(ShowConcertDBFanart)</onclick>
 								<onclick>Skin.SetString(HomeItem.2.FanArt,$VAR[SetMenuTwoBackground])</onclick>
 								<onleft>501</onleft>
 								<onright>503</onright>
@@ -3151,6 +3180,10 @@
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
 								<onclick condition="stringcompare(Skin.String(HomeItem.2.Type),Weather)">Skin.Reset(ShowWeatherFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.2.Type),Movies)">Skin.Reset(ShowMovieDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.2.Type),TVShows)">Skin.Reset(ShowTVShowDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.2.Type),Music)">Skin.Reset(ShowMusicDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.2.Type),Concerts)">Skin.Reset(ShowConcertDBFanart)</onclick>
 								<onclick>Skin.Reset(HomeItem.2.FanArt)</onclick>
 								<onleft>502</onleft>
 								<onright>500</onright>
@@ -3174,6 +3207,10 @@
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
 								<onclick condition="stringcompare(Skin.String(HomeItem.3.Type),Weather)">Skin.Reset(ShowWeatherFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.3.Type),Movies)">Skin.Reset(ShowMovieDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.3.Type),TVShows)">Skin.Reset(ShowTVShowDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.3.Type),Music)">Skin.Reset(ShowMusicDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.3.Type),Concerts)">Skin.Reset(ShowConcertDBFanart)</onclick>
 								<onclick>Skin.SetImage(HomeItem.3.FanArt)</onclick>
 								<onleft>503</onleft>
 								<onright>501</onright>
@@ -3194,6 +3231,10 @@
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
 								<onclick condition="stringcompare(Skin.String(HomeItem.3.Type),Weather)">Skin.Reset(ShowWeatherFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.3.Type),Movies)">Skin.Reset(ShowMovieDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.3.Type),TVShows)">Skin.Reset(ShowTVShowDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.3.Type),Music)">Skin.Reset(ShowMusicDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.3.Type),Concerts)">Skin.Reset(ShowConcertDBFanart)</onclick>
 								<onclick>Skin.SetPath(HomeItem.3.FanArt)</onclick>
 								<onleft>500</onleft>
 								<onright>502</onright>
@@ -3214,6 +3255,10 @@
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
 								<onclick condition="stringcompare(Skin.String(HomeItem.3.Type),Weather)">Skin.SetBool(ShowWeatherFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.3.Type),Movies)">Skin.SetBool(ShowMovieDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.3.Type),TVShows)">Skin.SetBool(ShowTVShowDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.3.Type),Music)">Skin.SetBool(ShowMusicDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.3.Type),Concerts)">Skin.SetBool(ShowConcertDBFanart)</onclick>
 								<onclick>Skin.SetString(HomeItem.3.FanArt,$VAR[SetMenuThreeBackground])</onclick>
 								<onleft>501</onleft>
 								<onright>503</onright>
@@ -3234,6 +3279,10 @@
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
 								<onclick condition="stringcompare(Skin.String(HomeItem.3.Type),Weather)">Skin.Reset(ShowWeatherFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.3.Type),Movies)">Skin.Reset(ShowMovieDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.3.Type),TVShows)">Skin.Reset(ShowTVShowDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.3.Type),Music)">Skin.Reset(ShowMusicDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.3.Type),Concerts)">Skin.Reset(ShowConcertDBFanart)</onclick>
 								<onclick>Skin.Reset(HomeItem.3.FanArt)</onclick>
 								<onleft>502</onleft>
 								<onright>500</onright>
@@ -3257,6 +3306,10 @@
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
 								<onclick condition="stringcompare(Skin.String(HomeItem.4.Type),Weather)">Skin.Reset(ShowWeatherFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.4.Type),Movies)">Skin.Reset(ShowMovieDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.4.Type),TVShows)">Skin.Reset(ShowTVShowDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.4.Type),Music)">Skin.Reset(ShowMusicDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.4.Type),Concerts)">Skin.Reset(ShowConcertDBFanart)</onclick>
 								<onclick>Skin.SetImage(HomeItem.4.FanArt)</onclick>
 								<onleft>503</onleft>
 								<onright>501</onright>
@@ -3277,6 +3330,10 @@
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
 								<onclick condition="stringcompare(Skin.String(HomeItem.4.Type),Weather)">Skin.Reset(ShowWeatherFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.4.Type),Movies)">Skin.Reset(ShowMovieDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.4.Type),TVShows)">Skin.Reset(ShowTVShowDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.4.Type),Music)">Skin.Reset(ShowMusicDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.4.Type),Concerts)">Skin.Reset(ShowConcertDBFanart)</onclick>
 								<onclick>Skin.SetPath(HomeItem.4.FanArt)</onclick>
 								<onleft>500</onleft>
 								<onright>502</onright>
@@ -3297,6 +3354,10 @@
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
 								<onclick condition="stringcompare(Skin.String(HomeItem.4.Type),Weather)">Skin.SetBool(ShowWeatherFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.4.Type),Movies)">Skin.SetBool(ShowMovieDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.4.Type),TVShows)">Skin.SetBool(ShowTVShowDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.4.Type),Music)">Skin.SetBool(ShowMusicDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.4.Type),Concerts)">Skin.SetBool(ShowConcertDBFanart)</onclick>
 								<onclick>Skin.SetString(HomeItem.4.FanArt,$VAR[SetMenuFourBackground])</onclick>
 								<onleft>501</onleft>
 								<onright>503</onright>
@@ -3317,6 +3378,10 @@
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
 								<onclick condition="stringcompare(Skin.String(HomeItem.4.Type),Weather)">Skin.Reset(ShowWeatherFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.4.Type),Movies)">Skin.Reset(ShowMovieDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.4.Type),TVShows)">Skin.Reset(ShowTVShowDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.4.Type),Music)">Skin.Reset(ShowMusicDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.4.Type),Concerts)">Skin.Reset(ShowConcertDBFanart)</onclick>
 								<onclick>Skin.Reset(HomeItem.4.FanArt)</onclick>
 								<onleft>502</onleft>
 								<onright>500</onright>
@@ -3340,6 +3405,10 @@
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
 								<onclick condition="stringcompare(Skin.String(HomeItem.5.Type),Weather)">Skin.Reset(ShowWeatherFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.5.Type),Movies)">Skin.Reset(ShowMovieDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.5.Type),TVShows)">Skin.Reset(ShowTVShowDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.5.Type),Music)">Skin.Reset(ShowMusicDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.5.Type),Concerts)">Skin.Reset(ShowConcertDBFanart)</onclick>
 								<onclick>Skin.SetImage(HomeItem.5.FanArt)</onclick>
 								<onleft>503</onleft>
 								<onright>501</onright>
@@ -3360,6 +3429,10 @@
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
 								<onclick condition="stringcompare(Skin.String(HomeItem.5.Type),Weather)">Skin.Reset(ShowWeatherFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.5.Type),Movies)">Skin.Reset(ShowMovieDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.5.Type),TVShows)">Skin.Reset(ShowTVShowDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.5.Type),Music)">Skin.Reset(ShowMusicDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.5.Type),Concerts)">Skin.Reset(ShowConcertDBFanart)</onclick>
 								<onclick>Skin.SetPath(HomeItem.5.FanArt)</onclick>
 								<onleft>500</onleft>
 								<onright>502</onright>
@@ -3380,6 +3453,10 @@
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
 								<onclick condition="stringcompare(Skin.String(HomeItem.5.Type),Weather)">Skin.SetBool(ShowWeatherFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.5.Type),Movies)">Skin.SetBool(ShowMovieDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.5.Type),TVShows)">Skin.SetBool(ShowTVShowDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.5.Type),Music)">Skin.SetBool(ShowMusicDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.5.Type),Concerts)">Skin.SetBool(ShowConcertDBFanart)</onclick>
 								<onclick>Skin.SetString(HomeItem.5.FanArt,$VAR[SetMenuFiveBackground])</onclick>
 								<onleft>501</onleft>
 								<onright>503</onright>
@@ -3400,6 +3477,10 @@
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
 								<onclick condition="stringcompare(Skin.String(HomeItem.5.Type),Weather)">Skin.Reset(ShowWeatherFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.5.Type),Movies)">Skin.Reset(ShowMovieDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.5.Type),TVShows)">Skin.Reset(ShowTVShowDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.5.Type),Music)">Skin.Reset(ShowMusicDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.5.Type),Concerts)">Skin.Reset(ShowConcertDBFanart)</onclick>
 								<onclick>Skin.Reset(HomeItem.5.FanArt)</onclick>
 								<onleft>502</onleft>
 								<onright>500</onright>
@@ -3423,6 +3504,10 @@
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
 								<onclick condition="stringcompare(Skin.String(HomeItem.6.Type),Weather)">Skin.Reset(ShowWeatherFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.6.Type),Movies)">Skin.Reset(ShowMovieDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.6.Type),TVShows)">Skin.Reset(ShowTVShowDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.6.Type),Music)">Skin.Reset(ShowMusicDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.6.Type),Concerts)">Skin.Reset(ShowConcertDBFanart)</onclick>
 								<onclick>Skin.SetImage(HomeItem.6.FanArt)</onclick>
 								<onleft>503</onleft>
 								<onright>501</onright>
@@ -3443,6 +3528,10 @@
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
 								<onclick condition="stringcompare(Skin.String(HomeItem.6.Type),Weather)">Skin.Reset(ShowWeatherFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.6.Type),Movies)">Skin.Reset(ShowMovieDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.6.Type),TVShows)">Skin.Reset(ShowTVShowDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.6.Type),Music)">Skin.Reset(ShowMusicDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.6.Type),Concerts)">Skin.Reset(ShowConcertDBFanart)</onclick>
 								<onclick>Skin.SetPath(HomeItem.6.FanArt)</onclick>
 								<onleft>500</onleft>
 								<onright>502</onright>
@@ -3463,6 +3552,10 @@
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
 								<onclick condition="stringcompare(Skin.String(HomeItem.6.Type),Weather)">Skin.SetBool(ShowWeatherFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.6.Type),Movies)">Skin.SetBool(ShowMovieDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.6.Type),TVShows)">Skin.SetBool(ShowTVShowDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.6.Type),Music)">Skin.SetBool(ShowMusicDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.6.Type),Concerts)">Skin.SetBool(ShowConcertDBFanart)</onclick>
 								<onclick>Skin.SetString(HomeItem.6.FanArt,$VAR[SetMenuSixBackground])</onclick>
 								<onleft>501</onleft>
 								<onright>503</onright>
@@ -3483,6 +3576,10 @@
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
 								<onclick condition="stringcompare(Skin.String(HomeItem.6.Type),Weather)">Skin.Reset(ShowWeatherFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.6.Type),Movies)">Skin.Reset(ShowMovieDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.6.Type),TVShows)">Skin.Reset(ShowTVShowDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.6.Type),Music)">Skin.Reset(ShowMusicDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.6.Type),Concerts)">Skin.Reset(ShowConcertDBFanart)</onclick>
 								<onclick>Skin.Reset(HomeItem.6.FanArt)</onclick>
 								<onleft>502</onleft>
 								<onright>500</onright>
@@ -3506,6 +3603,10 @@
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
 								<onclick condition="stringcompare(Skin.String(HomeItem.7.Type),Weather)">Skin.Reset(ShowWeatherFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.7.Type),Movies)">Skin.Reset(ShowMovieDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.7.Type),TVShows)">Skin.Reset(ShowTVShowDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.7.Type),Music)">Skin.Reset(ShowMusicDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.7.Type),Concerts)">Skin.Reset(ShowConcertDBFanart)</onclick>
 								<onclick>Skin.SetImage(HomeItem.7.FanArt)</onclick>
 								<onleft>503</onleft>
 								<onright>501</onright>
@@ -3526,6 +3627,10 @@
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
 								<onclick condition="stringcompare(Skin.String(HomeItem.7.Type),Weather)">Skin.Reset(ShowWeatherFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.7.Type),Movies)">Skin.Reset(ShowMovieDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.7.Type),TVShows)">Skin.Reset(ShowTVShowDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.7.Type),Music)">Skin.Reset(ShowMusicDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.7.Type),Concerts)">Skin.Reset(ShowConcertDBFanart)</onclick>
 								<onclick>Skin.SetPath(HomeItem.7.FanArt)</onclick>
 								<onleft>500</onleft>
 								<onright>502</onright>
@@ -3546,6 +3651,10 @@
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
 								<onclick condition="stringcompare(Skin.String(HomeItem.7.Type),Weather)">Skin.SetBool(ShowWeatherFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.7.Type),Movies)">Skin.SetBool(ShowMovieDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.7.Type),TVShows)">Skin.SetBool(ShowTVShowDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.7.Type),Music)">Skin.SetBool(ShowMusicDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.7.Type),Concerts)">Skin.SetBool(ShowConcertDBFanart)</onclick>
 								<onclick>Skin.SetString(HomeItem.7.FanArt,$VAR[SetMenuSevenBackground])</onclick>
 								<onleft>501</onleft>
 								<onright>503</onright>
@@ -3566,6 +3675,10 @@
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
 								<onclick condition="stringcompare(Skin.String(HomeItem.7.Type),Weather)">Skin.Reset(ShowWeatherFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.7.Type),Movies)">Skin.Reset(ShowMovieDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.7.Type),TVShows)">Skin.Reset(ShowTVShowDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.7.Type),Music)">Skin.Reset(ShowMusicDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.7.Type),Concerts)">Skin.Reset(ShowConcertDBFanart)</onclick>
 								<onclick>Skin.Reset(HomeItem.7.FanArt)</onclick>
 								<onleft>502</onleft>
 								<onright>500</onright>
@@ -3589,6 +3702,10 @@
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
 								<onclick condition="stringcompare(Skin.String(HomeItem.8.Type),Weather)">Skin.Reset(ShowWeatherFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.8.Type),Movies)">Skin.Reset(ShowMovieDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.8.Type),TVShows)">Skin.Reset(ShowTVShowDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.8.Type),Music)">Skin.Reset(ShowMusicDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.8.Type),Concerts)">Skin.Reset(ShowConcertDBFanart)</onclick>
 								<onclick>Skin.SetImage(HomeItem.8.FanArt)</onclick>
 								<onleft>503</onleft>
 								<onright>501</onright>
@@ -3609,6 +3726,10 @@
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
 								<onclick condition="stringcompare(Skin.String(HomeItem.8.Type),Weather)">Skin.Reset(ShowWeatherFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.8.Type),Movies)">Skin.Reset(ShowMovieDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.8.Type),TVShows)">Skin.Reset(ShowTVShowDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.8.Type),Music)">Skin.Reset(ShowMusicDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.8.Type),Concerts)">Skin.Reset(ShowConcertDBFanart)</onclick>
 								<onclick>Skin.SetPath(HomeItem.8.FanArt)</onclick>
 								<onleft>500</onleft>
 								<onright>502</onright>
@@ -3629,6 +3750,10 @@
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
 								<onclick condition="stringcompare(Skin.String(HomeItem.8.Type),Weather)">Skin.SetBool(ShowWeatherFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.8.Type),Movies)">Skin.SetBool(ShowMovieDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.8.Type),TVShows)">Skin.SetBool(ShowTVShowDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.8.Type),Music)">Skin.SetBool(ShowMusicDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.8.Type),Concerts)">Skin.SetBool(ShowConcertDBFanart)</onclick>
 								<onclick>Skin.SetString(HomeItem.8.FanArt,$VAR[SetMenuEightBackground])</onclick>
 								<onleft>501</onleft>
 								<onright>503</onright>
@@ -3649,6 +3774,10 @@
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
 								<onclick condition="stringcompare(Skin.String(HomeItem.8.Type),Weather)">Skin.Reset(ShowWeatherFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.8.Type),Movies)">Skin.Reset(ShowMovieDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.8.Type),TVShows)">Skin.Reset(ShowTVShowDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.8.Type),Music)">Skin.Reset(ShowMusicDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.8.Type),Concerts)">Skin.Reset(ShowConcertDBFanart)</onclick>
 								<onclick>Skin.Reset(HomeItem.8.FanArt)</onclick>
 								<onleft>502</onleft>
 								<onright>500</onright>
@@ -3672,6 +3801,10 @@
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
 								<onclick condition="stringcompare(Skin.String(HomeItem.9.Type),Weather)">Skin.Reset(ShowWeatherFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.9.Type),Movies)">Skin.Reset(ShowMovieDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.9.Type),TVShows)">Skin.Reset(ShowTVShowDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.9.Type),Music)">Skin.Reset(ShowMusicDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.9.Type),Concerts)">Skin.Reset(ShowConcertDBFanart)</onclick>
 								<onclick>Skin.SetImage(HomeItem.9.FanArt)</onclick>
 								<onleft>503</onleft>
 								<onright>501</onright>
@@ -3692,6 +3825,10 @@
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
 								<onclick condition="stringcompare(Skin.String(HomeItem.9.Type),Weather)">Skin.Reset(ShowWeatherFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.9.Type),Movies)">Skin.Reset(ShowMovieDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.9.Type),TVShows)">Skin.Reset(ShowTVShowDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.9.Type),Music)">Skin.Reset(ShowMusicDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.9.Type),Concerts)">Skin.Reset(ShowConcertDBFanart)</onclick>
 								<onclick>Skin.SetPath(HomeItem.9.FanArt)</onclick>
 								<onleft>500</onleft>
 								<onright>502</onright>
@@ -3712,6 +3849,10 @@
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
 								<onclick condition="stringcompare(Skin.String(HomeItem.9.Type),Weather)">Skin.SetBool(ShowWeatherFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.9.Type),Movies)">Skin.SetBool(ShowMovieDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.9.Type),TVShows)">Skin.SetBool(ShowTVShowDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.9.Type),Music)">Skin.SetBool(ShowMusicDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.9.Type),Concerts)">Skin.SetBool(ShowConcertDBFanart)</onclick>
 								<onclick>Skin.SetString(HomeItem.9.FanArt,$VAR[SetMenuNineBackground])</onclick>
 								<onleft>501</onleft>
 								<onright>503</onright>
@@ -3732,6 +3873,10 @@
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
 								<onclick condition="stringcompare(Skin.String(HomeItem.9.Type),Weather)">Skin.Reset(ShowWeatherFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.9.Type),Movies)">Skin.Reset(ShowMovieDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.9.Type),TVShows)">Skin.Reset(ShowTVShowDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.9.Type),Music)">Skin.Reset(ShowMusicDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.9.Type),Concerts)">Skin.Reset(ShowConcertDBFanart)</onclick>
 								<onclick>Skin.Reset(HomeItem.9.FanArt)</onclick>
 								<onleft>502</onleft>
 								<onright>500</onright>
@@ -3755,6 +3900,10 @@
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
 								<onclick condition="stringcompare(Skin.String(HomeItem.10.Type),Weather)">Skin.Reset(ShowWeatherFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.10.Type),Movies)">Skin.Reset(ShowMovieDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.10.Type),TVShows)">Skin.Reset(ShowTVShowDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.10.Type),Music)">Skin.Reset(ShowMusicDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.10.Type),Concerts)">Skin.Reset(ShowConcertDBFanart)</onclick>
 								<onclick>Skin.SetImage(HomeItem.10.FanArt)</onclick>
 								<onleft>503</onleft>
 								<onright>501</onright>
@@ -3775,6 +3924,10 @@
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
 								<onclick condition="stringcompare(Skin.String(HomeItem.10.Type),Weather)">Skin.Reset(ShowWeatherFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.10.Type),Movies)">Skin.Reset(ShowMovieDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.10.Type),TVShows)">Skin.Reset(ShowTVShowDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.10.Type),Music)">Skin.Reset(ShowMusicDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.10.Type),Concerts)">Skin.Reset(ShowConcertDBFanart)</onclick>
 								<onclick>Skin.SetPath(HomeItem.10.FanArt)</onclick>
 								<onleft>500</onleft>
 								<onright>502</onright>
@@ -3795,6 +3948,10 @@
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
 								<onclick condition="stringcompare(Skin.String(HomeItem.10.Type),Weather)">Skin.SetBool(ShowWeatherFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.10.Type),Movies)">Skin.SetBool(ShowMovieDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.10.Type),TVShows)">Skin.SetBool(ShowTVShowDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.10.Type),Music)">Skin.SetBool(ShowMusicDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.10.Type),Concerts)">Skin.SetBool(ShowConcertDBFanart)</onclick>
 								<onclick>Skin.SetString(HomeItem.10.FanArt,$VAR[SetMenuTenBackground])</onclick>
 								<onleft>501</onleft>
 								<onright>503</onright>
@@ -3815,6 +3972,10 @@
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
 								<onclick condition="stringcompare(Skin.String(HomeItem.10.Type),Weather)">Skin.Reset(ShowWeatherFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.10.Type),Movies)">Skin.Reset(ShowMovieDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.10.Type),TVShows)">Skin.Reset(ShowTVShowDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.10.Type),Music)">Skin.Reset(ShowMusicDBFanart)</onclick>
+								<onclick condition="stringcompare(Skin.String(HomeItem.10.Type),Concerts)">Skin.Reset(ShowConcertDBFanart)</onclick>
 								<onclick>Skin.Reset(HomeItem.10.FanArt)</onclick>
 								<onleft>502</onleft>
 								<onright>500</onright>

@@ -4,9 +4,9 @@
 		<control type="group" id="9003">
 			<onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
 			<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup>
-			<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
-			<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
-			<ondown condition="Skin.HasSetting(LowerMainMenuBar)">9002</ondown>
+			<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
+			<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
+			<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 			<visible>!Window.IsVisible(Favourites)</visible>
 			<include>VisibleFadeEffect</include>
 			<animation effect="fade" time="300" delay="1000">WindowOpen</animation>
@@ -43,9 +43,9 @@
 					<onright>8000</onright>
 					<onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
 					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
-					<ondown condition="Skin.HasSetting(LowerMainMenuBar)">9002</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -196,9 +196,9 @@
 					<onright>8001</onright>
 					<onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
 					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
-					<ondown condition="Skin.HasSetting(LowerMainMenuBar)">9002</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -418,9 +418,9 @@
 					<onright>8002</onright>
 					<onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
 					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
-					<ondown condition="Skin.HasSetting(LowerMainMenuBar)">9002</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -601,9 +601,9 @@
 					<onright>8003</onright>
 					<onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
 					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
-					<ondown condition="Skin.HasSetting(LowerMainMenuBar)">9002</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -755,9 +755,9 @@
 					<onright>8004</onright>
 					<onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
 					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
-					<ondown condition="Skin.HasSetting(LowerMainMenuBar)">9002</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -908,9 +908,9 @@
 					<onright>8005</onright>
 					<onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
 					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
-					<ondown condition="Skin.HasSetting(LowerMainMenuBar)">9002</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -1130,9 +1130,9 @@
 					<onright>8006</onright>
 					<onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
 					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
-					<ondown condition="Skin.HasSetting(LowerMainMenuBar)">9002</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -1313,9 +1313,9 @@
 					<onright>8007</onright>
 					<onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
 					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
-					<ondown condition="Skin.HasSetting(LowerMainMenuBar)">9002</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -1467,9 +1467,9 @@
 					<onright>8008</onright>
 					<onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
 					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
-					<ondown condition="Skin.HasSetting(LowerMainMenuBar)">9002</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -1620,9 +1620,9 @@
 					<onright>8009</onright>
 					<onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
 					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
-					<ondown condition="Skin.HasSetting(LowerMainMenuBar)">9002</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -1842,9 +1842,9 @@
 					<onright>8010</onright>
 					<onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
 					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
-					<ondown condition="Skin.HasSetting(LowerMainMenuBar)">9002</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -2025,9 +2025,9 @@
 					<onright>8011</onright>
 					<onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
 					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
-					<ondown condition="Skin.HasSetting(LowerMainMenuBar)">9002</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -2196,9 +2196,9 @@
 					<onright>8012</onright>
 					<onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
 					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
-					<ondown condition="Skin.HasSetting(LowerMainMenuBar)">9002</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -2220,9 +2220,9 @@
 					<onright>8012</onright>
 					<onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
 					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
-					<ondown condition="Skin.HasSetting(LowerMainMenuBar)">9002</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -2244,9 +2244,9 @@
 					<onright>8012</onright>
 					<onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
 					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
-					<ondown condition="Skin.HasSetting(LowerMainMenuBar)">9002</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -2268,9 +2268,9 @@
 					<onright>8012</onright>
 					<onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
 					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
-					<ondown condition="Skin.HasSetting(LowerMainMenuBar)">9002</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -2292,9 +2292,9 @@
 					<onright>8012</onright>
 					<onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
 					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
-					<ondown condition="Skin.HasSetting(LowerMainMenuBar)">9002</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -2316,9 +2316,9 @@
 					<onright>8012</onright>
 					<onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
 					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
-					<ondown condition="Skin.HasSetting(LowerMainMenuBar)">9002</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -2340,9 +2340,9 @@
 					<onright>8012</onright>
 					<onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
 					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
-					<ondown condition="Skin.HasSetting(LowerMainMenuBar)">9002</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -2364,9 +2364,9 @@
 					<onright>8012</onright>
 					<onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
 					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
-					<ondown condition="Skin.HasSetting(LowerMainMenuBar)">9002</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -2388,9 +2388,9 @@
 					<onright>8012</onright>
 					<onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
 					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
-					<ondown condition="Skin.HasSetting(LowerMainMenuBar)">9002</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -2412,9 +2412,9 @@
 					<onright>8012</onright>
 					<onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
 					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
-					<ondown condition="Skin.HasSetting(LowerMainMenuBar)">9002</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -2495,9 +2495,9 @@
 					<onright>8013</onright>
 					<onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
 					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
-					<ondown condition="Skin.HasSetting(LowerMainMenuBar)">9002</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -2520,9 +2520,9 @@
 					<onright>8013</onright>
 					<onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
 					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
-					<ondown condition="Skin.HasSetting(LowerMainMenuBar)">9002</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -2545,9 +2545,9 @@
 					<onright>8013</onright>
 					<onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
 					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
-					<ondown condition="Skin.HasSetting(LowerMainMenuBar)">9002</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -2570,9 +2570,9 @@
 					<onright>8013</onright>
 					<onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
 					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
-					<ondown condition="Skin.HasSetting(LowerMainMenuBar)">9002</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -2595,9 +2595,9 @@
 					<onright>8013</onright>
 					<onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
 					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
-					<ondown condition="Skin.HasSetting(LowerMainMenuBar)">9002</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -2620,9 +2620,9 @@
 					<onright>8013</onright>
 					<onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
 					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
-					<ondown condition="Skin.HasSetting(LowerMainMenuBar)">9002</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -2645,9 +2645,9 @@
 					<onright>8013</onright>
 					<onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
 					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
-					<ondown condition="Skin.HasSetting(LowerMainMenuBar)">9002</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -2670,9 +2670,9 @@
 					<onright>8013</onright>
 					<onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
 					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
-					<ondown condition="Skin.HasSetting(LowerMainMenuBar)">9002</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -2695,9 +2695,9 @@
 					<onright>8013</onright>
 					<onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
 					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
-					<ondown condition="Skin.HasSetting(LowerMainMenuBar)">9002</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -2720,9 +2720,9 @@
 					<onright>8013</onright>
 					<onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
 					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
-					<ondown condition="!Skin.HasSetting(LowerMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
-					<ondown condition="Skin.HasSetting(LowerMainMenuBar)">9002</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -2757,6 +2757,162 @@
 					<include>VisibleFadeEffect</include>
 				</control>
 			</control>
+			<control type="group">
+				<posx>190</posx>
+				<posy>50</posy>
+				<!-- UnWatched Movies Widget-->
+				<visible>Library.HasContent(Movies) + !Skin.HasSetting(DisableScriptPlayList)</visible>
+				<visible>StringCompare(Container(9000).ListItem.Property(WidgetSet),UnWatched)</visible>
+				<include>VisibleFadeEffect</include>
+				<control type="label">
+					<description>Random Title label</description>
+					<posx>180</posx>
+					<posy>220</posy>
+					<height>20</height>
+					<width>540</width>
+					<label>$LOCALIZE[16101] $LOCALIZE[20342]</label>
+					<align>center</align>
+					<aligny>center</aligny>
+					<font>font12_title</font>
+					<textcolor>white</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<visible>!IsEmpty(Container(8014).ListItem.Label)</visible>
+				</control>
+				<control type="list" id="8014">
+					<animation effect="slide" start="0,0" end="90,0" time="0" condition="StringCompare(Container(8014).NumItems,4)">conditional</animation>
+					<animation effect="slide" start="0,0" end="180,0" time="0" condition="StringCompare(Container(8014).NumItems,3)">conditional</animation>
+					<animation effect="slide" start="0,0" end="270,0" time="0" condition="StringCompare(Container(8014).NumItems,2)">conditional</animation>
+					<animation effect="slide" start="0,0" end="360,0" time="0" condition="StringCompare(Container(8014).NumItems,1)">conditional</animation>
+					<posx>0</posx>
+					<posy>0</posy>
+					<width>900</width>
+					<height>220</height>
+					<onleft>8014</onleft>
+					<onright>8014</onright>
+					<onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
+					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
+					<viewtype label="535">list</viewtype>
+					<pagecontrol>-</pagecontrol>
+					<scrolltime>200</scrolltime>
+					<orientation>Horizontal</orientation>
+					<itemlayout height="220" width="180">
+						<control type="image">
+							<description>background</description>
+							<posx>0</posx>
+							<posy>0</posy>
+							<width>180</width>
+							<height>220</height>
+							<texture border="15">RecentAddedBack.png</texture>
+						</control>
+						<control type="image">
+							<posx>10</posx>
+							<posy>10</posy>
+							<width>160</width>
+							<height>170</height>
+							<texture background="true">$INFO[ListItem.ActualIcon]</texture>
+							<bordertexture border="5">button-nofocus.png</bordertexture>
+							<bordersize>5</bordersize>
+						</control>
+						<control type="label">
+							<posx>90</posx>
+							<posy>185</posy>
+							<width>150</width>
+							<height>20</height>
+							<font>font12</font>
+							<textcolor>white</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<selectedcolor>selected</selectedcolor>
+							<align>center</align>
+							<aligny>center</aligny>
+							<label>$VAR[MainItemLabel]</label>
+						</control>
+					</itemlayout>
+					<focusedlayout height="220" width="180">
+						<control type="image">
+							<description>background</description>
+							<posx>0</posx>
+							<posy>0</posy>
+							<width>180</width>
+							<height>220</height>
+							<texture border="15">RecentAddedBack.png</texture>
+						</control>
+						<control type="image">
+							<posx>10</posx>
+							<posy>10</posy>
+							<width>160</width>
+							<height>170</height>
+							<texture background="true">$INFO[ListItem.ActualIcon]</texture>
+							<bordertexture border="5">folder-focus.png</bordertexture>
+							<bordersize>5</bordersize>
+							<visible>Control.HasFocus(8014)</visible>
+						</control>
+						<control type="image">
+							<posx>10</posx>
+							<posy>10</posy>
+							<width>160</width>
+							<height>170</height>
+							<texture background="true">$INFO[ListItem.ActualIcon]</texture>
+							<bordertexture border="5">button-nofocus.png</bordertexture>
+							<bordersize>5</bordersize>
+							<visible>!Control.HasFocus(8014)</visible>
+						</control>
+						<control type="label">
+							<posx>90</posx>
+							<posy>185</posy>
+							<width>150</width>
+							<height>20</height>
+							<font>font12</font>
+							<textcolor>white</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<selectedcolor>selected</selectedcolor>
+							<align>center</align>
+							<aligny>center</aligny>
+							<label>$VAR[MainItemLabel]</label>
+						</control>
+						<control type="label">
+							<posx>90</posx>
+							<posy>185</posy>
+							<width>150</width>
+							<height>20</height>
+							<font>font12</font>
+							<textcolor>blue</textcolor>
+							<selectedcolor>selected</selectedcolor>
+							<align>center</align>
+							<aligny>center</aligny>
+							<label>$VAR[MainItemLabel]</label>
+							<visible>Control.HasFocus(8014)</visible>
+						</control>
+					</focusedlayout>
+					<include>HomeUnWatchedMovies</include>
+				</control>
+				<control type="button">
+					<description>left Arrow</description>
+					<posx>-40</posx>
+					<posy>90</posy>
+					<width>30</width>
+					<height>40</height>
+					<texturefocus>arrow-big-left.png</texturefocus>
+					<texturenofocus>arrow-big-left.png</texturenofocus>
+					<onclick>Control.Move(8014,-1)</onclick>
+					<visible>Control.HasFocus(8014) + Container(8014).HasPrevious</visible>
+					<include>VisibleFadeEffect</include>
+				</control>
+				<control type="button">
+					<description>right Arrow</description>
+					<posx>910</posx>
+					<posy>90</posy>
+					<width>30</width>
+					<height>40</height>
+					<texturefocus>arrow-big-right.png</texturefocus>
+					<texturenofocus>arrow-big-right.png</texturenofocus>
+					<onclick>Control.Move(8014,1)</onclick>
+					<visible>Control.HasFocus(8014) + Container(8014).HasNext</visible>
+					<include>VisibleFadeEffect</include>
+				</control>
+			</control>			
 		</control>
 	</include>
 	<include name="MovieWidgetLayout">
@@ -5904,4 +6060,89 @@
 			</item>
 		</content>
 	</include>
+	<include name="HomeUnWatchedMovies">
+		<content>
+			<item id="1">
+				<label>$INFO[Window(home).Property(PlaylistRandomMovieUnWatched.1.Title)]</label>
+				<onclick>PlayList.Clear</onclick>
+				<onclick>$INFO[Window(home).Property(PlaylistRandomMovieUnWatched.1.Play)]</onclick>
+				<icon>$INFO[Window(Home).Property(PlaylistRandomMovieUnWatched.1.Art(poster))]</icon>
+				<thumb>$INFO[Window(Home).Property(PlaylistRandomMovieUnWatched.1.Art(fanart))]</thumb>
+				<visible>!IsEmpty(Window(Home).Property(PlaylistRandomMovieUnWatched.1.Title))</visible>
+			</item>
+			<item id="2">
+				<label>$INFO[Window(home).Property(PlaylistRandomMovieUnWatched.2.Title)]</label>
+				<onclick>PlayList.Clear</onclick>
+				<onclick>$INFO[Window(home).Property(PlaylistRandomMovieUnWatched.2.Play)]</onclick>
+				<icon>$INFO[Window(Home).Property(PlaylistRandomMovieUnWatched.2.Art(poster))]</icon>
+				<thumb>$INFO[Window(Home).Property(PlaylistRandomMovieUnWatched.2.Art(fanart))]</thumb>
+				<visible>!IsEmpty(Window(Home).Property(PlaylistRandomMovieUnWatched.2.Title))</visible>
+			</item>
+			<item id="3">
+				<label>$INFO[Window(home).Property(PlaylistRandomMovieUnWatched.3.Title)]</label>
+				<onclick>PlayList.Clear</onclick>
+				<onclick>$INFO[Window(home).Property(PlaylistRandomMovieUnWatched.3.Play)]</onclick>
+				<icon>$INFO[Window(Home).Property(PlaylistRandomMovieUnWatched.3.Art(poster))]</icon>
+				<thumb>$INFO[Window(Home).Property(PlaylistRandomMovieUnWatched.3.Art(fanart))]</thumb>
+				<visible>!IsEmpty(Window(Home).Property(PlaylistRandomMovieUnWatched.3.Title))</visible>
+			</item>
+			<item id="4">
+				<label>$INFO[Window(home).Property(PlaylistRandomMovieUnWatched.4.Title)]</label>
+				<onclick>PlayList.Clear</onclick>
+				<onclick>$INFO[Window(home).Property(PlaylistRandomMovieUnWatched.4.Play)]</onclick>
+				<icon>$INFO[Window(Home).Property(PlaylistRandomMovieUnWatched.4.Art(poster))]</icon>
+				<thumb>$INFO[Window(Home).Property(PlaylistRandomMovieUnWatched.4.Art(fanart))]</thumb>
+				<visible>!IsEmpty(Window(Home).Property(PlaylistRandomMovieUnWatched.4.Title))</visible>
+			</item>
+			<item id="5">
+				<label>$INFO[Window(home).Property(PlaylistRandomMovieUnWatched.5.Title)]</label>
+				<onclick>PlayList.Clear</onclick>
+				<onclick>$INFO[Window(home).Property(PlaylistRandomMovieUnWatched.5.Play)]</onclick>
+				<icon>$INFO[Window(Home).Property(PlaylistRandomMovieUnWatched.5.Art(poster))]</icon>
+				<thumb>$INFO[Window(Home).Property(PlaylistRandomMovieUnWatched.5.Art(fanart))]</thumb>
+				<visible>!IsEmpty(Window(Home).Property(PlaylistRandomMovieUnWatched.5.Title))</visible>
+			</item>
+			<item id="6">
+				<label>$INFO[Window(home).Property(PlaylistRandomMovieUnWatched.6.Title)]</label>
+				<onclick>PlayList.Clear</onclick>
+				<onclick>$INFO[Window(home).Property(PlaylistRandomMovieUnWatched.6.Play)]</onclick>
+				<icon>$INFO[Window(Home).Property(PlaylistRandomMovieUnWatched.6.Art(poster))]</icon>
+				<thumb>$INFO[Window(Home).Property(PlaylistRandomMovieUnWatched.6.Art(fanart))]</thumb>
+				<visible>!IsEmpty(Window(Home).Property(PlaylistRandomMovieUnWatched.6.Title))</visible>
+			</item>
+			<item id="7">
+				<label>$INFO[Window(home).Property(PlaylistRandomMovieUnWatched.7.Title)]</label>
+				<onclick>PlayList.Clear</onclick>
+				<onclick>$INFO[Window(home).Property(PlaylistRandomMovieUnWatched.7.Play)]</onclick>
+				<icon>$INFO[Window(Home).Property(PlaylistRandomMovieUnWatched.7.Art(poster))]</icon>
+				<thumb>$INFO[Window(Home).Property(PlaylistRandomMovieUnWatched.7.Art(fanart))]</thumb>
+				<visible>!IsEmpty(Window(Home).Property(PlaylistRandomMovieUnWatched.7.Title))</visible>
+			</item>
+			<item id="8">
+				<label>$INFO[Window(home).Property(PlaylistRandomMovieUnWatched.8.Title)]</label>
+				<onclick>PlayList.Clear</onclick>
+				<onclick>$INFO[Window(home).Property(PlaylistRandomMovieUnWatched.8.Play)]</onclick>
+				<icon>$INFO[Window(Home).Property(PlaylistRandomMovieUnWatched.8.Art(poster))]</icon>
+				<thumb>$INFO[Window(Home).Property(PlaylistRandomMovieUnWatched.8.Art(fanart))]</thumb>
+				<visible>!IsEmpty(Window(Home).Property(PlaylistRandomMovieUnWatched.8.Title))</visible>
+			</item>
+			<item id="9">
+				<label>$INFO[Window(home).Property(PlaylistRandomMovieUnWatched.9.Title)]</label>
+				<onclick>PlayList.Clear</onclick>
+				<onclick>$INFO[Window(home).Property(PlaylistRandomMovieUnWatched.9.Play)]</onclick>
+				<icon>$INFO[Window(Home).Property(PlaylistRandomMovieUnWatched.9.Art(poster))]</icon>
+				<thumb>$INFO[Window(Home).Property(PlaylistRandomMovieUnWatched.9.Art(fanart))]</thumb>
+				<visible>!IsEmpty(Window(Home).Property(PlaylistRandomMovieUnWatched.9.Title))</visible>
+			</item>
+			<item id="10">
+				<label>$INFO[Window(home).Property(PlaylistRandomMovieUnWatched.10.Title)]</label>
+				<onclick>PlayList.Clear</onclick>
+				<onclick>$INFO[Window(home).Property(PlaylistRandomMovieUnWatched.10.Play)]</onclick>
+				<icon>$INFO[Window(Home).Property(PlaylistRandomMovieUnWatched.10.Art(poster))]</icon>
+				<thumb>$INFO[Window(Home).Property(PlaylistRandomMovieUnWatched.10.Art(fanart))]</thumb>
+				<visible>!IsEmpty(Window(Home).Property(PlaylistRandomMovieUnWatched.10.Title))</visible>
+			</item>
+		</content>
+	</include>
+	
 </includes>
