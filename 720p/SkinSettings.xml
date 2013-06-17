@@ -201,7 +201,7 @@
 						<onclick>noop</onclick>
 					</item>
 					<item id="6">
-						<label>247</label>
+						<label>31109</label>
 						<label2>31172</label2>
 						<onclick>noop</onclick>
 					</item>
@@ -4361,13 +4361,126 @@
 						<width>750</width>
 						<height>45</height>
 						<font>font13_title</font>
+						<label>31080</label>
+						<textcolor>blue</textcolor>
+						<shadowcolor>black</shadowcolor>
+						<align>left</align>
+						<aligny>center</aligny>
+					</control>					
+					<control type="button" id="601">
+						<description>User Genre FanArt Path</description>
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<label>31094</label>
+						<label2>[COLOR=selected]$INFO[Skin.String(UsrGenreFanartDir)][/COLOR]</label2>
+						<onclick>Skin.SetPath(UsrGenreFanartDir)</onclick>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+					</control>	
+					<control type="button" id="602">
+						<description>User Movie FanArt Path</description>
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<label>31095</label>
+						<label2>[COLOR=selected]$INFO[Skin.String(UsrMovieFanartDir)][/COLOR]</label2>
+						<onclick>Skin.SetPath(UsrMovieFanartDir)</onclick>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+					</control>	
+					<control type="button" id="603">
+						<description>User TVShow FanArt Path</description>
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<label>31096</label>
+						<label2>[COLOR=selected]$INFO[Skin.String(UsrTVShowFanartDir)][/COLOR]</label2>
+						<onclick>Skin.SetPath(UsrTVShowFanartDir)</onclick>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+					</control>						
+					<control type="button" id="604">
+						<description>User Concerts FanArt Path</description>
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<label>31097</label>
+						<label2>[COLOR=selected]$INFO[Skin.String(UsrConcertsFanartDir)][/COLOR]</label2>
+						<onclick>Skin.SetPath(UsrConcertsFanartDir)</onclick>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+					</control>			
+					<control type="button" id="605">
+						<description>User Artists FanArt Path</description>
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<label>31098</label>
+						<label2>[COLOR=selected]$INFO[Skin.String(UsrArtistsFanartDir)][/COLOR]</label2>
+						<onclick>Skin.SetPath(UsrArtistsFanartDir)</onclick>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+					</control>	
+					<control type="button" id="606">
+						<description>User Album Thumbnails Path</description>
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<label>31099</label>
+						<label2>[COLOR=selected]$INFO[Skin.String(UsrAlbumThumbsDir)][/COLOR]</label2>
+						<onclick>Skin.SetPath(UsrAlbumThumbsDir)</onclick>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+					</control>		
+					<control type="button" id="607">
+						<description>User Weather FanArt Path</description>
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<label>31100</label>
+						<label2>[COLOR=selected]$INFO[Skin.String(WeatherFanartDir)][/COLOR]</label2>
+						<onclick>Skin.SetPath(WeatherFanartDir)</onclick>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+					</control>						
+					<control type="button" id="608">
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<label> - $LOCALIZE[31375]</label>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<onclick>Addon.OpenSettings(script.artworkorganizer)</onclick>
+						<enable>System.HasAddon(script.artworkorganizer)</enable>
+					</control>					
+					<control type="label" id="609">
+						<width>750</width>
+						<height>45</height>
+						<font>font13_title</font>
 						<label>31140</label>
 						<textcolor>blue</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
-					<control type="button" id="601">
+					<control type="button" id="610">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -4379,7 +4492,7 @@
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.SetAddon(LyricScript_Path,xbmc.python.lyrics)</onclick>
 					</control>
-					<control type="button" id="602">
+					<control type="button" id="611">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -4391,7 +4504,7 @@
 						<enable>!IsEmpty(Skin.String(LyricScript_Path))</enable>
 						<onclick>Addon.OpenSettings($INFO[Skin.String(LyricScript_Path)])</onclick>
 					</control>
-					<control type="label" id="603">
+					<control type="label" id="612">
 						<width>750</width>
 						<height>45</height>
 						<font>font13_title</font>
@@ -4401,7 +4514,7 @@
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
-					<control type="button" id="604">
+					<control type="button" id="613">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -4413,7 +4526,7 @@
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.SetAddon(SubtitleScript_Path,xbmc.python.subtitles)</onclick>
 					</control>
-					<control type="button" id="605">
+					<control type="button" id="614">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -4425,7 +4538,7 @@
 						<enable>!IsEmpty(Skin.String(SubtitleScript_Path))</enable>
 						<onclick>Addon.OpenSettings($INFO[Skin.String(SubtitleScript_Path)])</onclick>
 					</control>
-					<control type="label" id="606">
+					<control type="label" id="615">
 						<width>750</width>
 						<height>45</height>
 						<font>font13_title</font>
@@ -4435,7 +4548,7 @@
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
-					<control type="button" id="608">
+					<control type="button" id="616">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -4447,7 +4560,7 @@
 						<onclick>Addon.OpenSettings(service.skin.widgets)</onclick>
 						<enable>System.HasAddon(service.skin.widgets)</enable>
 					</control>
-					<control type="radiobutton" id="609">
+					<control type="radiobutton" id="617">
 						<description>Enable Script RandomAndLastItems</description>
 						<width>750</width>
 						<height>40</height>
@@ -4460,7 +4573,7 @@
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 					</control>
-					<control type="radiobutton" id="610">
+					<control type="radiobutton" id="618">
 						<description>randomandlastitems.script uses last not random</description>
 						<width>750</width>
 						<height>40</height>
@@ -4474,7 +4587,7 @@
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<enable>System.HasAddon(script.randomandlastitems) + !Skin.HasSetting(DisableScriptPlayList)</enable>
 					</control>
-					<control type="radiobutton" id="611">
+					<control type="radiobutton" id="619">
 						<description>randomandlastitems.script only shows unwatched items</description>
 						<width>750</width>
 						<height>40</height>
@@ -4488,7 +4601,7 @@
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<enable>System.HasAddon(script.randomandlastitems) + !Skin.HasSetting(DisableScriptPlayList)</enable>
 					</control>
-					<control type="label" id="612">
+					<control type="label" id="620">
 						<width>750</width>
 						<height>45</height>
 						<font>font13_title</font>
@@ -4498,7 +4611,7 @@
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
-					<control type="radiobutton" id="613">
+					<control type="radiobutton" id="621">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -4511,7 +4624,7 @@
 						<selected>!Skin.HasSetting(HideArtworkDownloader)</selected>
 						<enable>System.HasAddon(script.artwork.downloader)</enable>
 					</control>
-					<control type="button" id="614">
+					<control type="button" id="622">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -4524,7 +4637,7 @@
 						<enable>!Skin.HasSetting(HideArtworkDownloader)</enable>
 						<visible>System.HasAddon(script.artwork.downloader)</visible>
 					</control>
-					<control type="radiobutton" id="615">
+					<control type="radiobutton" id="623">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -4537,7 +4650,7 @@
 						<selected>!Skin.HasSetting(HideTvTunes)</selected>
 						<enable>System.HasAddon(script.tvtunes)</enable>
 					</control>
-					<control type="button" id="616">
+					<control type="button" id="624">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -4550,7 +4663,7 @@
 						<enable>!Skin.HasSetting(HideTvTunes)</enable>
 						<visible>System.HasAddon(script.tvtunes)</visible>
 					</control>
-					<control type="radiobutton" id="617">
+					<control type="radiobutton" id="625">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -4563,7 +4676,7 @@
 						<selected>!Skin.HasSetting(DisableWatchItLater)</selected>
 						<enable>System.HasAddon(script.simpleplaylists)</enable>
 					</control>
-					<control type="button" id="618">
+					<control type="button" id="626">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -4576,7 +4689,7 @@
 						<enable>!Skin.HasSetting(DisableWatchItLater)</enable>
 						<visible>System.HasAddon(script.simpleplaylists)</visible>
 					</control>
-					<control type="label" id="619">
+					<control type="label" id="627">
 						<width>750</width>
 						<height>45</height>
 						<font>font13_title</font>
@@ -4586,13 +4699,13 @@
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
-					<control type="image" id="620">
+					<control type="image" id="628">
 						<width>750</width>
 						<height>120</height>
 						<aspectratio aligny="center" align="center">keep</aspectratio>
 						<texture>warning.png</texture>
 					</control>
-					<control type="button" id="621">
+					<control type="button" id="629">
 						<description>Reset Skin Values</description>
 						<width>750</width>
 						<height>40</height>
