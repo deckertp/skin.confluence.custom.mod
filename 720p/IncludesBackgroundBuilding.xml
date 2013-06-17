@@ -237,6 +237,14 @@
 				<include>Window_OpenClose_Animation</include>
 				<visible>!IsEmpty(ListItem.Property(Fanart_Image))</visible>
 			</control>
+			<control type="image">
+				<include>Dimensions_Fullscreen</include>
+				<texture background="true">$VAR[GenreBackgroundImage]</texture>
+				<include>BackgroundFade</include>
+				<fadetime>FanartCrossfadeTime</fadetime>
+				<include>Window_OpenClose_Animation</include>
+				<visible>!StringCompare(ListItem.Label,..) + Container.Content(genres)</visible>
+			</control>			
 		</control>
 		<control type="image">
 			<include>Dimensions_Fullscreen</include>
