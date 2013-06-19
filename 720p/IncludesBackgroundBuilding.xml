@@ -8,7 +8,7 @@
 				<timeperimage>8000</timeperimage>
 				<randomize>true</randomize>
 				<fadetime>1000</fadetime>
-			</control>		
+			</control>
 			<control type="image">
 				<description>Search Background Image</description>
 				<include>Dimensions_Fullscreen</include>
@@ -244,7 +244,7 @@
 				<fadetime>FanartCrossfadeTime</fadetime>
 				<include>Window_OpenClose_Animation</include>
 				<visible>!StringCompare(ListItem.Label,..) + Container.Content(genres)</visible>
-			</control>			
+			</control>
 		</control>
 		<control type="image">
 			<include>Dimensions_Fullscreen</include>

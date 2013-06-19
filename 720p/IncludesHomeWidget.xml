@@ -2912,7 +2912,7 @@
 					<visible>Control.HasFocus(8014) + Container(8014).HasNext</visible>
 					<include>VisibleFadeEffect</include>
 				</control>
-			</control>			
+			</control>
 		</control>
 	</include>
 	<include name="MovieWidgetLayout">
@@ -6144,5 +6144,4 @@
 			</item>
 		</content>
 	</include>
-	
 </includes>

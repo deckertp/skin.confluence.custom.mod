@@ -1106,7 +1106,7 @@
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<enable>!StringCompare(Skin.String(HomeItem.1.Sub),$LOCALIZE[31093]) + !IsEmpty(Skin.String(HomeItem.1.Path))</enable>
-					</control>					
+					</control>
 					<control type="button" id="203">
 						<width>750</width>
 						<height>40</height>
@@ -4410,7 +4410,7 @@
 						<shadowcolor>black</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
-					</control>					
+					</control>
 					<control type="button" id="601">
 						<description>User Genre FanArt Path</description>
 						<width>750</width>
@@ -4423,7 +4423,7 @@
 						<onclick>Skin.SetPath(UsrGenreFanartDir)</onclick>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
-					</control>	
+					</control>
 					<control type="button" id="602">
 						<description>User Movie FanArt Path</description>
 						<width>750</width>
@@ -4436,7 +4436,7 @@
 						<onclick>Skin.SetPath(UsrMovieFanartDir)</onclick>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
-					</control>	
+					</control>
 					<control type="button" id="603">
 						<description>User TVShow FanArt Path</description>
 						<width>750</width>
@@ -4449,7 +4449,7 @@
 						<onclick>Skin.SetPath(UsrTVShowFanartDir)</onclick>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
-					</control>						
+					</control>
 					<control type="button" id="604">
 						<description>User Concerts FanArt Path</description>
 						<width>750</width>
@@ -4462,7 +4462,7 @@
 						<onclick>Skin.SetPath(UsrConcertsFanartDir)</onclick>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
-					</control>			
+					</control>
 					<control type="button" id="605">
 						<description>User Artists FanArt Path</description>
 						<width>750</width>
@@ -4475,7 +4475,7 @@
 						<onclick>Skin.SetPath(UsrArtistsFanartDir)</onclick>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
-					</control>	
+					</control>
 					<control type="button" id="606">
 						<description>User Album Thumbnails Path</description>
 						<width>750</width>
@@ -4488,7 +4488,7 @@
 						<onclick>Skin.SetPath(UsrAlbumThumbsDir)</onclick>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
-					</control>		
+					</control>
 					<control type="button" id="607">
 						<description>User Weather FanArt Path</description>
 						<width>750</width>
@@ -4501,7 +4501,7 @@
 						<onclick>Skin.SetPath(WeatherFanartDir)</onclick>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
-					</control>						
+					</control>
 					<control type="button" id="608">
 						<width>750</width>
 						<height>40</height>
@@ -4513,7 +4513,7 @@
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Addon.OpenSettings(script.artworkorganizer)</onclick>
 						<enable>System.HasAddon(script.artworkorganizer)</enable>
-					</control>					
+					</control>
 					<control type="label" id="609">
 						<width>750</width>
 						<height>45</height>

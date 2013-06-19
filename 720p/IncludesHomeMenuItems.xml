@@ -413,11 +413,6 @@
 			<texture border="0,0,0,3">HomeSubEnd.png</texture>
 		</control>
 	</include>
-	
-	
-	
-	
-	
 	<include name="HomeSubMenuPictures">
 		<control type="image" id="90147">
 			<width>35</width>
@@ -438,9 +433,6 @@
 			<texture border="0,0,0,3">HomeSubEnd.png</texture>
 		</control>
 	</include>
-	
-	
-	
 	<include name="HomeSubMenuLiveTV">
 		<control type="image" id="90141">
 			<width>35</width>
