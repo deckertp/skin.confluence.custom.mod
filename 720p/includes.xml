@@ -22,6 +22,8 @@
 	<include name="ClearButtonChoice">
 		<onclick>Skin.Reset($INFO[Window(home).Property(UsrSelectBtn)].Label)</onclick>
 		<onclick>Skin.Reset($INFO[Window(home).Property(UsrSelectBtn)].Path)</onclick>
+		<onclick condition="Window.IsVisible(2114) + stringcompare(Skin.String(UsrSelectBtn),HomeItem.1)">Skin.Reset(HomeItemLastAction)</onclick>
+		<onclick condition="Window.IsVisible(2114) + stringcompare(Skin.String(UsrSelectBtn),HomeItem.1)">Skin.Reset(HomeItemLastLabel)</onclick>
 		<onclick condition="Window.IsVisible(2114)">Skin.Reset($INFO[Window(home).Property(UsrSelectBtn)].PlayList)</onclick>
 		<onclick condition="Window.IsVisible(2114)">Skin.Reset($INFO[Window(home).Property(UsrSelectBtn)].Sub)</onclick>
 		<onclick condition="Window.IsVisible(2114)">Skin.Reset($INFO[Window(home).Property(UsrSelectBtn)].Addon)</onclick>
