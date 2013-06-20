@@ -3611,7 +3611,7 @@
 				<onclick>$INFO[Window(Home).Property(RecentEpisode.1.Play)]</onclick>
 				<icon>$INFO[Window(Home).Property(RecentEpisode.1.Art(thumb))]</icon>
 				<thumb>$INFO[Window(Home).Property(RecentEpisode.1.Art(tvshow.fanart))]</thumb>
-				<property name="Logo">$INFO[Window(Home).Property(RecentEpisode.1.Art(tvshow.clearlogo)]</property>
+				<property name="Logo">$INFO[Window(Home).Property(RecentEpisode.1.Art(tvshow.clearlogo))]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecentEpisode.1.Title)) + SubString(Window(Home).Property(SkinWidgets_RecentItems),true)</visible>
 			</item>
 			<item>
@@ -3621,7 +3621,7 @@
 				<onclick>$INFO[Window(Home).Property(RecentEpisode.2.Play)]</onclick>
 				<icon>$INFO[Window(Home).Property(RecentEpisode.2.Art(thumb))]</icon>
 				<thumb>$INFO[Window(Home).Property(RecentEpisode.2.Art(tvshow.fanart))]</thumb>
-				<property name="Logo">$INFO[Window(Home).Property(RecentEpisode.2.Art(tvshow.clearlogo)]</property>
+				<property name="Logo">$INFO[Window(Home).Property(RecentEpisode.2.Art(tvshow.clearlogo))]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecentEpisode.2.Title)) + SubString(Window(Home).Property(SkinWidgets_RecentItems),true)</visible>
 			</item>
 			<item>
@@ -3631,7 +3631,7 @@
 				<onclick>$INFO[Window(Home).Property(RecentEpisode.3.Play)]</onclick>
 				<icon>$INFO[Window(Home).Property(RecentEpisode.3.Art(thumb))]</icon>
 				<thumb>$INFO[Window(Home).Property(RecentEpisode.3.Art(tvshow.fanart))]</thumb>
-				<property name="Logo">$INFO[Window(Home).Property(RecentEpisode.3.Art(tvshow.clearlogo)]</property>
+				<property name="Logo">$INFO[Window(Home).Property(RecentEpisode.3.Art(tvshow.clearlogo))]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecentEpisode.3.Title)) + SubString(Window(Home).Property(SkinWidgets_RecentItems),true)</visible>
 			</item>
 			<item>
@@ -3641,7 +3641,7 @@
 				<onclick>$INFO[Window(Home).Property(RecentEpisode.4.Play)]</onclick>
 				<icon>$INFO[Window(Home).Property(RecentEpisode.4.Art(thumb))]</icon>
 				<thumb>$INFO[Window(Home).Property(RecentEpisode.4.Art(tvshow.fanart))]</thumb>
-				<property name="Logo">$INFO[Window(Home).Property(RecentEpisode.4.Art(tvshow.clearlogo)]</property>
+				<property name="Logo">$INFO[Window(Home).Property(RecentEpisode.4.Art(tvshow.clearlogo))]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecentEpisode.4.Title)) + SubString(Window(Home).Property(SkinWidgets_RecentItems),true)</visible>
 			</item>
 			<item>
@@ -3651,7 +3651,7 @@
 				<onclick>$INFO[Window(Home).Property(RecentEpisode.5.Play)]</onclick>
 				<icon>$INFO[Window(Home).Property(RecentEpisode.5.Art(thumb))]</icon>
 				<thumb>$INFO[Window(Home).Property(RecentEpisode.5.Art(tvshow.fanart))]</thumb>
-				<property name="Logo">$INFO[Window(Home).Property(RecentEpisode.5.Art(tvshow.clearlogo)]</property>
+				<property name="Logo">$INFO[Window(Home).Property(RecentEpisode.5.Art(tvshow.clearlogo))]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecentEpisode.5.Title)) + SubString(Window(Home).Property(SkinWidgets_RecentItems),true)</visible>
 			</item>
 			<item>
@@ -3661,7 +3661,7 @@
 				<onclick>$INFO[Window(Home).Property(RecentEpisode.6.Play)]</onclick>
 				<icon>$INFO[Window(Home).Property(RecentEpisode.6.Art(thumb))]</icon>
 				<thumb>$INFO[Window(Home).Property(RecentEpisode.6.Art(tvshow.fanart))]</thumb>
-				<property name="Logo">$INFO[Window(Home).Property(RecentEpisode.6.Art(tvshow.clearlogo)]</property>
+				<property name="Logo">$INFO[Window(Home).Property(RecentEpisode.6.Art(tvshow.clearlogo))]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecentEpisode.6.Title)) + SubString(Window(Home).Property(SkinWidgets_RecentItems),true)</visible>
 			</item>
 			<item>
@@ -3671,7 +3671,7 @@
 				<onclick>$INFO[Window(Home).Property(RecentEpisode.7.Play)]</onclick>
 				<icon>$INFO[Window(Home).Property(RecentEpisode.7.Art(thumb))]</icon>
 				<thumb>$INFO[Window(Home).Property(RecentEpisode.7.Art(tvshow.fanart))]</thumb>
-				<property name="Logo">$INFO[Window(Home).Property(RecentEpisode.7.Art(tvshow.clearlogo)]</property>
+				<property name="Logo">$INFO[Window(Home).Property(RecentEpisode.7.Art(tvshow.clearlogo))]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecentEpisode.7.Title)) + SubString(Window(Home).Property(SkinWidgets_RecentItems),true)</visible>
 			</item>
 			<item>
@@ -3681,7 +3681,7 @@
 				<onclick>$INFO[Window(Home).Property(RecentEpisode.8.Play)]</onclick>
 				<icon>$INFO[Window(Home).Property(RecentEpisode.8.Art(thumb))]</icon>
 				<thumb>$INFO[Window(Home).Property(RecentEpisode.8.Art(tvshow.fanart))]</thumb>
-				<property name="Logo">$INFO[Window(Home).Property(RecentEpisode.8.Art(tvshow.clearlogo)]</property>
+				<property name="Logo">$INFO[Window(Home).Property(RecentEpisode.8.Art(tvshow.clearlogo))]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecentEpisode.8.Title)) + SubString(Window(Home).Property(SkinWidgets_RecentItems),true)</visible>
 			</item>
 			<item>
@@ -3691,7 +3691,7 @@
 				<onclick>$INFO[Window(Home).Property(RecentEpisode.9.Play)]</onclick>
 				<icon>$INFO[Window(Home).Property(RecentEpisode.9.Art(thumb))]</icon>
 				<thumb>$INFO[Window(Home).Property(RecentEpisode.9.Art(tvshow.fanart))]</thumb>
-				<property name="Logo">$INFO[Window(Home).Property(RecentEpisode.9.Art(tvshow.clearlogo)]</property>
+				<property name="Logo">$INFO[Window(Home).Property(RecentEpisode.9.Art(tvshow.clearlogo))]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecentEpisode.9.Title)) + SubString(Window(Home).Property(SkinWidgets_RecentItems),true)</visible>
 			</item>
 			<item>
@@ -3701,7 +3701,7 @@
 				<onclick>$INFO[Window(Home).Property(RecentEpisode.10.Play)]</onclick>
 				<icon>$INFO[Window(Home).Property(RecentEpisode.10.Art(thumb))]</icon>
 				<thumb>$INFO[Window(Home).Property(RecentEpisode.10.Art(tvshow.fanart))]</thumb>
-				<property name="Logo">$INFO[Window(Home).Property(RecentEpisode.10.Art(tvshow.clearlogo)]</property>
+				<property name="Logo">$INFO[Window(Home).Property(RecentEpisode.10.Art(tvshow.clearlogo))]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecentEpisode.10.Title)) + SubString(Window(Home).Property(SkinWidgets_RecentItems),true)</visible>
 			</item>
 			<item>
@@ -3805,7 +3805,7 @@
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RandomEpisode.1.File)])</onclick>
 				<thumb>$INFO[Window(Home).Property(RandomEpisode.1.Art(tvshow.fanart))]</thumb>
 				<icon>$INFO[Window(Home).Property(RandomEpisode.1.Art(thumb))]</icon>
-				<property name="Logo">$INFO[Window(Home).Property(RandomEpisode.1.Art(tvshow.clearlogo)]</property>
+				<property name="Logo">$INFO[Window(Home).Property(RandomEpisode.1.Art(tvshow.clearlogo))]</property>
 				<visible>!IsEmpty(Window(Home).Property(RandomEpisode.1.TVshowTitle))</visible>
 			</item>
 			<item id="2">
@@ -3815,7 +3815,7 @@
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RandomEpisode.2.File)])</onclick>
 				<thumb>$INFO[Window(Home).Property(RandomEpisode.2.Art(tvshow.fanart))]</thumb>
 				<icon>$INFO[Window(Home).Property(RandomEpisode.2.Art(thumb))]</icon>
-				<property name="Logo">$INFO[Window(Home).Property(RandomEpisode.2.Art(tvshow.clearlogo)]</property>
+				<property name="Logo">$INFO[Window(Home).Property(RandomEpisode.2.Art(tvshow.clearlogo))]</property>
 				<visible>!IsEmpty(Window(Home).Property(RandomEpisode.2.TVshowTitle))</visible>
 			</item>
 			<item id="3">
@@ -3825,7 +3825,7 @@
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RandomEpisode.3.File)])</onclick>
 				<thumb>$INFO[Window(Home).Property(RandomEpisode.3.Art(tvshow.fanart))]</thumb>
 				<icon>$INFO[Window(Home).Property(RandomEpisode.3.Art(thumb))]</icon>
-				<property name="Logo">$INFO[Window(Home).Property(RandomEpisode.3.Art(tvshow.clearlogo)]</property>
+				<property name="Logo">$INFO[Window(Home).Property(RandomEpisode.3.Art(tvshow.clearlogo))]</property>
 				<visible>!IsEmpty(Window(Home).Property(RandomEpisode.3.TVshowTitle))</visible>
 			</item>
 			<item id="4">
@@ -3835,7 +3835,7 @@
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RandomEpisode.4.File)])</onclick>
 				<thumb>$INFO[Window(Home).Property(RandomEpisode.4.Art(tvshow.fanart))]</thumb>
 				<icon>$INFO[Window(Home).Property(RandomEpisode.4.Art(thumb))]</icon>
-				<property name="Logo">$INFO[Window(Home).Property(RandomEpisode.4.Art(tvshow.clearlogo)]</property>
+				<property name="Logo">$INFO[Window(Home).Property(RandomEpisode.4.Art(tvshow.clearlogo))]</property>
 				<visible>!IsEmpty(Window(Home).Property(RandomEpisode.4.TVshowTitle))</visible>
 			</item>
 			<item id="5">
@@ -3845,7 +3845,7 @@
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RandomEpisode.5.File)])</onclick>
 				<thumb>$INFO[Window(Home).Property(RandomEpisode.5.Art(tvshow.fanart))]</thumb>
 				<icon>$INFO[Window(Home).Property(RandomEpisode.5.Art(thumb))]</icon>
-				<property name="Logo">$INFO[Window(Home).Property(RandomEpisode.5.Art(tvshow.clearlogo)]</property>
+				<property name="Logo">$INFO[Window(Home).Property(RandomEpisode.5.Art(tvshow.clearlogo))]</property>
 				<visible>!IsEmpty(Window(Home).Property(RandomEpisode.5.TVshowTitle))</visible>
 			</item>
 			<item id="6">
@@ -3855,7 +3855,7 @@
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RandomEpisode.6.File)])</onclick>
 				<thumb>$INFO[Window(Home).Property(RandomEpisode.6.Art(tvshow.fanart))]</thumb>
 				<icon>$INFO[Window(Home).Property(RandomEpisode.6.Art(thumb))]</icon>
-				<property name="Logo">$INFO[Window(Home).Property(RandomEpisode.6.Art(tvshow.clearlogo)]</property>
+				<property name="Logo">$INFO[Window(Home).Property(RandomEpisode.6.Art(tvshow.clearlogo))]</property>
 				<visible>!IsEmpty(Window(Home).Property(RandomEpisode.6.TVshowTitle))</visible>
 			</item>
 			<item id="7">
@@ -3865,7 +3865,7 @@
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RandomEpisode.7.File)])</onclick>
 				<thumb>$INFO[Window(Home).Property(RandomEpisode.7.Art(tvshow.fanart))]</thumb>
 				<icon>$INFO[Window(Home).Property(RandomEpisode.7.Art(thumb))]</icon>
-				<property name="Logo">$INFO[Window(Home).Property(RandomEpisode.7.Art(tvshow.clearlogo)]</property>
+				<property name="Logo">$INFO[Window(Home).Property(RandomEpisode.7.Art(tvshow.clearlogo))]</property>
 				<visible>!IsEmpty(Window(Home).Property(RandomEpisode.7.TVshowTitle))</visible>
 			</item>
 			<item id="8">
@@ -3875,7 +3875,7 @@
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RandomEpisode.8.File)])</onclick>
 				<thumb>$INFO[Window(Home).Property(RandomEpisode.8.Art(tvshow.fanart))]</thumb>
 				<icon>$INFO[Window(Home).Property(RandomEpisode.8.Art(thumb))]</icon>
-				<property name="Logo">$INFO[Window(Home).Property(RandomEpisode.8.Art(tvshow.clearlogo)]</property>
+				<property name="Logo">$INFO[Window(Home).Property(RandomEpisode.8.Art(tvshow.clearlogo))]</property>
 				<visible>!IsEmpty(Window(Home).Property(RandomEpisode.8.TVshowTitle))</visible>
 			</item>
 			<item id="9">
@@ -3885,7 +3885,7 @@
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RandomEpisode.9.File)])</onclick>
 				<thumb>$INFO[Window(Home).Property(RandomEpisode.9.Art(tvshow.fanart))]</thumb>
 				<icon>$INFO[Window(Home).Property(RandomEpisode.9.Art(thumb))]</icon>
-				<property name="Logo">$INFO[Window(Home).Property(RandomEpisode.9.Art(tvshow.clearlogo)]</property>
+				<property name="Logo">$INFO[Window(Home).Property(RandomEpisode.9.Art(tvshow.clearlogo))]</property>
 				<visible>!IsEmpty(Window(Home).Property(RandomEpisode.9.TVshowTitle))</visible>
 			</item>
 			<item id="10">
@@ -3895,7 +3895,7 @@
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RandomEpisode.10.File)])</onclick>
 				<thumb>$INFO[Window(Home).Property(RandomEpisode.10.Art(tvshow.fanart))]</thumb>
 				<icon>$INFO[Window(Home).Property(RandomEpisode.10.Art(thumb))]</icon>
-				<property name="Logo">$INFO[Window(Home).Property(RandomEpisode.10.Art(tvshow.clearlogo)]</property>
+				<property name="Logo">$INFO[Window(Home).Property(RandomEpisode.10.Art(tvshow.clearlogo))]</property>
 				<visible>!IsEmpty(Window(Home).Property(RandomEpisode.10.TVshowTitle))</visible>
 			</item>
 		</content>
@@ -3909,7 +3909,7 @@
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecommendedEpisode.1.File)])</onclick>
 				<thumb>$INFO[Window(Home).Property(RecommendedEpisode.1.Art(tvshow.fanart))]</thumb>
 				<icon>$INFO[Window(Home).Property(RecommendedEpisode.1.Art(thumb))]</icon>
-				<property name="Logo">$INFO[Window(Home).Property(RecommendedEpisode.1.Art(tvshow.clearlogo)]</property>
+				<property name="Logo">$INFO[Window(Home).Property(RecommendedEpisode.1.Art(tvshow.clearlogo))]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecommendedEpisode.1.TVshowTitle))</visible>
 			</item>
 			<item id="2">
@@ -3919,7 +3919,7 @@
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecommendedEpisode.2.File)])</onclick>
 				<thumb>$INFO[Window(Home).Property(RecommendedEpisode.2.Art(tvshow.fanart))]</thumb>
 				<icon>$INFO[Window(Home).Property(RecommendedEpisode.2.Art(thumb))]</icon>
-				<property name="Logo">$INFO[Window(Home).Property(RecommendedEpisode.2.Art(tvshow.clearlogo)]</property>
+				<property name="Logo">$INFO[Window(Home).Property(RecommendedEpisode.2.Art(tvshow.clearlogo))]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecommendedEpisode.2.TVshowTitle))</visible>
 			</item>
 			<item id="3">
@@ -3929,7 +3929,7 @@
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecommendedEpisode.3.File)])</onclick>
 				<thumb>$INFO[Window(Home).Property(RecommendedEpisode.3.Art(tvshow.fanart))]</thumb>
 				<icon>$INFO[Window(Home).Property(RecommendedEpisode.3.Art(thumb))]</icon>
-				<property name="Logo">$INFO[Window(Home).Property(RecommendedEpisode.3.Art(tvshow.clearlogo)]</property>
+				<property name="Logo">$INFO[Window(Home).Property(RecommendedEpisode.3.Art(tvshow.clearlogo))]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecommendedEpisode.3.TVshowTitle))</visible>
 			</item>
 			<item id="4">
@@ -3939,7 +3939,7 @@
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecommendedEpisode.4.File)])</onclick>
 				<thumb>$INFO[Window(Home).Property(RecommendedEpisode.4.Art(tvshow.fanart))]</thumb>
 				<icon>$INFO[Window(Home).Property(RecommendedEpisode.4.Art(thumb))]</icon>
-				<property name="Logo">$INFO[Window(Home).Property(RecommendedEpisode.4.Art(tvshow.clearlogo)]</property>
+				<property name="Logo">$INFO[Window(Home).Property(RecommendedEpisode.4.Art(tvshow.clearlogo))]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecommendedEpisode.4.TVshowTitle))</visible>
 			</item>
 			<item id="5">
@@ -3949,7 +3949,7 @@
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecommendedEpisode.5.File)])</onclick>
 				<thumb>$INFO[Window(Home).Property(RecommendedEpisode.5.Art(tvshow.fanart))]</thumb>
 				<icon>$INFO[Window(Home).Property(RecommendedEpisode.5.Art(thumb))]</icon>
-				<property name="Logo">$INFO[Window(Home).Property(RecommendedEpisode.5.Art(tvshow.clearlogo)]</property>
+				<property name="Logo">$INFO[Window(Home).Property(RecommendedEpisode.5.Art(tvshow.clearlogo))]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecommendedEpisode.5.TVshowTitle))</visible>
 			</item>
 			<item id="6">
@@ -3959,7 +3959,7 @@
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecommendedEpisode.6.File)])</onclick>
 				<thumb>$INFO[Window(Home).Property(RecommendedEpisode.6.Art(tvshow.fanart))]</thumb>
 				<icon>$INFO[Window(Home).Property(RecommendedEpisode.6.Art(thumb))]</icon>
-				<property name="Logo">$INFO[Window(Home).Property(RecommendedEpisode.6.Art(tvshow.clearlogo)]</property>
+				<property name="Logo">$INFO[Window(Home).Property(RecommendedEpisode.6.Art(tvshow.clearlogo))]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecommendedEpisode.6.TVshowTitle))</visible>
 			</item>
 			<item id="7">
@@ -3969,7 +3969,7 @@
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecommendedEpisode.7.File)])</onclick>
 				<thumb>$INFO[Window(Home).Property(RecommendedEpisode.7.Art(tvshow.fanart))]</thumb>
 				<icon>$INFO[Window(Home).Property(RecommendedEpisode.7.Art(thumb))]</icon>
-				<property name="Logo">$INFO[Window(Home).Property(RecommendedEpisode.7.Art(tvshow.clearlogo)]</property>
+				<property name="Logo">$INFO[Window(Home).Property(RecommendedEpisode.7.Art(tvshow.clearlogo))]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecommendedEpisode.7.TVshowTitle))</visible>
 			</item>
 			<item id="8">
@@ -3979,7 +3979,7 @@
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecommendedEpisode.8.File)])</onclick>
 				<thumb>$INFO[Window(Home).Property(RecommendedEpisode.8.Art(tvshow.fanart))]</thumb>
 				<icon>$INFO[Window(Home).Property(RecommendedEpisode.8.Art(thumb))]</icon>
-				<property name="Logo">$INFO[Window(Home).Property(RecommendedEpisode.8.Art(tvshow.clearlogo)]</property>
+				<property name="Logo">$INFO[Window(Home).Property(RecommendedEpisode.8.Art(tvshow.clearlogo))]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecommendedEpisode.8.TVshowTitle))</visible>
 			</item>
 			<item id="9">
@@ -3989,7 +3989,7 @@
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecommendedEpisode.9.File)])</onclick>
 				<thumb>$INFO[Window(Home).Property(RecommendedEpisode.9.Art(tvshow.fanart))]</thumb>
 				<icon>$INFO[Window(Home).Property(RecommendedEpisode.9.Art(thumb))]</icon>
-				<property name="Logo">$INFO[Window(Home).Property(RecommendedEpisode.9.Art(tvshow.clearlogo)]</property>
+				<property name="Logo">$INFO[Window(Home).Property(RecommendedEpisode.9.Art(tvshow.clearlogo))]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecommendedEpisode.9.TVshowTitle))</visible>
 			</item>
 			<item id="10">
@@ -3999,7 +3999,7 @@
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecommendedEpisode.10.File)])</onclick>
 				<thumb>$INFO[Window(Home).Property(RecommendedEpisode.10.Art(tvshow.fanart))]</thumb>
 				<icon>$INFO[Window(Home).Property(RecommendedEpisode.10.Art(thumb))]</icon>
-				<property name="Logo">$INFO[Window(Home).Property(RecommendedEpisode.10.Art(tvshow.clearlogo)]</property>
+				<property name="Logo">$INFO[Window(Home).Property(RecommendedEpisode.10.Art(tvshow.clearlogo))]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecommendedEpisode.10.TVshowTitle))</visible>
 			</item>
 		</content>
