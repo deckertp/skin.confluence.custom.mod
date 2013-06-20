@@ -200,6 +200,10 @@
 		<value condition="!IsEmpty(ListItem.Property(date))">$INFO[ListItem.label] ([COLOR=white]$INFO[ListItem.Property(date)][/COLOR])</value>
 		<value>$INFO[ListItem.label]</value>
 	</variable>
+	<variable name="VideoNowPlaying">
+		<value condition="VideoPlayer.Content(Movies) + !IsEmpty(VideoPlayer.Year)">$INFO[VideoPlayer.Title] ([COLOR=white]$INFO[VideoPlayer.Year][/COLOR])</value>
+		<value>$INFO[VideoPlayer.Title]</value>
+	</variable>	
 	<variable name="VideoDescription" type="text">
 		<value condition="Skin.HasSetting(MediaShortDescription) + !IsEmpty(ListItem.PlotOutline)">$INFO[ListItem.PlotOutline]</value>
 		<value condition="Skin.HasSetting(MediaShortDescription) + !IsEmpty(ListItem.Tagline)">$INFO[ListItem.Tagline]</value>
