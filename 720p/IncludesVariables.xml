@@ -570,6 +570,18 @@
 		<value condition="stringcompare(Skin.String(HomeItem.10.Addon),Programs)">$LOCALIZE[31191]</value>
 		<value>$LOCALIZE[31093]</value>
 	</variable>
+	<variable name="UsrDefItemTwelveAddOnLabel" type="text">
+		<value condition="stringcompare(Skin.String(HomeItem.12.Addon),Videos) + !IsEmpty(Skin.String(UserSelectAddon.1.Label))">$INFO[Skin.String(UserSelectAddon.1.Label)]</value>
+		<value condition="stringcompare(Skin.String(HomeItem.12.Addon),Music) + !IsEmpty(Skin.String(UserSelectAddon.2.Label))">$INFO[Skin.String(UserSelectAddon.2.Label)]</value>
+		<value condition="stringcompare(Skin.String(HomeItem.12.Addon),Pictures) + !IsEmpty(Skin.String(UserSelectAddon.3.Label))">$INFO[Skin.String(UserSelectAddon.3.Label)]</value>
+		<value condition="stringcompare(Skin.String(HomeItem.12.Addon),Programs) + !IsEmpty(Skin.String(UserSelectAddon.4.Label))">$INFO[Skin.String(UserSelectAddon.4.Label)]</value>
+		<value condition="stringcompare(Skin.String(HomeItem.12.Addon),Videos)">$LOCALIZE[31135]</value>
+		<value condition="stringcompare(Skin.String(HomeItem.12.Addon),Music)">$LOCALIZE[31136]</value>
+		<value condition="stringcompare(Skin.String(HomeItem.12.Addon),Pictures)">$LOCALIZE[31190]</value>
+		<value condition="stringcompare(Skin.String(HomeItem.12.Addon),Programs)">$LOCALIZE[31191]</value>
+		<value>$LOCALIZE[31093]</value>
+	</variable>
+
 	<variable name="UsrDefItemOneWidgetLabel" type="text">
 		<value condition="stringcompare(Skin.String(HomeItem.1.Widget),RecentMovies)">$LOCALIZE[31175]</value>
 		<value condition="stringcompare(Skin.String(HomeItem.1.Widget),RandomMovies)">$LOCALIZE[31176]</value>
@@ -738,6 +750,23 @@
 		<value condition="stringcompare(Skin.String(HomeItem.10.Widget),SuggestedConcerts)">$LOCALIZE[31186]</value>
 		<value condition="stringcompare(Skin.String(HomeItem.10.Widget),UnWatched)">$LOCALIZE[16101] $LOCALIZE[20342]</value>
 		<value condition="stringcompare(Skin.String(HomeItem.10.Widget),PlayListVideo)">$LOCALIZE[136]</value>
+		<value>$LOCALIZE[31093]</value>
+	</variable>
+	<variable name="UsrDefItemTwelveWidgetLabel" type="text">
+		<value condition="stringcompare(Skin.String(HomeItem.12.Widget),RecentMovies)">$LOCALIZE[31175]</value>
+		<value condition="stringcompare(Skin.String(HomeItem.12.Widget),RandomMovies)">$LOCALIZE[31176]</value>
+		<value condition="stringcompare(Skin.String(HomeItem.12.Widget),SuggestedMovies)">$LOCALIZE[31177]</value>
+		<value condition="stringcompare(Skin.String(HomeItem.12.Widget),RecentEpisodes)">$LOCALIZE[31178]</value>
+		<value condition="stringcompare(Skin.String(HomeItem.12.Widget),RandomEpisodes)">$LOCALIZE[31179]</value>
+		<value condition="stringcompare(Skin.String(HomeItem.12.Widget),SuggestedEpisodes)">$LOCALIZE[31180]</value>
+		<value condition="stringcompare(Skin.String(HomeItem.12.Widget),RecentAlbums)">$LOCALIZE[31181]</value>
+		<value condition="stringcompare(Skin.String(HomeItem.12.Widget),RandomAlbums)">$LOCALIZE[31182]</value>
+		<value condition="stringcompare(Skin.String(HomeItem.12.Widget),SuggestedAlbums)">$LOCALIZE[31183]</value>
+		<value condition="stringcompare(Skin.String(HomeItem.12.Widget),RecentConcerts)">$LOCALIZE[31184]</value>
+		<value condition="stringcompare(Skin.String(HomeItem.12.Widget),RandomConcerts)">$LOCALIZE[31185]</value>
+		<value condition="stringcompare(Skin.String(HomeItem.12.Widget),SuggestedConcerts)">$LOCALIZE[31186]</value>
+		<value condition="stringcompare(Skin.String(HomeItem.12.Widget),UnWatched)">$LOCALIZE[16101] $LOCALIZE[20342]</value>
+		<value condition="stringcompare(Skin.String(HomeItem.12.Widget),PlayListVideo)">$LOCALIZE[136]</value>
 		<value>$LOCALIZE[31093]</value>
 	</variable>
 	<variable name="SetMenuOneBackground" type="text">
