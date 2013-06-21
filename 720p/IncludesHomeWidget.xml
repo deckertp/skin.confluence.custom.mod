@@ -3606,7 +3606,7 @@
 		<content>
 			<item>
 				<label>$INFO[Window(Home).Property(RecentEpisode.1.TVshowTitle)]</label>
-				<label2>$INFO[Window(Home).Property(RecentEpisode.1.EpisodeNo)]</label2>
+				<label2>S$INFO[Window(Home).Property(RecentEpisode.1.Season)] - E$INFO[Window(Home).Property(RecentEpisode.1.Episode)]</label2>
 				<onclick>PlayList.Clear</onclick>
 				<onclick>$INFO[Window(Home).Property(RecentEpisode.1.Play)]</onclick>
 				<icon>$INFO[Window(Home).Property(RecentEpisode.1.Art(thumb))]</icon>
@@ -3616,7 +3616,7 @@
 			</item>
 			<item>
 				<label>$INFO[Window(Home).Property(RecentEpisode.2.TVshowTitle)]</label>
-				<label2>$INFO[Window(Home).Property(RecentEpisode.2.EpisodeNo)]</label2>
+				<label2>S$INFO[Window(Home).Property(RecentEpisode.2.Season)] - E$INFO[Window(Home).Property(RecentEpisode.2.Episode)]</label2>
 				<onclick>PlayList.Clear</onclick>
 				<onclick>$INFO[Window(Home).Property(RecentEpisode.2.Play)]</onclick>
 				<icon>$INFO[Window(Home).Property(RecentEpisode.2.Art(thumb))]</icon>
@@ -3626,7 +3626,7 @@
 			</item>
 			<item>
 				<label>$INFO[Window(Home).Property(RecentEpisode.3.TVshowTitle)]</label>
-				<label2>$INFO[Window(Home).Property(RecentEpisode.3.EpisodeNo)]</label2>
+				<label2>S$INFO[Window(Home).Property(RecentEpisode.3.Season)] - E$INFO[Window(Home).Property(RecentEpisode.3.Episode)]</label2>
 				<onclick>PlayList.Clear</onclick>
 				<onclick>$INFO[Window(Home).Property(RecentEpisode.3.Play)]</onclick>
 				<icon>$INFO[Window(Home).Property(RecentEpisode.3.Art(thumb))]</icon>
@@ -3636,7 +3636,7 @@
 			</item>
 			<item>
 				<label>$INFO[Window(Home).Property(RecentEpisode.4.TVshowTitle)]</label>
-				<label2>$INFO[Window(Home).Property(RecentEpisode.4.EpisodeNo)]</label2>
+				<label2>S$INFO[Window(Home).Property(RecentEpisode.4.Season)] - E$INFO[Window(Home).Property(RecentEpisode.4.Episode)]</label2>
 				<onclick>PlayList.Clear</onclick>
 				<onclick>$INFO[Window(Home).Property(RecentEpisode.4.Play)]</onclick>
 				<icon>$INFO[Window(Home).Property(RecentEpisode.4.Art(thumb))]</icon>
@@ -3646,7 +3646,7 @@
 			</item>
 			<item>
 				<label>$INFO[Window(Home).Property(RecentEpisode.5.TVshowTitle)]</label>
-				<label2>$INFO[Window(Home).Property(RecentEpisode.5.EpisodeNo)]</label2>
+				<label2>S$INFO[Window(Home).Property(RecentEpisode.5.Season)] - E$INFO[Window(Home).Property(RecentEpisode.5.Episode)]</label2>
 				<onclick>PlayList.Clear</onclick>
 				<onclick>$INFO[Window(Home).Property(RecentEpisode.5.Play)]</onclick>
 				<icon>$INFO[Window(Home).Property(RecentEpisode.5.Art(thumb))]</icon>
@@ -3656,7 +3656,7 @@
 			</item>
 			<item>
 				<label>$INFO[Window(Home).Property(RecentEpisode.6.TVshowTitle)]</label>
-				<label2>$INFO[Window(Home).Property(RecentEpisode.6.EpisodeNo)]</label2>
+				<label2>S$INFO[Window(Home).Property(RecentEpisode.6.Season)] - E$INFO[Window(Home).Property(RecentEpisode.6.Episode)]</label2>
 				<onclick>PlayList.Clear</onclick>
 				<onclick>$INFO[Window(Home).Property(RecentEpisode.6.Play)]</onclick>
 				<icon>$INFO[Window(Home).Property(RecentEpisode.6.Art(thumb))]</icon>
@@ -3666,7 +3666,7 @@
 			</item>
 			<item>
 				<label>$INFO[Window(Home).Property(RecentEpisode.7.TVshowTitle)]</label>
-				<label2>$INFO[Window(Home).Property(RecentEpisode.7.EpisodeNo)]</label2>
+				<label2>S$INFO[Window(Home).Property(RecentEpisode.7.Season)] - E$INFO[Window(Home).Property(RecentEpisode.7.Episode)]</label2>
 				<onclick>PlayList.Clear</onclick>
 				<onclick>$INFO[Window(Home).Property(RecentEpisode.7.Play)]</onclick>
 				<icon>$INFO[Window(Home).Property(RecentEpisode.7.Art(thumb))]</icon>
@@ -3676,7 +3676,7 @@
 			</item>
 			<item>
 				<label>$INFO[Window(Home).Property(RecentEpisode.8.TVshowTitle)]</label>
-				<label2>$INFO[Window(Home).Property(RecentEpisode.8.EpisodeNo)]</label2>
+				<label2>S$INFO[Window(Home).Property(RecentEpisode.8.Season)] - E$INFO[Window(Home).Property(RecentEpisode.8.Episode)]</label2>
 				<onclick>PlayList.Clear</onclick>
 				<onclick>$INFO[Window(Home).Property(RecentEpisode.8.Play)]</onclick>
 				<icon>$INFO[Window(Home).Property(RecentEpisode.8.Art(thumb))]</icon>
@@ -3686,7 +3686,7 @@
 			</item>
 			<item>
 				<label>$INFO[Window(Home).Property(RecentEpisode.9.TVshowTitle)]</label>
-				<label2>$INFO[Window(Home).Property(RecentEpisode.9.EpisodeNo)]</label2>
+				<label2>S$INFO[Window(Home).Property(RecentEpisode.9.Season)] - E$INFO[Window(Home).Property(RecentEpisode.9.Episode)]</label2>
 				<onclick>PlayList.Clear</onclick>
 				<onclick>$INFO[Window(Home).Property(RecentEpisode.9.Play)]</onclick>
 				<icon>$INFO[Window(Home).Property(RecentEpisode.9.Art(thumb))]</icon>
@@ -3696,7 +3696,7 @@
 			</item>
 			<item>
 				<label>$INFO[Window(Home).Property(RecentEpisode.10.TVshowTitle)]</label>
-				<label2>$INFO[Window(Home).Property(RecentEpisode.10.EpisodeNo)]</label2>
+				<label2>S$INFO[Window(Home).Property(RecentEpisode.10.Season)] - E$INFO[Window(Home).Property(RecentEpisode.10.Episode)]</label2>
 				<onclick>PlayList.Clear</onclick>
 				<onclick>$INFO[Window(Home).Property(RecentEpisode.10.Play)]</onclick>
 				<icon>$INFO[Window(Home).Property(RecentEpisode.10.Art(thumb))]</icon>
@@ -3800,7 +3800,7 @@
 		<content>
 			<item id="1">
 				<label>$INFO[Window(Home).Property(RandomEpisode.1.TVshowTitle)]</label>
-				<label2>$INFO[Window(Home).Property(RandomEpisode.1.EpisodeNo)]</label2>
+				<label2>S$INFO[Window(Home).Property(RandomEpisode.1.Season)] - E$INFO[Window(Home).Property(RandomEpisode.1.Episode)]</label2>
 				<onclick>PlayList.Clear</onclick>
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RandomEpisode.1.File)])</onclick>
 				<thumb>$INFO[Window(Home).Property(RandomEpisode.1.Art(tvshow.fanart))]</thumb>
@@ -3810,7 +3810,7 @@
 			</item>
 			<item id="2">
 				<label>$INFO[Window(Home).Property(RandomEpisode.2.TVshowTitle)]</label>
-				<label2>$INFO[Window(Home).Property(RandomEpisode.2.EpisodeNo)]</label2>
+				<label2>S$INFO[Window(Home).Property(RandomEpisode.2.Season)] - E$INFO[Window(Home).Property(RandomEpisode.2.Episode)]</label2>
 				<onclick>PlayList.Clear</onclick>
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RandomEpisode.2.File)])</onclick>
 				<thumb>$INFO[Window(Home).Property(RandomEpisode.2.Art(tvshow.fanart))]</thumb>
@@ -3820,7 +3820,7 @@
 			</item>
 			<item id="3">
 				<label>$INFO[Window(Home).Property(RandomEpisode.3.TVshowTitle)]</label>
-				<label2>$INFO[Window(Home).Property(RandomEpisode.3.EpisodeNo)]</label2>
+				<label2>S$INFO[Window(Home).Property(RandomEpisode.3.Season)] - E$INFO[Window(Home).Property(RandomEpisode.3.Episode)]</label2>
 				<onclick>PlayList.Clear</onclick>
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RandomEpisode.3.File)])</onclick>
 				<thumb>$INFO[Window(Home).Property(RandomEpisode.3.Art(tvshow.fanart))]</thumb>
@@ -3830,7 +3830,7 @@
 			</item>
 			<item id="4">
 				<label>$INFO[Window(Home).Property(RandomEpisode.4.TVshowTitle)]</label>
-				<label2>$INFO[Window(Home).Property(RandomEpisode.4.EpisodeNo)]</label2>
+				<label2>S$INFO[Window(Home).Property(RandomEpisode.4.Season)] - E$INFO[Window(Home).Property(RandomEpisode.4.Episode)]</label2>
 				<onclick>PlayList.Clear</onclick>
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RandomEpisode.4.File)])</onclick>
 				<thumb>$INFO[Window(Home).Property(RandomEpisode.4.Art(tvshow.fanart))]</thumb>
@@ -3840,7 +3840,7 @@
 			</item>
 			<item id="5">
 				<label>$INFO[Window(Home).Property(RandomEpisode.5.TVshowTitle)]</label>
-				<label2>$INFO[Window(Home).Property(RandomEpisode.5.EpisodeNo)]</label2>
+				<label2>S$INFO[Window(Home).Property(RandomEpisode.5.Season)] - E$INFO[Window(Home).Property(RandomEpisode.5.Episode)]</label2>
 				<onclick>PlayList.Clear</onclick>
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RandomEpisode.5.File)])</onclick>
 				<thumb>$INFO[Window(Home).Property(RandomEpisode.5.Art(tvshow.fanart))]</thumb>
@@ -3850,7 +3850,7 @@
 			</item>
 			<item id="6">
 				<label>$INFO[Window(Home).Property(RandomEpisode.6.TVshowTitle)]</label>
-				<label2>$INFO[Window(Home).Property(RandomEpisode.6.EpisodeNo)]</label2>
+				<label2>S$INFO[Window(Home).Property(RandomEpisode.6.Season)] - E$INFO[Window(Home).Property(RandomEpisode.6.Episode)]</label2>
 				<onclick>PlayList.Clear</onclick>
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RandomEpisode.6.File)])</onclick>
 				<thumb>$INFO[Window(Home).Property(RandomEpisode.6.Art(tvshow.fanart))]</thumb>
@@ -3860,7 +3860,7 @@
 			</item>
 			<item id="7">
 				<label>$INFO[Window(Home).Property(RandomEpisode.7.TVshowTitle)]</label>
-				<label2>$INFO[Window(Home).Property(RandomEpisode.7.EpisodeNo)]</label2>
+				<label2>S$INFO[Window(Home).Property(RandomEpisode.7.Season)] - E$INFO[Window(Home).Property(RandomEpisode.7.Episode)]</label2>
 				<onclick>PlayList.Clear</onclick>
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RandomEpisode.7.File)])</onclick>
 				<thumb>$INFO[Window(Home).Property(RandomEpisode.7.Art(tvshow.fanart))]</thumb>
@@ -3870,7 +3870,7 @@
 			</item>
 			<item id="8">
 				<label>$INFO[Window(Home).Property(RandomEpisode.8.TVshowTitle)]</label>
-				<label2>$INFO[Window(Home).Property(RandomEpisode.8.EpisodeNo)]</label2>
+				<label2>S$INFO[Window(Home).Property(RandomEpisode.8.Season)] - E$INFO[Window(Home).Property(RandomEpisode.8.Episode)]</label2>
 				<onclick>PlayList.Clear</onclick>
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RandomEpisode.8.File)])</onclick>
 				<thumb>$INFO[Window(Home).Property(RandomEpisode.8.Art(tvshow.fanart))]</thumb>
@@ -3880,7 +3880,7 @@
 			</item>
 			<item id="9">
 				<label>$INFO[Window(Home).Property(RandomEpisode.9.TVshowTitle)]</label>
-				<label2>$INFO[Window(Home).Property(RandomEpisode.9.EpisodeNo)]</label2>
+				<label2>S$INFO[Window(Home).Property(RandomEpisode.9.Season)] - E$INFO[Window(Home).Property(RandomEpisode.9.Episode)]</label2>
 				<onclick>PlayList.Clear</onclick>
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RandomEpisode.9.File)])</onclick>
 				<thumb>$INFO[Window(Home).Property(RandomEpisode.9.Art(tvshow.fanart))]</thumb>
@@ -3890,7 +3890,7 @@
 			</item>
 			<item id="10">
 				<label>$INFO[Window(Home).Property(RandomEpisode.10.TVshowTitle)]</label>
-				<label2>$INFO[Window(Home).Property(RandomEpisode.10.EpisodeNo)]</label2>
+				<label2>S$INFO[Window(Home).Property(RandomEpisode.10.Season)] - E$INFO[Window(Home).Property(RandomEpisode.10.Episode)]</label2>
 				<onclick>PlayList.Clear</onclick>
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RandomEpisode.10.File)])</onclick>
 				<thumb>$INFO[Window(Home).Property(RandomEpisode.10.Art(tvshow.fanart))]</thumb>
@@ -3904,7 +3904,7 @@
 		<content>
 			<item id="1">
 				<label>$INFO[Window(Home).Property(RecommendedEpisode.1.TVshowTitle)]</label>
-				<label2>$INFO[Window(Home).Property(RecommendedEpisode.1.EpisodeNo)]</label2>
+				<label2>S$INFO[Window(Home).Property(RecommendedEpisode.1.Season)] - E$INFO[Window(Home).Property(RecommendedEpisode.1.Episode)]</label2>
 				<onclick>PlayList.Clear</onclick>
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecommendedEpisode.1.File)])</onclick>
 				<thumb>$INFO[Window(Home).Property(RecommendedEpisode.1.Art(tvshow.fanart))]</thumb>
@@ -3914,7 +3914,7 @@
 			</item>
 			<item id="2">
 				<label>$INFO[Window(Home).Property(RecommendedEpisode.2.TVshowTitle)]</label>
-				<label2>$INFO[Window(Home).Property(RecommendedEpisode.2.EpisodeNo)]</label2>
+				<label2>S$INFO[Window(Home).Property(RecommendedEpisode.2.Season)] - E$INFO[Window(Home).Property(RecommendedEpisode.2.Episode)]</label2>
 				<onclick>PlayList.Clear</onclick>
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecommendedEpisode.2.File)])</onclick>
 				<thumb>$INFO[Window(Home).Property(RecommendedEpisode.2.Art(tvshow.fanart))]</thumb>
@@ -3924,7 +3924,7 @@
 			</item>
 			<item id="3">
 				<label>$INFO[Window(Home).Property(RecommendedEpisode.3.TVshowTitle)]</label>
-				<label2>$INFO[Window(Home).Property(RecommendedEpisode.3.EpisodeNo)]</label2>
+				<label2>S$INFO[Window(Home).Property(RecommendedEpisode.3.Season)] - E$INFO[Window(Home).Property(RecommendedEpisode.3.Episode)]</label2>
 				<onclick>PlayList.Clear</onclick>
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecommendedEpisode.3.File)])</onclick>
 				<thumb>$INFO[Window(Home).Property(RecommendedEpisode.3.Art(tvshow.fanart))]</thumb>
@@ -3934,7 +3934,7 @@
 			</item>
 			<item id="4">
 				<label>$INFO[Window(Home).Property(RecommendedEpisode.4.TVshowTitle)]</label>
-				<label2>$INFO[Window(Home).Property(RecommendedEpisode.4.EpisodeNo)]</label2>
+				<label2>S$INFO[Window(Home).Property(RecommendedEpisode.4.Season)] - E$INFO[Window(Home).Property(RecommendedEpisode.4.Episode)]</label2>
 				<onclick>PlayList.Clear</onclick>
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecommendedEpisode.4.File)])</onclick>
 				<thumb>$INFO[Window(Home).Property(RecommendedEpisode.4.Art(tvshow.fanart))]</thumb>
@@ -3944,7 +3944,7 @@
 			</item>
 			<item id="5">
 				<label>$INFO[Window(Home).Property(RecommendedEpisode.5.TVshowTitle)]</label>
-				<label2>$INFO[Window(Home).Property(RecommendedEpisode.5.EpisodeNo)]</label2>
+				<label2>S$INFO[Window(Home).Property(RecommendedEpisode.5.Season)] - E$INFO[Window(Home).Property(RecommendedEpisode.5.Episode)]</label2>
 				<onclick>PlayList.Clear</onclick>
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecommendedEpisode.5.File)])</onclick>
 				<thumb>$INFO[Window(Home).Property(RecommendedEpisode.5.Art(tvshow.fanart))]</thumb>
@@ -3954,7 +3954,7 @@
 			</item>
 			<item id="6">
 				<label>$INFO[Window(Home).Property(RecommendedEpisode.6.TVshowTitle)]</label>
-				<label2>$INFO[Window(Home).Property(RecommendedEpisode.6.EpisodeNo)]</label2>
+				<label2>S$INFO[Window(Home).Property(RecommendedEpisode.6.Season)] - E$INFO[Window(Home).Property(RecommendedEpisode.6.Episode)]</label2>
 				<onclick>PlayList.Clear</onclick>
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecommendedEpisode.6.File)])</onclick>
 				<thumb>$INFO[Window(Home).Property(RecommendedEpisode.6.Art(tvshow.fanart))]</thumb>
@@ -3964,7 +3964,7 @@
 			</item>
 			<item id="7">
 				<label>$INFO[Window(Home).Property(RecommendedEpisode.7.TVshowTitle)]</label>
-				<label2>$INFO[Window(Home).Property(RecommendedEpisode.7.EpisodeNo)]</label2>
+				<label2>S$INFO[Window(Home).Property(RecommendedEpisode.7.Season)] - E$INFO[Window(Home).Property(RecommendedEpisode.7.Episode)]</label2>
 				<onclick>PlayList.Clear</onclick>
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecommendedEpisode.7.File)])</onclick>
 				<thumb>$INFO[Window(Home).Property(RecommendedEpisode.7.Art(tvshow.fanart))]</thumb>
@@ -3974,7 +3974,7 @@
 			</item>
 			<item id="8">
 				<label>$INFO[Window(Home).Property(RecommendedEpisode.8.TVshowTitle)]</label>
-				<label2>$INFO[Window(Home).Property(RecommendedEpisode.8.EpisodeNo)]</label2>
+				<label2>S$INFO[Window(Home).Property(RecommendedEpisode.8.Season)] - E$INFO[Window(Home).Property(RecommendedEpisode.8.Episode)]</label2>
 				<onclick>PlayList.Clear</onclick>
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecommendedEpisode.8.File)])</onclick>
 				<thumb>$INFO[Window(Home).Property(RecommendedEpisode.8.Art(tvshow.fanart))]</thumb>
@@ -3984,7 +3984,7 @@
 			</item>
 			<item id="9">
 				<label>$INFO[Window(Home).Property(RecommendedEpisode.9.TVshowTitle)]</label>
-				<label2>$INFO[Window(Home).Property(RecommendedEpisode.9.EpisodeNo)]</label2>
+				<label2>S$INFO[Window(Home).Property(RecommendedEpisode.9.Season)] - E$INFO[Window(Home).Property(RecommendedEpisode.9.Episode)]</label2>
 				<onclick>PlayList.Clear</onclick>
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecommendedEpisode.9.File)])</onclick>
 				<thumb>$INFO[Window(Home).Property(RecommendedEpisode.9.Art(tvshow.fanart))]</thumb>
@@ -3994,7 +3994,7 @@
 			</item>
 			<item id="10">
 				<label>$INFO[Window(Home).Property(RecommendedEpisode.10.TVshowTitle)]</label>
-				<label2>$INFO[Window(Home).Property(RecommendedEpisode.10.EpisodeNo)]</label2>
+				<label2>S$INFO[Window(Home).Property(RecommendedEpisode.10.Season)] - E$INFO[Window(Home).Property(RecommendedEpisode.10.Episode)]</label2>
 				<onclick>PlayList.Clear</onclick>
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecommendedEpisode.10.File)])</onclick>
 				<thumb>$INFO[Window(Home).Property(RecommendedEpisode.10.Art(tvshow.fanart))]</thumb>
