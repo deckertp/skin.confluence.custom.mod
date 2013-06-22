@@ -1,3 +1,13 @@
+[B]1.1.5[/B] [I]June 2013[/I]
+- Updated language files from Transifex
+- Added VerticalLogo View [WIP]
+- Added Sticky Submenu Option
+- Tweaked Recent Episodes Widget
+- Added New Menu Items
+- Added New Preset Playlist Options
+- Added Invisable Mouse Pointer [Experimental]
+- Added Year to Movies on Video OSD
+
 [B]1.1.4[/B]
 - New Initial Install Defaults (Menu Bar & Backgrounds)
 - Added CD Wall
