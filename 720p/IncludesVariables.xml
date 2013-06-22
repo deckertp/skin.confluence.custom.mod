@@ -176,6 +176,10 @@
 		<value condition="IntegerGreaterThan(ListItem.PercentPlayed,68) + !IntegerGreaterThan(ListItem.PercentPlayed,81)">OverlayPartlywatched6</value>
 		<value condition="IntegerGreaterThan(ListItem.PercentPlayed,81)">OverlayPartlywatched7</value>
 	</variable>
+	<variable name="MediaRuntime">
+		<value condition="[Container.Content(Movies) | Container.Content(Episodes) | Container.Content(MusicVideos)] + !substring(ListItem.Duration,min)">$INFO[ListItem.Duration,, $LOCALIZE[12391]]</value>
+		<value condition="[Container.Content(Movies) | Container.Content(Episodes) | Container.Content(MusicVideos)] + substring(ListItem.Duration,min)">$INFO[ListItem.Duration]</value>
+	</variable>
 	<variable name="GenreFlagPath">
 		<!--value condition="Skin.HasSetting(UsrGenreFanArt)">MovieGenre/</value-->
 		<value>DefaultGenre/</value>
@@ -205,6 +209,7 @@
 		<value>$INFO[VideoPlayer.Title]</value>
 	</variable>	
 	<variable name="VideoDescription" type="text">
+		<value condition="Container.Content(Seasons)">$INFO[Container.ShowPlot]</value>	
 		<value condition="Skin.HasSetting(MediaShortDescription) + !IsEmpty(ListItem.PlotOutline)">$INFO[ListItem.PlotOutline]</value>
 		<value condition="Skin.HasSetting(MediaShortDescription) + !IsEmpty(ListItem.Tagline)">$INFO[ListItem.Tagline]</value>
 		<value condition="!Skin.HasSetting(MediaShortDescription) + !IsEmpty(ListItem.Plot)">$INFO[ListItem.Plot]</value>

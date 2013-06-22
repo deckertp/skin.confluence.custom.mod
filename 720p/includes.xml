@@ -17,6 +17,7 @@
 	<include file="IncludesGenreFlagging.xml" />
 	<include file="IncludesBackgroundEffect.xml" />
 	<include file="IncludesCDWall.xml" />
+	<include file="ViewsLogoVertical.xml" />
 	<constant name="FanartCrossfadeTime">500</constant>
 	<constant name="IconCrossfadeTime">400</constant>
 	<include name="ClearButtonChoice">
@@ -122,6 +123,8 @@
 		<onload>Skin.SetString(HomeItem.10.Fanart,special://skin/backgrounds/homescreen/programs.jpg)</onload>
 		<onload>Skin.SetString(HomeItem.11.Fanart,special://skin/backgrounds/homescreen/playdisc.jpg)</onload>
 		<onload>Skin.SetString(HomeItem.12.Fanart,special://skin/backgrounds/homescreen/settings.jpg)</onload>
+		<onload>Skin.SetString(HomeItem.12.Addon,None)</onload>
+		<onload>Skin.SetString(HomeItem.12.Widget,None)</onload>
 		<onload>Skin.SetString(SearchBtnBackground,special://skin/backgrounds/homescreen/search.jpg)</onload>
 		<onload>Skin.SetString(PowerBtnBackground,special://skin/backgrounds/homescreen/shutdown.jpg)</onload>
 		<onload>Skin.SetString(FavBtnBackground,special://skin/backgrounds/homescreen/favourite.jpg)</onload>
@@ -1355,6 +1358,14 @@
 		<posy>0</posy>
 		<width>1280</width>
 		<height>720</height>
+	</include>
+	<include name="MediaStudioFlagging">
+		<control type="image">
+			<width>80</width>
+			<height>55</height>
+			<aspectratio aligny="bottom">keep</aspectratio>
+			<texture>$INFO[listitem.Studio,MediaFlags/studios/,.png]</texture>
+		</control>
 	</include>
 	<include name="LiveCDCasesbackground">
 		<control type="group">

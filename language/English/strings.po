@@ -104,7 +104,11 @@ msgctxt "#31033"
 msgid "Info"
 msgstr ""
 
-#empty strings from id 31034 to 31039
+msgctxt "#31034"
+msgid "Vertical Logo"
+msgstr ""
+
+#empty strings from id 31035 to 31039
 #Extra labels
 
 msgctxt "#31040"
@@ -700,7 +704,19 @@ msgctxt "#31192"
 msgid "User Friendly Name"
 msgstr ""
 
-#empty strings from id 31193 to 31202
+msgctxt "#31193"
+msgid "UnWatched TVShows"
+msgstr ""
+
+msgctxt "#31194"
+msgid "UnWatched Episodes"
+msgstr ""
+
+msgctxt "#31195"
+msgid "Use Thumbnail"
+msgstr ""
+
+#empty strings from id 31196 to 31202
 
 msgctxt "#31203"
 msgid "Choose Your Song"
