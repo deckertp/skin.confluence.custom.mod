@@ -2981,6 +2981,167 @@
 					<include>VisibleFadeEffect</include>
 				</control>
 			</control>
+			<control type="group">
+				<posx>160</posx>
+				<posy>50</posy>
+				<visible>!IsEmpty(Weather.Plugin</visible>
+				<visible>StringCompare(Container(9000).ListItem.Property(WidgetSet),Weather)</visible>
+				<include>VisibleFadeEffect</include>
+				<control type="label">
+					<description>Title label</description>
+					<posx>240</posx>
+					<posy>220</posy>
+					<height>20</height>
+					<width>480</width>
+					<label>$INFO[Window(Weather).Property(Location)]</label>
+					<align>center</align>
+					<aligny>center</aligny>
+					<font>font12_title</font>
+					<textcolor>white</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<visible>IntegerGreaterThan(Container(8015).NumItems,0)</visible>
+				</control>
+				<control type="list" id="8015">
+					<animation effect="slide" start="0,0" end="120,0" time="0" condition="StringCompare(Container(8015).NumItems,3)">conditional</animation>
+					<animation effect="slide" start="0,0" end="240,0" time="0" condition="StringCompare(Container(8015).NumItems,2)">conditional</animation>
+					<animation effect="slide" start="0,0" end="360,0" time="0" condition="StringCompare(Container(8015).NumItems,1)">conditional</animation>
+					<posx>0</posx>
+					<posy>0</posy>
+					<width>960</width>
+					<height>240</height>
+					<onleft>8015</onleft>
+					<onright>8015</onright>
+					<onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
+					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">608</ondown>
+					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
+					<viewtype label="535">list</viewtype>
+					<pagecontrol>-</pagecontrol>
+					<scrolltime>200</scrolltime>
+					<orientation>Horizontal</orientation>
+					<focusposition>1</focusposition>
+					<movement>2</movement>
+					<itemlayout height="220" width="240">
+						<control type="image">
+							<description>background</description>
+							<posx>0</posx>
+							<posy>0</posy>
+							<width>240</width>
+							<height>220</height>
+							<texture border="15">RecentAddedBack.png</texture>
+						</control>
+						<control type="image">
+							<posx>10</posx>
+							<posy>10</posy>
+							<width>220</width>
+							<height>155</height>
+							<aspectratio>keep</aspectratio>
+							<texture background="true">$INFO[ListItem.ActualIcon]</texture>
+							<bordertexture border="5">button-nofocus.png</bordertexture>
+							<bordersize>5</bordersize>
+						</control>
+						<control type="label">
+							<posx>120</posx>
+							<posy>168</posy>
+							<width>200</width>
+							<height>20</height>
+							<font>font10</font>
+							<textcolor>grey2</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<selectedcolor>selected</selectedcolor>
+							<align>center</align>
+							<aligny>center</aligny>
+							<label>$INFO[ListItem.Label]</label>
+						</control>
+						<control type="label">
+							<posx>120</posx>
+							<posy>185</posy>
+							<width>200</width>
+							<height>20</height>
+							<font>font12</font>
+							<textcolor>white</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<selectedcolor>selected</selectedcolor>
+							<align>center</align>
+							<aligny>center</aligny>
+							<label>$INFO[ListItem.Label2]</label>
+						</control>
+					</itemlayout>
+					<focusedlayout height="220" width="240">
+						<control type="image">
+							<description>background</description>
+							<posx>0</posx>
+							<posy>0</posy>
+							<width>240</width>
+							<height>220</height>
+							<texture border="15">RecentAddedBack.png</texture>
+						</control>
+						<control type="image">
+							<posx>10</posx>
+							<posy>10</posy>
+							<width>220</width>
+							<height>155</height>
+							<aspectratio>keep</aspectratio>
+							<texture background="true">$INFO[ListItem.ActualIcon]</texture>
+							<bordertexture border="5">folder-focus.png</bordertexture>
+							<bordersize>5</bordersize>
+							<visible>Control.HasFocus(8015)</visible>
+						</control>
+						<control type="image">
+							<posx>10</posx>
+							<posy>10</posy>
+							<width>220</width>
+							<height>155</height>
+							<aspectratio>keep</aspectratio>
+							<texture background="true">$INFO[ListItem.ActualIcon]</texture>
+							<bordertexture border="5">button-nofocus.png</bordertexture>
+							<bordersize>5</bordersize>
+							<visible>!Control.HasFocus(8015)</visible>
+						</control>	
+						<control type="label">
+							<posx>120</posx>
+							<posy>168</posy>
+							<width>200</width>
+							<height>20</height>
+							<font>font10</font>
+							<textcolor>grey2</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<selectedcolor>selected</selectedcolor>
+							<align>center</align>
+							<aligny>center</aligny>
+							<label>$INFO[ListItem.Label]</label>
+						</control>
+						<control type="label">
+							<posx>120</posx>
+							<posy>185</posy>
+							<width>200</width>
+							<height>20</height>
+							<font>font12</font>
+							<textcolor>white</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<selectedcolor>selected</selectedcolor>
+							<align>center</align>
+							<aligny>center</aligny>
+							<label>$INFO[ListItem.Label2]</label>
+						</control>
+						<control type="label">
+							<posx>120</posx>
+							<posy>185</posy>
+							<width>200</width>
+							<height>20</height>
+							<font>font12</font>
+							<textcolor>blue</textcolor>
+							<selectedcolor>selected</selectedcolor>
+							<align>center</align>
+							<aligny>center</aligny>
+							<label>$INFO[ListItem.Label2]</label>
+							<visible>Control.HasFocus(8015)</visible>
+						</control>
+					</focusedlayout>
+					<include>WeatherForecastContent</include>
+				</control>
+			</control>			
 		</control>
 	</include>
 	<include name="MovieWidgetLayout">
@@ -6330,6 +6491,47 @@
 				<thumb>$INFO[Window(Home).Property(PlaylistRandomMovieUnWatched.10.Art(fanart))]</thumb>
 				<visible>!IsEmpty(Window(Home).Property(PlaylistRandomMovieUnWatched.10.Title))</visible>
 			</item>
+		</content>
+	</include>
+	<include name="WeatherForecastContent">
+		<content>
+			<item>
+				<label>$LOCALIZE[143]</label>
+				<label2>$INFO[Window(Weather).Property(Current.Condition)]</label2>
+				<onclick>ActivateWindow(Weather)</onclick>
+				<icon>$INFO[Window(Weather).Property(Current.ConditionIcon)]</icon>
+				<thumb>$INFO[Skin.String(WeatherFanartDir)]$INFO[Window(Weather).Property(Current.FanartCode)]</thumb>
+				<visible>!Skin.HasSetting(homepageWeatherinfo)</visible>
+			</item>		
+			<item>
+				<label>$INFO[Window(Weather).Property(Day1.Title)]</label>
+				<label2>$INFO[Window(Weather).Property(Day1.Outlook)]</label2>
+				<onclick>ActivateWindow(Weather)</onclick>
+				<icon>$INFO[Window(Weather).Property(Day1.OutlookIcon)]</icon>
+				<thumb>$INFO[Skin.String(WeatherFanartDir)]$INFO[Window(Weather).Property(Day1.FanartCode)]</thumb>
+			</item>
+			<item>
+				<label>$INFO[Window(Weather).Property(Day2.Title)]</label>
+				<label2>$INFO[Window(Weather).Property(Day2.Outlook)]</label2>
+				<onclick>ActivateWindow(Weather)</onclick>
+				<icon>$INFO[Window(Weather).Property(Day2.OutlookIcon)]</icon>
+				<thumb>$INFO[Skin.String(WeatherFanartDir)]$INFO[Window(Weather).Property(Day2.FanartCode)]</thumb>
+			</item>
+			<item>
+				<label>$INFO[Window(Weather).Property(Day3.Title)]</label>
+				<label2>$INFO[Window(Weather).Property(Day3.Outlook)]</label2>
+				<onclick>ActivateWindow(Weather)</onclick>
+				<icon>$INFO[Window(Weather).Property(Day3.OutlookIcon)]</icon>
+				<thumb>$INFO[Skin.String(WeatherFanartDir)]$INFO[Window(Weather).Property(Day3.FanartCode)]</thumb>
+			</item>
+			<item>
+				<label>$INFO[Window(Weather).Property(Day4.Title)]</label>
+				<label2>$INFO[Window(Weather).Property(Day4.Outlook)]</label2>
+				<onclick>ActivateWindow(Weather)</onclick>
+				<icon>$INFO[Window(Weather).Property(Day4.OutlookIcon)]</icon>
+				<thumb>$INFO[Skin.String(WeatherFanartDir)]$INFO[Window(Weather).Property(Day4.FanartCode)]</thumb>
+				<visible>Skin.HasSetting(homepageWeatherinfo)</visible>
+			</item>					
 		</content>
 	</include>
 </includes>

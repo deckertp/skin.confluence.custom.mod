@@ -602,6 +602,7 @@
 		<value condition="stringcompare(Skin.String(HomeItem.1.Widget),SuggestedConcerts)">$LOCALIZE[31186]</value>
 		<value condition="stringcompare(Skin.String(HomeItem.1.Widget),UnWatched)">$LOCALIZE[16101] $LOCALIZE[20342]</value>
 		<value condition="stringcompare(Skin.String(HomeItem.1.Widget),PlayListVideo)">$LOCALIZE[136]</value>
+		<value condition="stringcompare(Skin.String(HomeItem.1.Widget),Weather)">$LOCALIZE[8]</value>
 		<value>$LOCALIZE[31093]</value>
 	</variable>
 	<variable name="UsrDefItemTwoWidgetLabel" type="text">
@@ -619,6 +620,7 @@
 		<value condition="stringcompare(Skin.String(HomeItem.2.Widget),SuggestedConcerts)">$LOCALIZE[31186]</value>
 		<value condition="stringcompare(Skin.String(HomeItem.2.Widget),UnWatched)">$LOCALIZE[16101] $LOCALIZE[20342]</value>
 		<value condition="stringcompare(Skin.String(HomeItem.2.Widget),PlayListVideo)">$LOCALIZE[136]</value>
+		<value condition="stringcompare(Skin.String(HomeItem.2.Widget),Weather)">$LOCALIZE[8]</value>
 		<value>$LOCALIZE[31093]</value>
 	</variable>
 	<variable name="UsrDefItemThreeWidgetLabel" type="text">
@@ -636,6 +638,7 @@
 		<value condition="stringcompare(Skin.String(HomeItem.3.Widget),SuggestedConcerts)">$LOCALIZE[31186]</value>
 		<value condition="stringcompare(Skin.String(HomeItem.3.Widget),UnWatched)">$LOCALIZE[16101] $LOCALIZE[20342]</value>
 		<value condition="stringcompare(Skin.String(HomeItem.3.Widget),PlayListVideo)">$LOCALIZE[136]</value>
+		<value condition="stringcompare(Skin.String(HomeItem.3.Widget),Weather)">$LOCALIZE[8]</value>
 		<value>$LOCALIZE[31093]</value>
 	</variable>
 	<variable name="UsrDefItemFourWidgetLabel" type="text">
@@ -653,6 +656,7 @@
 		<value condition="stringcompare(Skin.String(HomeItem.4.Widget),SuggestedConcerts)">$LOCALIZE[31186]</value>
 		<value condition="stringcompare(Skin.String(HomeItem.4.Widget),UnWatched)">$LOCALIZE[16101] $LOCALIZE[20342]</value>
 		<value condition="stringcompare(Skin.String(HomeItem.4.Widget),PlayListVideo)">$LOCALIZE[136]</value>
+		<value condition="stringcompare(Skin.String(HomeItem.4.Widget),Weather)">$LOCALIZE[8]</value>
 		<value>$LOCALIZE[31093]</value>
 	</variable>
 	<variable name="UsrDefItemFiveWidgetLabel" type="text">
@@ -670,6 +674,7 @@
 		<value condition="stringcompare(Skin.String(HomeItem.5.Widget),SuggestedConcerts)">$LOCALIZE[31186]</value>
 		<value condition="stringcompare(Skin.String(HomeItem.5.Widget),UnWatched)">$LOCALIZE[16101] $LOCALIZE[20342]</value>
 		<value condition="stringcompare(Skin.String(HomeItem.5.Widget),PlayListVideo)">$LOCALIZE[136]</value>
+		<value condition="stringcompare(Skin.String(HomeItem.5.Widget),Weather)">$LOCALIZE[8]</value>
 		<value>$LOCALIZE[31093]</value>
 	</variable>
 	<variable name="UsrDefItemSixWidgetLabel" type="text">
@@ -687,6 +692,7 @@
 		<value condition="stringcompare(Skin.String(HomeItem.6.Widget),SuggestedConcerts)">$LOCALIZE[31186]</value>
 		<value condition="stringcompare(Skin.String(HomeItem.6.Widget),UnWatched)">$LOCALIZE[16101] $LOCALIZE[20342]</value>
 		<value condition="stringcompare(Skin.String(HomeItem.6.Widget),PlayListVideo)">$LOCALIZE[136]</value>
+		<value condition="stringcompare(Skin.String(HomeItem.6.Widget),Weather)">$LOCALIZE[8]</value>
 		<value>$LOCALIZE[31093]</value>
 	</variable>
 	<variable name="UsrDefItemSevenWidgetLabel" type="text">
@@ -704,6 +710,7 @@
 		<value condition="stringcompare(Skin.String(HomeItem.7.Widget),SuggestedConcerts)">$LOCALIZE[31186]</value>
 		<value condition="stringcompare(Skin.String(HomeItem.7.Widget),UnWatched)">$LOCALIZE[16101] $LOCALIZE[20342]</value>
 		<value condition="stringcompare(Skin.String(HomeItem.7.Widget),PlayListVideo)">$LOCALIZE[136]</value>
+		<value condition="stringcompare(Skin.String(HomeItem.7.Widget),Weather)">$LOCALIZE[8]</value>
 		<value>$LOCALIZE[31093]</value>
 	</variable>
 	<variable name="UsrDefItemEightWidgetLabel" type="text">
@@ -721,6 +728,7 @@
 		<value condition="stringcompare(Skin.String(HomeItem.8.Widget),SuggestedConcerts)">$LOCALIZE[31186]</value>
 		<value condition="stringcompare(Skin.String(HomeItem.8.Widget),UnWatched)">$LOCALIZE[16101] $LOCALIZE[20342]</value>
 		<value condition="stringcompare(Skin.String(HomeItem.8.Widget),PlayListVideo)">$LOCALIZE[136]</value>
+		<value condition="stringcompare(Skin.String(HomeItem.8.Widget),Weather)">$LOCALIZE[8]</value>
 		<value>$LOCALIZE[31093]</value>
 	</variable>
 	<variable name="UsrDefItemNineWidgetLabel" type="text">
@@ -738,6 +746,7 @@
 		<value condition="stringcompare(Skin.String(HomeItem.9.Widget),SuggestedConcerts)">$LOCALIZE[31186]</value>
 		<value condition="stringcompare(Skin.String(HomeItem.9.Widget),UnWatched)">$LOCALIZE[16101] $LOCALIZE[20342]</value>
 		<value condition="stringcompare(Skin.String(HomeItem.9.Widget),PlayListVideo)">$LOCALIZE[136]</value>
+		<value condition="stringcompare(Skin.String(HomeItem.9.Widget),Weather)">$LOCALIZE[8]</value>
 		<value>$LOCALIZE[31093]</value>
 	</variable>
 	<variable name="UsrDefItemTenWidgetLabel" type="text">
@@ -755,6 +764,7 @@
 		<value condition="stringcompare(Skin.String(HomeItem.10.Widget),SuggestedConcerts)">$LOCALIZE[31186]</value>
 		<value condition="stringcompare(Skin.String(HomeItem.10.Widget),UnWatched)">$LOCALIZE[16101] $LOCALIZE[20342]</value>
 		<value condition="stringcompare(Skin.String(HomeItem.10.Widget),PlayListVideo)">$LOCALIZE[136]</value>
+		<value condition="stringcompare(Skin.String(HomeItem.10.Widget),Weather)">$LOCALIZE[8]</value>
 		<value>$LOCALIZE[31093]</value>
 	</variable>
 	<variable name="UsrDefItemTwelveWidgetLabel" type="text">
@@ -772,6 +782,7 @@
 		<value condition="stringcompare(Skin.String(HomeItem.12.Widget),SuggestedConcerts)">$LOCALIZE[31186]</value>
 		<value condition="stringcompare(Skin.String(HomeItem.12.Widget),UnWatched)">$LOCALIZE[16101] $LOCALIZE[20342]</value>
 		<value condition="stringcompare(Skin.String(HomeItem.12.Widget),PlayListVideo)">$LOCALIZE[136]</value>
+		<value condition="stringcompare(Skin.String(HomeItem.12.Widget),Weather)">$LOCALIZE[8]</value>
 		<value>$LOCALIZE[31093]</value>
 	</variable>
 	<variable name="SetMenuOneBackground" type="text">

@@ -53,7 +53,7 @@
 		<onload condition="!IsEmpty(Weather.Plugin)">Skin.SetString(HomeItem.1.Path,ActivateWindow(Weather))</onload>
 		<onload condition="!IsEmpty(Weather.Plugin)">Skin.SetString(HomeItem.1.Sub,None)</onload>
 		<onload condition="!IsEmpty(Weather.Plugin)">Skin.SetString(HomeItem.1.Addon,None)</onload>
-		<onload condition="!IsEmpty(Weather.Plugin)">Skin.SetString(HomeItem.1.Widget,None)</onload>
+		<onload condition="!IsEmpty(Weather.Plugin)">Skin.SetString(HomeItem.1.Widget,Weather)</onload>
 		<onload condition="!IsEmpty(Weather.Plugin)">Skin.SetString(HomeItem.1.Type,Weather)</onload>
 		<onload condition="!IsEmpty(Weather.Plugin)">Skin.SetString(HomeItem.1.Fanart,special://skin/backgrounds/homescreen/weather.jpg)</onload>
 		<onload>Skin.SetString(HomeItem.2.Label,$LOCALIZE[1])</onload>

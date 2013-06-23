@@ -216,6 +216,16 @@
 				<include>Window_OpenClose_Animation</include>
 				<visible>Control.HasFocus(8014)</visible>
 			</control>
+			<control type="multiimage">
+				<description>Weather Widget Background Image</description>
+				<include>Dimensions_Fullscreen</include>
+				<aspectratio>scale</aspectratio>
+				<imagepath background="true">$INFO[Container(8015).ListItem.Thumb]</imagepath>
+				<timeperimage>8000</timeperimage>
+				<randomize>true</randomize>
+				<fadetime>1000</fadetime>
+				<visible>Control.HasFocus(8015)</visible>
+			</control>
 		</control>
 		<control type="multiimage">
 			<include>Dimensions_Fullscreen</include>
