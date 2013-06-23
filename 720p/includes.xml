@@ -81,14 +81,14 @@
 		<onload condition="Library.HasContent(Movies)">Skin.SetString(HomeItem.5.Path,ActivateWindow(Videos,MovieTitles,return))</onload>
 		<onload condition="Library.HasContent(Movies)">Skin.SetString(HomeItem.5.Sub,Movies)</onload>
 		<onload condition="Library.HasContent(Movies)">Skin.SetString(HomeItem.5.Addon,Videos)</onload>
-		<onload condition="Library.HasContent(Movies)">Skin.SetString(HomeItem.5.Widget,None)</onload>
+		<onload condition="Library.HasContent(Movies)">Skin.SetString(HomeItem.5.Widget,SuggestedMovies)</onload>
 		<onload condition="Library.HasContent(Movies)">Skin.SetString(HomeItem.5.Type,Movies)</onload>
 		<onload condition="Library.HasContent(Movies)">Skin.SetString(HomeItem.5.Fanart,special://skin/backgrounds/homescreen/videos.jpg)</onload>
 		<onload condition="Library.HasContent(TVShows)">Skin.SetString(HomeItem.6.Label,$LOCALIZE[20343])</onload>
 		<onload condition="Library.HasContent(TVShows)">Skin.SetString(HomeItem.6.Path,ActivateWindow(Videos,TVShowTitles,return))</onload>
 		<onload condition="Library.HasContent(TVShows)">Skin.SetString(HomeItem.6.Sub,TVShows)</onload>
 		<onload condition="Library.HasContent(TVShows)">Skin.SetString(HomeItem.6.Addon,Videos)</onload>
-		<onload condition="Library.HasContent(TVShows)">Skin.SetString(HomeItem.6.Widget,None)</onload>
+		<onload condition="Library.HasContent(TVShows)">Skin.SetString(HomeItem.6.Widget,SuggestedEpisodes)</onload>
 		<onload condition="Library.HasContent(TVShows)">Skin.SetString(HomeItem.6.Type,TVShows)</onload>
 		<onload condition="Library.HasContent(TVShows)">Skin.SetString(HomeItem.6.Fanart,special://skin/backgrounds/homescreen/videos.jpg)</onload>
 		<onload>Skin.SetString(HomeItem.7.Label,$LOCALIZE[31332])</onload>
@@ -110,7 +110,7 @@
 		<onload>Skin.SetString(HomeItem.9.Path,ActivateWindow(Music))</onload>
 		<onload>Skin.SetString(HomeItem.9.Sub,Music)</onload>
 		<onload>Skin.SetString(HomeItem.9.Addon,Music)</onload>
-		<onload>Skin.SetString(HomeItem.9.Widget,None)</onload>
+		<onload>Skin.SetString(HomeItem.9.Widget,SuggestedAlbums)</onload>
 		<onload>Skin.SetString(HomeItem.9.Type,Music)</onload>
 		<onload>Skin.SetString(HomeItem.9.Fanart,special://skin/backgrounds/homescreen/music.jpg)</onload>
 		<onload>Skin.SetString(HomeItem.10.Label,$LOCALIZE[0])</onload>
