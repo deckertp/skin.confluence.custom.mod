@@ -689,7 +689,7 @@
 						<posy>8</posy>
 						<width>40</width>
 						<height>26</height>
-						<texture>$INFO[ListItem.VideoResolution,flagging/lists/,.png]</texture>
+						<texture>$VAR[VideoResolutionFlag]</texture>
 						<animation effect="slide" start="0,0" end="18,0" delay="0" time="0" condition="stringcompare(Skin.String(WatchStatusType),Hidden)">conditional</animation>
 						<visible>!Skin.HasSetting(ViewSubTitleFlag)</visible>
 						<visible>Window.IsVisible(Videos) + [Container.Content(Movies) | Container.Content(Episodes) | Container.Content(MusicVideos)]</visible>
@@ -800,7 +800,7 @@
 						<posy>8</posy>
 						<width>40</width>
 						<height>26</height>
-						<texture>$INFO[ListItem.VideoResolution,flagging/lists/,.png]</texture>
+						<texture>$VAR[VideoResolutionFlag]</texture>
 						<animation effect="slide" start="0,0" end="18,0" delay="0" time="0" condition="stringcompare(Skin.String(WatchStatusType),Hidden)">conditional</animation>
 						<visible>!Skin.HasSetting(ViewSubTitleFlag)</visible>
 						<visible>Window.IsVisible(Videos) + [Container.Content(Movies) | Container.Content(Episodes) | Container.Content(MusicVideos)]</visible>
@@ -1213,7 +1213,7 @@
 						<posy>8</posy>
 						<width>40</width>
 						<height>26</height>
-						<texture>$INFO[ListItem.VideoResolution,flagging/lists/,.png]</texture>
+						<texture>$VAR[VideoResolutionFlag]</texture>
 						<animation effect="slide" start="0,0" end="18,0" delay="0" time="0" condition="stringcompare(Skin.String(WatchStatusType),Hidden)">conditional</animation>
 						<visible>Window.IsVisible(Videos) + [Container.Content(Movies) | Container.Content(Episodes) | Container.Content(MusicVideos)]</visible>
 						<visible>!Skin.HasSetting(ViewSubTitleFlag)</visible>
@@ -1324,7 +1324,7 @@
 						<posy>8</posy>
 						<width>40</width>
 						<height>26</height>
-						<texture>$INFO[ListItem.VideoResolution,flagging/lists/,.png]</texture>
+						<texture>$VAR[VideoResolutionFlag]</texture>
 						<animation effect="slide" start="0,0" end="18,0" delay="0" time="0" condition="stringcompare(Skin.String(WatchStatusType),Hidden)">conditional</animation>
 						<visible>Window.IsVisible(Videos) + [Container.Content(Movies) | Container.Content(Episodes) | Container.Content(MusicVideos)]</visible>
 						<visible>!Skin.HasSetting(ViewSubTitleFlag)</visible>

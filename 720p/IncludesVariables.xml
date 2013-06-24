@@ -17,6 +17,10 @@
 		<value condition="[substring(ListItem.FilenameAndPath,pdtv) | substring(ListItem.FilenameAndPath,hdtv) | substring(ListItem.FilenameAndPath,dsr)]">TV</value>
 		<value condition="substring(ListItem.FilenameAndPath,vhs)">vhs</value>
 	</variable>
+	<variable name="VideoResolutionFlag">
+		<value condition="[SubString(ListItem.FilenameAndPath,3d) | SubString(ListItem.FilenameAndPath,.SBS.)]">flagging/lists/3D.png</value>
+		<value>$INFO[ListItem.VideoResolution,flagging/lists/,.png]</value>
+	</variable>
 	<variable name="rating">
 		<value condition="stringcompare(Skin.String(MPAACountryCert),$LOCALIZE[31701]) + substring(listitem.mpaa,U)">bbfc_u</value>
 		<value condition="stringcompare(Skin.String(MPAACountryCert),$LOCALIZE[31701]) + substring(listitem.mpaa,PG)">bbfc_pg</value>
