@@ -420,9 +420,7 @@ msgctxt "#31123"
 msgid "OpenElec OS"
 msgstr ""
 
-msgctxt "#31124"
-msgid "Show Background \"Now Playing\" Video"
-msgstr ""
+#empty strings from id 31124 to 31124
 
 msgctxt "#31125"
 msgid "Show Background \"Now Playing\" Visualization"
