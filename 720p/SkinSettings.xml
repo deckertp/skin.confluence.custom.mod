@@ -258,18 +258,6 @@
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
-					<control type="radiobutton" id="101">
-						<width>750</width>
-						<height>40</height>
-						<font>font13</font>
-						<label>31075</label>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
-						<texturefocus>MenuItemFO.png</texturefocus>
-						<texturenofocus>MenuItemNF.png</texturenofocus>
-						<onclick>Skin.ToggleSetting(HideMousePointer)</onclick>
-						<selected>Skin.HasSetting(HideMousePointer)</selected>
-					</control>
 					<control type="radiobutton" id="102">
 						<width>750</width>
 						<height>40</height>
