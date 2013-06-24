@@ -790,18 +790,6 @@
 						<onclick>Skin.ToggleSetting(WindowedTrailer)</onclick>
 						<selected>Skin.HasSetting(WindowedTrailer)</selected>
 					</control>
-					<control type="radiobutton" id="147">
-						<width>750</width>
-						<height>40</height>
-						<font>font13</font>
-						<label>31107</label>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
-						<texturefocus>MenuItemFO.png</texturefocus>
-						<texturenofocus>MenuItemNF.png</texturenofocus>
-						<onclick>Skin.ToggleSetting(HideFilenameFlagging)</onclick>
-						<selected>Skin.HasSetting(HideFilenameFlagging)</selected>
-					</control>
 					<control type="button" id="148">
 						<width>750</width>
 						<height>40</height>

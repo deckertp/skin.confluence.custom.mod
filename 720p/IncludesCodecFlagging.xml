@@ -32,7 +32,6 @@
 			<height>35</height>
 			<aspectratio align="left">keep</aspectratio>
 			<texture>$VAR[typehackflagging,flagging/video/,.png]</texture>
-			<visible>!Skin.HasSetting(HideFilenameFlagging)</visible>
 		</control>
 	</include>
 	<include name="VideoMPAAFlaggingConditions">
