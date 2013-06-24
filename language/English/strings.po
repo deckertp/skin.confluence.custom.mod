@@ -230,9 +230,7 @@ msgctxt "#31073"
 msgid "Show Story Plot on Pause"
 msgstr ""
 
-msgctxt "#31074"
-msgid "Use Default Resumeable Icon"
-msgstr ""
+#empty string id 31074
 
 msgctxt "#31075"
 msgid "Invisible Mouse Pointer"

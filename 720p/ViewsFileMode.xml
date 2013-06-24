@@ -75,7 +75,7 @@
 						<visible>Window.IsVisible(Videos) + [Container.Content(Movies) | Container.Content(Episodes) | Container.Content(MusicVideos)]</visible>
 						<visible>Skin.HasSetting(ViewSubTitleFlag) + !IsEmpty(ListItem.SubtitleLanguage)</visible>
 					</control>
-								<control type="image">
+					<control type="image">
 						<posx>625</posx>
 						<posy>8</posy>
 						<width>40</width>
@@ -92,15 +92,7 @@
 							<width>32</width>
 							<height>32</height>
 							<texture diffuse="poster-diffuse.png">OverlayStatus/resumable/OverlayUnwatched.png</texture>
-							<visible>Skin.HasSetting(ResumeStatusPosi)</visible>
-						</control>
-						<control type="image">
-							<posx>665</posx>
-							<posy>14</posy>
-							<width>16</width>
-							<height>16</height>
-							<texture>OverlayWatching.png</texture>
-							<visible>!Skin.HasSetting(ResumeStatusPosi) + ListItem.IsResumable</visible>
+							<visible>ListItem.IsResumable</visible>
 						</control>
 						<control type="image">
 							<posx>658</posx>
@@ -108,7 +100,7 @@
 							<width>32</width>
 							<height>32</height>
 							<texture diffuse="poster-diffuse.png">$VAR[PartlyWatched,OverlayStatus/resumable/,.png]</texture>
-							<visible>Skin.HasSetting(ResumeStatusPosi) + ListItem.IsResumable</visible>
+							<visible>ListItem.IsResumable</visible>
 						</control>
 						<control type="image">
 							<posx>662</posx>
@@ -230,15 +222,7 @@
 							<width>32</width>
 							<height>32</height>
 							<texture diffuse="poster-diffuse.png">OverlayStatus/resumable/OverlayUnwatched.png</texture>
-							<visible>Skin.HasSetting(ResumeStatusPosi)</visible>
-						</control>
-						<control type="image">
-							<posx>665</posx>
-							<posy>14</posy>
-							<width>16</width>
-							<height>16</height>
-							<texture>OverlayWatching.png</texture>
-							<visible>!Skin.HasSetting(ResumeStatusPosi) + ListItem.IsResumable</visible>
+							<visible>ListItem.IsResumable</visible>
 						</control>
 						<control type="image">
 							<posx>658</posx>
@@ -246,7 +230,7 @@
 							<width>32</width>
 							<height>32</height>
 							<texture diffuse="poster-diffuse.png">$VAR[PartlyWatched,OverlayStatus/resumable/,.png]</texture>
-							<visible>Skin.HasSetting(ResumeStatusPosi) + ListItem.IsResumable</visible>
+							<visible>ListItem.IsResumable</visible>
 						</control>
 						<control type="image">
 							<posx>662</posx>
@@ -698,15 +682,7 @@
 							<width>32</width>
 							<height>32</height>
 							<texture diffuse="poster-diffuse.png">OverlayStatus/resumable/OverlayUnwatched.png</texture>
-							<visible>Skin.HasSetting(ResumeStatusPosi)</visible>
-						</control>
-						<control type="image">
-							<posx>1050</posx>
-							<posy>14</posy>
-							<width>16</width>
-							<height>16</height>
-							<texture>OverlayWatching.png</texture>
-							<visible>!Skin.HasSetting(ResumeStatusPosi) + ListItem.IsResumable</visible>
+							<visible>ListItem.IsResumable</visible>
 						</control>
 						<control type="image">
 							<posx>1045</posx>
@@ -714,7 +690,7 @@
 							<width>32</width>
 							<height>32</height>
 							<texture diffuse="poster-diffuse.png">$VAR[PartlyWatched,OverlayStatus/resumable/,.png]</texture>
-							<visible>Skin.HasSetting(ResumeStatusPosi) + ListItem.IsResumable</visible>
+							<visible>ListItem.IsResumable</visible>
 						</control>
 						<control type="image">
 							<posx>1047</posx>
@@ -838,15 +814,7 @@
 							<width>32</width>
 							<height>32</height>
 							<texture diffuse="poster-diffuse.png">OverlayStatus/resumable/OverlayUnwatched.png</texture>
-							<visible>Skin.HasSetting(ResumeStatusPosi)</visible>
-						</control>
-						<control type="image">
-							<posx>1050</posx>
-							<posy>14</posy>
-							<width>16</width>
-							<height>16</height>
-							<texture>OverlayWatching.png</texture>
-							<visible>!Skin.HasSetting(ResumeStatusPosi) + ListItem.IsResumable</visible>
+							<visible>ListItem.IsResumable</visible>
 						</control>
 						<control type="image">
 							<posx>1045</posx>
@@ -854,7 +822,7 @@
 							<width>32</width>
 							<height>32</height>
 							<texture diffuse="poster-diffuse.png">$VAR[PartlyWatched,OverlayStatus/resumable/,.png]</texture>
-							<visible>Skin.HasSetting(ResumeStatusPosi) + ListItem.IsResumable</visible>
+							<visible>ListItem.IsResumable</visible>
 						</control>
 						<control type="image">
 							<posx>1047</posx>

@@ -778,18 +778,6 @@
 						<onclick condition="stringcompare(Container(9009).ListItem.Label,Default)">Skin.Reset(WatchStatusType)</onclick>
 						<onclick condition="!stringcompare(Container(9009).ListItem.Label,Default)">Skin.SetString(WatchStatusType,$INFO[Container(9009).ListItem.Label])</onclick>
 					</control>
-					<control type="radiobutton" id="143">
-						<width>750</width>
-						<height>40</height>
-						<font>font13</font>
-						<label>31074</label>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
-						<texturefocus>MenuItemFO.png</texturefocus>
-						<texturenofocus>MenuItemNF.png</texturenofocus>
-						<onclick>Skin.ToggleSetting(ResumeStatusPosi)</onclick>
-						<selected>!Skin.HasSetting(ResumeStatusPosi)</selected>
-					</control>
 					<control type="radiobutton" id="144">
 						<width>750</width>
 						<height>40</height>
