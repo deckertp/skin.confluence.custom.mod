@@ -657,9 +657,7 @@
 						<ondown>9000</ondown>
 						<onclick>XBMC.PlayerControl(Next)</onclick>
 					</control>
-					
-					
-<control type="button" id="607">
+					<control type="button" id="607">
 						<posx>190</posx>
 						<posy>2</posy>
 						<width>30</width>
@@ -667,7 +665,7 @@
 						<label>-</label>
 						<texturefocus>lastfm/lastfm-love-focus.png</texturefocus>
 						<texturenofocus>lastfm/lastfm-love-nofocus.png</texturenofocus>
-						<onleft>604</onleft>
+						<onleft>606</onleft>
 						<onright>608</onright>
 						<onup condition="Skin.HasSetting(RaiseMainMenuBar)">9003</onup>
 						<onup condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</onup>
@@ -692,7 +690,7 @@
 						<onclick>RunScript(plugin.audio.lastfm,action=LastFM.Ban&amp;artist=$INFO[MusicPlayer.Artist]&amp;song=$INFO[MusicPlayer.Title])</onclick>
 						<enable>SubString(Window(Home).Property(LastFM.CanBan),true)</enable>
 						<visible>System.HasAddon(plugin.audio.lastfm) + Player.HasAudio</visible>
-</control>			
+					</control>			
 				</control>
 				<control type="group" id="600">
 					<visible>VideoPlayer.Content(LiveTV)</visible>
@@ -754,7 +752,7 @@
 						<alttexturefocus>OSDPlayFO.png</alttexturefocus>
 						<alttexturenofocus>OSDPlayNF.png</alttexturenofocus>
 						<onleft>603</onleft>
-						<onright>606</onright>
+						<onright>608</onright>
 						<onup condition="Skin.HasSetting(RaiseMainMenuBar)">9003</onup>
 						<onup condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</onup>
 						<ondown>9000</ondown>
@@ -762,7 +760,7 @@
 						<enable>Player.PauseEnabled</enable>
 						<animation effect="fade" start="100" end="30" time="100" condition="!Player.PauseEnabled">Conditional</animation>
 					</control>
-					<control type="button" id="606">
+					<control type="button" id="608">
 						<posx>160</posx>
 						<posy>2</posy>
 						<width>30</width>
@@ -802,7 +800,7 @@
 				<onclick>fullscreen</onclick>
 				<textureradiofocus>GoFullscreen.png</textureradiofocus>
 				<textureradionofocus>GoFullscreen.png</textureradionofocus>
-<onleft>608</onleft>	
+				<onleft>608</onleft>	
 				<onright>610</onright>
 				<onup condition="Skin.HasSetting(RaiseMainMenuBar)">9003</onup>
 				<onup condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</onup>
