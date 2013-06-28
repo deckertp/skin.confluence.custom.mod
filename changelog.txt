@@ -1,3 +1,12 @@
+B]1.1.6[/B] [I]June 2013[/I]
+- Added Weather widget
+- Added option for Favourite as Home Addon
+- Added 3D BluRay Flags (Filename Reading)
+- [WIP] Added support LastFM plugin
+- Removed Invisable Mouse, Toggle FileName Reading, Hide Backgound Video.
+- Removed Unwatched Checkmark, Original Watching png
+- Reverted Widget episode Names
+
 [B]1.1.5[/B] [I]June 2013[/I]
 - Updated language files from Transifex
 - Added VerticalLogo View [WIP]
