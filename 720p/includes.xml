@@ -59,7 +59,7 @@
 		<onload>Skin.SetString(HomeItem.2.Label,$LOCALIZE[1])</onload>
 		<onload>Skin.SetString(HomeItem.2.Path,ActivateWindow(Pictures))</onload>
 		<onload>Skin.SetString(HomeItem.2.Sub,Pictures)</onload>
-		<onload>Skin.SetString(HomeItem.2.Addon,Pictures)</onload>
+		<onload>Skin.SetString(HomeItem.2.Addon,None)</onload>
 		<onload>Skin.SetString(HomeItem.2.Widget,None)</onload>
 		<onload>Skin.SetString(HomeItem.2.Type,Pictures)</onload>
 		<onload>Skin.SetString(HomeItem.2.Fanart,special://skin/backgrounds/homescreen/pictures.jpg)</onload>
