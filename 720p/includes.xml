@@ -1084,7 +1084,7 @@
 				<aspectratio aligny="bottom">keep</aspectratio>
 				<bordertexture border="5">button-nofocus.png</bordertexture>
 				<bordersize>3</bordersize>
-				<texture background="true">$INFO[ListItem.Thumb]</texture>
+				<texture background="true">$INFO[ListItem.Icon]</texture>
 			</control>
 			<control type="image">
 				<posx>5</posx>
@@ -1092,7 +1092,7 @@
 				<width>170</width>
 				<height>110</height>
 				<aspectratio aligny="top">keep</aspectratio>
-				<texture diffuse="diffuse_mirror2.png" flipy="true" background="true">$INFO[ListItem.Thumb]</texture>
+				<texture diffuse="diffuse_mirror2.png" flipy="true" background="true">$INFO[ListItem.Icon]</texture>
 			</control>
 			<control type="label">
 				<posx>91</posx>
@@ -1115,7 +1115,7 @@
 				<aspectratio aligny="bottom">keep</aspectratio>
 				<bordertexture border="5">button-nofocus.png</bordertexture>
 				<bordersize>3</bordersize>
-				<texture background="true">$INFO[ListItem.Thumb]</texture>
+				<texture background="true">$INFO[ListItem.Icon]</texture>
 				<visible>!ControlGroup(9002).HasFocus</visible>
 			</control>
 			<control type="image">
@@ -1126,7 +1126,7 @@
 				<aspectratio aligny="bottom">keep</aspectratio>
 				<bordertexture border="10">folder-focus.png</bordertexture>
 				<bordersize>6</bordersize>
-				<texture background="true">$INFO[ListItem.Thumb]</texture>
+				<texture background="true">$INFO[ListItem.Icon]</texture>
 				<visible>ControlGroup(9002).HasFocus</visible>
 			</control>
 			<control type="image">
@@ -1135,7 +1135,7 @@
 				<width>170</width>
 				<height>110</height>
 				<aspectratio aligny="top">keep</aspectratio>
-				<texture diffuse="diffuse_mirror2.png" flipy="true" background="true">$INFO[ListItem.Thumb]</texture>
+				<texture diffuse="diffuse_mirror2.png" flipy="true" background="true">$INFO[ListItem.Icon]</texture>
 			</control>
 			<control type="label">
 				<posx>91</posx>

@@ -734,35 +734,35 @@
 		<item>
 			<label>$INFO[Skin.String(AddonSetOne.1.Label)]</label>
 			<onclick>$INFO[Skin.String(AddonSetOne.1.Path)]</onclick>
-			<icon>special://skin/backgrounds/homescreen/addons.jpg</icon>
+			<icon>DefaultAddon.png</icon>
 			<thumb>$INFO[Skin.String(AddonSetOne.1.icon)]</thumb>
 			<visible>!IsEmpty(Skin.String(AddonSetOne.1.Path))</visible>
 		</item>
 		<item>
 			<label>$INFO[Skin.String(AddonSetOne.2.Label)]</label>
 			<onclick>$INFO[Skin.String(AddonSetOne.2.Path)]</onclick>
-			<icon>special://skin/backgrounds/homescreen/addons.jpg</icon>
+			<icon>DefaultAddon.png</icon>
 			<thumb>$INFO[Skin.String(AddonSetOne.2.icon)]</thumb>
 			<visible>!IsEmpty(Skin.String(AddonSetOne.2.Path))</visible>
 		</item>
 		<item>
 			<label>$INFO[Skin.String(AddonSetOne.3.Label)]</label>
 			<onclick>$INFO[Skin.String(AddonSetOne.3.Path)]</onclick>
-			<icon>special://skin/backgrounds/homescreen/addons.jpg</icon>
+			<icon>DefaultAddon.png</icon>
 			<thumb>$INFO[Skin.String(AddonSetOne.3.icon)]</thumb>
 			<visible>!IsEmpty(Skin.String(AddonSetOne.3.Path))</visible>
 		</item>
 		<item>
 			<label>$INFO[Skin.String(AddonSetOne.4.Label)]</label>
 			<onclick>$INFO[Skin.String(AddonSetOne.4.Path)]</onclick>
-			<icon>special://skin/backgrounds/homescreen/addons.jpg</icon>
+			<icon>DefaultAddon.png</icon>
 			<thumb>$INFO[Skin.String(AddonSetOne.4.icon)]</thumb>
 			<visible>!IsEmpty(Skin.String(AddonSetOne.4.Path))</visible>
 		</item>
 		<item>
 			<label>$INFO[Skin.String(AddonSetOne.5.Label)]</label>
 			<onclick>$INFO[Skin.String(AddonSetOne.5.Path)]</onclick>
-			<icon>special://skin/backgrounds/homescreen/addons.jpg</icon>
+			<icon>DefaultAddon.png</icon>
 			<thumb>$INFO[Skin.String(AddonSetOne.5.icon)]</thumb>
 			<visible>!IsEmpty(Skin.String(AddonSetOne.5.Path))</visible>
 		</item>
@@ -771,35 +771,35 @@
 		<item>
 			<label>$INFO[Skin.String(AddonSetTwo.1.Label)]</label>
 			<onclick>$INFO[Skin.String(AddonSetTwo.1.Path)]</onclick>
-			<icon>special://skin/backgrounds/homescreen/addons.jpg</icon>
+			<icon>DefaultAddon.png</icon>
 			<thumb>$INFO[Skin.String(AddonSetTwo.1.icon)]</thumb>
 			<visible>!IsEmpty(Skin.String(AddonSetTwo.1.Path))</visible>
 		</item>
 		<item>
 			<label>$INFO[Skin.String(AddonSetTwo.2.Label)]</label>
 			<onclick>$INFO[Skin.String(AddonSetTwo.2.Path)]</onclick>
-			<icon>special://skin/backgrounds/homescreen/addons.jpg</icon>
+			<icon>DefaultAddon.png</icon>
 			<thumb>$INFO[Skin.String(AddonSetTwo.2.icon)]</thumb>
 			<visible>!IsEmpty(Skin.String(AddonSetTwo.2.Path))</visible>
 		</item>
 		<item>
 			<label>$INFO[Skin.String(AddonSetTwo.3.Label)]</label>
 			<onclick>$INFO[Skin.String(AddonSetTwo.3.Path)]</onclick>
-			<icon>special://skin/backgrounds/homescreen/addons.jpg</icon>
+			<icon>DefaultAddon.png</icon>
 			<thumb>$INFO[Skin.String(AddonSetTwo.3.icon)]</thumb>
 			<visible>!IsEmpty(Skin.String(AddonSetTwo.3.Path))</visible>
 		</item>
 		<item>
 			<label>$INFO[Skin.String(AddonSetTwo.4.Label)]</label>
 			<onclick>$INFO[Skin.String(AddonSetTwo.4.Path)]</onclick>
-			<icon>special://skin/backgrounds/homescreen/addons.jpg</icon>
+			<icon>DefaultAddon.png</icon>
 			<thumb>$INFO[Skin.String(AddonSetTwo.4.icon)]</thumb>
 			<visible>!IsEmpty(Skin.String(AddonSetTwo.4.Path))</visible>
 		</item>
 		<item>
 			<label>$INFO[Skin.String(AddonSetTwo.5.Label)]</label>
 			<onclick>$INFO[Skin.String(AddonSetTwo.5.Path)]</onclick>
-			<icon>special://skin/backgrounds/homescreen/addons.jpg</icon>
+			<icon>DefaultAddon.png</icon>
 			<thumb>$INFO[Skin.String(AddonSetTwo.5.icon)]</thumb>
 			<visible>!IsEmpty(Skin.String(AddonSetTwo.5.Path))</visible>
 		</item>
@@ -808,35 +808,35 @@
 		<item>
 			<label>$INFO[Skin.String(AddonSetThree.1.Label)]</label>
 			<onclick>$INFO[Skin.String(AddonSetThree.1.Path)]</onclick>
-			<icon>special://skin/backgrounds/homescreen/addons.jpg</icon>
+			<icon>DefaultAddon.png</icon>
 			<thumb>$INFO[Skin.String(AddonSetThree.1.icon)]</thumb>
 			<visible>!IsEmpty(Skin.String(AddonSetThree.1.Path))</visible>
 		</item>
 		<item>
 			<label>$INFO[Skin.String(AddonSetThree.2.Label)]</label>
 			<onclick>$INFO[Skin.String(AddonSetThree.2.Path)]</onclick>
-			<icon>special://skin/backgrounds/homescreen/addons.jpg</icon>
+			<icon>DefaultAddon.png</icon>
 			<thumb>$INFO[Skin.String(AddonSetThree.2.icon)]</thumb>
 			<visible>!IsEmpty(Skin.String(AddonSetThree.2.Path))</visible>
 		</item>
 		<item>
 			<label>$INFO[Skin.String(AddonSetThree.3.Label)]</label>
 			<onclick>$INFO[Skin.String(AddonSetThree.3.Path)]</onclick>
-			<icon>special://skin/backgrounds/homescreen/addons.jpg</icon>
+			<icon>DefaultAddon.png</icon>
 			<thumb>$INFO[Skin.String(AddonSetThree.3.icon)]</thumb>
 			<visible>!IsEmpty(Skin.String(AddonSetThree.3.Path))</visible>
 		</item>
 		<item>
 			<label>$INFO[Skin.String(AddonSetThree.4.Label)]</label>
 			<onclick>$INFO[Skin.String(AddonSetThree.4.Path)]</onclick>
-			<icon>special://skin/backgrounds/homescreen/addons.jpg</icon>
+			<icon>DefaultAddon.png</icon>
 			<thumb>$INFO[Skin.String(AddonSetThree.4.icon)]</thumb>
 			<visible>!IsEmpty(Skin.String(AddonSetThree.4.Path))</visible>
 		</item>
 		<item>
 			<label>$INFO[Skin.String(AddonSetThree.5.Label)]</label>
 			<onclick>$INFO[Skin.String(AddonSetThree.5.Path)]</onclick>
-			<icon>special://skin/backgrounds/homescreen/addons.jpg</icon>
+			<icon>DefaultAddon.png</icon>
 			<thumb>$INFO[Skin.String(AddonSetThree.5.icon)]</thumb>
 			<visible>!IsEmpty(Skin.String(AddonSetThree.5.Path))</visible>
 		</item>
@@ -845,35 +845,35 @@
 		<item>
 			<label>$INFO[Skin.String(AddonSetFour.1.Label)]</label>
 			<onclick>$INFO[Skin.String(AddonSetFour.1.Path)]</onclick>
-			<icon>special://skin/backgrounds/homescreen/addons.jpg</icon>
+			<icon>DefaultAddon.png</icon>
 			<thumb>$INFO[Skin.String(AddonSetFour.1.icon)]</thumb>
 			<visible>!IsEmpty(Skin.String(AddonSetFour.1.Path))</visible>
 		</item>
 		<item>
 			<label>$INFO[Skin.String(AddonSetFour.2.Label)]</label>
 			<onclick>$INFO[Skin.String(AddonSetFour.2.Path)]</onclick>
-			<icon>special://skin/backgrounds/homescreen/addons.jpg</icon>
+			<icon>DefaultAddon.png</icon>
 			<thumb>$INFO[Skin.String(AddonSetFour.2.icon)]</thumb>
 			<visible>!IsEmpty(Skin.String(AddonSetFour.2.Path))</visible>
 		</item>
 		<item>
 			<label>$INFO[Skin.String(AddonSetFour.3.Label)]</label>
 			<onclick>$INFO[Skin.String(AddonSetFour.3.Path)]</onclick>
-			<icon>special://skin/backgrounds/homescreen/addons.jpg</icon>
+			<icon>DefaultAddon.png</icon>
 			<thumb>$INFO[Skin.String(AddonSetFour.3.icon)]</thumb>
 			<visible>!IsEmpty(Skin.String(AddonSetFour.3.Path))</visible>
 		</item>
 		<item>
 			<label>$INFO[Skin.String(AddonSetFour.4.Label)]</label>
 			<onclick>$INFO[Skin.String(AddonSetFour.4.Path)]</onclick>
-			<icon>special://skin/backgrounds/homescreen/addons.jpg</icon>
+			<icon>DefaultAddon.png</icon>
 			<thumb>$INFO[Skin.String(AddonSetFour.4.icon)]</thumb>
 			<visible>!IsEmpty(Skin.String(AddonSetFour.4.Path))</visible>
 		</item>
 		<item>
 			<label>$INFO[Skin.String(AddonSetFour.5.Label)]</label>
 			<onclick>$INFO[Skin.String(AddonSetFour.5.Path)]</onclick>
-			<icon>special://skin/backgrounds/homescreen/addons.jpg</icon>
+			<icon>DefaultAddon.png</icon>
 			<thumb>$INFO[Skin.String(AddonSetFour.5.icon)]</thumb>
 			<visible>!IsEmpty(Skin.String(AddonSetFour.5.Path))</visible>
 		</item>
@@ -882,35 +882,35 @@
 		<item>
 			<label>$INFO[Skin.String(AddonSetFive.1.Label)]</label>
 			<onclick>$INFO[Skin.String(AddonSetFive.1.Path)]</onclick>
-			<icon>special://skin/backgrounds/homescreen/addons.jpg</icon>
+			<icon>DefaultAddon.png</icon>
 			<thumb>$INFO[Skin.String(AddonSetFive.1.icon)]</thumb>
 			<visible>!IsEmpty(Skin.String(AddonSetFive.1.Path))</visible>
 		</item>
 		<item>
 			<label>$INFO[Skin.String(AddonSetFive.2.Label)]</label>
 			<onclick>$INFO[Skin.String(AddonSetFive.2.Path)]</onclick>
-			<icon>special://skin/backgrounds/homescreen/addons.jpg</icon>
+			<icon>DefaultAddon.png</icon>
 			<thumb>$INFO[Skin.String(AddonSetFive.2.icon)]</thumb>
 			<visible>!IsEmpty(Skin.String(AddonSetFive.2.Path))</visible>
 		</item>
 		<item>
 			<label>$INFO[Skin.String(AddonSetFive.3.Label)]</label>
 			<onclick>$INFO[Skin.String(AddonSetFive.3.Path)]</onclick>
-			<icon>special://skin/backgrounds/homescreen/addons.jpg</icon>
+			<icon>DefaultAddon.png</icon>
 			<thumb>$INFO[Skin.String(AddonSetFive.3.icon)]</thumb>
 			<visible>!IsEmpty(Skin.String(AddonSetFive.3.Path))</visible>
 		</item>
 		<item>
 			<label>$INFO[Skin.String(AddonSetFive.4.Label)]</label>
 			<onclick>$INFO[Skin.String(AddonSetFive.4.Path)]</onclick>
-			<icon>special://skin/backgrounds/homescreen/addons.jpg</icon>
+			<icon>DefaultAddon.png</icon>
 			<thumb>$INFO[Skin.String(AddonSetFive.4.icon)]</thumb>
 			<visible>!IsEmpty(Skin.String(AddonSetFive.4.Path))</visible>
 		</item>
 		<item>
 			<label>$INFO[Skin.String(AddonSetFive.5.Label)]</label>
 			<onclick>$INFO[Skin.String(AddonSetFive.5.Path)]</onclick>
-			<icon>special://skin/backgrounds/homescreen/addons.jpg</icon>
+			<icon>DefaultAddon.png</icon>
 			<thumb>$INFO[Skin.String(AddonSetFive.5.icon)]</thumb>
 			<visible>!IsEmpty(Skin.String(AddonSetFive.5.Path))</visible>
 		</item>
