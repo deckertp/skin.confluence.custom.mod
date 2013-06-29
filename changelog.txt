@@ -1,5 +1,6 @@
-B]1.1.6[/B] [I]June 2013[/I]
+[B]1.1.6[/B] [I]June 2013[/I]
 - Added Weather widget
+- Added Favourites widget
 - Added option for Favourite as Home Addon
 - Added 3D BluRay Flags (Filename Reading)
 - [WIP] Added support LastFM plugin

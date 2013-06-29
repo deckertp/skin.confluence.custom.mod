@@ -4459,7 +4459,8 @@
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
-								<onclick>Skin.SetString(FavBtnBackground,special://skin/backgrounds/homescreen/favourite.jpg)</onclick>
+								<onclick condition="IsEmpty(Skin.String(FavouritesFanartDir))">Skin.SetString(FavBtnBackground,special://skin/backgrounds/homescreen/favourite.jpg)</onclick>
+								<onclick condition="!IsEmpty(Skin.String(FavouritesFanartDir))">Skin.SetString(FavBtnBackground,$INFO[Skin.String(FavouritesFanartDir)])</onclick>
 								<onleft>501</onleft>
 								<onright>500</onright>
 								<onup>504</onup>
@@ -4591,6 +4592,20 @@
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 					</control>
 					<control type="button" id="607">
+						<description>User Favourites FanArt Path</description>
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<label>31107</label>
+						<label2>[COLOR=selected]$INFO[Skin.String(FavouritesFanartDir)][/COLOR]</label2>
+						<onclick>Skin.SetPath(FavouritesFanartDir)</onclick>
+						<onclick condition="!IsEmpty(Skin.String(FavouritesFanartDir))">Skin.SetString(FavBtnBackground,$INFO[Skin.String(FavouritesFanartDir)])</onclick>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+					</control>					
+					<control type="button" id="608">
 						<description>User Weather FanArt Path</description>
 						<width>750</width>
 						<height>40</height>
@@ -4603,7 +4618,7 @@
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 					</control>
-					<control type="button" id="608">
+					<control type="button" id="609">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -4615,7 +4630,7 @@
 						<onclick>Addon.OpenSettings(script.artworkorganizer)</onclick>
 						<enable>System.HasAddon(script.artworkorganizer)</enable>
 					</control>
-					<control type="label" id="609">
+					<control type="label" id="610">
 						<width>750</width>
 						<height>45</height>
 						<font>font13_title</font>
@@ -4625,7 +4640,7 @@
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
-					<control type="button" id="610">
+					<control type="button" id="611">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -4637,7 +4652,7 @@
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.SetAddon(LyricScript_Path,xbmc.python.lyrics)</onclick>
 					</control>
-					<control type="button" id="611">
+					<control type="button" id="612">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -4649,7 +4664,7 @@
 						<enable>!IsEmpty(Skin.String(LyricScript_Path))</enable>
 						<onclick>Addon.OpenSettings($INFO[Skin.String(LyricScript_Path)])</onclick>
 					</control>
-					<control type="label" id="612">
+					<control type="label" id="613">
 						<width>750</width>
 						<height>45</height>
 						<font>font13_title</font>
@@ -4659,7 +4674,7 @@
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
-					<control type="button" id="613">
+					<control type="button" id="614">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -4671,7 +4686,7 @@
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.SetAddon(SubtitleScript_Path,xbmc.python.subtitles)</onclick>
 					</control>
-					<control type="button" id="614">
+					<control type="button" id="615">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -4683,7 +4698,7 @@
 						<enable>!IsEmpty(Skin.String(SubtitleScript_Path))</enable>
 						<onclick>Addon.OpenSettings($INFO[Skin.String(SubtitleScript_Path)])</onclick>
 					</control>
-					<control type="label" id="615">
+					<control type="label" id="616">
 						<width>750</width>
 						<height>45</height>
 						<font>font13_title</font>
@@ -4693,7 +4708,7 @@
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
-					<control type="button" id="616">
+					<control type="button" id="617">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -4705,7 +4720,7 @@
 						<onclick>Addon.OpenSettings(service.skin.widgets)</onclick>
 						<enable>System.HasAddon(service.skin.widgets)</enable>
 					</control>
-					<control type="radiobutton" id="617">
+					<control type="radiobutton" id="618">
 						<description>Enable Script RandomAndLastItems</description>
 						<width>750</width>
 						<height>40</height>
@@ -4718,7 +4733,7 @@
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 					</control>
-					<control type="radiobutton" id="618">
+					<control type="radiobutton" id="619">
 						<description>randomandlastitems.script uses last not random</description>
 						<width>750</width>
 						<height>40</height>
@@ -4732,7 +4747,7 @@
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<enable>System.HasAddon(script.randomandlastitems) + !Skin.HasSetting(DisableScriptPlayList)</enable>
 					</control>
-					<control type="radiobutton" id="619">
+					<control type="radiobutton" id="620">
 						<description>randomandlastitems.script only shows unwatched items</description>
 						<width>750</width>
 						<height>40</height>
@@ -4746,7 +4761,7 @@
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<enable>System.HasAddon(script.randomandlastitems) + !Skin.HasSetting(DisableScriptPlayList)</enable>
 					</control>
-					<control type="label" id="620">
+					<control type="label" id="621">
 						<width>750</width>
 						<height>45</height>
 						<font>font13_title</font>
@@ -4756,7 +4771,7 @@
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
-					<control type="radiobutton" id="621">
+					<control type="radiobutton" id="622">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -4769,7 +4784,7 @@
 						<selected>!Skin.HasSetting(HideArtworkDownloader)</selected>
 						<enable>System.HasAddon(script.artwork.downloader)</enable>
 					</control>
-					<control type="button" id="622">
+					<control type="button" id="623">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -4782,7 +4797,7 @@
 						<enable>!Skin.HasSetting(HideArtworkDownloader)</enable>
 						<visible>System.HasAddon(script.artwork.downloader)</visible>
 					</control>
-					<control type="radiobutton" id="623">
+					<control type="radiobutton" id="624">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -4795,7 +4810,7 @@
 						<selected>!Skin.HasSetting(HideTvTunes)</selected>
 						<enable>System.HasAddon(script.tvtunes)</enable>
 					</control>
-					<control type="button" id="624">
+					<control type="button" id="625">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -4808,7 +4823,7 @@
 						<enable>!Skin.HasSetting(HideTvTunes)</enable>
 						<visible>System.HasAddon(script.tvtunes)</visible>
 					</control>
-					<control type="radiobutton" id="625">
+					<control type="radiobutton" id="626">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -4821,7 +4836,7 @@
 						<selected>!Skin.HasSetting(DisableWatchItLater)</selected>
 						<enable>System.HasAddon(script.simpleplaylists)</enable>
 					</control>
-					<control type="button" id="626">
+					<control type="button" id="627">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -4834,7 +4849,7 @@
 						<enable>!Skin.HasSetting(DisableWatchItLater)</enable>
 						<visible>System.HasAddon(script.simpleplaylists)</visible>
 					</control>
-					<control type="label" id="627">
+					<control type="label" id="628">
 						<width>750</width>
 						<height>45</height>
 						<font>font13_title</font>
@@ -4844,13 +4859,13 @@
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
-					<control type="image" id="628">
+					<control type="image" id="629">
 						<width>750</width>
 						<height>120</height>
 						<aspectratio aligny="center" align="center">keep</aspectratio>
 						<texture>warning.png</texture>
 					</control>
-					<control type="button" id="629">
+					<control type="button" id="630">
 						<description>Reset Skin Values</description>
 						<width>750</width>
 						<height>40</height>
