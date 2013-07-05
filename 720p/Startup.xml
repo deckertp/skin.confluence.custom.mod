@@ -4,11 +4,12 @@
 	<allowoverlay>no</allowoverlay>
 	<controls>
 		<control type="image">
-			<description>Default Global Background Image</description>
+			<description>Startup Background Image</description>
 			<include>Dimensions_Fullscreen</include>
 			<aspectratio>scale</aspectratio>
 			<include>VisibleFadeEffect</include>
-			<texture>special://skin/backgrounds/InitialStartup.jpg</texture>
+			<texture fallback="special://skin/backgrounds/homescreen/Startup.jpg">$INFO[Skin.String(StartUpBackgroundPath)]</texture>
+			<visible>!Skin.HasSetting(HideStartUpBackground))</visible>
 		</control>		
 		<control type="button" id="10">
 			<description>trigger</description>

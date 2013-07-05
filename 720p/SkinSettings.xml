@@ -3043,6 +3043,14 @@
 								<property name="HiLiteItem">MenuButton</property>
 								<visible>!Skin.HasSetting(GlobalBackground)</visible>
 							</item>
+							<item id="17">
+								<description>Startup Window</description>
+								<label>$LOCALIZE[31333]</label>
+								<onclick>noop</onclick>
+								<icon>special://skin/backgrounds/homescreen/Startup.jpg</icon>
+								<thumb>$INFO[Skin.String(StartUpBackgroundPath)]</thumb>
+								<property name="HiLiteItem">StartUp</property>
+							</item>							
 						</content>
 					</control>
 					<control type="image">
@@ -4461,6 +4469,69 @@
 								<texturefocus border="5">button-focus.png</texturefocus>
 								<onclick condition="IsEmpty(Skin.String(FavouritesFanartDir))">Skin.SetString(FavBtnBackground,special://skin/backgrounds/homescreen/favourite.jpg)</onclick>
 								<onclick condition="!IsEmpty(Skin.String(FavouritesFanartDir))">Skin.SetString(FavBtnBackground,$INFO[Skin.String(FavouritesFanartDir)])</onclick>
+								<onleft>501</onleft>
+								<onright>500</onright>
+								<onup>504</onup>
+								<ondown>504</ondown>
+							</control>
+						</control>
+						<control type="group">
+							<visible>Container(9005).HasFocus(17)</visible>
+							<control type="button" id="500">
+								<description>Single Image button</description>
+								<posx>55</posx>
+								<posy>0</posy>
+								<width>180</width>
+								<height>40</height>
+								<label>31149</label>
+								<font>font12_title</font>
+								<textcolor>grey2</textcolor>
+								<focusedcolor>white</focusedcolor>
+								<align>center</align>
+								<texturenofocus border="5">button-nofocus.png</texturenofocus>
+								<texturefocus border="5">button-focus.png</texturefocus>
+								<onclick>Skin.SetImage(StartUpBackgroundPath)</onclick>
+								<onclick>Skin.Reset(HideStartUpBackground)</onclick>
+								<onleft>502</onleft>
+								<onright>501</onright>
+								<onup>504</onup>
+								<ondown>504</ondown>
+							</control>
+							<control type="button" id="501">
+								<description>No Image button</description>
+								<posx>240</posx>
+								<posy>0</posy>
+								<width>180</width>
+								<height>40</height>
+								<label>31170</label>
+								<font>font12_title</font>
+								<textcolor>grey2</textcolor>
+								<focusedcolor>white</focusedcolor>
+								<align>center</align>
+								<texturenofocus border="5">button-nofocus.png</texturenofocus>
+								<texturefocus border="5">button-focus.png</texturefocus>
+								<onclick>Skin.Reset(StartUpBackgroundPath)</onclick>
+								<onclick>Skin.SetBool(HideStartUpBackground)</onclick>
+								<onleft>500</onleft>
+								<onright>502</onright>
+								<onup>504</onup>
+								<ondown>504</ondown>
+							</control>
+							<control type="button" id="502">
+								<description>Default Image button</description>
+								<posx>425</posx>
+								<posy>0</posy>
+								<width>180</width>
+								<height>40</height>
+								<label>571</label>
+								<font>font12_title</font>
+								<textcolor>grey2</textcolor>
+								<focusedcolor>white</focusedcolor>
+								<align>center</align>
+								<texturenofocus border="5">button-nofocus.png</texturenofocus>
+								<texturefocus border="5">button-focus.png</texturefocus>
+								<onclick>Skin.SetString(StartUpBackground,special://skin/backgrounds/homescreen/Startup.jpg)</onclick>
+								<onclick>Skin.Reset(HideStartUpBackground)</onclick>
 								<onleft>501</onleft>
 								<onright>500</onright>
 								<onup>504</onup>
