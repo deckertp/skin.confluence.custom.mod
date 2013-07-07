@@ -3335,7 +3335,7 @@
 								<icon>special://skin/backgrounds/homescreen/startup.jpg</icon>
 								<thumb>$INFO[Skin.String(StartUpBackgroundPath)]</thumb>
 								<property name="HiLiteItem">StartUp</property>
-							</item>							
+							</item>
 						</content>
 					</control>
 					<control type="image">
@@ -4960,7 +4960,7 @@
 						<onclick condition="!IsEmpty(Skin.String(FavouritesFanartDir))">Skin.SetString(FavBtnBackground,$INFO[Skin.String(FavouritesFanartDir)])</onclick>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
-					</control>					
+					</control>
 					<control type="button" id="608">
 						<description>User Weather FanArt Path</description>
 						<width>750</width>

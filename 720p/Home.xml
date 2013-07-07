@@ -842,7 +842,7 @@
 				<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 				<!--ondown condition="!Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(AutoHidePowerBtn)">20</ondown>
 				<ondown condition="!Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(AutoHidePowerBtn)">21</ondown-->
-				<ondown  condition="!Skin.HasSetting(RaiseMainMenuBar)">21</ondown>
+				<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">21</ondown>
 				<control type="grouplist" id="9010">
 					<include>HomeSubMenuCommonValues</include>
 					<onleft>9010</onleft>

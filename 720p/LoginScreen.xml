@@ -14,7 +14,7 @@
 			<aspectratio>scale</aspectratio>
 			<include>VisibleFadeEffect</include>
 			<texture fallback="special://skin/backgrounds/homescreen/startup.jpg">$INFO[Skin.String(StartUpBackgroundPath)]</texture>
-			<visible>!Skin.HasSetting(HideStartUpBackground))</visible>
+			<visible>!Skin.HasSetting(HideStartUpBackground)</visible>
 		</control>
 		<control type="group">
 			<include>Window_OpenClose_Animation</include>

@@ -592,7 +592,7 @@
 		<control type="button" id="90187">
 			<include>ButtonHomeSubCommonValues</include>
 			<label>$INFO[Skin.String(SubConcerts.6.Label)]</label>
-				<onclick condition="Container(9000).Hasfocus(1) + Skin.HasSetting(StickyHomeMenuAction) + !IsEmpty(Skin.String(SubConcerts.6.Path))">Skin.SetString(HomeItemLastAction,$INFO[Skin.String(SubConcerts.6.Path)])</onclick>
+			<onclick condition="Container(9000).Hasfocus(1) + Skin.HasSetting(StickyHomeMenuAction) + !IsEmpty(Skin.String(SubConcerts.6.Path))">Skin.SetString(HomeItemLastAction,$INFO[Skin.String(SubConcerts.6.Path)])</onclick>
 			<onclick condition="Container(9000).Hasfocus(1) + Skin.HasSetting(StickyHomeMenuAction)">Skin.SetString(HomeItemLastLabel,$INFO[Skin.String(SubConcerts.6.Label)])</onclick>
 			<onclick>SetProperty(SubMenuBackground,$VAR[SubMenuItemBackground],Home)</onclick>
 			<onclick>$INFO[Skin.String(SubConcerts.6.Path)]</onclick>
