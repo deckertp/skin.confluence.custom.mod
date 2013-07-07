@@ -1,3 +1,13 @@
+[B]1.1.8[/B] [I]July 2013[/I]
+- Added option to edit Concerts,Pictures & Program submenu items
+- Added option to adjust home screen addon names
+- Added Initial startup & profile login background
+- Bugfix various typo's & fallback images
+- Updated language files from Transifex
+
+[B]1.1.7[/B] [I]July 2013[/I]
+- User Test Version
+
 [B]1.1.6[/B] [I]June 2013[/I]
 - Added Weather widget
 - Added Favourites widget
