@@ -2191,13 +2191,108 @@
 						<width>750</width>
 						<height>45</height>
 						<font>font13_title</font>
-						<label>$LOCALIZE[1211] $LOCALIZE[31120]</label>
+						<label>$LOCALIZE[31121] $LOCALIZE[31120]</label>
 						<textcolor>blue</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
 					<control type="button" id="336">
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<label>$LOCALIZE[31130] - 1</label>
+						<label2>[COLOR=selected]$VAR[SubMenuConcertsOne][/COLOR]</label2>
+						<textcolor>grey</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<onclick>SetProperty(UsrSelectBtn,SubConcerts.1,home)</onclick>
+						<onclick>ActivateWindow(2115)</onclick>
+						<onclick condition="!IsEmpty(Skin.String(SubConcerts.1.Label)) + !stringcompare(Skin.String(SubConcerts.1.Path),Hidden)">Skin.SetString(SubConcerts.1.Label)</onclick>
+					</control>
+					<control type="button" id="337">
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<label>$LOCALIZE[31130] - 2</label>
+						<label2>[COLOR=selected]$VAR[SubMenuConcertsTwo][/COLOR]</label2>
+						<textcolor>grey</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<onclick>SetProperty(UsrSelectBtn,SubConcerts.2,home)</onclick>
+						<onclick>ActivateWindow(2115)</onclick>
+						<onclick condition="!IsEmpty(Skin.String(SubConcerts.2.Label)) + !stringcompare(Skin.String(SubConcerts.2.Path),Hidden)">Skin.SetString(SubConcerts.2.Label)</onclick>
+					</control>
+					<control type="button" id="338">
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<label>$LOCALIZE[31130] - 3</label>
+						<label2>[COLOR=selected]$VAR[SubMenuConcertsThree][/COLOR]</label2>
+						<textcolor>grey</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<onclick>SetProperty(UsrSelectBtn,SubConcerts.3,home)</onclick>
+						<onclick>ActivateWindow(2115)</onclick>
+						<onclick condition="!IsEmpty(Skin.String(SubConcerts.3.Label)) + !stringcompare(Skin.String(SubConcerts.3.Path),Hidden)">Skin.SetString(SubConcerts.3.Label)</onclick>
+					</control>
+					<control type="button" id="339">
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<label>$LOCALIZE[31130] - 4</label>
+						<label2>[COLOR=selected]$VAR[SubMenuConcertsFour][/COLOR]</label2>
+						<textcolor>grey</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<onclick>SetProperty(UsrSelectBtn,SubConcerts.4,home)</onclick>
+						<onclick>ActivateWindow(2115)</onclick>
+						<onclick condition="!IsEmpty(Skin.String(SubConcerts.4.Label)) + !stringcompare(Skin.String(SubConcerts.4.Path),Hidden)">Skin.SetString(SubConcerts.4.Label)</onclick>
+					</control>
+					<control type="button" id="340">
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<label>$LOCALIZE[31130] - 5</label>
+						<label2>[COLOR=selected]$VAR[SubMenuConcertsFive][/COLOR]</label2>
+						<textcolor>grey</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<onclick>SetProperty(UsrSelectBtn,SubConcerts.5,home)</onclick>
+						<onclick>ActivateWindow(2115)</onclick>
+						<onclick condition="!IsEmpty(Skin.String(SubConcerts.5.Label)) + !stringcompare(Skin.String(SubConcerts.5.Path),Hidden)">Skin.SetString(SubConcerts.5.Label)</onclick>
+					</control>
+					<control type="button" id="341">
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<label>$LOCALIZE[31130] - 6</label>
+						<label2>[COLOR=selected]$INFO[Skin.String(SubConcerts.6.Label)][/COLOR]</label2>
+						<textcolor>grey</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<onclick>SetProperty(UsrSelectBtn,SubConcerts.6,home)</onclick>
+						<onclick>ActivateWindow(2115)</onclick>
+						<onclick condition="!IsEmpty(Skin.String(SubConcerts.6.Label)) + !stringcompare(Skin.String(SubConcerts.6.Path),Hidden)">Skin.SetString(SubConcerts.6.Label)</onclick>
+						<enable>Skin.HasSetting(RaiseMainMenuBar) | Skin.HasSetting(AutoHidePowerBtn)</enable>
+					</control>
+					<control type="label" id="342">
+						<width>750</width>
+						<height>45</height>
+						<font>font13_title</font>
+						<label>$LOCALIZE[1211] $LOCALIZE[31120]</label>
+						<textcolor>blue</textcolor>
+						<shadowcolor>black</shadowcolor>
+						<align>left</align>
+						<aligny>center</aligny>
+					</control>
+					<control type="button" id="343">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -2211,7 +2306,7 @@
 						<onclick>ActivateWindow(2115)</onclick>
 						<onclick condition="!IsEmpty(Skin.String(SubMusic.1.Label)) + !stringcompare(Skin.String(SubMusic.1.Path),Hidden)">Skin.SetString(SubMusic.1.Label)</onclick>
 					</control>
-					<control type="button" id="337">
+					<control type="button" id="344">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -2225,7 +2320,7 @@
 						<onclick>ActivateWindow(2115)</onclick>
 						<onclick condition="!IsEmpty(Skin.String(SubMusic.2.Label)) + !stringcompare(Skin.String(SubMusic.2.Path),Hidden)">Skin.SetString(SubMusic.2.Label)</onclick>
 					</control>
-					<control type="button" id="338">
+					<control type="button" id="345">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -2239,7 +2334,7 @@
 						<onclick>ActivateWindow(2115)</onclick>
 						<onclick condition="!IsEmpty(Skin.String(SubMusic.3.Label)) + !stringcompare(Skin.String(SubMusic.3.Path),Hidden)">Skin.SetString(SubMusic.3.Label)</onclick>
 					</control>
-					<control type="button" id="339">
+					<control type="button" id="346">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -2253,7 +2348,7 @@
 						<onclick>ActivateWindow(2115)</onclick>
 						<onclick condition="!IsEmpty(Skin.String(SubMusic.4.Label)) + !stringcompare(Skin.String(SubMusic.4.Path),Hidden)">Skin.SetString(SubMusic.4.Label)</onclick>
 					</control>
-					<control type="button" id="340">
+					<control type="button" id="347">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -2267,7 +2362,7 @@
 						<onclick>ActivateWindow(2115)</onclick>
 						<onclick condition="!IsEmpty(Skin.String(SubMusic.5.Label)) + !stringcompare(Skin.String(SubMusic.5.Path),Hidden)">Skin.SetString(SubMusic.5.Label)</onclick>
 					</control>
-					<control type="button" id="341">
+					<control type="button" id="348">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -2282,7 +2377,7 @@
 						<onclick condition="!IsEmpty(Skin.String(SubMusic.6.Label)) + !stringcompare(Skin.String(SubMusic.6.Path),Hidden)">Skin.SetString(SubMusic.6.Label)</onclick>
 						<enable>Skin.HasSetting(RaiseMainMenuBar) | Skin.HasSetting(AutoHidePowerBtn)</enable>
 					</control>
-					<control type="label" id="342">
+					<control type="label" id="349">
 						<width>750</width>
 						<height>45</height>
 						<font>font13_title</font>
@@ -2292,7 +2387,7 @@
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
-					<control type="button" id="343">
+					<control type="button" id="350">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -2306,7 +2401,7 @@
 						<onclick>ActivateWindow(2115)</onclick>
 						<onclick condition="!IsEmpty(Skin.String(SubProg.1.Label)) + !stringcompare(Skin.String(SubProg.1.Path),Hidden)">Skin.SetString(SubProg.1.Label)</onclick>
 					</control>
-					<control type="button" id="344">
+					<control type="button" id="351">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -2320,7 +2415,7 @@
 						<onclick>ActivateWindow(2115)</onclick>
 						<onclick condition="!IsEmpty(Skin.String(SubProg.2.Label)) + !stringcompare(Skin.String(SubProg.2.Path),Hidden)">Skin.SetString(SubProg.2.Label)</onclick>
 					</control>
-					<control type="button" id="345">
+					<control type="button" id="352">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -2334,7 +2429,7 @@
 						<onclick>ActivateWindow(2115)</onclick>
 						<onclick condition="!IsEmpty(Skin.String(SubProg.3.Label)) + !stringcompare(Skin.String(SubProg.3.Path),Hidden)">Skin.SetString(SubProg.3.Label)</onclick>
 					</control>
-					<control type="button" id="346">
+					<control type="button" id="353">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -2348,7 +2443,7 @@
 						<onclick>ActivateWindow(2115)</onclick>
 						<onclick condition="!IsEmpty(Skin.String(SubProg.4.Label)) + !stringcompare(Skin.String(SubProg.4.Path),Hidden)">Skin.SetString(SubProg.4.Label)</onclick>
 					</control>
-					<control type="button" id="347">
+					<control type="button" id="354">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -2362,7 +2457,7 @@
 						<onclick>ActivateWindow(2115)</onclick>
 						<onclick condition="!IsEmpty(Skin.String(SubProg.5.Label)) + !stringcompare(Skin.String(SubProg.5.Path),Hidden)">Skin.SetString(SubProg.5.Label)</onclick>
 					</control>
-					<control type="button" id="348">
+					<control type="button" id="355">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -2377,7 +2472,7 @@
 						<onclick condition="!IsEmpty(Skin.String(SubProg.6.Label)) + !stringcompare(Skin.String(SubProg.6.Path),Hidden)">Skin.SetString(SubProg.6.Label)</onclick>
 						<enable>Skin.HasSetting(RaiseMainMenuBar) | Skin.HasSetting(AutoHidePowerBtn)</enable>
 					</control>
-					<control type="label" id="349">
+					<control type="label" id="356">
 						<width>750</width>
 						<height>45</height>
 						<font>font13_title</font>
@@ -2387,7 +2482,7 @@
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
-					<control type="button" id="350">
+					<control type="button" id="357">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -2401,7 +2496,7 @@
 						<onclick>ActivateWindow(2115)</onclick>
 						<onclick condition="!IsEmpty(Skin.String(SubPictures.1.Label)) + !stringcompare(Skin.String(SubPictures.1.Path),Hidden)">Skin.SetString(SubPictures.1.Label)</onclick>
 					</control>
-					<control type="button" id="351">
+					<control type="button" id="358">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -2415,7 +2510,7 @@
 						<onclick>ActivateWindow(2115)</onclick>
 						<onclick condition="!IsEmpty(Skin.String(SubPictures.2.Label))">Skin.SetString(SubPictures.2.Label)</onclick>
 					</control>
-					<control type="button" id="352">
+					<control type="button" id="359">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -2429,7 +2524,7 @@
 						<onclick>ActivateWindow(2115)</onclick>
 						<onclick condition="!IsEmpty(Skin.String(SubPictures.3.Label))">Skin.SetString(SubPictures.3.Label)</onclick>
 					</control>
-					<control type="button" id="353">
+					<control type="button" id="360">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -2443,7 +2538,7 @@
 						<onclick>ActivateWindow(2115)</onclick>
 						<onclick condition="!IsEmpty(Skin.String(SubPictures.4.Label))">Skin.SetString(SubPictures.4.Label)</onclick>
 					</control>
-					<control type="button" id="354">
+					<control type="button" id="361">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -2457,7 +2552,7 @@
 						<onclick>ActivateWindow(2115)</onclick>
 						<onclick condition="!IsEmpty(Skin.String(SubPictures.5.Label))">Skin.SetString(SubPictures.5.Label)</onclick>
 					</control>
-					<control type="button" id="355">
+					<control type="button" id="362">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
