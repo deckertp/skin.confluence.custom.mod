@@ -4986,7 +4986,7 @@
 						<onclick>Addon.OpenSettings(script.artworkorganizer)</onclick>
 						<enable>System.HasAddon(script.artworkorganizer)</enable>
 					</control>
-					<control type="label" id="610">
+					<!--control type="label" id="610">
 						<width>750</width>
 						<height>45</height>
 						<font>font13_title</font>
@@ -5005,8 +5005,9 @@
 						<focusedcolor>white</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<onclick>ActivateWindow(VideoLibrary,special://videoplaylists/,return)</onclick>
 						<onclick>ActivateWindow(smartplaylisteditor)</onclick>
-					</control>
+					</control-->
 					<control type="label" id="612">
 						<width>750</width>
 						<height>45</height>
