@@ -135,7 +135,7 @@
 						<label>31502</label>
 						<label2>31409</label2>
 						<onclick>ActivateWindow(PVRSettings)</onclick>
-						<icon>special://skin/backgrounds/tv.jpg</icon>
+						<icon>special://skin/backgrounds/homescreen/tv.jpg</icon>
 					</item>
 					<item id="4">
 						<label>2</label>
@@ -223,7 +223,7 @@
 				<height>446</height>
 				<aspectratio>stretch</aspectratio>
 				<fadetime>600</fadetime>
-				<texture background="true">special://skin/backgrounds/settings.jpg</texture>
+				<texture background="true">special://skin/backgrounds/homescreen/addons.jpg</texture>
 			</control>
 			<control type="image">
 				<posx>272</posx>

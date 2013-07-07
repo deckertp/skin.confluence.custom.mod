@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
   id="skin.confluence.custom.mod"
-  version="1.1.6"
+  version="1.1.7"
   name="Confluence Customizable Mod"
   provider-name="Mudislander">
   <requires>
@@ -18,7 +18,7 @@
   <extension
     point="xbmc.gui.skin"
     defaultthemename="textures.xbt"
-    debugging="false"
+    debugging="true"
     effectslowdown="0.75">
     <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
   </extension>
