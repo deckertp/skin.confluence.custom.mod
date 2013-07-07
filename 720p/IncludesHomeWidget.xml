@@ -3992,9 +3992,9 @@
 				<label>$INFO[Window(Home).Property(RecentEpisode.1.Title)]</label>
 				<label2>$INFO[Window(Home).Property(RecentEpisode.1.TVshowTitle)] - $INFO[Window(Home).Property(RecentEpisode.1.EpisodeNo)]</label2>
 				<onclick>PlayList.Clear</onclick>
-				<onclick>$INFO[Window(Home).Property(RecentEpisode.1.Play)]</onclick>
+				<!--onclick>$INFO[Window(Home).Property(RecentEpisode.1.Play)]</onclick-->
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecentEpisode.1.File)])</onclick>
-				<!--icon>$INFO[Window(Home).Property(RecentEpisode.1.Art(thumb))]</icon-->
+				<icon>$INFO[Window(Home).Property(RecentEpisode.1.Art(thumb))]</icon>
 				<thumb>$INFO[Window(Home).Property(RecentEpisode.1.Art(tvshow.fanart))]</thumb>
 				<property name="Logo">$INFO[Window(Home).Property(RecentEpisode.1.Art(tvshow.clearlogo))]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecentEpisode.1.Title)) + SubString(Window(Home).Property(SkinWidgets_RecentItems),true)</visible>
