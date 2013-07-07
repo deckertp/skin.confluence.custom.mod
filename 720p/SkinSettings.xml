@@ -2376,7 +2376,102 @@
 						<onclick>ActivateWindow(2115)</onclick>
 						<onclick condition="!IsEmpty(Skin.String(SubProg.6.Label)) + !stringcompare(Skin.String(SubProg.6.Path),Hidden)">Skin.SetString(SubProg.6.Label)</onclick>
 						<enable>Skin.HasSetting(RaiseMainMenuBar) | Skin.HasSetting(AutoHidePowerBtn)</enable>
-					</control>					
+					</control>
+					<control type="label" id="349">
+						<width>750</width>
+						<height>45</height>
+						<font>font13_title</font>
+						<label>$LOCALIZE[1213] $LOCALIZE[31120]</label>
+						<textcolor>blue</textcolor>
+						<shadowcolor>black</shadowcolor>
+						<align>left</align>
+						<aligny>center</aligny>
+					</control>
+					<control type="button" id="350">
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<label>$LOCALIZE[31130] - 1</label>
+						<label2>[COLOR=selected]$VAR[SubMenuPicturesOne][/COLOR]</label2>
+						<textcolor>grey</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<onclick>SetProperty(UsrSelectBtn,SubPictures.1,home)</onclick>
+						<onclick>ActivateWindow(2115)</onclick>
+						<onclick condition="!IsEmpty(Skin.String(SubPictures.1.Label)) + !stringcompare(Skin.String(SubPictures.1.Path),Hidden)">Skin.SetString(SubPictures.1.Label)</onclick>
+					</control>
+					<control type="button" id="351">
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<label>$LOCALIZE[31130] - 2</label>
+						<label2>[COLOR=selected]$INFO[Skin.String(SubPictures.2.Label)][/COLOR]</label2>
+						<textcolor>grey</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<onclick>SetProperty(UsrSelectBtn,SubPictures.2,home)</onclick>
+						<onclick>ActivateWindow(2115)</onclick>
+						<onclick condition="!IsEmpty(Skin.String(SubPictures.2.Label))">Skin.SetString(SubPictures.2.Label)</onclick>
+					</control>
+					<control type="button" id="352">
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<label>$LOCALIZE[31130] - 3</label>
+						<label2>[COLOR=selected]$INFO[Skin.String(SubPictures.3.Label)][/COLOR]</label2>
+						<textcolor>grey</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<onclick>SetProperty(UsrSelectBtn,SubPictures.3,home)</onclick>
+						<onclick>ActivateWindow(2115)</onclick>
+						<onclick condition="!IsEmpty(Skin.String(SubPictures.3.Label))">Skin.SetString(SubPictures.3.Label)</onclick>
+					</control>
+					<control type="button" id="353">
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<label>$LOCALIZE[31130] - 4</label>
+						<label2>[COLOR=selected]$INFO[Skin.String(SubPictures.4.Label)][/COLOR]</label2>
+						<textcolor>grey</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<onclick>SetProperty(UsrSelectBtn,SubPictures.4,home)</onclick>
+						<onclick>ActivateWindow(2115)</onclick>
+						<onclick condition="!IsEmpty(Skin.String(SubPictures.4.Label))">Skin.SetString(SubPictures.4.Label)</onclick>
+					</control>
+					<control type="button" id="354">
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<label>$LOCALIZE[31130] - 5</label>
+						<label2>[COLOR=selected]$INFO[Skin.String(SubPictures.5.Label)][/COLOR]</label2>
+						<textcolor>grey</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<onclick>SetProperty(UsrSelectBtn,SubPictures.5,home)</onclick>
+						<onclick>ActivateWindow(2115)</onclick>
+						<onclick condition="!IsEmpty(Skin.String(SubPictures.5.Label))">Skin.SetString(SubPictures.5.Label)</onclick>
+					</control>
+					<control type="button" id="355">
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<label>$LOCALIZE[31130] - 6</label>
+						<label2>[COLOR=selected]$INFO[Skin.String(SubPictures.6.Label)][/COLOR]</label2>
+						<textcolor>grey</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<onclick>SetProperty(UsrSelectBtn,SubPictures.6,home)</onclick>
+						<onclick>ActivateWindow(2115)</onclick>
+						<onclick condition="!IsEmpty(Skin.String(SubPictures.6.Label))">Skin.SetString(SubPictures.6.Label)</onclick>
+						<enable>Skin.HasSetting(RaiseMainMenuBar) | Skin.HasSetting(AutoHidePowerBtn)</enable>
+					</control>
 				</control>
 				<control type="scrollbar" id="61">
 					<posx>1060</posx>
