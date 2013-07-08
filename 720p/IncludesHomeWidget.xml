@@ -4401,13 +4401,103 @@
 	<include name="RecentAlbumContent">
 		<content>
 			<item>
+				<label>$INFO[Window(Home).Property(RecentAlbum.1.Title)]</label>
+				<label2>$INFO[Window(Home).Property(RecentAlbum.1.Artist)]</label2>
+				<onclick>PlayList.Clear</onclick>
+				<onclick>$INFO[Window(Home).Property(RecentAlbum.1.Play)]</onclick>
+				<icon>$INFO[Window(Home).Property(RecentAlbum.1.Thumb)]</icon>
+				<thumb>$INFO[Window(Home).Property(RecentAlbum.1.Fanart)]</thumb>
+				<visible>!IsEmpty(Window(Home).Property(RecentAlbum.1.Title)) + SubString(Window(Home).Property(SkinWidgets_RecentItems),true)</visible>
+			</item>
+			<item>
+				<label>$INFO[Window(Home).Property(RecentAlbum.2.Title)]</label>
+				<label2>$INFO[Window(Home).Property(RecentAlbum.2.Artist)]</label2>
+				<onclick>PlayList.Clear</onclick>
+				<onclick>$INFO[Window(Home).Property(RecentAlbum.2.Play)]</onclick>
+				<icon>$INFO[Window(Home).Property(RecentAlbum.2.Thumb)]</icon>
+				<thumb>$INFO[Window(Home).Property(RecentAlbum.2.Fanart)]</thumb>
+				<visible>!IsEmpty(Window(Home).Property(RecentAlbum.2.Title)) + SubString(Window(Home).Property(SkinWidgets_RecentItems),true)</visible>
+			</item>
+			<item>
+				<label>$INFO[Window(Home).Property(RecentAlbum.3.Title)]</label>
+				<label2>$INFO[Window(Home).Property(RecentAlbum.3.Artist)]</label2>
+				<onclick>PlayList.Clear</onclick>
+				<onclick>$INFO[Window(Home).Property(RecentAlbum.3.Play)]</onclick>
+				<icon>$INFO[Window(Home).Property(RecentAlbum.3.Thumb)]</icon>
+				<thumb>$INFO[Window(Home).Property(RecentAlbum.3.Fanart)]</thumb>
+				<visible>!IsEmpty(Window(Home).Property(RecentAlbum.3.Title)) + SubString(Window(Home).Property(SkinWidgets_RecentItems),true)</visible>
+			</item>
+			<item>
+				<label>$INFO[Window(Home).Property(RecentAlbum.4.Title)]</label>
+				<label2>$INFO[Window(Home).Property(RecentAlbum.4.Artist)]</label2>
+				<onclick>PlayList.Clear</onclick>
+				<onclick>$INFO[Window(Home).Property(RecentAlbum.4.Play)]</onclick>
+				<icon>$INFO[Window(Home).Property(RecentAlbum.4.Thumb)]</icon>
+				<thumb>$INFO[Window(Home).Property(RecentAlbum.4.Fanart)]</thumb>
+				<visible>!IsEmpty(Window(Home).Property(RecentAlbum.4.Title)) + SubString(Window(Home).Property(SkinWidgets_RecentItems),true)</visible>
+			</item>
+			<item>
+				<label>$INFO[Window(Home).Property(RecentAlbum.5.Title)]</label>
+				<label2>$INFO[Window(Home).Property(RecentAlbum.5.Artist)]</label2>
+				<onclick>PlayList.Clear</onclick>
+				<onclick>$INFO[Window(Home).Property(RecentAlbum.5.Play)]</onclick>
+				<icon>$INFO[Window(Home).Property(RecentAlbum.5.Thumb)]</icon>
+				<thumb>$INFO[Window(Home).Property(RecentAlbum.5.Fanart)]</thumb>
+				<visible>!IsEmpty(Window(Home).Property(RecentAlbum.5.Title)) + SubString(Window(Home).Property(SkinWidgets_RecentItems),true)</visible>
+			</item>
+			<item>
+				<label>$INFO[Window(Home).Property(RecentAlbum.6.Title)]</label>
+				<label2>$INFO[Window(Home).Property(RecentAlbum.6.Artist)]</label2>
+				<onclick>PlayList.Clear</onclick>
+				<onclick>$INFO[Window(Home).Property(RecentAlbum.6.Play)]</onclick>
+				<icon>$INFO[Window(Home).Property(RecentAlbum.6.Thumb)]</icon>
+				<thumb>$INFO[Window(Home).Property(RecentAlbum.6.Fanart)]</thumb>
+				<visible>!IsEmpty(Window(Home).Property(RecentAlbum.6.Title)) + SubString(Window(Home).Property(SkinWidgets_RecentItems),true)</visible>
+			</item>
+			<item>
+				<label>$INFO[Window(Home).Property(RecentAlbum.7.Title)]</label>
+				<label2>$INFO[Window(Home).Property(RecentAlbum.7.Artist)]</label2>
+				<onclick>PlayList.Clear</onclick>
+				<onclick>$INFO[Window(Home).Property(RecentAlbum.7.Play)]</onclick>
+				<icon>$INFO[Window(Home).Property(RecentAlbum.7.Thumb)]</icon>
+				<thumb>$INFO[Window(Home).Property(RecentAlbum.7.Fanart)]</thumb>
+				<visible>!IsEmpty(Window(Home).Property(RecentAlbum.7.Title)) + SubString(Window(Home).Property(SkinWidgets_RecentItems),true)</visible>
+			</item>
+			<item>
+				<label>$INFO[Window(Home).Property(RecentAlbum.8.Title)]</label>
+				<label2>$INFO[Window(Home).Property(RecentAlbum.8.Artist)]</label2>
+				<onclick>PlayList.Clear</onclick>
+				<onclick>$INFO[Window(Home).Property(RecentAlbum.8.Play)]</onclick>
+				<icon>$INFO[Window(Home).Property(RecentAlbum.8.Thumb)]</icon>
+				<thumb>$INFO[Window(Home).Property(RecentAlbum.8.Fanart)]</thumb>
+				<visible>!IsEmpty(Window(Home).Property(RecentAlbum.8.Title)) + SubString(Window(Home).Property(SkinWidgets_RecentItems),true)</visible>
+			</item>
+			<item>
+				<label>$INFO[Window(Home).Property(RecentAlbum.9.Title)]</label>
+				<label2>$INFO[Window(Home).Property(RecentAlbum.9.Artist)]</label2>
+				<onclick>PlayList.Clear</onclick>
+				<onclick>$INFO[Window(Home).Property(RecentAlbum.9.Play)]</onclick>
+				<icon>$INFO[Window(Home).Property(RecentAlbum.9.Thumb)]</icon>
+				<thumb>$INFO[Window(Home).Property(RecentAlbum.9.Fanart)]</thumb>
+				<visible>!IsEmpty(Window(Home).Property(RecentAlbum.9.Title)) + SubString(Window(Home).Property(SkinWidgets_RecentItems),true)</visible>
+			</item>
+			<item>
+				<label>$INFO[Window(Home).Property(RecentAlbum.10.Title)]</label>
+				<label2>$INFO[Window(Home).Property(RecentAlbum.10.Artist)]</label2>
+				<onclick>PlayList.Clear</onclick>
+				<onclick>$INFO[Window(Home).Property(RecentAlbum.10.Play)]</onclick>
+				<icon>$INFO[Window(Home).Property(RecentAlbum.10.Thumb)]</icon>
+				<thumb>$INFO[Window(Home).Property(RecentAlbum.10.Fanart)]</thumb>
+				<visible>!IsEmpty(Window(Home).Property(RecentAlbum.10.Title)) + SubString(Window(Home).Property(SkinWidgets_RecentItems),true)</visible>
+			</item>
+			<item>
 				<label>$INFO[Window.Property(LatestAlbum.1.Title)]</label>
 				<label2>$INFO[Window.Property(LatestAlbum.1.Artist)]</label2>
 				<onclick>PlayList.Clear</onclick>
 				<onclick>PlayMedia("$INFO[Window.Property(LatestAlbum.1.Path)]")</onclick>
 				<icon>$INFO[Window.Property(LatestAlbum.1.Thumb)]</icon>
 				<thumb>$INFO[Window.Property(LatestAlbum.1.Fanart)]</thumb>
-				<visible>!IsEmpty(Window.Property(LatestAlbum.1.Title))</visible>
+				<visible>!IsEmpty(Window.Property(LatestAlbum.1.Title)) + !SubString(Window(Home).Property(SkinWidgets_RecentItems),true)</visible>
 			</item>
 			<item>
 				<label>$INFO[Window.Property(LatestAlbum.2.Title)]</label>
@@ -4416,7 +4506,7 @@
 				<onclick>PlayMedia("$INFO[Window.Property(LatestAlbum.2.Path)]")</onclick>
 				<icon>$INFO[Window.Property(LatestAlbum.2.Thumb)]</icon>
 				<thumb>$INFO[Window.Property(LatestAlbum.2.Fanart)]</thumb>
-				<visible>!IsEmpty(Window.Property(LatestAlbum.2.Title))</visible>
+				<visible>!IsEmpty(Window.Property(LatestAlbum.2.Title)) + !SubString(Window(Home).Property(SkinWidgets_RecentItems),true)</visible>
 			</item>
 			<item>
 				<label>$INFO[Window.Property(LatestAlbum.3.Title)]</label>
@@ -4425,7 +4515,7 @@
 				<onclick>PlayMedia("$INFO[Window.Property(LatestAlbum.3.Path)]")</onclick>
 				<icon>$INFO[Window.Property(LatestAlbum.3.Thumb)]</icon>
 				<thumb>$INFO[Window.Property(LatestAlbum.3.Fanart)]</thumb>
-				<visible>!IsEmpty(Window.Property(LatestAlbum.3.Title))</visible>
+				<visible>!IsEmpty(Window.Property(LatestAlbum.3.Title)) + !SubString(Window(Home).Property(SkinWidgets_RecentItems),true)</visible>
 			</item>
 			<item>
 				<label>$INFO[Window.Property(LatestAlbum.4.Title)]</label>
@@ -4434,7 +4524,7 @@
 				<onclick>PlayMedia("$INFO[Window.Property(LatestAlbum.4.Path)]")</onclick>
 				<icon>$INFO[Window.Property(LatestAlbum.4.Thumb)]</icon>
 				<thumb>$INFO[Window.Property(LatestAlbum.4.Fanart)]</thumb>
-				<visible>!IsEmpty(Window.Property(LatestAlbum.4.Title))</visible>
+				<visible>!IsEmpty(Window.Property(LatestAlbum.4.Title)) + !SubString(Window(Home).Property(SkinWidgets_RecentItems),true)</visible>
 			</item>
 			<item>
 				<label>$INFO[Window.Property(LatestAlbum.5.Title)]</label>
@@ -4443,7 +4533,7 @@
 				<onclick>PlayMedia("$INFO[Window.Property(LatestAlbum.5.Path)]")</onclick>
 				<icon>$INFO[Window.Property(LatestAlbum.5.Thumb)]</icon>
 				<thumb>$INFO[Window.Property(LatestAlbum.5.Fanart)]</thumb>
-				<visible>!IsEmpty(Window.Property(LatestAlbum.5.Title))</visible>
+				<visible>!IsEmpty(Window.Property(LatestAlbum.5.Title)) + !SubString(Window(Home).Property(SkinWidgets_RecentItems),true)</visible>
 			</item>
 			<item>
 				<label>$INFO[Window.Property(LatestAlbum.6.Title)]</label>
@@ -4452,7 +4542,7 @@
 				<onclick>PlayMedia("$INFO[Window.Property(LatestAlbum.6.Path)]")</onclick>
 				<icon>$INFO[Window.Property(LatestAlbum.6.Thumb)]</icon>
 				<thumb>$INFO[Window.Property(LatestAlbum.6.Fanart)]</thumb>
-				<visible>!IsEmpty(Window.Property(LatestAlbum.6.Title))</visible>
+				<visible>!IsEmpty(Window.Property(LatestAlbum.6.Title)) + !SubString(Window(Home).Property(SkinWidgets_RecentItems),true)</visible>
 			</item>
 			<item>
 				<label>$INFO[Window.Property(LatestAlbum.7.Title)]</label>
@@ -4461,7 +4551,7 @@
 				<onclick>PlayMedia("$INFO[Window.Property(LatestAlbum.7.Path)]")</onclick>
 				<icon>$INFO[Window.Property(LatestAlbum.7.Thumb)]</icon>
 				<thumb>$INFO[Window.Property(LatestAlbum.7.Fanart)]</thumb>
-				<visible>!IsEmpty(Window.Property(LatestAlbum.7.Title))</visible>
+				<visible>!IsEmpty(Window.Property(LatestAlbum.7.Title)) + !SubString(Window(Home).Property(SkinWidgets_RecentItems),true)</visible>
 			</item>
 			<item>
 				<label>$INFO[Window.Property(LatestAlbum.8.Title)]</label>
@@ -4470,7 +4560,7 @@
 				<onclick>PlayMedia("$INFO[Window.Property(LatestAlbum.8.Path)]")</onclick>
 				<icon>$INFO[Window.Property(LatestAlbum.8.Thumb)]</icon>
 				<thumb>$INFO[Window.Property(LatestAlbum.8.Fanart)]</thumb>
-				<visible>!IsEmpty(Window.Property(LatestAlbum.8.Title))</visible>
+				<visible>!IsEmpty(Window.Property(LatestAlbum.8.Title)) + !SubString(Window(Home).Property(SkinWidgets_RecentItems),true)</visible>
 			</item>
 			<item>
 				<label>$INFO[Window.Property(LatestAlbum.9.Title)]</label>
@@ -4479,7 +4569,7 @@
 				<onclick>PlayMedia("$INFO[Window.Property(LatestAlbum.9.Path)]")</onclick>
 				<icon>$INFO[Window.Property(LatestAlbum.9.Thumb)]</icon>
 				<thumb>$INFO[Window.Property(LatestAlbum.9.Fanart)]</thumb>
-				<visible>!IsEmpty(Window.Property(LatestAlbum.9.Title))</visible>
+				<visible>!IsEmpty(Window.Property(LatestAlbum.9.Title)) + !SubString(Window(Home).Property(SkinWidgets_RecentItems),true)</visible>
 			</item>
 			<item>
 				<label>$INFO[Window.Property(LatestAlbum.10.Title)]</label>
@@ -4488,7 +4578,7 @@
 				<onclick>PlayMedia("$INFO[Window.Property(LatestAlbum.10.Path)]")</onclick>
 				<icon>$INFO[Window.Property(LatestAlbum.10.Thumb)]</icon>
 				<thumb>$INFO[Window.Property(LatestAlbum.10.Fanart)]</thumb>
-				<visible>!IsEmpty(Window.Property(LatestAlbum.10.Title))</visible>
+				<visible>!IsEmpty(Window.Property(LatestAlbum.10.Title)) + !SubString(Window(Home).Property(SkinWidgets_RecentItems),true)</visible>
 			</item>
 		</content>
 	</include>
