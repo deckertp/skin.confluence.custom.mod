@@ -2,8 +2,6 @@
 <includes>
 	<include name="HomeWidgetPanel">
 		<control type="group" id="9003">
-			<!--onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
-			<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup-->
 			<onup>21</onup>
 			<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">610</ondown>
 			<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
@@ -43,8 +41,6 @@
 					<height>220</height>
 					<onleft>8000</onleft>
 					<onright>8000</onright>
-					<!--onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
-					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup-->
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">610</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
@@ -198,8 +194,6 @@
 					<height>240</height>
 					<onleft>8001</onleft>
 					<onright>8001</onright>
-					<!--onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
-					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup-->
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">610</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
@@ -440,8 +434,6 @@
 					<height>240</height>
 					<onleft>8002</onleft>
 					<onright>8002</onright>
-					<!--onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
-					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup-->
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">610</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
@@ -625,8 +617,6 @@
 					<height>220</height>
 					<onleft>8003</onleft>
 					<onright>8003</onright>
-					<!--onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
-					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup-->
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">610</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
@@ -781,8 +771,6 @@
 					<height>220</height>
 					<onleft>8004</onleft>
 					<onright>8004</onright>
-					<!--onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
-					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup-->
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">610</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
@@ -936,8 +924,6 @@
 					<height>240</height>
 					<onleft>8005</onleft>
 					<onright>8005</onright>
-					<!--onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
-					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup-->
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">610</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
@@ -1178,8 +1164,6 @@
 					<height>240</height>
 					<onleft>8006</onleft>
 					<onright>8006</onright>
-					<!--onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
-					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup-->
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">610</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
@@ -1363,8 +1347,6 @@
 					<height>220</height>
 					<onleft>8007</onleft>
 					<onright>8007</onright>
-					<!--onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
-					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup-->
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">610</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
@@ -1519,8 +1501,6 @@
 					<height>220</height>
 					<onleft>8008</onleft>
 					<onright>8008</onright>
-					<!--onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
-					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup-->
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">610</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
@@ -1674,8 +1654,6 @@
 					<height>240</height>
 					<onleft>8009</onleft>
 					<onright>8009</onright>
-					<!--onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
-					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup-->
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">610</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
@@ -1916,8 +1894,6 @@
 					<height>240</height>
 					<onleft>8010</onleft>
 					<onright>8010</onright>
-					<!--onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
-					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup-->
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">610</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
@@ -2101,8 +2077,6 @@
 					<height>220</height>
 					<onleft>8011</onleft>
 					<onright>8011</onright>
-					<!--onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
-					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup-->
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">610</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
@@ -2274,8 +2248,6 @@
 					<height>220</height>
 					<onleft>8012</onleft>
 					<onright>8012</onright>
-					<!--onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
-					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup-->
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">610</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
@@ -2299,8 +2271,6 @@
 					<height>220</height>
 					<onleft>8012</onleft>
 					<onright>8012</onright>
-					<!--onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
-					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup-->
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">610</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
@@ -2324,8 +2294,6 @@
 					<height>220</height>
 					<onleft>8012</onleft>
 					<onright>8012</onright>
-					<!--onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
-					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup-->
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">610</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
@@ -2349,8 +2317,6 @@
 					<height>220</height>
 					<onleft>8012</onleft>
 					<onright>8012</onright>
-					<!--onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
-					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup-->
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">610</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
@@ -2374,8 +2340,6 @@
 					<height>220</height>
 					<onleft>8012</onleft>
 					<onright>8012</onright>
-					<!--onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
-					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup-->
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">610</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
@@ -2399,8 +2363,6 @@
 					<height>220</height>
 					<onleft>8012</onleft>
 					<onright>8012</onright>
-					<!--onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
-					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup-->
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">610</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
@@ -2424,8 +2386,6 @@
 					<height>220</height>
 					<onleft>8012</onleft>
 					<onright>8012</onright>
-					<!--onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
-					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup-->
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">610</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
@@ -2449,8 +2409,6 @@
 					<height>220</height>
 					<onleft>8012</onleft>
 					<onright>8012</onright>
-					<!--onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
-					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup-->
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">610</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
@@ -2474,8 +2432,6 @@
 					<height>220</height>
 					<onleft>8012</onleft>
 					<onright>8012</onright>
-					<!--onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
-					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup-->
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">610</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
@@ -2499,8 +2455,6 @@
 					<height>220</height>
 					<onleft>8012</onleft>
 					<onright>8012</onright>
-					<!--onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
-					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup-->
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">610</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
@@ -2584,8 +2538,6 @@
 					<height>240</height>
 					<onleft>8013</onleft>
 					<onright>8013</onright>
-					<!--onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
-					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup-->
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">610</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
@@ -2610,8 +2562,6 @@
 					<height>240</height>
 					<onleft>8013</onleft>
 					<onright>8013</onright>
-					<!--onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
-					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup-->
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">610</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
@@ -2636,8 +2586,6 @@
 					<height>240</height>
 					<onleft>8013</onleft>
 					<onright>8013</onright>
-					<!--onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
-					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup-->
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">610</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
@@ -2662,8 +2610,6 @@
 					<height>240</height>
 					<onleft>8013</onleft>
 					<onright>8013</onright>
-					<!--onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
-					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup-->
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">610</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
@@ -2688,8 +2634,6 @@
 					<height>240</height>
 					<onleft>8013</onleft>
 					<onright>8013</onright>
-					<!--onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
-					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup-->
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">610</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
@@ -2714,8 +2658,6 @@
 					<height>240</height>
 					<onleft>8013</onleft>
 					<onright>8013</onright>
-					<!--onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
-					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup-->
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">610</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
@@ -2740,8 +2682,6 @@
 					<height>240</height>
 					<onleft>8013</onleft>
 					<onright>8013</onright>
-					<!--onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
-					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup-->
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">610</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
@@ -2766,8 +2706,6 @@
 					<height>240</height>
 					<onleft>8013</onleft>
 					<onright>8013</onright>
-					<!--onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
-					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup-->
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">610</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
@@ -2792,8 +2730,6 @@
 					<height>240</height>
 					<onleft>8013</onleft>
 					<onright>8013</onright>
-					<!--onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
-					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup-->
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">610</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
@@ -2818,8 +2754,6 @@
 					<height>240</height>
 					<onleft>8013</onleft>
 					<onright>8013</onright>
-					<!--onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
-					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup-->
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">610</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
@@ -2890,8 +2824,6 @@
 					<height>220</height>
 					<onleft>8014</onleft>
 					<onright>8014</onright>
-					<!--onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
-					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup-->
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">610</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
@@ -3045,8 +2977,6 @@
 					<height>240</height>
 					<onleft>8015</onleft>
 					<onright>8015</onright>
-					<!--onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
-					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup-->
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">610</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
@@ -3233,8 +3163,6 @@
 					<height>240</height>
 					<onleft>8016</onleft>
 					<onright>8016</onright>
-					<!--onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
-					<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup-->
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch)">610</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">603</ondown>
@@ -3992,7 +3920,6 @@
 				<label>$INFO[Window(Home).Property(RecentEpisode.1.Title)]</label>
 				<label2>$INFO[Window(Home).Property(RecentEpisode.1.TVshowTitle)] - $INFO[Window(Home).Property(RecentEpisode.1.EpisodeNo)]</label2>
 				<onclick>PlayList.Clear</onclick>
-				<!--onclick>$INFO[Window(Home).Property(RecentEpisode.1.Play)]</onclick-->
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecentEpisode.1.File)])</onclick>
 				<icon>$INFO[Window(Home).Property(RecentEpisode.1.Art(thumb))]</icon>
 				<thumb>$INFO[Window(Home).Property(RecentEpisode.1.Art(tvshow.fanart))]</thumb>
@@ -4004,7 +3931,6 @@
 				<label2>$INFO[Window(Home).Property(RecentEpisode.2.TVshowTitle)] - $INFO[Window(Home).Property(RecentEpisode.2.EpisodeNo)]</label2>
 				<onclick>PlayList.Clear</onclick>
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecentEpisode.2.File)])</onclick>
-				<!--onclick>$INFO[Window(Home).Property(RecentEpisode.2.Play)]</onclick-->
 				<icon>$INFO[Window(Home).Property(RecentEpisode.2.Art(thumb))]</icon>
 				<thumb>$INFO[Window(Home).Property(RecentEpisode.2.Art(tvshow.fanart))]</thumb>
 				<property name="Logo">$INFO[Window(Home).Property(RecentEpisode.2.Art(tvshow.clearlogo))]</property>
@@ -4015,7 +3941,6 @@
 				<label2>$INFO[Window(Home).Property(RecentEpisode.3.TVshowTitle)] - $INFO[Window(Home).Property(RecentEpisode.3.EpisodeNo)]</label2>
 				<onclick>PlayList.Clear</onclick>
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecentEpisode.3.File)])</onclick>
-				<!--onclick>$INFO[Window(Home).Property(RecentEpisode.3.Play)]</onclick-->
 				<icon>$INFO[Window(Home).Property(RecentEpisode.3.Art(thumb))]</icon>
 				<thumb>$INFO[Window(Home).Property(RecentEpisode.3.Art(tvshow.fanart))]</thumb>
 				<property name="Logo">$INFO[Window(Home).Property(RecentEpisode.3.Art(tvshow.clearlogo))]</property>
@@ -4026,7 +3951,6 @@
 				<label2>$INFO[Window(Home).Property(RecentEpisode.4.TVshowTitle)] - $INFO[Window(Home).Property(RecentEpisode.4.EpisodeNo)]</label2>
 				<onclick>PlayList.Clear</onclick>
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecentEpisode.4.File)])</onclick>
-				<!--onclick>$INFO[Window(Home).Property(RecentEpisode.4.Play)]</onclick-->
 				<icon>$INFO[Window(Home).Property(RecentEpisode.4.Art(thumb))]</icon>
 				<thumb>$INFO[Window(Home).Property(RecentEpisode.4.Art(tvshow.fanart))]</thumb>
 				<property name="Logo">$INFO[Window(Home).Property(RecentEpisode.4.Art(tvshow.clearlogo))]</property>
@@ -4037,7 +3961,6 @@
 				<label2>$INFO[Window(Home).Property(RecentEpisode.5.TVshowTitle)] - $INFO[Window(Home).Property(RecentEpisode.5.EpisodeNo)]</label2>
 				<onclick>PlayList.Clear</onclick>
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecentEpisode.5.File)])</onclick>
-				<!--onclick>$INFO[Window(Home).Property(RecentEpisode.5.Play)]</onclick-->
 				<icon>$INFO[Window(Home).Property(RecentEpisode.5.Art(thumb))]</icon>
 				<thumb>$INFO[Window(Home).Property(RecentEpisode.5.Art(tvshow.fanart))]</thumb>
 				<property name="Logo">$INFO[Window(Home).Property(RecentEpisode.5.Art(tvshow.clearlogo))]</property>
@@ -4048,7 +3971,6 @@
 				<label2>$INFO[Window(Home).Property(RecentEpisode.6.TVshowTitle)] - $INFO[Window(Home).Property(RecentEpisode.6.EpisodeNo)]</label2>
 				<onclick>PlayList.Clear</onclick>
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecentEpisode.6.File)])</onclick>
-				<!--onclick>$INFO[Window(Home).Property(RecentEpisode.6.Play)]</onclick-->
 				<icon>$INFO[Window(Home).Property(RecentEpisode.6.Art(thumb))]</icon>
 				<thumb>$INFO[Window(Home).Property(RecentEpisode.6.Art(tvshow.fanart))]</thumb>
 				<property name="Logo">$INFO[Window(Home).Property(RecentEpisode.6.Art(tvshow.clearlogo))]</property>
@@ -4059,7 +3981,6 @@
 				<label2>$INFO[Window(Home).Property(RecentEpisode.7.TVshowTitle)] - $INFO[Window(Home).Property(RecentEpisode.7.EpisodeNo)]</label2>
 				<onclick>PlayList.Clear</onclick>
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecentEpisode.7.File)])</onclick>
-				<!--onclick>$INFO[Window(Home).Property(RecentEpisode.7.Play)]</onclick-->
 				<icon>$INFO[Window(Home).Property(RecentEpisode.7.Art(thumb))]</icon>
 				<thumb>$INFO[Window(Home).Property(RecentEpisode.7.Art(tvshow.fanart))]</thumb>
 				<property name="Logo">$INFO[Window(Home).Property(RecentEpisode.7.Art(tvshow.clearlogo))]</property>
@@ -4070,7 +3991,6 @@
 				<label2>$INFO[Window(Home).Property(RecentEpisode.8.TVshowTitle)] - $INFO[Window(Home).Property(RecentEpisode.8.EpisodeNo)]</label2>
 				<onclick>PlayList.Clear</onclick>
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecentEpisode.8.File)])</onclick>
-				<!--onclick>$INFO[Window(Home).Property(RecentEpisode.8.Play)]</onclick-->
 				<icon>$INFO[Window(Home).Property(RecentEpisode.8.Art(thumb))]</icon>
 				<thumb>$INFO[Window(Home).Property(RecentEpisode.8.Art(tvshow.fanart))]</thumb>
 				<property name="Logo">$INFO[Window(Home).Property(RecentEpisode.8.Art(tvshow.clearlogo))]</property>
@@ -4081,7 +4001,6 @@
 				<label2>$INFO[Window(Home).Property(RecentEpisode.9.TVshowTitle)] - $INFO[Window(Home).Property(RecentEpisode.9.EpisodeNo)]</label2>
 				<onclick>PlayList.Clear</onclick>
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecentEpisode.9.File)])</onclick>
-				<!--onclick>$INFO[Window(Home).Property(RecentEpisode.9.Play)]</onclick-->
 				<icon>$INFO[Window(Home).Property(RecentEpisode.9.Art(thumb))]</icon>
 				<thumb>$INFO[Window(Home).Property(RecentEpisode.9.Art(tvshow.fanart))]</thumb>
 				<property name="Logo">$INFO[Window(Home).Property(RecentEpisode.9.Art(tvshow.clearlogo))]</property>
@@ -4092,7 +4011,6 @@
 				<label2>$INFO[Window(Home).Property(RecentEpisode.10.TVshowTitle)] - $INFO[Window(Home).Property(RecentEpisode.10.EpisodeNo)]</label2>
 				<onclick>PlayList.Clear</onclick>
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecentEpisode.10.File)])</onclick>
-				<!--onclick>$INFO[Window(Home).Property(RecentEpisode.10.Play)]</onclick-->
 				<icon>$INFO[Window(Home).Property(RecentEpisode.10.Art(thumb))]</icon>
 				<thumb>$INFO[Window(Home).Property(RecentEpisode.10.Art(tvshow.fanart))]</thumb>
 				<property name="Logo">$INFO[Window(Home).Property(RecentEpisode.10.Art(tvshow.clearlogo))]</property>
@@ -4773,13 +4691,103 @@
 	<include name="RecentConcertContent">
 		<content>
 			<item>
+				<label>$INFO[Window.Property(RecentMusicVideo.1.Title)]</label>
+				<label2></label2>
+				<onclick>PlayList.Clear</onclick>
+				<onclick>PlayMedia($ESCINFO[Window.Property(RecentMusicVideo.1.File)])</onclick>
+				<icon>$INFO[Window.Property(RecentMusicVideo.1.Thumb)]</icon>
+				<thumb>$INFO[Window.Property(RecentMusicVideo.1.Fanart)]</thumb>
+				<visible>!IsEmpty(Window.Property(RecentMusicVideo.1.Title)) + SubString(Window(Home).Property(SkinWidgets_RecentItems),true)</visible>
+			</item>
+			<item>
+				<label>$INFO[Window.Property(RecentMusicVideo.2.Title)]</label>
+				<label2></label2>
+				<onclick>PlayList.Clear</onclick>
+				<onclick>PlayMedia($ESCINFO[Window.Property(RecentMusicVideo.2.File)])</onclick>
+				<icon>$INFO[Window.Property(RecentMusicVideo.2.Thumb)]</icon>
+				<thumb>$INFO[Window.Property(RecentMusicVideo.2.Fanart)]</thumb>
+				<visible>!IsEmpty(Window.Property(RecentMusicVideo.2.Title)) + SubString(Window(Home).Property(SkinWidgets_RecentItems),true)</visible>
+			</item>
+			<item>
+				<label>$INFO[Window.Property(RecentMusicVideo.3.Title)]</label>
+				<label2></label2>
+				<onclick>PlayList.Clear</onclick>
+				<onclick>PlayMedia($ESCINFO[Window.Property(RecentMusicVideo.3.File)])</onclick>
+				<icon>$INFO[Window.Property(RecentMusicVideo.3.Thumb)]</icon>
+				<thumb>$INFO[Window.Property(RecentMusicVideo.3.Fanart)]</thumb>
+				<visible>!IsEmpty(Window.Property(RecentMusicVideo.3.Title)) + SubString(Window(Home).Property(SkinWidgets_RecentItems),true)</visible>
+			</item>
+			<item>
+				<label>$INFO[Window.Property(RecentMusicVideo.4.Title)]</label>
+				<label2></label2>
+				<onclick>PlayList.Clear</onclick>
+				<onclick>PlayMedia($ESCINFO[Window.Property(RecentMusicVideo.4.File)])</onclick>
+				<icon>$INFO[Window.Property(RecentMusicVideo.4.Thumb)]</icon>
+				<thumb>$INFO[Window.Property(RecentMusicVideo.4.Fanart)]</thumb>
+				<visible>!IsEmpty(Window.Property(RecentMusicVideo.4.Title)) + SubString(Window(Home).Property(SkinWidgets_RecentItems),true)</visible>
+			</item>
+			<item>
+				<label>$INFO[Window.Property(RecentMusicVideo.5.Title)]</label>
+				<label2></label2>
+				<onclick>PlayList.Clear</onclick>
+				<onclick>PlayMedia($ESCINFO[Window.Property(RecentMusicVideo.5.File)])</onclick>
+				<icon>$INFO[Window.Property(RecentMusicVideo.5.Thumb)]</icon>
+				<thumb>$INFO[Window.Property(RecentMusicVideo.5.Fanart)]</thumb>
+				<visible>!IsEmpty(Window.Property(RecentMusicVideo.5.Title)) + SubString(Window(Home).Property(SkinWidgets_RecentItems),true)</visible>
+			</item>
+			<item>
+				<label>$INFO[Window.Property(RecentMusicVideo.6.Title)]</label>
+				<label2></label2>
+				<onclick>PlayList.Clear</onclick>
+				<onclick>PlayMedia($ESCINFO[Window.Property(RecentMusicVideo.6.File)])</onclick>
+				<icon>$INFO[Window.Property(RecentMusicVideo.6.Thumb)]</icon>
+				<thumb>$INFO[Window.Property(RecentMusicVideo.6.Fanart)]</thumb>
+				<visible>!IsEmpty(Window.Property(RecentMusicVideo.6.Title)) + SubString(Window(Home).Property(SkinWidgets_RecentItems),true)</visible>
+			</item>
+			<item>
+				<label>$INFO[Window.Property(RecentMusicVideo.7.Title)]</label>
+				<label2></label2>
+				<onclick>PlayList.Clear</onclick>
+				<onclick>PlayMedia($ESCINFO[Window.Property(RecentMusicVideo.7.File)])</onclick>
+				<icon>$INFO[Window.Property(RecentMusicVideo.7.Thumb)]</icon>
+				<thumb>$INFO[Window.Property(RecentMusicVideo.7.Fanart)]</thumb>
+				<visible>!IsEmpty(Window.Property(RecentMusicVideo.7.Title)) + SubString(Window(Home).Property(SkinWidgets_RecentItems),true)</visible>
+			</item>
+			<item>
+				<label>$INFO[Window.Property(RecentMusicVideo.8.Title)]</label>
+				<label2></label2>
+				<onclick>PlayList.Clear</onclick>
+				<onclick>PlayMedia($ESCINFO[Window.Property(RecentMusicVideo.8.File)])</onclick>
+				<icon>$INFO[Window.Property(RecentMusicVideo.8.Thumb)]</icon>
+				<thumb>$INFO[Window.Property(RecentMusicVideo.8.Fanart)]</thumb>
+				<visible>!IsEmpty(Window.Property(RecentMusicVideo.8.Title)) + SubString(Window(Home).Property(SkinWidgets_RecentItems),true)</visible>
+			</item>
+			<item>
+				<label>$INFO[Window.Property(RecentMusicVideo.9.Title)]</label>
+				<label2></label2>
+				<onclick>PlayList.Clear</onclick>
+				<onclick>PlayMedia($ESCINFO[Window.Property(RecentMusicVideo.9.File)])</onclick>
+				<icon>$INFO[Window.Property(RecentMusicVideo.9.Thumb)]</icon>
+				<thumb>$INFO[Window.Property(RecentMusicVideo.9.Fanart)]</thumb>
+				<visible>!IsEmpty(Window.Property(RecentMusicVideo.9.Title)) + SubString(Window(Home).Property(SkinWidgets_RecentItems),true)</visible>
+			</item>
+			<item>
+				<label>$INFO[Window.Property(RecentMusicVideo.10.Title)]</label>
+				<label2></label2>
+				<onclick>PlayList.Clear</onclick>
+				<onclick>PlayMedia($ESCINFO[Window.Property(RecentMusicVideo.10.File)])</onclick>
+				<icon>$INFO[Window.Property(RecentMusicVideo.10.Thumb)]</icon>
+				<thumb>$INFO[Window.Property(RecentMusicVideo.10.Fanart)]</thumb>
+				<visible>!IsEmpty(Window.Property(RecentMusicVideo.10.Title)) + SubString(Window(Home).Property(SkinWidgets_RecentItems),true)</visible>
+			</item>
+			<item>
 				<label>$INFO[Window.Property(LatestMusicVideo.1.Title)]</label>
 				<label2></label2>
 				<onclick>PlayList.Clear</onclick>
 				<onclick>PlayMedia($ESCINFO[Window.Property(LatestMusicVideo.1.Path)])</onclick>
 				<icon>$INFO[Window.Property(LatestMusicVideo.1.Thumb)]</icon>
 				<thumb>$INFO[Window.Property(LatestMusicVideo.1.Fanart)]</thumb>
-				<visible>!IsEmpty(Window.Property(LatestMusicVideo.1.Title))</visible>
+				<visible>!IsEmpty(Window.Property(LatestMusicVideo.1.Title)) + !SubString(Window(Home).Property(SkinWidgets_RecentItems),true)</visible>
 			</item>
 			<item>
 				<label>$INFO[Window.Property(LatestMusicVideo.2.Title)]</label>
@@ -4788,7 +4796,7 @@
 				<onclick>PlayMedia($ESCINFO[Window.Property(LatestMusicVideo.2.Path)])</onclick>
 				<icon>$INFO[Window.Property(LatestMusicVideo.2.Thumb)]</icon>
 				<thumb>$INFO[Window.Property(LatestMusicVideo.2.Fanart)]</thumb>
-				<visible>!IsEmpty(Window.Property(LatestMusicVideo.2.Title))</visible>
+				<visible>!IsEmpty(Window.Property(LatestMusicVideo.2.Title)) + !SubString(Window(Home).Property(SkinWidgets_RecentItems),true)</visible>
 			</item>
 			<item>
 				<label>$INFO[Window.Property(LatestMusicVideo.3.Title)]</label>
@@ -4797,7 +4805,7 @@
 				<onclick>PlayMedia($ESCINFO[Window.Property(LatestMusicVideo.3.Path)])</onclick>
 				<icon>$INFO[Window.Property(LatestMusicVideo.3.Thumb)]</icon>
 				<thumb>$INFO[Window.Property(LatestMusicVideo.3.Fanart)]</thumb>
-				<visible>!IsEmpty(Window.Property(LatestMusicVideo.3.Title))</visible>
+				<visible>!IsEmpty(Window.Property(LatestMusicVideo.3.Title)) + !SubString(Window(Home).Property(SkinWidgets_RecentItems),true)</visible>
 			</item>
 			<item>
 				<label>$INFO[Window.Property(LatestMusicVideo.4.Title)]</label>
@@ -4806,7 +4814,7 @@
 				<onclick>PlayMedia($ESCINFO[Window.Property(LatestMusicVideo.4.Path)])</onclick>
 				<icon>$INFO[Window.Property(LatestMusicVideo.4.Thumb)]</icon>
 				<thumb>$INFO[Window.Property(LatestMusicVideo.4.Fanart)]</thumb>
-				<visible>!IsEmpty(Window.Property(LatestMusicVideo.4.Title))</visible>
+				<visible>!IsEmpty(Window.Property(LatestMusicVideo.4.Title)) + !SubString(Window(Home).Property(SkinWidgets_RecentItems),true)</visible>
 			</item>
 			<item>
 				<label>$INFO[Window.Property(LatestMusicVideo.5.Title)]</label>
@@ -4815,7 +4823,7 @@
 				<onclick>PlayMedia($ESCINFO[Window.Property(LatestMusicVideo.5.Path)])</onclick>
 				<icon>$INFO[Window.Property(LatestMusicVideo.5.Thumb)]</icon>
 				<thumb>$INFO[Window.Property(LatestMusicVideo.5.Fanart)]</thumb>
-				<visible>!IsEmpty(Window.Property(LatestMusicVideo.5.Title))</visible>
+				<visible>!IsEmpty(Window.Property(LatestMusicVideo.5.Title)) + !SubString(Window(Home).Property(SkinWidgets_RecentItems),true)</visible>
 			</item>
 			<item>
 				<label>$INFO[Window.Property(LatestMusicVideo.6.Title)]</label>
@@ -4824,7 +4832,7 @@
 				<onclick>PlayMedia($ESCINFO[Window.Property(LatestMusicVideo.6.Path)])</onclick>
 				<icon>$INFO[Window.Property(LatestMusicVideo.6.Thumb)]</icon>
 				<thumb>$INFO[Window.Property(LatestMusicVideo.6.Fanart)]</thumb>
-				<visible>!IsEmpty(Window.Property(LatestMusicVideo.6.Title))</visible>
+				<visible>!IsEmpty(Window.Property(LatestMusicVideo.6.Title)) + !SubString(Window(Home).Property(SkinWidgets_RecentItems),true)</visible>
 			</item>
 			<item>
 				<label>$INFO[Window.Property(LatestMusicVideo.7.Title)]</label>
@@ -4833,7 +4841,7 @@
 				<onclick>PlayMedia($ESCINFO[Window.Property(LatestMusicVideo.7.Path)])</onclick>
 				<icon>$INFO[Window.Property(LatestMusicVideo.7.Thumb)]</icon>
 				<thumb>$INFO[Window.Property(LatestMusicVideo.7.Fanart)]</thumb>
-				<visible>!IsEmpty(Window.Property(LatestMusicVideo.7.Title))</visible>
+				<visible>!IsEmpty(Window.Property(LatestMusicVideo.7.Title)) + !SubString(Window(Home).Property(SkinWidgets_RecentItems),true)</visible>
 			</item>
 			<item>
 				<label>$INFO[Window.Property(LatestMusicVideo.8.Title)]</label>
@@ -4842,7 +4850,7 @@
 				<onclick>PlayMedia($ESCINFO[Window.Property(LatestMusicVideo.8.Path)])</onclick>
 				<icon>$INFO[Window.Property(LatestMusicVideo.8.Thumb)]</icon>
 				<thumb>$INFO[Window.Property(LatestMusicVideo.8.Fanart)]</thumb>
-				<visible>!IsEmpty(Window.Property(LatestMusicVideo.8.Title))</visible>
+				<visible>!IsEmpty(Window.Property(LatestMusicVideo.8.Title)) + !SubString(Window(Home).Property(SkinWidgets_RecentItems),true)</visible>
 			</item>
 			<item>
 				<label>$INFO[Window.Property(LatestMusicVideo.9.Title)]</label>
@@ -4851,7 +4859,7 @@
 				<onclick>PlayMedia($ESCINFO[Window.Property(LatestMusicVideo.9.Path)])</onclick>
 				<icon>$INFO[Window.Property(LatestMusicVideo.9.Thumb)]</icon>
 				<thumb>$INFO[Window.Property(LatestMusicVideo.9.Fanart)]</thumb>
-				<visible>!IsEmpty(Window.Property(LatestMusicVideo.9.Title))</visible>
+				<visible>!IsEmpty(Window.Property(LatestMusicVideo.9.Title)) + !SubString(Window(Home).Property(SkinWidgets_RecentItems),true)</visible>
 			</item>
 			<item>
 				<label>$INFO[Window.Property(LatestMusicVideo.10.Title)]</label>
@@ -4860,7 +4868,7 @@
 				<onclick>PlayMedia($ESCINFO[Window.Property(LatestMusicVideo.10.Path)])</onclick>
 				<icon>$INFO[Window.Property(LatestMusicVideo.10.Thumb)]</icon>
 				<thumb>$INFO[Window.Property(LatestMusicVideo.10.Fanart)]</thumb>
-				<visible>!IsEmpty(Window.Property(LatestMusicVideo.10.Title))</visible>
+				<visible>!IsEmpty(Window.Property(LatestMusicVideo.10.Title)) + !SubString(Window(Home).Property(SkinWidgets_RecentItems),true)</visible>
 			</item>
 		</content>
 	</include>
