@@ -108,14 +108,20 @@ msgctxt "#31034"
 msgid "Vertical Logo"
 msgstr ""
 
-#empty strings from id 31035 to 31039
+msgctxt "#31035"
+msgid "Low List"
+msgstr ""
+
+#empty strings from id 31036 to 31039
 #Extra labels
 
 msgctxt "#31040"
 msgid "Now Playing"
 msgstr ""
 
-#empty string with id 31041
+msgctxt "#31041"
+msgid "Hide DVD Cases"
+msgstr ""
 
 msgctxt "#31042"
 msgid "PLAYING"

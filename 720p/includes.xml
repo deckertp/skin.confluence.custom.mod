@@ -18,6 +18,7 @@
 	<include file="IncludesBackgroundEffect.xml" />
 	<include file="IncludesCDWall.xml" />
 	<include file="ViewsLogoVertical.xml" />
+	<include file="ViewsLowlist.xml" />
 	<constant name="FanartCrossfadeTime">500</constant>
 	<constant name="IconCrossfadeTime">400</constant>
 	<include name="ClearButtonChoice">

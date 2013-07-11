@@ -2,7 +2,7 @@
 <window>
 	<defaultcontrol always="true">50</defaultcontrol>
 	<allowoverlay>no</allowoverlay>
-	<views>50,51,500,550,551,560,501,508,504,503,515,505,511,730,732</views>
+	<views>50,51,500,550,551,560,501,508,504,503,515,505,511,724,730,732</views>
 	<onload condition="!Skin.HasSetting(HideTvTunes) + System.HasAddon(script.tvtunes)">XBMC.RunScript(script.tvtunes,backend=True&amp;loop=False)</onload>
 	<controls>
 		<include>CommonBackground</include>
@@ -35,6 +35,8 @@
 			<!-- view id = 551 -->
 			<include>LiveTVView1</include>
 			<!-- view id = 560 -->
+			<include>Lowlist</include>
+			<!-- view id = 724 -->
 			<include>LogoVertical</include>
 			<!-- view id = 730 -->
 			<include>FullWallView</include>
@@ -250,6 +252,15 @@
 					<onclick>Skin.ToggleSetting(View730ShowThumb)</onclick>
 					<selected>Skin.HasSetting(View730ShowThumb)</selected>
 					<visible>Control.IsVisible(730) + Container.Content(Episodes)</visible>
+				</control>
+				<control type="radiobutton" id="103">
+					<description>Show DVD Cases Toggle</description>
+					<textwidth>170</textwidth>
+					<include>ButtonCommonValues</include>
+					<label>31041</label>
+					<onclick>Skin.ToggleSetting(View724DisableCases)</onclick>
+					<selected>Skin.HasSetting(View724DisableCases)</selected>
+					<visible>Control.IsVisible(724)</visible>
 				</control>
 				<control type="radiobutton" id="14">
 					<description>Watched Toggle</description>
