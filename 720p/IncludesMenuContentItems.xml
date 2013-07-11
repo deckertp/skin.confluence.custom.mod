@@ -76,6 +76,20 @@
 				<onclick condition="Window.IsVisible(2114)">Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].Fanart,special://skin/backgrounds/homescreen/pictures.jpg)</onclick>
 				<include>CloseMenuChoice</include>
 			</item>
+					<item>
+				<description>Random SlideShow</description>
+				<label>$LOCALIZE[108] ([COLOR=selected]$LOCALIZE[590][/COLOR])</label>
+				<include>ClearButtonChoice</include>
+				<onclick>Skin.SetPath(UsrSelectAddon)</onclick>
+				<onclick condition="!IsEmpty(Skin.String(UsrSelectAddon))">Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].Path,SlideShow($INFO[Skin.String(UsrSelectAddon)],recursive,random))</onclick>
+				<onclick condition="!IsEmpty(Skin.String(UsrSelectAddon))">Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].Label,$LOCALIZE[108])</onclick>
+				<onclick condition="Window.IsVisible(2114) + !IsEmpty(Skin.String(UsrSelectAddon))">Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].Sub,Pictures)</onclick>
+				<onclick condition="Window.IsVisible(2114) + !IsEmpty(Skin.String(UsrSelectAddon))">Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].Addon,None)</onclick>
+				<onclick condition="Window.IsVisible(2114) + !IsEmpty(Skin.String(UsrSelectAddon))">Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].Widget,None)</onclick>
+				<onclick condition="Window.IsVisible(2114) + !IsEmpty(Skin.String(UsrSelectAddon))">Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].Type,Pictures)</onclick>
+				<onclick condition="Window.IsVisible(2114) + !IsEmpty(Skin.String(UsrSelectAddon))">Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].Fanart,special://skin/backgrounds/homescreen/pictures.jpg)</onclick>
+				<include>CloseMenuChoice</include>
+			</item>			
 			<item>
 				<description>Programs</description>
 				<label>$LOCALIZE[0]</label>
