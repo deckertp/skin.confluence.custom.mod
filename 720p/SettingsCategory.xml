@@ -262,7 +262,7 @@
 				<aspectratio>keep</aspectratio>
 				<texture>icon_home.png</texture>
 			</control>
-		</control>		
+		</control>
 		<control type="image">
 			<description>Section header image</description>
 			<posx>20</posx>

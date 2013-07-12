@@ -263,7 +263,7 @@
 	<variable name="UsersSubPicturesName" type="text">
 		<value condition="!IsEmpty(Skin.String(UserPicturesSubMenu))">$INFO[Skin.String(UserPicturesSubMenu)]</value>
 		<value>$LOCALIZE[1213]</value>
-	</variable>	
+	</variable>
 	<variable name="UsersSubSelectOneName" type="text">
 		<value condition="!IsEmpty(Skin.String(UserSelectOneSubMenu))">$INFO[Skin.String(UserSelectOneSubMenu)]</value>
 		<value>$LOCALIZE[31135]</value>
@@ -407,7 +407,7 @@
 		<value condition="stringcompare(Skin.String(HomeItem.1.Sub),UserOne)">$VAR[UsersSubSelectOneName]</value>
 		<value condition="stringcompare(Skin.String(HomeItem.1.Sub),UserTwo)">$VAR[UsersSubSelectTwoName]</value>
 		<value condition="stringcompare(Skin.String(HomeItem.1.Sub),UserThree)">$VAR[UsersSubSelectThreeName]</value>
-		<value condition="stringcompare(Skin.String(HomeItem.1.Sub),Favourites)">$LOCALIZE[1036]</value>		
+		<value condition="stringcompare(Skin.String(HomeItem.1.Sub),Favourites)">$LOCALIZE[1036]</value>
 		<value condition="stringcompare(Skin.String(HomeItem.1.Sub),LiveTV)">$LOCALIZE[31502]</value>
 		<value condition="stringcompare(Skin.String(HomeItem.1.Sub),Settings)">$LOCALIZE[10004]</value>
 		<value>$LOCALIZE[31093]</value>
@@ -591,7 +591,6 @@
 		<value condition="stringcompare(Skin.String(HomeItem.2.Addon),AddonSetEight)">$LOCALIZE[31199]</value>
 		<value condition="stringcompare(Skin.String(HomeItem.2.Addon),AddonSetNine)">$LOCALIZE[31200]</value>
 		<value condition="stringcompare(Skin.String(HomeItem.2.Addon),AddonSetTen)">$LOCALIZE[31201]</value>
-
 		<value>$LOCALIZE[31093]</value>
 	</variable>
 	<variable name="UsrDefItemThreeAddOnLabel" type="text">

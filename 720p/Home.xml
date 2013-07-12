@@ -1354,7 +1354,7 @@
 				<content>
 					<include>HomeAddonSetSix</include>
 				</content>
-			</control>			
+			</control>
 			<control type="fixedlist" id="708">
 				<animation effect="slide" start="0,0" end="-91,0" time="0" condition="StringCompare(Container(708).NumItems,2) | StringCompare(Container(708).NumItems,4)">conditional</animation>
 				<visible>StringCompare(Container(9000).ListItem.Property(AddOnSet),AddonSetSeven)</visible>
@@ -1370,7 +1370,7 @@
 				<content>
 					<include>HomeAddonSetSeven</include>
 				</content>
-			</control>			
+			</control>
 			<control type="fixedlist" id="709">
 				<animation effect="slide" start="0,0" end="-91,0" time="0" condition="StringCompare(Container(709).NumItems,2) | StringCompare(Container(709).NumItems,4)">conditional</animation>
 				<visible>StringCompare(Container(9000).ListItem.Property(AddOnSet),AddonSetEight)</visible>
@@ -1402,7 +1402,7 @@
 				<content>
 					<include>HomeAddonSetNine</include>
 				</content>
-			</control>		
+			</control>
 			<control type="fixedlist" id="711">
 				<animation effect="slide" start="0,0" end="-91,0" time="0" condition="StringCompare(Container(711).NumItems,2) | StringCompare(Container(711).NumItems,4)">conditional</animation>
 				<visible>StringCompare(Container(9000).ListItem.Property(AddOnSet),AddonSetTen)</visible>
@@ -1418,7 +1418,7 @@
 				<content>
 					<include>HomeAddonSetTen</include>
 				</content>
-			</control>		
+			</control>
 		</control>
 		<control type="group">
 			<posx>0</posx>

@@ -2701,7 +2701,7 @@
 						<onclick>ActivateWindow(2115)</onclick>
 						<onclick condition="!IsEmpty(Skin.String(UserSubTwo.6.Label))">Skin.SetString(UserSubTwo.6.Label)</onclick>
 						<enable>Skin.HasSetting(RaiseMainMenuBar) | Skin.HasSetting(AutoHidePowerBtn)</enable>
-					</control>				
+					</control>
 					<control type="label" id="372">
 						<width>750</width>
 						<height>45</height>
@@ -2808,7 +2808,7 @@
 						<onclick>ActivateWindow(2115)</onclick>
 						<onclick condition="!IsEmpty(Skin.String(UserSubThree.6.Label))">Skin.SetString(UserSubThree.6.Label)</onclick>
 						<enable>Skin.HasSetting(RaiseMainMenuBar) | Skin.HasSetting(AutoHidePowerBtn)</enable>
-					</control>				
+					</control>
 				</control>
 				<control type="scrollbar" id="60">
 					<posx>1060</posx>
@@ -3747,7 +3747,7 @@
 						<onclick>Skin.ToggleSetting(GlobalBackground)</onclick>
 						<onleft>9000</onleft>
 						<onright condition="Skin.HasSetting(DisableHomeReturnButtons)">9000</onright>
-						<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">80</onright>							
+						<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">80</onright>
 						<onup>505</onup>
 						<ondown>504</ondown>
 						<selected>Skin.HasSetting(GlobalBackground)</selected>
@@ -3781,7 +3781,7 @@
 						<onclick>Control.Move(9005,-1)</onclick>
 						<onleft>504</onleft>
 						<onright condition="Skin.HasSetting(DisableHomeReturnButtons)">9000</onright>
-						<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">80</onright>							
+						<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">80</onright>
 						<onup>506</onup>
 						<ondown>500</ondown>
 					</control>

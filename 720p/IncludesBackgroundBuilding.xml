@@ -538,10 +538,6 @@
 					<texture border="15">ContentPanelMirror.png</texture>
 				</control>
 			</control>
-			
-			
-			
-		
 			<control type="group">
 				<include>VisibleFadeEffect</include>
 				<visible>Control.IsVisible(724)</visible>
@@ -551,12 +547,10 @@
 					<width>400</width>
 					<height>600</height-->
 					<posx>25</posx>
-				<!--posy>420</posy-->
-				
-				<posy>420</posy>
-				
-				<width>1250</width>
-				<height>240</height>
+					<!--posy>420</posy-->
+					<posy>420</posy>
+					<width>1250</width>
+					<height>240</height>
 					<texture border="15">ContentPanel.png</texture>
 					<include condition="!IsEmpty(Skin.String(MediaPanelTrans))">TransparentEffect</include>
 				</control>
@@ -583,14 +577,6 @@
 					<texture border="15">ContentPanelMirror.png</texture>
 				</control-->
 			</control>
-	
-
-
-
-
-
-	
-			
 		</control>
 	</include>
 	<include name="ContentPanelBackgroundsPVR">

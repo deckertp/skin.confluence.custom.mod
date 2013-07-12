@@ -183,7 +183,7 @@
 						<onclick>Dialog.Close(2116)</onclick>
 						<onclick>Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].Sub,UserThree)</onclick>
 						<onclick>ClearProperty(UsrSelectBtn,Home)</onclick>
-					</item>					
+					</item>
 					<item>
 						<description>Favourites</description>
 						<label>$LOCALIZE[1036]</label>
