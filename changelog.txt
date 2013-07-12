@@ -1,3 +1,12 @@
+[B]1.1.9[/B] [I]July 2013[/I]
+- Added option to Disable Busy Animation
+- Bugfix Recent Items Widgets
+- Increased Submenu Sets to 10 with friendly names
+- Added Menu options Random Slideshow & Clean Library
+- Increased Addon Sets to 10
+- Added LowList View
+- Added Home and Back Floor buttons
+
 [B]1.1.8[/B] [I]July 2013[/I]
 - Added option to edit Concerts,Pictures & Program submenu items
 - Added option to adjust home screen addon names
