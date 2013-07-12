@@ -1227,7 +1227,11 @@ msgctxt "#31625"
 msgid "Western"
 msgstr ""
 
-#empty strings from id 31626 to 31671
+#empty strings from id 31626 to 31670
+
+msgctxt "#31671"
+msgid "Enable Return Home and Back Buttons"
+msgstr ""
 
 msgctxt "#31672"
 msgid "Hide RainDrop Effect"

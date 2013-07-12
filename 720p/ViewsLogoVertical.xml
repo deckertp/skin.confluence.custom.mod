@@ -248,7 +248,8 @@
 				<textureslidernib>ScrollBarNib.png</textureslidernib>
 				<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 				<onleft>730</onleft>
-				<onright>730</onright>
+				<onright condition="Skin.HasSetting(DisableHomeReturnButtons)">9000</onright>
+				<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">80</onright>
 				<showonepage>true</showonepage>
 				<orientation>vertical</orientation>
 				<visible>Control.IsVisible(730)</visible>

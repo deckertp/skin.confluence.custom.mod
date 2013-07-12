@@ -79,7 +79,8 @@
 				<textureslidernib>ScrollBarNib.png</textureslidernib>
 				<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 				<onup>510</onup>
-				<ondown>2</ondown>
+				<ondown condition="Skin.HasSetting(DisableHomeReturnButtons)">9000</ondown>
+				<ondown condition="!Skin.HasSetting(DisableHomeReturnButtons)">80</ondown>
 				<showonepage>false</showonepage>
 				<orientation>horizontal</orientation>
 				<visible>Control.IsVisible(510)</visible>
@@ -156,7 +157,8 @@
 				<textureslidernib>ScrollBarNib.png</textureslidernib>
 				<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 				<onleft>514</onleft>
-				<onright>2</onright>
+				<onright condition="Skin.HasSetting(DisableHomeReturnButtons)">9000</onright>
+				<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">80</onright>
 				<showonepage>false</showonepage>
 				<orientation>vertical</orientation>
 				<visible>Control.IsVisible(514)</visible>

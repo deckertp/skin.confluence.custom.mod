@@ -83,7 +83,8 @@
 				<posy>110</posy>
 				<width>250</width>
 				<height>600</height>
-				<onleft>9000</onleft>
+				<onleft condition="Skin.HasSetting(DisableHomeReturnButtons)">9000</onleft>
+				<onleft condition="!Skin.HasSetting(DisableHomeReturnButtons)">81</onleft>
 				<onright>50</onright>
 				<onup>9000</onup>
 				<ondown>9000</ondown>

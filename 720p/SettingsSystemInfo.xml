@@ -72,6 +72,10 @@
 				<itemgap>-1</itemgap>
 				<onup>9000</onup>
 				<ondown>9000</ondown>
+				<onright condition="Skin.HasSetting(DisableHomeReturnButtons)">9000</onright>
+				<onright condition="!Skin.HasSetting(DisableHomeReturnButtons))">80</onright>
+				<onleft condition="Skin.HasSetting(DisableHomeReturnButtons)">9000</onleft>
+				<onleft condition="!Skin.HasSetting(DisableHomeReturnButtons)">81</onleft>
 				<control type="button" id="95">
 					<description>Button Summary Values</description>
 					<height>60</height>
@@ -330,7 +334,65 @@
 			</control>
 		</control>
 		<include>CommonNowPlaying</include>
-		<include>MainWindowMouseButtons</include>
+				<control type="group">
+			<posx>120r</posx>
+			<posy>55r</posy>
+			<animation effect="fade" time="250" condition="Window.Previous(Home)">WindowOpen</animation>
+			<animation effect="fade" time="250" condition="Window.Next(Home)">WindowClose</animation>
+			<visible>!Skin.HasSetting(DisableHomeReturnButtons)</visible>
+			<control type="button" id="80">
+				<description>Back push button</description>
+				<posx>0</posx>
+				<posy>0</posy>
+				<width>45</width>
+				<height>45</height>
+				<label>1036</label>
+				<font>-</font>
+				<aligny>-</aligny>
+				<onclick>back</onclick>
+				<texturefocus border="5">floor_buttonFO.png</texturefocus>
+				<texturenofocus border="5">floor_button.png</texturenofocus>
+				<onleft>9000</onleft>
+				<onright>81</onright>
+				<onup>9000</onup>
+				<ondown>9000</ondown>
+			</control>
+			<control type="image">
+				<description>Back Icon</description>
+				<posx>5</posx>
+				<posy>5</posy>
+				<width>35</width>
+				<height>35</height>
+				<aspectratio>keep</aspectratio>
+				<texture>icon_back.png</texture>
+			</control>
+			<control type="button" id="81">
+				<description>Home push button</description>
+				<posx>55</posx>
+				<posy>0</posy>
+				<width>45</width>
+				<height>45</height>
+				<label>31003</label>
+				<font>-</font>
+				<aligny>-</aligny>
+				<onclick>ActivateWindow(home)</onclick>
+				<texturefocus border="5">floor_buttonFO.png</texturefocus>
+				<texturenofocus border="5">floor_button.png</texturenofocus>
+				<onleft>80</onleft>
+				<onright>9000</onright>
+				<onup>9000</onup>
+				<ondown>9000</ondown>
+			</control>
+			<control type="image">
+				<description>Home Icon</description>
+				<posx>60</posx>
+				<posy>5</posy>
+				<width>35</width>
+				<height>35</height>
+				<aspectratio>keep</aspectratio>
+				<texture>icon_home.png</texture>
+			</control>
+		</control>
 		<control type="image">
 			<description>Section header image</description>
 			<posx>20</posx>

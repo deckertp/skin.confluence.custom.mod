@@ -398,11 +398,11 @@
 					<width>600</width>
 					<height>541</height>
 					<onleft>9000</onleft>
-					<onright>61</onright>
+					<onright>60</onright>
 					<onup>50</onup>
 					<ondown>50</ondown>
 					<viewtype label="535">list</viewtype>
-					<pagecontrol>61</pagecontrol>
+					<pagecontrol>60</pagecontrol>
 					<scrolltime>200</scrolltime>
 					<itemlayout height="135" width="600">
 						<control type="image">
@@ -652,7 +652,7 @@
 						</item>
 					</content>
 				</control>
-				<control type="scrollbar" id="61">
+				<control type="scrollbar" id="60">
 					<posx>615</posx>
 					<posy>60</posy>
 					<width>25</width>
@@ -663,13 +663,14 @@
 					<textureslidernib>ScrollBarNib.png</textureslidernib>
 					<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 					<onleft>50</onleft>
-					<onright>9000</onright>
+					<onright condition="Skin.HasSetting(DisableHomeReturnButtons)">50</onright>
+					<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">80</onright>
 					<showonepage>true</showonepage>
 					<orientation>vertical</orientation>
 					<visible>Control.IsVisible(50)</visible>
 				</control>
 				<control type="label">
-					<animation effect="slide" start="0,0" end="-90,0" time="0" condition="system.getbool(input.enablemouse)">Conditional</animation>
+					<animation effect="slide" start="0,0" end="-90,0" time="0" condition="!Skin.HasSetting(DisableHomeReturnButtons)">Conditional</animation>
 					<description>number of files/pages</description>
 					<posx>660</posx>
 					<posy>627</posy>
@@ -733,11 +734,11 @@
 							<width>600</width>
 							<height>541</height>
 							<onleft>9000</onleft>
-							<onright>61</onright>
+							<onright>60</onright>
 							<onup>51</onup>
 							<ondown>51</ondown>
 							<viewtype label="535">list</viewtype>
-							<pagecontrol>61</pagecontrol>
+							<pagecontrol>60</pagecontrol>
 							<scrolltime>200</scrolltime>
 							<itemlayout height="135" width="600">
 								<control type="image">
@@ -942,7 +943,7 @@
 								</item>
 							</content>
 						</control>
-						<control type="scrollbar" id="61">
+						<control type="scrollbar" id="60">
 							<posx>615</posx>
 							<posy>60</posy>
 							<width>25</width>
@@ -953,13 +954,14 @@
 							<textureslidernib>ScrollBarNib.png</textureslidernib>
 							<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 							<onleft>51</onleft>
-							<onright>9000</onright>
+							<onright condition="Skin.HasSetting(DisableHomeReturnButtons)">9000</onright>
+							<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">80</onright>
 							<showonepage>true</showonepage>
 							<orientation>vertical</orientation>
 							<visible>Control.IsVisible(50)</visible>
 						</control>
 						<control type="label">
-							<animation effect="slide" start="0,0" end="-90,0" time="0" condition="system.getbool(input.enablemouse)">Conditional</animation>
+							<animation effect="slide" start="0,0" end="-90,0" time="0" condition="!Skin.HasSetting(DisableHomeReturnButtons)">Conditional</animation>
 							<description>number of files/pages</description>
 							<posx>660</posx>
 							<posy>627</posy>
@@ -985,7 +987,8 @@
 							<texturenofocus>-</texturenofocus>
 							<texturefocus>-</texturefocus>
 							<onleft>9000</onleft>
-							<onright>9000</onright>
+							<onright condition="Skin.HasSetting(DisableHomeReturnButtons)">9000</onright>
+							<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">80</onright>
 						</control>
 						<control type="label">
 							<description>header label</description>
@@ -1219,7 +1222,8 @@
 							<texturenofocus>-</texturenofocus>
 							<texturefocus>-</texturefocus>
 							<onleft>9000</onleft>
-							<onright>9000</onright>
+							<onright condition="Skin.HasSetting(DisableHomeReturnButtons)">9000</onright>
+							<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">80</onright>
 						</control>
 						<control type="label">
 							<description>header label</description>
@@ -1442,11 +1446,11 @@
 							<width>600</width>
 							<height>541</height>
 							<onleft>9000</onleft>
-							<onright>62</onright>
+							<onright>60</onright>
 							<onup>52</onup>
 							<ondown>52</ondown>
 							<viewtype label="535">list</viewtype>
-							<pagecontrol>62</pagecontrol>
+							<pagecontrol>60</pagecontrol>
 							<scrolltime>200</scrolltime>
 							<itemlayout height="135" width="600">
 								<control type="image">
@@ -1667,7 +1671,7 @@
 								</item>
 							</content>
 						</control>
-						<control type="scrollbar" id="62">
+						<control type="scrollbar" id="60">
 							<posx>615</posx>
 							<posy>60</posy>
 							<width>25</width>
@@ -1678,13 +1682,14 @@
 							<textureslidernib>ScrollBarNib.png</textureslidernib>
 							<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 							<onleft>52</onleft>
-							<onright>9000</onright>
+							<onright condition="Skin.HasSetting(DisableHomeReturnButtons)">9000</onright>
+							<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">80</onright>
 							<showonepage>true</showonepage>
 							<orientation>vertical</orientation>
 							<visible>Control.IsVisible(50)</visible>
 						</control>
 						<control type="label">
-							<animation effect="slide" start="0,0" end="-90,0" time="0" condition="system.getbool(input.enablemouse)">Conditional</animation>
+							<animation effect="slide" start="0,0" end="-90,0" time="0" condition="!Skin.HasSetting(DisableHomeReturnButtons)">Conditional</animation>
 							<description>number of files/pages</description>
 							<posx>660</posx>
 							<posy>627</posy>
@@ -1710,7 +1715,8 @@
 							<texturenofocus>-</texturenofocus>
 							<texturefocus>-</texturefocus>
 							<onleft>9000</onleft>
-							<onright>9000</onright>
+							<onright condition="Skin.HasSetting(DisableHomeReturnButtons)">9000</onright>
+							<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">80</onright>
 						</control>
 						<control type="label">
 							<description>header label</description>
@@ -1798,7 +1804,65 @@
 			</control>
 		</control>
 		<include>CommonNowPlaying</include>
-		<include>MainWindowMouseButtons</include>
+		<control type="group">
+			<posx>120r</posx>
+			<posy>55r</posy>
+			<animation effect="fade" time="250" condition="Window.Previous(Home)">WindowOpen</animation>
+			<animation effect="fade" time="250" condition="Window.Next(Home)">WindowClose</animation>
+			<visible>!Skin.HasSetting(DisableHomeReturnButtons)</visible>
+			<control type="button" id="80">
+				<description>Back push button</description>
+				<posx>0</posx>
+				<posy>0</posy>
+				<width>45</width>
+				<height>45</height>
+				<label>1036</label>
+				<font>-</font>
+				<aligny>-</aligny>
+				<onclick>back</onclick>
+				<texturefocus border="5">floor_buttonFO.png</texturefocus>
+				<texturenofocus border="5">floor_button.png</texturenofocus>
+				<onleft>50</onleft>
+				<onright>81</onright>
+				<onup>50</onup>
+				<ondown>50</ondown>
+			</control>
+			<control type="image">
+				<description>Back Icon</description>
+				<posx>5</posx>
+				<posy>5</posy>
+				<width>35</width>
+				<height>35</height>
+				<aspectratio>keep</aspectratio>
+				<texture>icon_back.png</texture>
+			</control>
+			<control type="button" id="81">
+				<description>Home push button</description>
+				<posx>55</posx>
+				<posy>0</posy>
+				<width>45</width>
+				<height>45</height>
+				<label>31003</label>
+				<font>-</font>
+				<aligny>-</aligny>
+				<onclick>ActivateWindow(home)</onclick>
+				<texturefocus border="5">floor_buttonFO.png</texturefocus>
+				<texturenofocus border="5">floor_button.png</texturenofocus>
+				<onleft>80</onleft>
+				<onright>9000</onright>
+				<onup>50</onup>
+				<ondown>50</ondown>
+			</control>
+			<control type="image">
+				<description>Home Icon</description>
+				<posx>60</posx>
+				<posy>5</posy>
+				<width>35</width>
+				<height>35</height>
+				<aspectratio>keep</aspectratio>
+				<texture>icon_home.png</texture>
+			</control>
+		</control>
 		<control type="group">
 			<visible>!Skin.HasSetting(KioskMode)</visible>
 			<posx>-250</posx>
@@ -1808,7 +1872,8 @@
 				<posy>110</posy>
 				<width>250</width>
 				<height>610</height>
-				<onleft>9000</onleft>
+				<onleft condition="Skin.HasSetting(DisableHomeReturnButtons)">9000</onleft>
+				<onleft condition="!Skin.HasSetting(DisableHomeReturnButtons)">81</onleft>
 				<onright>50</onright>
 				<onup>9000</onup>
 				<ondown>9000</ondown>
@@ -1832,7 +1897,8 @@
 						<posy>0</posy>
 						<font>-</font>
 						<include>ButtonCommonValues</include>
-						<onleft>50</onleft>
+						<onleft condition="Skin.HasSetting(DisableHomeReturnButtons)">50</onleft>
+						<onleft condition="!Skin.HasSetting(DisableHomeReturnButtons)">81</onleft>
 						<onright>50</onright>
 						<onup>200</onup>
 						<ondown>302</ondown>
