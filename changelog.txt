@@ -1,3 +1,6 @@
+[B]1.1.10[/B] [I]July 2013[/I]
+- Added option to hide HomeScreen AddOn names
+
 [B]1.1.9[/B] [I]July 2013[/I]
 - Added option to Disable Busy Animation
 - Bugfix Recent Items Widgets

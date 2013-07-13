@@ -770,7 +770,11 @@ msgctxt "#31208"
 msgid "Upcoming Episodes"
 msgstr ""
 
-#empty strings from id 31209 to 31299
+msgctxt "#31209"
+msgid "Show AddOn Names"
+msgstr ""
+
+#empty strings from id 31210 to 31299
 #Extra labels
 
 msgctxt "#31300"
