@@ -847,7 +847,7 @@
 						<onclick>Control.Move(9008,1)</onclick>
 						<onclick>Skin.SetString(MPAACountryCert,$INFO[Container(9008).ListItem.Label])</onclick>
 					</control>
-					<control type="button" id="148">
+					<!--control type="button" id="148">
 						<description>User Rating Prefix</description>
 						<width>750</width>
 						<height>40</height>
@@ -859,7 +859,7 @@
 						<onclick>Skin.SetString(UsrRatingPrefix)</onclick>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
-					</control>					
+					</control-->					
 					<control type="label" id="149">
 						<width>750</width>
 						<height>45</height>
@@ -878,7 +878,7 @@
 							<width>750</width>
 							<height>40</height>
 							<itemgap>0</itemgap>
-							<onup>148</onup>
+							<onup>147</onup>
 							<ondown>158</ondown>
 							<align>left</align>
 							<control type="radiobutton" id="152">
