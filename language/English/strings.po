@@ -774,7 +774,11 @@ msgctxt "#31209"
 msgid "Show AddOn Names"
 msgstr ""
 
-#empty strings from id 31210 to 31299
+msgctxt "#31210"
+msgid "Certification Rating Scraper Prefix"
+msgstr ""
+
+#empty strings from id 31211 to 31299
 #Extra labels
 
 msgctxt "#31300"
@@ -1272,7 +1276,35 @@ msgctxt "#31703"
 msgid "Australia"
 msgstr ""
 
-#empty strings from id 31704 to 31900
+msgctxt "#31704"
+msgid "Japan"
+msgstr ""
+
+msgctxt "#31705"
+msgid "Hong Kong"
+msgstr ""
+
+msgctxt "#31706"
+msgid "Brazil"
+msgstr ""
+
+msgctxt "#31707"
+msgid "Denmark"
+msgstr ""
+
+msgctxt "#31708"
+msgid "Canada"
+msgstr ""
+
+msgctxt "#31709"
+msgid "Ireland"
+msgstr ""
+
+msgctxt "#31710"
+msgid "Netherlands"
+msgstr ""
+
+#empty strings from id 31711 to 31900
 #Weather plugin
 
 msgctxt "#31901"
