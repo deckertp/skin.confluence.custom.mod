@@ -691,7 +691,7 @@
 						<onup condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</onup>
 						<ondown>9000</ondown>
 						<onclick>RunScript(plugin.audio.lastfm,action=LastFM.Ban&amp;artist=$INFO[MusicPlayer.Artist]&amp;song=$INFO[MusicPlayer.Title])</onclick>
-						<enable>SubString(Window(Home).Property(LastFM.CanBan),true)</enable>
+<!--enable>SubString(Window(Home).Property(LastFM.CanBan),true)</enable-->
 						<visible>System.HasAddon(plugin.audio.lastfm) + Player.HasAudio</visible>
 					</control>
 				</control>
