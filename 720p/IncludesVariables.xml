@@ -262,6 +262,9 @@
 		<value condition="Skin.HasSetting(UseDiscTypeCase) + SubString(ListItem.FilenameAndPath,hddvd)">hddvd</value>
 		<value condition="Skin.HasSetting(UseDiscTypeCase) + SubString(ListItem.FilenameAndPath,dvd)">dvd</value>
 		<value condition="Skin.HasSetting(UseDiscTypeCase) + [SubString(ListItem.FilenameAndPath,pdtv) | SubString(ListItem.FilenameAndPath,hdtv) | SubString(ListItem.FilenameAndPath,dsr)]">TVseries</value>
+		<value condition="Skin.HasSetting(UseDiscTypeCase) + SubString(ListItem.VideoResolution,1080)">bd</value>
+		<value condition="Skin.HasSetting(UseDiscTypeCase) + SubString(ListItem.VideoResolution,720)">hddvd</value>
+		<value condition="Skin.HasSetting(UseDiscTypeCase) + [SubString(ListItem.VideoResolution,576) | SubString(ListItem.VideoResolution,540) | SubString(ListItem.VideoResolution,480)]">dvd</value>
 		<value>dv</value>
 	</variable>
 	<variable name="GenreFlagPath">
