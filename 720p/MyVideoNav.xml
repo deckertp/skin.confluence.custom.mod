@@ -160,7 +160,7 @@
 					<include>ButtonCommonValues</include>
 					<label>31091</label>
 					<onclick>Skin.ToggleSetting(View501GenreIcons)</onclick>
-					<selected>Skin.HasSetting(View501GenreIcons)</selected>
+					<selected>!Skin.HasSetting(View501GenreIcons)</selected>
 					<visible>Control.IsVisible(501) + [Container.Content(TVShows) | Container.Content(Movies)]</visible>
 				</control>
 				<control type="radiobutton" id="93">
