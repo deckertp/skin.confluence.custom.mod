@@ -272,7 +272,7 @@
 					<selected>Skin.HasSetting(UseDiscTypeCase)</selected>
 					<enable>!Skin.HasSetting(View724DisableCases)</enable>
 					<visible>Control.IsVisible(724)</visible>
-				</control>				
+				</control>
 				<control type="radiobutton" id="14">
 					<description>Watched Toggle</description>
 					<textwidth>170</textwidth>

@@ -330,7 +330,6 @@
 				<onclick condition="Window.IsVisible(2114)">Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].Addon,None)</onclick>
 				<onclick condition="Window.IsVisible(2114)">Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].Widget,RecentConcerts)</onclick>
 				<onclick condition="Window.IsVisible(2114)">Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].Type,Concerts)</onclick>
-				<!--onclick condition="Window.IsVisible(2114)">Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].Fanart,special://skin/backgrounds/homescreen/musicvideos.jpg)</onclick-->
 				<include>CloseMenuChoice</include>
 				<visible>Library.HasContent(MusicVideos)</visible>
 			</item>
@@ -344,7 +343,6 @@
 				<onclick condition="Window.IsVisible(2114)">Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].Addon,None)</onclick>
 				<onclick condition="Window.IsVisible(2114)">Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].Widget,RecentConcerts)</onclick>
 				<onclick condition="Window.IsVisible(2114)">Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].Type,Concerts)</onclick>
-				<!--onclick condition="Window.IsVisible(2114)">Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].Fanart,special://skin/backgrounds/homescreen/musicvideos.jpg)</onclick-->
 				<include>CloseMenuChoice</include>
 				<visible>Library.HasContent(MusicVideos)</visible>
 			</item>

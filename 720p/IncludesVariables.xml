@@ -21,17 +21,17 @@
 		<value>$INFO[ListItem.VideoResolution,flagging/lists/,.png]</value>
 	</variable>
 	<variable name="rating">
-		<value condition="StringCompare(ListItem.Mpaa,UK:R18)">UK/bbfc_r18</value>	
+		<value condition="StringCompare(ListItem.Mpaa,UK:R18)">UK/bbfc_r18</value>
 		<value condition="StringCompare(ListItem.Mpaa,UK:18)">UK/bbfc_18</value>
 		<value condition="StringCompare(ListItem.Mpaa,UK:15)">UK/bbfc_15</value>
 		<value condition="StringCompare(ListItem.Mpaa,UK:12A)">UK/bbfc_12a</value>
 		<value condition="StringCompare(ListItem.Mpaa,UK:12)">UK/bbfc_12</value>
 		<value condition="StringCompare(ListItem.Mpaa,UK:PG)">UK/bbfc_pg</value>
 		<value condition="StringCompare(ListItem.Mpaa,UK:U)">UK/bbfc_u</value>
-		<value condition="substring(ListItem.Mpaa,FSK18) | substring(ListItem.Mpaa,FSK 18) | substring(ListItem.Mpaa,ab 18)">DE/fsk_18</value>		
+		<value condition="substring(ListItem.Mpaa,FSK18) | substring(ListItem.Mpaa,FSK 18) | substring(ListItem.Mpaa,ab 18)">DE/fsk_18</value>
 		<value condition="substring(ListItem.Mpaa,FSK16) | substring(ListItem.Mpaa,FSK 16) | substring(ListItem.Mpaa,ab 16)">DE/fsk_16</value>
-		<value condition="substring(ListItem.Mpaa,FSK12) | substring(ListItem.Mpaa,FSK 12) | substring(ListItem.Mpaa,ab 12)">DE/fsk_12</value>		
-		<value condition="substring(ListItem.Mpaa,FSK6) | substring(ListItem.Mpaa,FSK 6) | substring(ListItem.Mpaa,ab 6)">DE/fsk_6</value>	
+		<value condition="substring(ListItem.Mpaa,FSK12) | substring(ListItem.Mpaa,FSK 12) | substring(ListItem.Mpaa,ab 12)">DE/fsk_12</value>
+		<value condition="substring(ListItem.Mpaa,FSK6) | substring(ListItem.Mpaa,FSK 6) | substring(ListItem.Mpaa,ab 6)">DE/fsk_6</value>
 		<value condition="substring(ListItem.Mpaa,FSK0) | substring(ListItem.Mpaa,FSK 0) | substring(ListItem.Mpaa,FSK o.A.)">DE/fsk_0</value>
 		<value condition="StringCompare(Listitem.mpaa,Australia:G)">Aus/oflcG</value>
 		<value condition="substring(Listitem.mpaa,Australia:MA)">Aus/oflcMA15+</value>
@@ -42,13 +42,13 @@
 		<value condition="stringcompare(Skin.String(MPAACountryCert),$LOCALIZE[31701]) + [substring(ListItem.Mpaa,Rated R) | substring(ListItem.Mpaa,Rated: R)]">UK/bbfc_r18</value>
 		<value condition="stringcompare(Skin.String(MPAACountryCert),$LOCALIZE[31701]) + substring(listitem.mpaa,R) + !substring(listitem.mpaa,Rated)">UK/bbfc_r18</value>
 		<value condition="stringcompare(Skin.String(MPAACountryCert),$LOCALIZE[31701]) + substring(listitem.mpaa,18)">UK/bbfc_18</value>
-		<value condition="stringcompare(Skin.String(MPAACountryCert),$LOCALIZE[31701]) + substring(listitem.mpaa,15)">UK/bbfc_15</value>	
+		<value condition="stringcompare(Skin.String(MPAACountryCert),$LOCALIZE[31701]) + substring(listitem.mpaa,15)">UK/bbfc_15</value>
 		<value condition="stringcompare(Skin.String(MPAACountryCert),$LOCALIZE[31701]) + substring(listitem.mpaa,12A)">UK/bbfc_12a</value>
 		<value condition="stringcompare(Skin.String(MPAACountryCert),$LOCALIZE[31701]) + substring(listitem.mpaa,12)">UK/bbfc_12</value>
 		<value condition="stringcompare(Skin.String(MPAACountryCert),$LOCALIZE[31701]) + substring(listitem.mpaa,PG)">UK/bbfc_pg</value>
 		<value condition="stringcompare(Skin.String(MPAACountryCert),$LOCALIZE[31701]) + substring(listitem.mpaa,U)">UK/bbfc_u</value>
 		<value condition="stringcompare(Skin.String(MPAACountryCert),$LOCALIZE[31702]) + substring(listitem.mpaa,18)">DE/fsk_18</value>
-		<value condition="stringcompare(Skin.String(MPAACountryCert),$LOCALIZE[31702]) + substring(listitem.mpaa,16)">DE/fsk_16</value>	
+		<value condition="stringcompare(Skin.String(MPAACountryCert),$LOCALIZE[31702]) + substring(listitem.mpaa,16)">DE/fsk_16</value>
 		<value condition="stringcompare(Skin.String(MPAACountryCert),$LOCALIZE[31702]) + substring(listitem.mpaa,12)">DE/fsk_12</value>
 		<value condition="stringcompare(Skin.String(MPAACountryCert),$LOCALIZE[31702]) + substring(listitem.mpaa,6)">DE/fsk_6</value>
 		<value condition="stringcompare(Skin.String(MPAACountryCert),$LOCALIZE[31702]) + substring(listitem.mpaa,0)">DE/fsk_0</value>
@@ -1329,12 +1329,10 @@
 		<value condition="substring(ListItem.Label,$LOCALIZE[31612]) | substring(ListItem.Label,History)">$INFO[Skin.String(UsrGenreFanartDir),,history.jpg]</value>
 		<value condition="substring(ListItem.Label,$LOCALIZE[31613]) | substring(ListItem.Label,Holiday) | substring(ListItem.Label,Christmas)">$INFO[Skin.String(UsrGenreFanartDir),,christmas.jpg]</value>
 		<value condition="substring(ListItem.Label,$LOCALIZE[31614]) | substring(ListItem.Label,Horror)">$INFO[Skin.String(UsrGenreFanartDir),,horror.jpg]</value>
-		<!--value condition="substring(ListItem.Label,$LOCALIZE[31615]) | substring(ListItem.Label,Indie)">$INFO[Skin.String(UsrGenreFanartDir),,indie.jpg]</value-->
 		<value condition="substring(ListItem.Label,$LOCALIZE[31616]) | substring(ListItem.Label,Music)">$INFO[Skin.String(UsrGenreFanartDir),,musical.jpg]</value>
 		<value condition="substring(ListItem.Label,$LOCALIZE[31617]) | substring(ListItem.Label,Mystery)">$INFO[Skin.String(UsrGenreFanartDir),,mystery.jpg]</value>
 		<value condition="substring(ListItem.Label,$LOCALIZE[31618]) | substring(ListItem.Label,Romance)">$INFO[Skin.String(UsrGenreFanartDir),,romance.jpg]</value>
 		<value condition="substring(ListItem.Label,$LOCALIZE[31619]) | substring(ListItem.Label,Sci)">$INFO[Skin.String(UsrGenreFanartDir),,sciencefiction.jpg]</value>
-		<!--value condition="substring(ListItem.Label,$LOCALIZE[31620]) | substring(ListItem.Label,Short)">$INFO[Skin.String(UsrGenreFanartDir),,short.jpg]</value-->
 		<value condition="substring(ListItem.Label,$LOCALIZE[31621]) | substring(ListItem.Label,Sport)">$INFO[Skin.String(UsrGenreFanartDir),,sports.jpg]</value>
 		<value condition="substring(ListItem.Label,$LOCALIZE[31622]) | substring(ListItem.Label,Suspense)">$INFO[Skin.String(UsrGenreFanartDir),,psychologicalthriller.jpg]</value>
 		<value condition="substring(ListItem.Label,$LOCALIZE[31623]) | substring(ListItem.Label,Thriller)">$INFO[Skin.String(UsrGenreFanartDir),,thriller.jpg]</value>

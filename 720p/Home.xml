@@ -481,8 +481,6 @@
 			<texturenofocus>-</texturenofocus>
 			<onleft>9000</onleft>
 			<onright>9000</onright>
-			<!--onup condition="!Skin.HasSetting(AutoHidePowerBtn)">20</onup>
-			<onup condition="Skin.HasSetting(AutoHidePowerBtn)">21</onup-->
 			<onup>21</onup>
 			<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch) + Player.HasMedia">609</ondown>
 			<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch) + !Player.HasMedia">610</ondown>
@@ -691,7 +689,7 @@
 						<onup condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</onup>
 						<ondown>9000</ondown>
 						<onclick>RunScript(plugin.audio.lastfm,action=LastFM.Ban&amp;artist=$INFO[MusicPlayer.Artist]&amp;song=$INFO[MusicPlayer.Title])</onclick>
-<!--enable>SubString(Window(Home).Property(LastFM.CanBan),true)</enable-->
+						<!--enable>SubString(Window(Home).Property(LastFM.CanBan),true)</enable-->
 						<visible>System.HasAddon(plugin.audio.lastfm) + Player.HasAudio</visible>
 					</control>
 				</control>
