@@ -1,5 +1,12 @@
 [B]1.1.10[/B] [I]July 2013[/I]
+- User Test Version
 - Added option to hide HomeScreen AddOn names
+- [WIP] Media Cert by User Choice Country
+- Temp Disable LastFMBan toggle
+- Added Disc Type case Toggle
+- Tweaked Vertical Logo View
+- Tweaked Initial Install Defaults
+- General Code Cleanup
 
 [B]1.1.9[/B] [I]July 2013[/I]
 - Added option to Disable Busy Animation
