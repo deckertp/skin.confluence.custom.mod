@@ -58,9 +58,8 @@
 		<value condition="stringcompare(Skin.String(MPAACountryCert),$LOCALIZE[31703]) + substring(listitem.mpaa,MA)">Aus/oflcMA15+</value>
 		<value condition="stringcompare(Skin.String(MPAACountryCert),$LOCALIZE[31703]) + substring(listitem.mpaa,M)">Aus/oflcM</value>
 		<value condition="stringcompare(Skin.String(MPAACountryCert),$LOCALIZE[31703]) + substring(listitem.mpaa,X)">Aus/oflcX18+</value>
-		
-		<value condition="stringcompare(Skin.String(MPAACountryCert),$LOCALIZE[31703]) + substring(listitem.mpaa,R)">Aus/oflcR18+</value>
-		
+		<value condition="stringcompare(Skin.String(MPAACountryCert),$LOCALIZE[31703]) + [substring(ListItem.Mpaa,Rated R) | substring(ListItem.Mpaa,Rated: R)]">Aus/oflcR18+</value>
+		<value condition="stringcompare(Skin.String(MPAACountryCert),$LOCALIZE[31703]) + substring(listitem.mpaa,R) + !substring(listitem.mpaa,Rated)">Aus/oflcR18+</value>
 		<value condition="stringcompare(Skin.String(MPAACountryCert),$LOCALIZE[31704]) + substring(listitem.mpaa,G)">Jpn/jpn_g</value>
 		<value condition="stringcompare(Skin.String(MPAACountryCert),$LOCALIZE[31704]) + substring(listitem.mpaa,12)">Jpn/jpn_pg12</value>
 		<value condition="stringcompare(Skin.String(MPAACountryCert),$LOCALIZE[31704]) + substring(listitem.mpaa,15)">Jpn/jpn_15+</value>
@@ -86,9 +85,8 @@
 		<value condition="stringcompare(Skin.String(MPAACountryCert),$LOCALIZE[31708]) + substring(listitem.mpaa,G)">Can/cn_g</value>
 		<value condition="stringcompare(Skin.String(MPAACountryCert),$LOCALIZE[31708]) + substring(listitem.mpaa,14)">Can/cn_14a</value>
 		<value condition="stringcompare(Skin.String(MPAACountryCert),$LOCALIZE[31708]) + substring(listitem.mpaa,18)">Can/cn_18a</value>
-		
-		<value condition="stringcompare(Skin.String(MPAACountryCert),$LOCALIZE[31708]) + substring(listitem.mpaa,R)">Can/cn_r</value>
-		
+		<value condition="stringcompare(Skin.String(MPAACountryCert),$LOCALIZE[31708]) + [substring(ListItem.Mpaa,Rated R) | substring(ListItem.Mpaa,Rated: R)]">Can/cn_r</value>
+		<value condition="stringcompare(Skin.String(MPAACountryCert),$LOCALIZE[31708]) + substring(listitem.mpaa,R) + !substring(listitem.mpaa,Rated)">Can/cn_r</value>
 		<value condition="stringcompare(Skin.String(MPAACountryCert),$LOCALIZE[31709]) + substring(listitem.mpaa,G)">Ire/ie_12APG</value>
 		<value condition="stringcompare(Skin.String(MPAACountryCert),$LOCALIZE[31709]) + substring(listitem.mpaa,12)">Ire/ie_12A</value>
 		<value condition="stringcompare(Skin.String(MPAACountryCert),$LOCALIZE[31709]) + substring(listitem.mpaa,15)">Ire/ie_12A15A</value>
