@@ -40,13 +40,13 @@
 		<value condition="StringCompare(Listitem.mpaa,Australia:PG)">Aus/oflcPG</value>
 		<value condition="StringCompare(Listitem.mpaa,Australia:R)">Aus/oflcR18+</value>
 		<value condition="StringCompare(Listitem.mpaa,Australia:X)">Aus/oflcX18+</value>
-		<value condition="stringcompare(Skin.String(MPAACountryCert),$LOCALIZE[31701]) + substring(listitem.mpaa,R18)">UK/bbfc_r18</value>
+		<value condition="stringcompare(Skin.String(MPAACountryCert),$LOCALIZE[31701]) + [substring(ListItem.Mpaa,Rated R) | substring(ListItem.Mpaa,Rated: R)]">UK/bbfc_r18</value>
+		<value condition="stringcompare(Skin.String(MPAACountryCert),$LOCALIZE[31701]) + substring(listitem.mpaa,R) + !substring(listitem.mpaa,Rated)">UK/bbfc_r18</value>
 		<value condition="stringcompare(Skin.String(MPAACountryCert),$LOCALIZE[31701]) + substring(listitem.mpaa,18)">UK/bbfc_18</value>
 		<value condition="stringcompare(Skin.String(MPAACountryCert),$LOCALIZE[31701]) + substring(listitem.mpaa,15)">UK/bbfc_15</value>	
 		<value condition="stringcompare(Skin.String(MPAACountryCert),$LOCALIZE[31701]) + substring(listitem.mpaa,12A)">UK/bbfc_12a</value>
 		<value condition="stringcompare(Skin.String(MPAACountryCert),$LOCALIZE[31701]) + substring(listitem.mpaa,12)">UK/bbfc_12</value>
 		<value condition="stringcompare(Skin.String(MPAACountryCert),$LOCALIZE[31701]) + substring(listitem.mpaa,PG)">UK/bbfc_pg</value>
-		<!--value condition="stringcompare(Skin.String(MPAACountryCert),$LOCALIZE[31701]) + substring(listitem.mpaa,Rated U)">UK/bbfc_u</value-->
 		<value condition="stringcompare(Skin.String(MPAACountryCert),$LOCALIZE[31701]) + substring(listitem.mpaa,U)">UK/bbfc_u</value>
 		<value condition="stringcompare(Skin.String(MPAACountryCert),$LOCALIZE[31702]) + substring(listitem.mpaa,18)">DE/fsk_18</value>
 		<value condition="stringcompare(Skin.String(MPAACountryCert),$LOCALIZE[31702]) + substring(listitem.mpaa,16)">DE/fsk_16</value>	
