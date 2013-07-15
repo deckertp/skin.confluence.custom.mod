@@ -196,7 +196,7 @@
 					<include>ButtonCommonValues</include>
 					<label>31304</label>
 					<onclick>Skin.ToggleSetting(ViewStatusBanner)</onclick>
-					<selected>Skin.HasSetting(ViewStatusBanner)</selected>
+					<selected>!Skin.HasSetting(ViewStatusBanner)</selected>
 					<visible>Control.IsVisible(501) | Control.IsVisible(508) | Control.IsVisible(732)</visible>
 				</control>
 				<control type="radiobutton" id="97">

@@ -40,7 +40,7 @@
 						<texture background="true">$VAR[PosterThumb]</texture>
 					</control>
 					<control type="group">
-						<visible>Skin.HasSetting(ViewStatusBanner) + !IsEmpty(ListItem.Overlay)</visible>
+						<visible>!Skin.HasSetting(ViewStatusBanner) + !IsEmpty(ListItem.Overlay)</visible>
 						<control type="image">
 							<posx>107</posx>
 							<posy>44</posy>
@@ -84,7 +84,7 @@
 						<animation reversible="false" effect="zoom" end="-2,36,222,318" start="-28,0,284,390" time="200">unfocus</animation>
 					</control>
 					<control type="group">
-						<visible>Skin.HasSetting(ViewStatusBanner) + !IsEmpty(ListItem.Overlay)</visible>
+						<visible>!Skin.HasSetting(ViewStatusBanner) + !IsEmpty(ListItem.Overlay)</visible>
 						<control type="image">
 							<posx>108</posx>
 							<posy>43</posy>
@@ -144,7 +144,7 @@
 							<effect type="fade" start="100" end="0" time="200" />
 							<effect type="slide" end="0,0" start="40,40" time="200" />
 						</animation>
-						<visible>!Skin.HasSetting(ViewStatusBanner) + !IsEmpty(ListItem.Overlay) + !stringcompare(Skin.String(WatchStatusType),Hidden)</visible>
+						<visible>Skin.HasSetting(ViewStatusBanner) + !IsEmpty(ListItem.Overlay) + !stringcompare(Skin.String(WatchStatusType),Hidden)</visible>
 					</control>
 				</focusedlayout>
 			</control>
@@ -458,7 +458,7 @@
 						<texture background="true">$VAR[PosterThumb]</texture>
 					</control>
 					<control type="group">
-						<visible>Skin.HasSetting(ViewStatusBanner) + !IsEmpty(ListItem.Overlay)</visible>
+						<visible>!Skin.HasSetting(ViewStatusBanner) + !IsEmpty(ListItem.Overlay)</visible>
 						<control type="image">
 							<posx>48</posx>
 							<posy>24</posy>
@@ -548,10 +548,10 @@
 							<effect type="fade" start="100" end="0" time="200" />
 							<effect type="slide" end="0,0" start="10,5" time="200" />
 						</animation>
-						<visible>!Skin.HasSetting(ViewStatusBanner) +!stringcompare(Skin.String(WatchStatusType),Hidden) + !IsEmpty(ListItem.Overlay)</visible>
+						<visible>Skin.HasSetting(ViewStatusBanner) +!stringcompare(Skin.String(WatchStatusType),Hidden) + !IsEmpty(ListItem.Overlay)</visible>
 					</control>
 					<control type="group">
-						<visible>Skin.HasSetting(ViewStatusBanner) + !IsEmpty(ListItem.Overlay)</visible>
+						<visible>!Skin.HasSetting(ViewStatusBanner) + !IsEmpty(ListItem.Overlay)</visible>
 						<control type="image">
 							<posx>48</posx>
 							<posy>24</posy>
@@ -2555,7 +2555,7 @@
 						<visible>!StringCompare(ListItem.Label,..)</visible>
 					</control>
 					<control type="group">
-						<visible>Skin.HasSetting(ViewStatusBanner) + !IsEmpty(ListItem.Overlay)</visible>
+						<visible>!Skin.HasSetting(ViewStatusBanner) + !IsEmpty(ListItem.Overlay)</visible>
 						<control type="image">
 							<posx>54</posx>
 							<posy>5</posy>
@@ -2603,7 +2603,7 @@
 						<height>50</height>
 						<aspectratio>keep</aspectratio>
 						<texture>$VAR[WatchTypePath,OverlayStatus/]</texture>
-						<visible>!Skin.HasSetting(ViewStatusBanner) + !IsEmpty(ListItem.Overlay) + !stringcompare(Skin.String(WatchStatusType),Hidden)</visible>
+						<visible>Skin.HasSetting(ViewStatusBanner) + !IsEmpty(ListItem.Overlay) + !stringcompare(Skin.String(WatchStatusType),Hidden)</visible>
 					</control>
 				</itemlayout>
 				<focusedlayout height="205" width="142">
@@ -2628,7 +2628,7 @@
 							<bordertexture border="8">ThumbBorder.png</bordertexture>
 						</control>
 						<control type="group">
-							<visible>Skin.HasSetting(ViewStatusBanner) + !IsEmpty(ListItem.Overlay)</visible>
+							<visible>!Skin.HasSetting(ViewStatusBanner) + !IsEmpty(ListItem.Overlay)</visible>
 							<control type="image">
 								<posx>54</posx>
 								<posy>7</posy>
@@ -2664,7 +2664,7 @@
 							<height>50</height>
 							<aspectratio>keep</aspectratio>
 							<texture>$VAR[WatchTypePath,OverlayStatus/]</texture>
-							<visible>!Skin.HasSetting(ViewStatusBanner) + !IsEmpty(ListItem.Overlay) + !stringcompare(Skin.String(WatchStatusType),Hidden)</visible>
+							<visible>Skin.HasSetting(ViewStatusBanner) + !IsEmpty(ListItem.Overlay) + !stringcompare(Skin.String(WatchStatusType),Hidden)</visible>
 						</control>
 					</control>
 				</focusedlayout>
