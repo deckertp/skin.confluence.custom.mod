@@ -262,9 +262,6 @@
 			<texture>Confluence_Logo.png</texture>
 		</control>
 	</include>
-	
-
-
 	<include name="MainWindowMouseButtons">
 		<control type="group">
 			<posx>240r</posx>
@@ -506,7 +503,7 @@
 	<include name="CommonPageCount">
 		<control type="group">
 			<!--animation effect="slide" start="0,0" end="-90,0" time="0" condition="!Skin.HasSetting(DisableHomeReturnButtons)">Conditional</animation-->
-			<control type="label">
+			<!--control type="label">
 				<description>Page Count Label</description>
 				<posx>40r</posx>
 				<posy>53r</posy>
@@ -533,7 +530,7 @@
 				<aligny>center</aligny>
 				<label>$INFO[Container.TotalTime,$LOCALIZE[31009] ([COLOR=blue],[/COLOR])]</label>
 				<include>Window_OpenClose_Animation</include>
-			</control>
+			</control-->
 		</control>
 	</include>
 	<include name="SmallMusicInfo">
@@ -1065,6 +1062,7 @@
 		</control>
 	</include>
 	<include name="ScrollOffsetLabel">
+		<!--
 		<control type="group">
 			<visible>Container.Scrolling + [StringCompare(Container.SortMethod,$LOCALIZE[551]) | StringCompare(Container.SortMethod,$LOCALIZE[561]) | StringCompare(Container.SortMethod,$LOCALIZE[558]) | StringCompare(Container.SortMethod,$LOCALIZE[557]) | StringCompare(Container.SortMethod,$LOCALIZE[556])]</visible>
 			<animation effect="slide" start="0,0" end="0,-60" time="100">Visible</animation>
@@ -1090,6 +1088,7 @@
 				<font>font30_title</font>
 			</control>
 		</control>
+		-->
 	</include>
 	<include name="Clock">
 		<control type="label">
