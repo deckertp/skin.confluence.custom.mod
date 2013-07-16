@@ -19,6 +19,7 @@
 	<include file="IncludesCDWall.xml" />
 	<include file="ViewsLogoVertical.xml" />
 	<include file="ViewsLowlist.xml" />
+	<include file="ViewsCoverFlow.xml" />
 	<constant name="FanartCrossfadeTime">500</constant>
 	<constant name="IconCrossfadeTime">400</constant>
 	<include name="ClearButtonChoice">

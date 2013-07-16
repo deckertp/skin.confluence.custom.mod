@@ -2,7 +2,7 @@
 <window>
 	<defaultcontrol always="true">50</defaultcontrol>
 	<allowoverlay>no</allowoverlay>
-	<views>50,501,730,724,732,508,515,504,503,500,51,505,550,551,560,511</views>
+	<views>50,501,730,724,555,732,508,515,504,503,500,51,505,550,551,560,511</views>
 	<onload condition="!Skin.HasSetting(HideTvTunes) + System.HasAddon(script.tvtunes)">XBMC.RunScript(script.tvtunes,backend=True&amp;loop=False)</onload>
 	<controls>
 		<include>CommonBackground</include>
@@ -41,6 +41,8 @@
 			<!-- view id = 730 -->
 			<include>FullWallView</include>
 			<!-- view id = 732 -->
+			<include>Coverflowview</include>
+			<!-- view id = 555 -->
 		</control>
 		<include condition="!Skin.HasSetting(HideNumItemsCount)">CommonPageCount</include>
 		<include>CommonNowPlaying</include>

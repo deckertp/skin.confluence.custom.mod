@@ -112,7 +112,11 @@ msgctxt "#31035"
 msgid "Low List"
 msgstr ""
 
-#empty strings from id 31036 to 31039
+msgctxt "#31036"
+msgid "Coverflow"
+msgstr ""
+
+#empty strings from id 31037 to 31039
 #Extra labels
 
 msgctxt "#31040"
