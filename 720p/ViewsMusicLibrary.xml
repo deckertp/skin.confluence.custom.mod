@@ -115,7 +115,7 @@
 				<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 				<onleft>506</onleft>
 				<onright condition="Skin.HasSetting(DisableHomeReturnButtons)">9000</onright>
-				<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">80</onright>
+				<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">82</onright>
 				<showonepage>false</showonepage>
 				<orientation>vertical</orientation>
 				<visible>Control.IsVisible(506)</visible>
@@ -356,7 +356,7 @@
 				<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 				<onup>509</onup>
 				<ondown condition="Skin.HasSetting(DisableHomeReturnButtons)">9000</ondown>
-				<ondown condition="!Skin.HasSetting(DisableHomeReturnButtons)">80</ondown>
+				<ondown condition="!Skin.HasSetting(DisableHomeReturnButtons)">82</ondown>
 				<showonepage>false</showonepage>
 				<orientation>horizontal</orientation>
 				<visible>Control.IsVisible(509)</visible>
@@ -613,7 +613,7 @@
 				<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 				<onleft>511</onleft>
 				<onright condition="Skin.HasSetting(DisableHomeReturnButtons)">9000</onright>
-				<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">80</onright>
+				<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">82</onright>
 				<showonepage>false</showonepage>
 				<orientation>vertical</orientation>
 				<visible>Control.IsVisible(511)</visible>
@@ -796,7 +796,7 @@
 				<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 				<onleft>512</onleft>
 				<onright condition="Skin.HasSetting(DisableHomeReturnButtons)">9000</onright>
-				<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">80</onright>
+				<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">82</onright>
 				<showonepage>false</showonepage>
 				<orientation>vertical</orientation>
 				<visible>Control.IsVisible(512)</visible>
@@ -1031,7 +1031,7 @@
 				<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 				<onleft>513</onleft>
 				<onright condition="Skin.HasSetting(DisableHomeReturnButtons)">9000</onright>
-				<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">80</onright>
+				<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">82</onright>
 				<showonepage>false</showonepage>
 				<orientation>vertical</orientation>
 				<visible>Control.IsVisible(513)</visible>
