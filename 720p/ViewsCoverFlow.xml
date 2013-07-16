@@ -1303,7 +1303,8 @@
 				<showonepage>true</showonepage>
 				<orientation>horizontal</orientation>
 				<onup>555</onup>
-				<ondown>61</ondown>
+				<ondown condition="Skin.HasSetting(DisableHomeReturnButtons)">9000</ondown>
+				<ondown condition="!Skin.HasSetting(DisableHomeReturnButtons)">80</ondown>
 			</control>
 		</control>
 		<control type="group">

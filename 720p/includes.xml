@@ -308,7 +308,7 @@
 				<texturefocus border="5">floor_buttonFO.png</texturefocus>
 				<texturenofocus border="5">floor_button.png</texturenofocus>
 				<onleft>80</onleft>
-				<onright>9000</onright>
+				<onright>50</onright>
 				<onup>50</onup>
 				<ondown>50</ondown>
 			</control>
