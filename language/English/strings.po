@@ -1260,7 +1260,16 @@ msgstr ""
 msgctxt "#31674"
 msgid "Menu Item - 1 - Remembers Last Submenu Action Used"
 msgstr ""
-#empty strings from id 31675 to 31697
+
+msgctxt "#31675"
+msgid "Enable On Screen Volume Buttons"
+msgstr ""
+
+msgctxt "#31677"
+msgid "Enable Larger Volume Adjustment Jumps"
+msgstr ""
+
+#empty string id 31677 to 31697
 
 msgctxt "#31698"
 msgid "Media Certification Country"
