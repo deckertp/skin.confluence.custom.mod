@@ -39,6 +39,17 @@
 						<bordersize>4</bordersize>
 						<texture background="true">$VAR[PosterThumb]</texture>
 					</control>
+					<control type="image">
+						<posx>2</posx>
+						<posy>40</posy>
+						<width>214</width>
+						<height>310</height>
+						<aspectratio>stretch</aspectratio>
+						<bordertexture border="5">button-nofocus.png</bordertexture>
+						<bordersize>4</bordersize>
+						<texture>black-back.png</texture>
+						<colordiffuse>AAFFFFFF</colordiffuse>
+					</control>
 					<control type="group">
 						<visible>!Skin.HasSetting(ViewStatusBanner) + !IsEmpty(ListItem.Overlay)</visible>
 						<control type="image">
@@ -83,6 +94,20 @@
 						<animation reversible="false" effect="zoom" start="-2,36,222,318" end="-28,0,284,390" time="200">focus</animation>
 						<animation reversible="false" effect="zoom" end="-2,36,222,318" start="-28,0,284,390" time="200">unfocus</animation>
 					</control>
+					<control type="image">
+						<posx>-2</posx>
+						<posy>36</posy>
+						<width>222</width>
+						<height>318</height>
+						<aspectratio>stretch</aspectratio>
+						<bordertexture border="8">ThumbBorder.png</bordertexture>
+						<bordersize>8</bordersize>
+						<texture>black-back.png</texture>
+						<colordiffuse>AAFFFFFF</colordiffuse>
+						<animation reversible="false" effect="fade" start="100" end="0" time="0">focus</animation>
+						<animation reversible="false" effect="zoom" start="-2,36,222,318" end="-28,0,284,390" time="200">focus</animation>
+						<animation reversible="false" effect="zoom" end="-2,36,222,318" start="-28,0,284,390" time="200">unfocus</animation>
+					</control>					
 					<control type="group">
 						<visible>!Skin.HasSetting(ViewStatusBanner) + !IsEmpty(ListItem.Overlay)</visible>
 						<control type="image">
@@ -126,6 +151,7 @@
 						<height>180</height>
 						<aspectratio>stretch</aspectratio>
 						<texture>GlassOverlay.png</texture>
+						<animation reversible="false" effect="fade" start="100" end="0" time="0">unfocus</animation>
 						<animation reversible="false" effect="zoom" start="6,44,170,180" end="-24,4,240,250" time="200">focus</animation>
 						<animation reversible="false" effect="zoom" end="6,44,170,180" start="-24,4,240,250" time="200">unfocus</animation>
 					</control>
