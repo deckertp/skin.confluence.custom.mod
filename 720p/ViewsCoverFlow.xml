@@ -1255,7 +1255,7 @@
 					<aspectratio>stretch</aspectratio>
 					<texture>$INFO[ListItem.Icon]</texture>
 					<visible>!Control.IsVisible(7001) + !Control.IsVisible(7002)</visible>
-					<visible>ListItem.Art(poster))</visible>
+					<visible>IsEmpty(ListItem.Art(poster))</visible>
 				</control>
 			</focusedlayout>
 		</control>
