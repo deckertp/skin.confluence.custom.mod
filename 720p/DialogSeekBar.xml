@@ -10,6 +10,7 @@
 			<animation effect="slide" end="-1025,-400" time="0" tween="back" easing="out" condition="Window.IsVisible(home) + !VideoPlayer.Content(Episodes)" reversible="true">Conditional</animation>
 			<animation effect="slide" end="-975,-400" time="0" tween="back" easing="out" condition="Window.IsVisible(home) + VideoPlayer.Content(Episodes)" reversible="true">Conditional</animation>
 			<animation effect="slide" end="0,175" time="0" tween="back" easing="out" condition="Window.IsVisible(home) + !Skin.HasSetting(RaiseMainMenuBar)" reversible="true">Conditional</animation>
+			<animation effect="slide" start="0,0" end="-1285,0" time="100" delay="100" reversible="false" condition="Window.IsVisible(home) + Window.IsVisible(infodialog)">Conditional</animation>
 			<posx>520r</posx>
 			<posy>-6</posy>
 			<control type="group">

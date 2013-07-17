@@ -95,7 +95,7 @@
 				<visible>!Skin.HasSetting(HidePauseInfo) + !IsEmpty(VideoPlayer.Plot) + Player.Paused + !Player.Caching</visible>
 				<animation effect="slide" end="-300,160" time="100" tween="back" easing="out" condition="!Window.IsActive(VideoOSD) + Skin.HasSetting(HideSeekBarOSD)" reversible="true">Conditional</animation>
 				<posx>320</posx>
-				<posy>390r</posy>
+				<posy>395r</posy>
 				<control type="image" id="1">
 					<posx>0</posx>
 					<posy>0</posy>
@@ -134,6 +134,7 @@
 					<height>230</height>
 					<texture>$INFO[Player.Art(clearart)]</texture>
 					<aspectratio aligny="bottom">keep</aspectratio>
+					<animation effect="slide" start="0,0" end="0,-36" time="100" reversible="false" condition="Window.IsVisible(infodialog)">Conditional</animation>
 					<visible>!IsEmpty(Player.Art(clearart)) + !Skin.HasSetting(OSDInfoLogo)</visible>
 				</control>
 				<control type="image" id="1">
@@ -144,6 +145,7 @@
 					<height>230</height>
 					<texture>$INFO[Player.Art(clearlogo)]</texture>
 					<aspectratio aligny="bottom">keep</aspectratio>
+					<animation effect="slide" start="0,0" end="0,-36" time="100" reversible="false" condition="Window.IsVisible(infodialog)">Conditional</animation>
 					<visible>!IsEmpty(Player.Art(clearlogo)) + [Skin.HasSetting(OSDInfoLogo) | IsEmpty(Player.Art(clearart))]</visible>
 				</control>
 				<control type="image" id="1">
@@ -156,6 +158,7 @@
 					<aspectratio aligny="bottom">keep</aspectratio>
 					<bordertexture border="8">ThumbShadow.png</bordertexture>
 					<bordersize>8</bordersize>
+					<animation effect="slide" start="0,0" end="0,-36" time="100" reversible="false" condition="Window.IsVisible(infodialog)">Conditional</animation>
 					<visible>[IsEmpty(Player.Art(clearart)) + IsEmpty(Player.Art(clearlogo)) + !Skin.HasSetting(OSDInfoLogo)] | [IsEmpty(Player.Art(clearlogo)) + Skin.HasSetting(OSDInfoLogo)]</visible>
 				</control>
 				<visible>VideoPlayer.Content(Movies)</visible>
@@ -170,6 +173,7 @@
 					<height>230</height>
 					<texture>$INFO[Player.Art(tvshow.clearart)]</texture>
 					<aspectratio aligny="bottom">keep</aspectratio>
+					<animation effect="slide" start="0,0" end="0,-36" time="100" reversible="false" condition="Window.IsVisible(infodialog)">Conditional</animation>
 					<visible>!IsEmpty(Player.Art(tvshow.clearart)) + !Skin.HasSetting(OSDInfoLogo)</visible>
 				</control>
 				<control type="image" id="1">
@@ -180,6 +184,7 @@
 					<height>230</height>
 					<texture>$INFO[Player.Art(tvshow.clearlogo)]</texture>
 					<aspectratio aligny="bottom">keep</aspectratio>
+					<animation effect="slide" start="0,0" end="0,-36" time="100" reversible="false" condition="Window.IsVisible(infodialog)">Conditional</animation>
 					<visible>!IsEmpty(Player.Art(tvshow.clearlogo)) + [Skin.HasSetting(OSDInfoLogo) | IsEmpty(Player.Art(tvshow.clearart))]</visible>
 				</control>
 				<control type="image" id="1">
@@ -192,6 +197,7 @@
 					<aspectratio aligny="bottom">keep</aspectratio>
 					<bordertexture border="8">ThumbShadow.png</bordertexture>
 					<bordersize>8</bordersize>
+					<animation effect="slide" start="0,0" end="0,-36" time="100" reversible="false" condition="Window.IsVisible(infodialog)">Conditional</animation>
 					<visible>[IsEmpty(Player.Art(tvshow.clearart)) + IsEmpty(Player.Art(tvshow.clearlogo)) + !Skin.HasSetting(OSDInfoLogo)] | [IsEmpty(Player.Art(tvshow.clearlogo)) + Skin.HasSetting(OSDInfoLogo)]</visible>
 				</control>
 				<visible>VideoPlayer.Content(Episodes)</visible>
@@ -207,13 +213,14 @@
 				<aspectratio aligny="bottom">keep</aspectratio>
 				<bordertexture border="8">ThumbShadow.png</bordertexture>
 				<bordersize>8</bordersize>
+				<animation effect="slide" start="0,0" end="0,-36" time="100" reversible="false" condition="Window.IsVisible(infodialog)">Conditional</animation>
 				<visible>!VideoPlayer.Content(Movies) + !VideoPlayer.Content(Episodes)</visible>
 				<visible>!Skin.HasSetting(HideSeekBarOSD) | Window.IsActive(VideoOSD)</visible>
 			</control>
 			<control type="group" id="1">
 				<visible>!Skin.HasSetting(HideSeekBarOSD) | Window.IsActive(VideoOSD)</visible>
 				<posx>330</posx>
-				<posy>185r</posy>
+				<posy>190r</posy>
 				<control type="label" id="1">
 					<description>Heading label</description>
 					<posx>0</posx>
@@ -373,7 +380,7 @@
 			</control>
 			<control type="group" id="1">
 				<posx>330</posx>
-				<posy>95r</posy>
+				<posy>100r</posy>
 				<visible>!Skin.HasSetting(HideSeekBarOSD) | Window.IsActive(VideoOSD)</visible>
 				<visible>!VideoPlayer.Content(LiveTV) | [VideoPlayer.Content(LiveTV) + VideoPlayer.HasEpg]</visible>
 				<control type="label" id="1">
