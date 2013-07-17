@@ -2,6 +2,7 @@
 <includes>
 	<include file="defaults.xml" />
 	<include file="IncludesVariables.xml" />
+	<include file="IncludesListItemCount.xml" />
 	<include file="ViewsVideoLibrary.xml" />
 	<include file="ViewsMusicLibrary.xml" />
 	<include file="ViewsFileMode.xml" />
@@ -143,18 +144,6 @@
 			<animation effect="fade" time="200">Hidden</animation>
 			<visible>Window.IsActive(MovieInformation) | Window.IsActive(MusicInformation) | Window.IsActive(SongInformation) | Window.IsActive(FileBrowser) | Window.IsActive(TextViewer) | Window.IsActive(AddonSettings) | Window.IsActive(ContentSettings) | Window.IsActive(SelectDialog) | Window.IsActive(FileStackingDialog) | Window.IsActive(MediaSource) | Window.IsActive(PictureInfo) | Window.IsActive(PlayerControls) | Window.IsActive(VirtualKeyboard) | Window.IsActive(NumericInput) | Window.IsActive(ProfileSettings) | Window.IsActive(LockSettings) | Window.IsActive(SmartPlaylistEditor) | Window.IsActive(SmartPlaylistRule) | Window.IsActive(script-RSS_Editor-rssEditor.xml) | Window.IsActive(script-RSS_Editor-setEditor.xml) | Window.IsActive(AddonInformation) | Window.IsActive(Peripherals) | Window.IsActive(PeripheralSettings) | Window.IsActive(script-XBMC_Lyrics-main.xml) | Window.IsActive(PVRChannelManager) | Window.IsActive(MediaFilter)</visible>
 		</control>
-	</include>
-	<include name="WindowTitleCommons">
-		<posx>0</posx>
-		<posy>0</posy>
-		<width min="0" max="800">auto</width>
-		<height>30</height>
-		<font>font14</font>
-		<textcolor>white</textcolor>
-		<shadowcolor>black</shadowcolor>
-		<scroll>false</scroll>
-		<align>left</align>
-		<aligny>center</aligny>
 	</include>
 	<include name="ButtonCommonValues">
 		<height>40</height>
@@ -498,39 +487,6 @@
 				<shadowcolor>black</shadowcolor>
 				<visible>Player.HasVideo + VideoPlayer.Content(LiveTV)</visible>
 			</control>
-		</control>
-	</include>
-	<include name="CommonPageCount">
-		<control type="group">
-			<!--animation effect="slide" start="0,0" end="-90,0" time="0" condition="!Skin.HasSetting(DisableHomeReturnButtons)">Conditional</animation-->
-			<!--control type="label">
-				<description>Page Count Label</description>
-				<posx>40r</posx>
-				<posy>53r</posy>
-				<width>500</width>
-				<height>20</height>
-				<font>font12</font>
-				<textcolor>grey</textcolor>
-				<scroll>false</scroll>
-				<align>right</align>
-				<aligny>center</aligny>
-				<label>$INFO[Container.NumItems,([COLOR=blue],[/COLOR]) $LOCALIZE[31025]]$INFO[Container.CurrentPage, - $LOCALIZE[31024] ([COLOR=blue]]$INFO[Container.NumPages,/,[/COLOR])]</label>
-				<include>Window_OpenClose_Animation</include>
-			</control>
-			<control type="label">
-				<description>Container Duration Label</description>
-				<posx>40r</posx>
-				<posy>32r</posy>
-				<width>500</width>
-				<height>20</height>
-				<font>font12</font>
-				<textcolor>grey</textcolor>
-				<scroll>false</scroll>
-				<align>right</align>
-				<aligny>center</aligny>
-				<label>$INFO[Container.TotalTime,$LOCALIZE[31009] ([COLOR=blue],[/COLOR])]</label>
-				<include>Window_OpenClose_Animation</include>
-			</control-->
 		</control>
 	</include>
 	<include name="SmallMusicInfo">
@@ -1061,36 +1017,105 @@
 			<visible>Player.HasMedia</visible>
 		</control>
 	</include>
-	<include name="ScrollOffsetLabel">
-		<!--
+	<include name="UserLocalInfo">
 		<control type="group">
-			<visible>Container.Scrolling + [StringCompare(Container.SortMethod,$LOCALIZE[551]) | StringCompare(Container.SortMethod,$LOCALIZE[561]) | StringCompare(Container.SortMethod,$LOCALIZE[558]) | StringCompare(Container.SortMethod,$LOCALIZE[557]) | StringCompare(Container.SortMethod,$LOCALIZE[556])]</visible>
-			<animation effect="slide" start="0,0" end="0,-60" time="100">Visible</animation>
-			<animation effect="slide" start="0,-60" end="0,0" delay="400" time="100">Hidden</animation>
-			<posx>300r</posx>
-			<posy>720</posy>
+			<posx>20</posx>
+			<posy>0</posy>
+			<visible>!IsEmpty(Weather.Conditions) + Weather.IsFetched + !IsEmpty(Weather.Plugin) + Skin.HasSetting(HideSystemWeather)</visible>
+			<animation effect="fade" start="100" end="0" time="200" condition="Window.IsVisible(DialogVideoInfo.xml)">Conditional</animation>
+			<include>Window_OpenClose_Animation</include>
 			<control type="image">
+				<description>Weather image</description>
 				<posx>0</posx>
 				<posy>0</posy>
-				<width>70</width>
-				<height>65</height>
-				<texture border="20,20,20,2">InfoMessagePanel.png</texture>
+				<width>60</width>
+				<height>60</height>
+				<aspectratio>keep</aspectratio>
+				<texture>$INFO[Weather.Conditions]</texture>
 			</control>
 			<control type="label">
-				<posx>5</posx>
-				<posy>0</posy>
-				<width>65</width>
-				<height>60</height>
-				<align>center</align>
+				<description>Location label</description>
+				<posx>65</posx>
+				<posy>5</posy>
+				<width>500</width>
+				<height>15</height>
+				<align>left</align>
 				<aligny>center</aligny>
-				<label>$INFO[ListItem.SortLetter]</label>
+				<font>font10</font>
 				<textcolor>white</textcolor>
-				<font>font30_title</font>
+				<shadowcolor>black</shadowcolor>
+				<label>$INFO[Window(Weather).Property(Location)]</label>
+				<visible>Window.IsVisible(home)</visible>
+			</control>
+			<control type="label">
+				<description>Location label</description>
+				<posx>65</posx>
+				<posy>5</posy>
+				<width>295</width>
+				<height>15</height>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>font10</font>
+				<textcolor>white</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<label>$LOCALIZE[31300]</label>
+				<visible>!Window.IsVisible(home)</visible>
+			</control>
+			<control type="grouplist">
+				<posx>65</posx>
+				<posy>20</posy>
+				<width>1000</width>
+				<height>30</height>
+				<orientation>horizontal</orientation>
+				<align>left</align>
+				<itemgap>0</itemgap>
+				<control type="label">
+					<description>Temp label</description>
+					<width min="0" max="300">auto</width>
+					<height>30</height>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>font28_title</font>
+					<textcolor>white</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<label>[B]$INFO[Window(Weather).Property(Current.Temperature)][/B]</label>
+				</control>
+				<control type="label">
+					<description>Temp Units</description>
+					<width min="0" max="100">auto</width>
+					<height>22</height>
+					<font>font10</font>
+					<aligny>center</aligny>
+					<label>$INFO[System.TemperatureUnits]</label>
+					<textcolor>white</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<visible>!IsEmpty(Window(Weather).Property(Current.Temperature))</visible>
+				</control>
+				<control type="label">
+					<description>Conditions Label</description>
+					<width>500</width>
+					<height>22</height>
+					<font>font10</font>
+					<aligny>center</aligny>
+					<label>$INFO[Window(Weather).Property(Current.Condition),  ]</label>
+					<textcolor>grey2</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<visible>Window.IsVisible(home) +  !substring(Window(Weather).Property(Current.Condition),N/A)</visible>
+				</control>
 			</control>
 		</control>
-		-->
-	</include>
-	<include name="Clock">
+		<control type="image">
+			<description>LOGO</description>
+			<posx>0</posx>
+			<posy>5</posy>
+			<width>170</width>
+			<height>100</height>
+			<aspectratio aligny="top" align="left">keep</aspectratio>
+			<texture>xbmc-logo.png</texture>
+			<include>VisibleFadeEffect</include>
+			<include>Window_OpenClose_Animation</include>
+			<visible>!Skin.HasSetting(HideSystemWeather)</visible>
+		</control>
 		<control type="label">
 			<description>date label</description>
 			<posx>15r</posx>

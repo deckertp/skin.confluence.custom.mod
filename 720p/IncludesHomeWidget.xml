@@ -6833,7 +6833,7 @@
 				<icon>$INFO[Window(Weather).Property(Current.ConditionIcon)]</icon>
 				<thumb>$INFO[Skin.String(WeatherFanartDir)]$INFO[Window(Weather).Property(Current.FanartCode)]</thumb>
 				<property name="Temperatures">[COLOR=grey2]$LOCALIZE[419] : [/COLOR]$INFO[Window(Weather).Property(Day0.HighTemp)]$INFO[System.TemperatureUnits]     [COLOR=grey2]$LOCALIZE[418] : [/COLOR]$INFO[Window(Weather).Property(Day0.LowTemp)]$INFO[System.TemperatureUnits]</property>
-				<visible>!Skin.HasSetting(homepageWeatherinfo)</visible>
+				<visible>!Skin.HasSetting(HideSystemWeather)</visible>
 			</item>
 			<item>
 				<label>$INFO[Window(Weather).Property(Day1.Title)]</label>
@@ -6866,7 +6866,7 @@
 				<icon>$INFO[Window(Weather).Property(Day4.OutlookIcon)]</icon>
 				<thumb>$INFO[Skin.String(WeatherFanartDir)]$INFO[Window(Weather).Property(Day4.FanartCode)]</thumb>
 				<property name="Temperatures">[COLOR=grey2]$LOCALIZE[419] : [/COLOR]$INFO[Window(Weather).Property(Day4.HighTemp)]$INFO[System.TemperatureUnits]     [COLOR=grey2]$LOCALIZE[418] : [/COLOR]$INFO[Window(Weather).Property(Day4.LowTemp)]$INFO[System.TemperatureUnits]</property>
-				<visible>Skin.HasSetting(homepageWeatherinfo)</visible>
+				<visible>Skin.HasSetting(HideSystemWeather)</visible>
 			</item>
 		</content>
 	</include>

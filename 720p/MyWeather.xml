@@ -18,28 +18,6 @@
 			<animation effect="fade" time="200">WindowClose</animation>
 		</control>
 		<control type="image">
-			<description>Section header image</description>
-			<posx>20</posx>
-			<posy>3</posy>
-			<width>35</width>
-			<height>35</height>
-			<aspectratio>keep</aspectratio>
-			<texture>icon_weather.png</texture>
-		</control>
-		<control type="grouplist">
-			<posx>65</posx>
-			<posy>5</posy>
-			<width>1000</width>
-			<height>30</height>
-			<orientation>horizontal</orientation>
-			<align>left</align>
-			<itemgap>5</itemgap>
-			<control type="label">
-				<include>WindowTitleCommons</include>
-				<label>$LOCALIZE[8]</label>
-			</control>
-		</control>
-		<control type="image">
 			<posx>0</posx>
 			<posy>100r</posy>
 			<width>1280</width>
@@ -2067,6 +2045,6 @@
 				<include>CommonNowPlaying_Controls</include>
 			</control>
 		</control>
-		<include>Clock</include>
+		<include>UserLocalInfo</include>
 	</controls>
 </window>

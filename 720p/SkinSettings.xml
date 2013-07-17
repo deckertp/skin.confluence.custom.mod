@@ -29,33 +29,6 @@
 			<include>VisibleFadeEffect</include>
 			<texture>floor.png</texture>
 		</control>
-		<control type="image">
-			<description>Section header image</description>
-			<posx>20</posx>
-			<posy>3</posy>
-			<width>35</width>
-			<height>35</height>
-			<aspectratio>keep</aspectratio>
-			<texture>icon_system.png</texture>
-		</control>
-		<control type="grouplist">
-			<posx>65</posx>
-			<posy>5</posy>
-			<width>1000</width>
-			<height>30</height>
-			<orientation>horizontal</orientation>
-			<align>left</align>
-			<itemgap>5</itemgap>
-			<control type="label">
-				<include>WindowTitleCommons</include>
-				<label>$LOCALIZE[20077]</label>
-			</control>
-			<control type="label">
-				<include>WindowTitleCommons</include>
-				<label>[COLOR=blue] - [/COLOR]$INFO[Container.FolderName]</label>
-				<visible>!IsEmpty(Container.FolderName)</visible>
-			</control>
-		</control>
 		<control type="group">
 			<posx>90</posx>
 			<posy>30</posy>
@@ -294,6 +267,19 @@
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<label>31376</label>
+						<onclick>Skin.ToggleSetting(HideSystemWeather)</onclick>
+						<selected>Skin.HasSetting(HideSystemWeather)</selected>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<visible>!IsEmpty(Weather.Plugin)</visible>
+					</control>
+					<control type="radiobutton" id="104">
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
 						<label>31152</label>
 						<textcolor>grey2</textcolor>
 						<focusedcolor>white</focusedcolor>
@@ -302,7 +288,7 @@
 						<onclick>Skin.ToggleSetting(KioskMode)</onclick>
 						<selected>Skin.HasSetting(KioskMode)</selected>
 					</control>
-					<control type="radiobutton" id="104">
+					<control type="radiobutton" id="105">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -314,7 +300,7 @@
 						<onclick>Skin.ToggleSetting(HideBusyAnimation)</onclick>
 						<selected>!Skin.HasSetting(HideBusyAnimation)</selected>
 					</control>
-					<control type="radiobutton" id="105">
+					<control type="radiobutton" id="106">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -326,7 +312,7 @@
 						<onclick>Skin.ToggleSetting(DisableHomeReturnButtons)</onclick>
 						<selected>!Skin.HasSetting(DisableHomeReturnButtons)</selected>
 					</control>
-					<control type="radiobutton" id="106">
+					<control type="radiobutton" id="107">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -338,7 +324,7 @@
 						<onclick>Skin.ToggleSetting(DisableFloorVolumeButtons)</onclick>
 						<selected>!Skin.HasSetting(DisableFloorVolumeButtons)</selected>
 					</control>					
-					<control type="radiobutton" id="107">
+					<control type="radiobutton" id="108">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -351,7 +337,7 @@
 						<selected>!Skin.HasSetting(SmallVolumeJump)</selected>
 						<enable>!Skin.HasSetting(DisableFloorVolumeButtons)</enable>
 					</control>							
-					<control type="radiobutton" id="108">
+					<control type="radiobutton" id="109">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -363,7 +349,7 @@
 						<onclick>Skin.ToggleSetting(ParentDirLabel)</onclick>
 						<selected>!Skin.HasSetting(ParentDirLabel)</selected>
 					</control>
-					<control type="radiobutton" id="109">
+					<control type="radiobutton" id="110">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -375,7 +361,7 @@
 						<onclick>Skin.ToggleSetting(MediaShortDescription)</onclick>
 						<selected>Skin.HasSetting(MediaShortDescription)</selected>
 					</control>
-					<!--control type="radiobutton" id="110">
+					<control type="radiobutton" id="111">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -386,8 +372,8 @@
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.ToggleSetting(HideNumItemsCount)</onclick>
 						<selected>Skin.HasSetting(HideNumItemsCount)</selected>
-					</control-->
-					<control type="radiobutton" id="111">
+					</control>
+					<control type="radiobutton" id="112">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -399,7 +385,7 @@
 						<onclick>Skin.ToggleSetting(HideBackGroundFanart)</onclick>
 						<selected>Skin.HasSetting(HideBackGroundFanart)</selected>
 					</control>
-					<control type="radiobutton" id="112">
+					<control type="radiobutton" id="113">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -411,7 +397,7 @@
 						<onclick>Skin.ToggleSetting(HideEpisodeThumb)</onclick>
 						<selected>!Skin.HasSetting(HideEpisodeThumb)</selected>
 					</control>
-					<control type="radiobutton" id="113">
+					<control type="radiobutton" id="114">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -423,7 +409,7 @@
 						<onclick>Skin.ToggleSetting(ShowBackgroundVis)</onclick>
 						<selected>!Skin.HasSetting(ShowBackgroundVis)</selected>
 					</control>
-					<control type="label" id="114">
+					<control type="label" id="115">
 						<width>750</width>
 						<height>45</height>
 						<font>font13_title</font>
@@ -433,7 +419,7 @@
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
-					<control type="radiobutton" id="115">
+					<control type="radiobutton" id="116">
 						<description>enable video info</description>
 						<width>750</width>
 						<height>40</height>
@@ -446,7 +432,7 @@
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 					</control>
-					<control type="radiobutton" id="116">
+					<control type="radiobutton" id="117">
 						<description>enable music info</description>
 						<width>750</width>
 						<height>40</height>
@@ -458,20 +444,6 @@
 						<selected>!Skin.HasSetting(homepageMusicinfo)</selected>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
-					</control>
-					<control type="radiobutton" id="117">
-						<description>enable weather info</description>
-						<width>750</width>
-						<height>40</height>
-						<font>font13</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
-						<label>31079</label>
-						<onclick>Skin.ToggleSetting(homepageWeatherinfo)</onclick>
-						<selected>Skin.HasSetting(homepageWeatherinfo)</selected>
-						<texturefocus>MenuItemFO.png</texturefocus>
-						<texturenofocus>MenuItemNF.png</texturenofocus>
-						<visible>!IsEmpty(Weather.Plugin)</visible>
 					</control>
 					<control type="radiobutton" id="118">
 						<description>Show System Stats</description>
@@ -6144,6 +6116,6 @@
 			</control>
 		</control>
 		<include>BehindDialogFadeOut</include>
-		<include>Clock</include>
+		<include>UserLocalInfo</include>
 	</controls>
 </window>

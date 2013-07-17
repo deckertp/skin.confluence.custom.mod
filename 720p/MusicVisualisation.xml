@@ -35,7 +35,7 @@
 				<shadowcolor>black</shadowcolor>
 				<label>$VAR[MusicHeaderLabel]</label>
 			</control>
-			<include>Clock</include>
+			<include>UserLocalInfo</include>
 			<control type="image">
 				<posx>0</posx>
 				<posy>230r</posy>
