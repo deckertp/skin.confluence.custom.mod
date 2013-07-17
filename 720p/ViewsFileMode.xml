@@ -314,6 +314,7 @@
 						<bordertexture border="5">button-nofocus.png</bordertexture>
 						<bordersize>5</bordersize>
 						<texture background="true">$INFO[Listitem.Icon]</texture>
+						<animation effect="fade" start="60" end="80" time="0" condition="true">conditional</animation>
 						<visible>!Container.Content(Episodes)</visible>
 					</control>
 					<control type="image">
@@ -325,6 +326,7 @@
 						<bordertexture border="5">button-nofocus.png</bordertexture>
 						<bordersize>5</bordersize>
 						<texture background="true">$INFO[Listitem.Icon]</texture>
+						<animation effect="fade" start="60" end="80" time="0" condition="true">conditional</animation>
 						<visible>Container.Content(Episodes) + [StringCompare(ListItem.Label,..) | !Skin.HasSetting(HideEpisodeThumb)]</visible>
 					</control>
 					<control type="image">
@@ -336,6 +338,7 @@
 						<bordertexture border="5">button-nofocus.png</bordertexture>
 						<bordersize>5</bordersize>
 						<texture background="true">$INFO[ListItem.Property(Fanart_Image)]</texture>
+						<animation effect="fade" start="60" end="80" time="0" condition="true">conditional</animation>
 						<visible>Container.Content(Episodes) + Skin.HasSetting(HideEpisodeThumb) + !StringCompare(ListItem.Label,..)</visible>
 					</control>
 					<control type="label">
@@ -424,6 +427,7 @@
 						<bordertexture border="5">button-nofocus.png</bordertexture>
 						<bordersize>5</bordersize>
 						<texture background="true">$VAR[PosterThumb]</texture>
+						<animation effect="fade" start="60" end="80" time="0" condition="true">conditional</animation>
 					</control>
 					<control type="label">
 						<posx>108</posx>
