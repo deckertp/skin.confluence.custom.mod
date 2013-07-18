@@ -413,9 +413,9 @@
 			<control type="label">
 				<posx>0</posx>
 				<posy>2</posy>
-				<width>700</width>
+				<width>450</width>
 				<height>20</height>
-				<label>$INFO[MusicPlayer.Title]$INFO[VideoPlayer.Title] - ([COLOR=blue]$INFO[Player.Time] / $INFO[Player.Duration,][/COLOR])</label>
+				<label>[B]$INFO[MusicPlayer.Title]$INFO[VideoPlayer.Title][/B] - ([COLOR=blue]$INFO[Player.Time] / $INFO[Player.Duration,][/COLOR])</label>
 				<align>right</align>
 				<aligny>center</aligny>
 				<font>font12</font>
@@ -425,12 +425,12 @@
 			<control type="label">
 				<posx>0</posx>
 				<posy>23</posy>
-				<width>700</width>
+				<width>450</width>
 				<height>20</height>
 				<label>$INFO[MusicPlayer.Artist]$INFO[MusicPlayer.Album, - ]</label>
 				<align>right</align>
 				<aligny>center</aligny>
-				<font>font12</font>
+				<font>font10</font>
 				<textcolor>grey</textcolor>
 				<shadowcolor>black</shadowcolor>
 				<visible>Player.HasAudio</visible>
@@ -438,12 +438,12 @@
 			<control type="label">
 				<posx>0</posx>
 				<posy>25</posy>
-				<width>700</width>
+				<width>450</width>
 				<height>20</height>
 				<label>$INFO[VideoPlayer.Studio]</label>
 				<align>right</align>
 				<aligny>center</aligny>
-				<font>font12</font>
+				<font>font10</font>
 				<textcolor>grey</textcolor>
 				<shadowcolor>black</shadowcolor>
 				<visible>Player.HasVideo + VideoPlayer.Content(Movies)</visible>
@@ -451,12 +451,12 @@
 			<control type="label">
 				<posx>0</posx>
 				<posy>25</posy>
-				<width>700</width>
+				<width>450</width>
 				<height>20</height>
 				<label>$INFO[VideoPlayer.TVShowTitle]</label>
 				<align>right</align>
 				<aligny>center</aligny>
-				<font>font12</font>
+				<font>font10</font>
 				<textcolor>grey</textcolor>
 				<shadowcolor>black</shadowcolor>
 				<visible>Player.HasVideo + VideoPlayer.Content(Episodes)</visible>
@@ -464,12 +464,12 @@
 			<control type="label">
 				<posx>0</posx>
 				<posy>25</posy>
-				<width>700</width>
+				<width>450</width>
 				<height>20</height>
 				<label>$INFO[VideoPlayer.Artist]</label>
 				<align>right</align>
 				<aligny>center</aligny>
-				<font>font12</font>
+				<font>font10</font>
 				<textcolor>grey</textcolor>
 				<shadowcolor>black</shadowcolor>
 				<visible>Player.HasVideo + VideoPlayer.Content(MusicVideos)</visible>
@@ -477,7 +477,7 @@
 			<control type="label">
 				<posx>0</posx>
 				<posy>25</posy>
-				<width>700</width>
+				<width>450</width>
 				<height>20</height>
 				<label>$INFO[VideoPlayer.ChannelName]$INFO[VideoPlayer.ChannelNumber, - ([COLOR=blue],[/COLOR])]</label>
 				<align>right</align>
