@@ -14,6 +14,14 @@
 				<include>VisibleFadeEffect</include>
 				<control type="image">
 					<include>Dimensions_Fullscreen</include>
+					<texture background="true">$INFO[Skin.String(SearchBtnBackground)]</texture>
+					<aspectratio>scale</aspectratio>
+					<fadetime>FanartCrossfadeTime</fadetime>
+					<include>VisibleFadeEffect</include>
+					<visible>!IsEmpty(Skin.String(SearchBtnBackground))</visible>
+				</control>
+				<control type="image">
+					<include>Dimensions_Fullscreen</include>
 					<texture background="true">$INFO[Container(111).ListItem.Property(Fanart)]</texture>
 					<aspectratio>scale</aspectratio>
 					<fadetime>FanartCrossfadeTime</fadetime>
@@ -80,12 +88,22 @@
 			<control type="image">
 				<include>Dimensions_Fullscreen</include>
 				<texture>black-back.png</texture>
+				<include condition="!IsEmpty(Skin.String(MediaPanelTrans))">TransparentEffect</include>
 				<animation effect="fade" time="400">WindowOpen</animation>
 				<animation effect="fade" time="200">WindowClose</animation>
 			</control>
+			<control type="image">
+				<posx>0</posx>
+				<posy>100r</posy>
+				<width>1280</width>
+				<height>100</height>
+				<aspectratio>stretch</aspectratio>
+				<include>VisibleFadeEffect</include>
+				<texture>floor.png</texture>
+			</control>
 			<control type="group">
 				<posx>90</posx>
-				<posy>30</posy>
+				<posy>45</posy>
 				<animation type="WindowOpen" reversible="false">
 					<effect type="zoom" start="80" end="100" center="640,360" easing="out" tween="back" time="300" />
 					<effect type="fade" start="0" end="100" time="300" />
@@ -98,18 +116,17 @@
 					<posx>5</posx>
 					<posy>5</posy>
 					<width>1090</width>
-					<height>630</height>
+					<height>615</height>
 					<texture border="15">ContentPanel.png</texture>
 					<include condition="!IsEmpty(Skin.String(MediaPanelTrans))">TransparentEffect</include>
 				</control>
 				<control type="image">
 					<posx>5</posx>
-					<posy>5</posy>
+					<posy>607</posy>
 					<width>1090</width>
-					<height>630</height>
-					<texture border="15">ContentPanel.png</texture>
-					<include condition="!IsEmpty(Skin.String(MediaPanelTrans))">TransparentEffect</include>
-				</control>
+					<height>64</height>
+					<texture border="15">ContentPanelMirror.png</texture>
+				</control>				
 				<control type="button">
 					<description>Close Window button</description>
 					<posx>980</posx>
@@ -272,7 +289,7 @@
 					<posx>268</posx>
 					<posy>10</posy>
 					<width>790</width>
-					<height>618</height>
+					<height>603</height>
 					<texture border="5">black-back2.png</texture>
 				</control>
 				<control type="image">
@@ -352,7 +369,7 @@
 					<effect type="fade" start="100" end="0" time="300" />
 				</animation>
 				<posx>380</posx>
-				<posy>90</posy>
+				<posy>105</posy>
 				<control type="button" id="198">
 					<!-- Hide this button  off the screen because we use the list above to pass to it instead -->
 					<posx>2000</posx>
@@ -393,7 +410,7 @@
 							<posx>0</posx>
 							<posy>0</posy>
 							<width>750</width>
-							<height>530</height>
+							<height>520</height>
 							<onleft>9000</onleft>
 							<onright>118</onright>
 							<onup>111</onup>
@@ -576,7 +593,7 @@
 							<posx>770</posx>
 							<posy>0</posy>
 							<width>25</width>
-							<height>530</height>
+							<height>520</height>
 							<texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>
 							<texturesliderbar border="0,14,0,14">ScrollBarV_bar.png</texturesliderbar>
 							<texturesliderbarfocus border="0,14,0,14">ScrollBarV_bar_focus.png</texturesliderbarfocus>
@@ -587,21 +604,6 @@
 							<showonepage>false</showonepage>
 							<orientation>vertical</orientation>
 							<visible>Container(9000).Hasfocus(1)</visible>
-						</control>
-						<control type="label">
-							<description>number of files/pages in list text label</description>
-							<posx>750</posx>
-							<posy>530</posy>
-							<width>500</width>
-							<height>35</height>
-							<font>font12</font>
-							<align>right</align>
-							<aligny>center</aligny>
-							<scroll>true</scroll>
-							<textcolor>grey</textcolor>
-							<label>([COLOR=blue]$INFO[Container(111).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=blue]$INFO[Container(111).CurrentPage]/$INFO[Container(111).NumPages][/COLOR])</label>
-							<visible>Container(9000).Hasfocus(1)</visible>
-							<visible>!Skin.HasSetting(HideNumItemsCount)</visible>
 						</control>
 					</control>
 					<control type="group" id="129">
@@ -625,7 +627,7 @@
 							<posx>0</posx>
 							<posy>0</posy>
 							<width>750</width>
-							<height>530</height>
+							<height>525</height>
 							<onleft>9000</onleft>
 							<onright>128</onright>
 							<onup>121</onup>
@@ -750,7 +752,7 @@
 							<posx>770</posx>
 							<posy>0</posy>
 							<width>25</width>
-							<height>530</height>
+							<height>525</height>
 							<texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>
 							<texturesliderbar border="0,14,0,14">ScrollBarV_bar.png</texturesliderbar>
 							<texturesliderbarfocus border="0,14,0,14">ScrollBarV_bar_focus.png</texturesliderbarfocus>
@@ -761,21 +763,6 @@
 							<showonepage>false</showonepage>
 							<orientation>vertical</orientation>
 							<visible>Container(9000).Hasfocus(2)</visible>
-						</control>
-						<control type="label">
-							<description>number of files/pages in list text label</description>
-							<posx>750</posx>
-							<posy>530</posy>
-							<width>500</width>
-							<height>35</height>
-							<font>font12</font>
-							<align>right</align>
-							<aligny>center</aligny>
-							<scroll>true</scroll>
-							<textcolor>grey</textcolor>
-							<label>([COLOR=blue]$INFO[Container(121).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=blue]$INFO[Container(121).CurrentPage]/$INFO[Container(121).NumPages][/COLOR])</label>
-							<visible>Container(9000).Hasfocus(2)</visible>
-							<visible>!Skin.HasSetting(HideNumItemsCount)</visible>
 						</control>
 					</control>
 					<control type="group" id="139">
@@ -799,7 +786,7 @@
 							<posx>0</posx>
 							<posy>0</posy>
 							<width>750</width>
-							<height>530</height>
+							<height>520</height>
 							<onleft>9000</onleft>
 							<onright>138</onright>
 							<onup>131</onup>
@@ -882,7 +869,7 @@
 							<posx>770</posx>
 							<posy>0</posy>
 							<width>25</width>
-							<height>530</height>
+							<height>520</height>
 							<texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>
 							<texturesliderbar border="0,14,0,14">ScrollBarV_bar.png</texturesliderbar>
 							<texturesliderbarfocus border="0,14,0,14">ScrollBarV_bar_focus.png</texturesliderbarfocus>
@@ -893,21 +880,6 @@
 							<showonepage>false</showonepage>
 							<orientation>vertical</orientation>
 							<visible>Container(9000).Hasfocus(3)</visible>
-						</control>
-						<control type="label">
-							<description>number of files/pages in list text label</description>
-							<posx>750</posx>
-							<posy>530</posy>
-							<width>500</width>
-							<height>35</height>
-							<font>font12</font>
-							<align>right</align>
-							<aligny>center</aligny>
-							<scroll>true</scroll>
-							<textcolor>grey</textcolor>
-							<label>([COLOR=blue]$INFO[Container(131).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=blue]$INFO[Container(131).CurrentPage]/$INFO[Container(131).NumPages][/COLOR])</label>
-							<visible>Container(9000).Hasfocus(3)</visible>
-							<visible>!Skin.HasSetting(HideNumItemsCount)</visible>
 						</control>
 					</control>
 					<control type="group" id="149">
@@ -1062,21 +1034,6 @@
 							<showonepage>false</showonepage>
 							<orientation>vertical</orientation>
 							<visible>Container(9000).Hasfocus(4)</visible>
-						</control>
-						<control type="label">
-							<description>number of files/pages in list text label</description>
-							<posx>750</posx>
-							<posy>530</posy>
-							<width>500</width>
-							<height>35</height>
-							<font>font12</font>
-							<align>right</align>
-							<aligny>center</aligny>
-							<scroll>true</scroll>
-							<textcolor>grey</textcolor>
-							<label>([COLOR=blue]$INFO[Container(141).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=blue]$INFO[Container(141).CurrentPage]/$INFO[Container(141).NumPages][/COLOR])</label>
-							<visible>Container(9000).Hasfocus(4)</visible>
-							<visible>!Skin.HasSetting(HideNumItemsCount)</visible>
 						</control>
 					</control>
 					<control type="group" id="159">
@@ -1253,21 +1210,6 @@
 							<orientation>vertical</orientation>
 							<visible>Container(9000).Hasfocus(5)</visible>
 						</control>
-						<control type="label">
-							<description>number of files/pages in list text label</description>
-							<posx>750</posx>
-							<posy>530</posy>
-							<width>500</width>
-							<height>35</height>
-							<font>font12</font>
-							<align>right</align>
-							<aligny>center</aligny>
-							<scroll>true</scroll>
-							<textcolor>grey</textcolor>
-							<label>([COLOR=blue]$INFO[Container(151).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=blue]$INFO[Container(151).CurrentPage]/$INFO[Container(151).NumPages][/COLOR])</label>
-							<visible>Container(9000).Hasfocus(5)</visible>
-							<visible>!Skin.HasSetting(HideNumItemsCount)</visible>
-						</control>
 					</control>
 					<control type="group" id="169">
 						<posx>0</posx>
@@ -1407,21 +1349,6 @@
 							<orientation>vertical</orientation>
 							<visible>Container(9000).Hasfocus(6)</visible>
 						</control>
-						<control type="label">
-							<description>number of files/pages in list text label</description>
-							<posx>750</posx>
-							<posy>530</posy>
-							<width>500</width>
-							<height>35</height>
-							<font>font12</font>
-							<align>right</align>
-							<aligny>center</aligny>
-							<scroll>true</scroll>
-							<textcolor>grey</textcolor>
-							<label>([COLOR=blue]$INFO[Container(161).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=blue]$INFO[Container(161).CurrentPage]/$INFO[Container(161).NumPages][/COLOR])</label>
-							<visible>Container(9000).Hasfocus(6)</visible>
-							<visible>!Skin.HasSetting(HideNumItemsCount)</visible>
-						</control>
 					</control>
 					<control type="group" id="179">
 						<posx>0</posx>
@@ -1560,21 +1487,6 @@
 							<showonepage>false</showonepage>
 							<orientation>vertical</orientation>
 							<visible>Container(9000).Hasfocus(7)</visible>
-						</control>
-						<control type="label">
-							<description>number of files/pages in list text label</description>
-							<posx>750</posx>
-							<posy>530</posy>
-							<width>500</width>
-							<height>35</height>
-							<font>font12</font>
-							<align>right</align>
-							<aligny>center</aligny>
-							<scroll>true</scroll>
-							<textcolor>grey</textcolor>
-							<label>([COLOR=blue]$INFO[Container(171).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=blue]$INFO[Container(171).CurrentPage]/$INFO[Container(171).NumPages][/COLOR])</label>
-							<visible>Container(9000).Hasfocus(7)</visible>
-							<visible>!Skin.HasSetting(HideNumItemsCount)</visible>
 						</control>
 					</control>
 					<control type="group" id="189">
@@ -1735,25 +1647,14 @@
 							<orientation>vertical</orientation>
 							<visible>Container(9000).Hasfocus(8)</visible>
 						</control>
-						<control type="label">
-							<description>number of files/pages in list text label</description>
-							<posx>750</posx>
-							<posy>530</posy>
-							<width>500</width>
-							<height>35</height>
-							<font>font12</font>
-							<align>right</align>
-							<aligny>center</aligny>
-							<scroll>true</scroll>
-							<textcolor>grey</textcolor>
-							<label>([COLOR=blue]$INFO[Container(181).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=blue]$INFO[Container(181).CurrentPage]/$INFO[Container(181).NumPages][/COLOR])</label>
-							<visible>Container(9000).Hasfocus(8)</visible>
-							<visible>!Skin.HasSetting(HideNumItemsCount)</visible>
-						</control>
 					</control>
 				</control>
 			</control>
 		</control>
+		<include condition="!Skin.HasSetting(HideNumItemsCount)">CommonPageCount</include>
+		<include>CommonNowPlaying</include>
+		<include>MainWindowMouseButtons</include> <!-- Not work while script searching - better to not include -->
 		<include>BehindDialogFadeOut</include>
+		<include>UserLocalInfo</include>
 	</controls>
 </window>
