@@ -1022,6 +1022,7 @@
 			<posx>20</posx>
 			<posy>0</posy>
 			<visible>!IsEmpty(Weather.Conditions) + Weather.IsFetched + !IsEmpty(Weather.Plugin) + Skin.HasSetting(HideSystemWeather)</visible>
+			<visible>![Window.IsVisible(FullscreenVideo) | Window.IsVisible(Visualisation)]</visible>
 			<animation effect="fade" start="100" end="0" time="200" condition="Window.IsVisible(DialogVideoInfo.xml)">Conditional</animation>
 			<include>Window_OpenClose_Animation</include>
 			<control type="image">

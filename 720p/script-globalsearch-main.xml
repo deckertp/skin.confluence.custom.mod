@@ -102,6 +102,126 @@
 				<texture>floor.png</texture>
 			</control>
 			<control type="group">
+			<posx>240r</posx>
+			<posy>55r</posy>
+			<animation effect="fade" time="250" condition="Window.Previous(Home)">WindowOpen</animation>
+			<animation effect="fade" time="250" condition="Window.Next(Home)">WindowClose</animation>
+			<visible>!Skin.HasSetting(DisableHomeReturnButtons)</visible>
+			<control type="button" id="80">
+				<description>Volume Up button</description>
+				<posx>0</posx>
+				<posy>0</posy>
+				<width>45</width>
+				<height>45</height>
+				<label>1036</label>
+				<font>-</font>
+				<aligny>-</aligny>
+				<onclick>$VAR[VolumeStepUp]</onclick>
+				<texturefocus border="5">floor_buttonFO.png</texturefocus>
+				<texturenofocus border="5">floor_button.png</texturenofocus>
+				<onleft condition="Player.HasMedia + !SubString(Window(videolibrary).Property(TvTunesIsAlive),TRUE)">84</onleft>
+				<onleft condition="!Player.HasMedia + !SubString(Window(videolibrary).Property(TvTunesIsAlive),TRUE)">9000</onleft>
+				<onright>81</onright>
+				<onup>9000</onup>
+				<ondown>9000</ondown>
+				<visible>!Skin.HasSetting(DisableFloorVolumeButtons)</visible>
+				<visible>Player.HasMedia + !SubString(Window(videolibrary).Property(TvTunesIsAlive),TRUE)</visible>
+			</control>
+			<control type="image">
+				<description>volume Icon</description>
+				<posx>5</posx>
+				<posy>5</posy>
+				<width>35</width>
+				<height>35</height>
+				<aspectratio>keep</aspectratio>
+				<texture>icon_volplus.png</texture>
+				<visible>!Skin.HasSetting(DisableFloorVolumeButtons)</visible>
+				<visible>Player.HasMedia + !SubString(Window(videolibrary).Property(TvTunesIsAlive),TRUE)</visible>
+			</control>
+			<control type="button" id="81">
+				<description>Volume Down button</description>
+				<posx>55</posx>
+				<posy>0</posy>
+				<width>45</width>
+				<height>45</height>
+				<label>1036</label>
+				<font>-</font>
+				<aligny>-</aligny>
+				<onclick>$VAR[VolumeStepDown]</onclick>
+				<texturefocus border="5">floor_buttonFO.png</texturefocus>
+				<texturenofocus border="5">floor_button.png</texturenofocus>
+				<onleft>80</onleft>
+				<onright>82</onright>
+				<onup>9000</onup>
+				<ondown>9000</ondown>
+				<visible>!Skin.HasSetting(DisableFloorVolumeButtons)</visible>
+				<visible>Player.HasMedia + !SubString(Window(videolibrary).Property(TvTunesIsAlive),TRUE)</visible>
+			</control>
+			<control type="image">
+				<description>Volume Icon</description>
+				<posx>60</posx>
+				<posy>5</posy>
+				<width>35</width>
+				<height>35</height>
+				<aspectratio>keep</aspectratio>
+				<texture>icon_volminus.png</texture>
+				<visible>!Skin.HasSetting(DisableFloorVolumeButtons)</visible>
+				<visible>Player.HasMedia + !SubString(Window(videolibrary).Property(TvTunesIsAlive),TRUE)</visible>
+			</control>
+			<control type="button" id="82">
+				<description>Back push button</description>
+				<posx>110</posx>
+				<posy>0</posy>
+				<width>45</width>
+				<height>45</height>
+				<label>1036</label>
+				<font>-</font>
+				<aligny>-</aligny>
+				<onclick>back</onclick>
+				<texturefocus border="5">floor_buttonFO.png</texturefocus>
+				<texturenofocus border="5">floor_button.png</texturenofocus>
+				<onleft>81</onleft>
+				<onright>83</onright>
+				<onup>9000</onup>
+				<ondown>9000</ondown>
+			</control>
+			<control type="image">
+				<description>Back Icon</description>
+				<posx>115</posx>
+				<posy>5</posy>
+				<width>35</width>
+				<height>35</height>
+				<aspectratio>keep</aspectratio>
+				<texture>icon_back.png</texture>
+			</control>
+			<control type="button" id="83">
+				<description>Home push button</description>
+				<posx>165</posx>
+				<posy>0</posy>
+				<width>45</width>
+				<height>45</height>
+				<label>31003</label>
+				<font>-</font>
+				<aligny>-</aligny>
+				<onclick>ActivateWindow(home)</onclick>
+				<texturefocus border="5">floor_buttonFO.png</texturefocus>
+				<texturenofocus border="5">floor_button.png</texturenofocus>
+				<onleft>82</onleft>
+				<onright>9000</onright>
+				<onup>9000</onup>
+				<ondown>9000</ondown>
+			</control>
+			<control type="image">
+				<description>Home Icon</description>
+				<posx>170</posx>
+				<posy>5</posy>
+				<width>35</width>
+				<height>35</height>
+				<aspectratio>keep</aspectratio>
+				<texture>icon_home.png</texture>
+			</control>
+		</control>
+			<control type="group">
 				<posx>90</posx>
 				<posy>45</posy>
 				<animation type="WindowOpen" reversible="false">
@@ -600,7 +720,8 @@
 							<textureslidernib>ScrollBarNib.png</textureslidernib>
 							<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 							<onleft>111</onleft>
-							<onright>9000</onright>
+											<onright condition="Skin.HasSetting(DisableHomeReturnButtons)">9000</onright>
+								<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">82</onright>
 							<showonepage>false</showonepage>
 							<orientation>vertical</orientation>
 							<visible>Container(9000).Hasfocus(1)</visible>
@@ -759,7 +880,8 @@
 							<textureslidernib>ScrollBarNib.png</textureslidernib>
 							<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 							<onleft>121</onleft>
-							<onright>9000</onright>
+											<onright condition="Skin.HasSetting(DisableHomeReturnButtons)">9000</onright>
+				<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">82</onright>
 							<showonepage>false</showonepage>
 							<orientation>vertical</orientation>
 							<visible>Container(9000).Hasfocus(2)</visible>
@@ -876,7 +998,8 @@
 							<textureslidernib>ScrollBarNib.png</textureslidernib>
 							<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 							<onleft>131</onleft>
-							<onright>9000</onright>
+											<onright condition="Skin.HasSetting(DisableHomeReturnButtons)">9000</onright>
+				<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">82</onright>
 							<showonepage>false</showonepage>
 							<orientation>vertical</orientation>
 							<visible>Container(9000).Hasfocus(3)</visible>
@@ -1030,7 +1153,8 @@
 							<textureslidernib>ScrollBarNib.png</textureslidernib>
 							<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 							<onleft>141</onleft>
-							<onright>9000</onright>
+											<onright condition="Skin.HasSetting(DisableHomeReturnButtons)">9000</onright>
+				<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">82</onright>
 							<showonepage>false</showonepage>
 							<orientation>vertical</orientation>
 							<visible>Container(9000).Hasfocus(4)</visible>
@@ -1205,7 +1329,8 @@
 							<textureslidernib>ScrollBarNib.png</textureslidernib>
 							<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 							<onleft>151</onleft>
-							<onright>9000</onright>
+											<onright condition="Skin.HasSetting(DisableHomeReturnButtons)">9000</onright>
+				<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">82</onright>
 							<showonepage>false</showonepage>
 							<orientation>vertical</orientation>
 							<visible>Container(9000).Hasfocus(5)</visible>
@@ -1344,7 +1469,8 @@
 							<textureslidernib>ScrollBarNib.png</textureslidernib>
 							<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 							<onleft>161</onleft>
-							<onright>9000</onright>
+											<onright condition="Skin.HasSetting(DisableHomeReturnButtons)">9000</onright>
+				<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">82</onright>
 							<showonepage>false</showonepage>
 							<orientation>vertical</orientation>
 							<visible>Container(9000).Hasfocus(6)</visible>
@@ -1483,7 +1609,8 @@
 							<textureslidernib>ScrollBarNib.png</textureslidernib>
 							<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 							<onleft>171</onleft>
-							<onright>9000</onright>
+											<onright condition="Skin.HasSetting(DisableHomeReturnButtons)">9000</onright>
+				<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">82</onright>
 							<showonepage>false</showonepage>
 							<orientation>vertical</orientation>
 							<visible>Container(9000).Hasfocus(7)</visible>
@@ -1642,7 +1769,8 @@
 							<textureslidernib>ScrollBarNib.png</textureslidernib>
 							<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 							<onleft>181</onleft>
-							<onright>9000</onright>
+											<onright condition="Skin.HasSetting(DisableHomeReturnButtons)">9000</onright>
+				<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">82</onright>
 							<showonepage>false</showonepage>
 							<orientation>vertical</orientation>
 							<visible>Container(9000).Hasfocus(8)</visible>
@@ -1653,7 +1781,7 @@
 		</control>
 		<include condition="!Skin.HasSetting(HideNumItemsCount)">CommonPageCount</include>
 		<include>CommonNowPlaying</include>
-		<include>MainWindowMouseButtons</include> <!-- Not work while script searching - better to not include -->
+		<!--include>MainWindowMouseButtons</include--> <!-- Not work while script searching - better to not include -->
 		<include>BehindDialogFadeOut</include>
 		<include>UserLocalInfo</include>
 	</controls>
