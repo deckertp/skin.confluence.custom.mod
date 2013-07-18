@@ -293,7 +293,7 @@
 				<onleft condition="!Player.HasMedia + !SubString(Window(videolibrary).Property(TvTunesIsAlive),TRUE)">2</onleft>
 				<onright>81</onright>
 				<onup>2</onup>
-				<ondown>2</ondown>				
+				<ondown>2</ondown>
 				<visible>!Skin.HasSetting(DisableFloorVolumeButtons)</visible>
 				<visible>Player.HasMedia + !SubString(Window(videolibrary).Property(TvTunesIsAlive),TRUE)</visible>
 			</control>

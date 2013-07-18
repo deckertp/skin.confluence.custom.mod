@@ -323,7 +323,7 @@
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.ToggleSetting(DisableFloorVolumeButtons)</onclick>
 						<selected>!Skin.HasSetting(DisableFloorVolumeButtons)</selected>
-					</control>					
+					</control>
 					<control type="radiobutton" id="108">
 						<width>750</width>
 						<height>40</height>
@@ -336,7 +336,7 @@
 						<onclick>Skin.ToggleSetting(SmallVolumeJump)</onclick>
 						<selected>!Skin.HasSetting(SmallVolumeJump)</selected>
 						<enable>!Skin.HasSetting(DisableFloorVolumeButtons)</enable>
-					</control>							
+					</control>
 					<control type="radiobutton" id="109">
 						<width>750</width>
 						<height>40</height>

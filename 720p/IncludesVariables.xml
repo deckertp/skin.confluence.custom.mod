@@ -1341,30 +1341,40 @@
 		<value>$INFO[Skin.String(UsrGenreFanartDir)]$INFO[ListItem.Label,,.jpg]</value>
 	</variable>
 	<variable name="VolumeStepDown" type="text">
-		<value condition="!Skin.HasSetting(SmallVolumeJump) + IntegerGreaterThan(player.volume,90)">SetVolume(90)</value> 
-		<value condition="!Skin.HasSetting(SmallVolumeJump) + IntegerGreaterThan(player.volume,80)">SetVolume(80)</value> 
-		<value condition="!Skin.HasSetting(SmallVolumeJump) + IntegerGreaterThan(player.volume,70)">SetVolume(70)</value> 
-		<value condition="!Skin.HasSetting(SmallVolumeJump) + IntegerGreaterThan(player.volume,60)">SetVolume(60)</value> 
-		<value condition="!Skin.HasSetting(SmallVolumeJump) + IntegerGreaterThan(player.volume,50)">SetVolume(50)</value> 
-		<value condition="!Skin.HasSetting(SmallVolumeJump) + IntegerGreaterThan(player.volume,40)">SetVolume(40)</value> 
-		<value condition="!Skin.HasSetting(SmallVolumeJump) + IntegerGreaterThan(player.volume,30)">SetVolume(30)</value> 
-		<value condition="!Skin.HasSetting(SmallVolumeJump) + IntegerGreaterThan(player.volume,20)">SetVolume(20)</value> 
-		<value condition="!Skin.HasSetting(SmallVolumeJump) + IntegerGreaterThan(player.volume,10)">SetVolume(10)</value> 
-		<value condition="!Skin.HasSetting(SmallVolumeJump) + IntegerGreaterThan(player.volume,1)">SetVolume(1)</value> 
+		<value condition="!Skin.HasSetting(SmallVolumeJump) + IntegerGreaterThan(player.volume,90)">SetVolume(90)</value>
+		<value condition="!Skin.HasSetting(SmallVolumeJump) + IntegerGreaterThan(player.volume,80)">SetVolume(80)</value>
+		<value condition="!Skin.HasSetting(SmallVolumeJump) + IntegerGreaterThan(player.volume,70)">SetVolume(70)</value>
+		<value condition="!Skin.HasSetting(SmallVolumeJump) + IntegerGreaterThan(player.volume,60)">SetVolume(60)</value>
+		<value condition="!Skin.HasSetting(SmallVolumeJump) + IntegerGreaterThan(player.volume,50)">SetVolume(50)</value>
+		<value condition="!Skin.HasSetting(SmallVolumeJump) + IntegerGreaterThan(player.volume,40)">SetVolume(40)</value>
+		<value condition="!Skin.HasSetting(SmallVolumeJump) + IntegerGreaterThan(player.volume,30)">SetVolume(30)</value>
+		<value condition="!Skin.HasSetting(SmallVolumeJump) + IntegerGreaterThan(player.volume,20)">SetVolume(20)</value>
+		<value condition="!Skin.HasSetting(SmallVolumeJump) + IntegerGreaterThan(player.volume,10)">SetVolume(10)</value>
+		<value condition="!Skin.HasSetting(SmallVolumeJump) + IntegerGreaterThan(player.volume,1)">SetVolume(1)</value>
 		<value>VolumeDown</value>
 	</variable>
 	<variable name="VolumeStepUp" type="text">
-		<value condition="!Skin.HasSetting(SmallVolumeJump) + !IntegerGreaterThan(player.volume,10)">SetVolume(11)</value> 
-		<value condition="!Skin.HasSetting(SmallVolumeJump) + !IntegerGreaterThan(player.volume,20)">SetVolume(21)</value> 
-		<value condition="!Skin.HasSetting(SmallVolumeJump) + !IntegerGreaterThan(player.volume,30)">SetVolume(31)</value> 
-		<value condition="!Skin.HasSetting(SmallVolumeJump) + !IntegerGreaterThan(player.volume,40)">SetVolume(41)</value> 
-		<value condition="!Skin.HasSetting(SmallVolumeJump) + !IntegerGreaterThan(player.volume,50)">SetVolume(51)</value> 
-		<value condition="!Skin.HasSetting(SmallVolumeJump) + !IntegerGreaterThan(player.volume,60)">SetVolume(61)</value> 
-		<value condition="!Skin.HasSetting(SmallVolumeJump) + !IntegerGreaterThan(player.volume,70)">SetVolume(71)</value> 
-		<value condition="!Skin.HasSetting(SmallVolumeJump) + !IntegerGreaterThan(player.volume,80)">SetVolume(81)</value> 
-		<value condition="!Skin.HasSetting(SmallVolumeJump) + !IntegerGreaterThan(player.volume,90)">SetVolume(91)</value> 
-		<value condition="!Skin.HasSetting(SmallVolumeJump) + !IntegerGreaterThan(player.volume,99)">SetVolume(100)</value> 
+		<value condition="!Skin.HasSetting(SmallVolumeJump) + !IntegerGreaterThan(player.volume,10)">SetVolume(11)</value>
+		<value condition="!Skin.HasSetting(SmallVolumeJump) + !IntegerGreaterThan(player.volume,20)">SetVolume(21)</value>
+		<value condition="!Skin.HasSetting(SmallVolumeJump) + !IntegerGreaterThan(player.volume,30)">SetVolume(31)</value>
+		<value condition="!Skin.HasSetting(SmallVolumeJump) + !IntegerGreaterThan(player.volume,40)">SetVolume(41)</value>
+		<value condition="!Skin.HasSetting(SmallVolumeJump) + !IntegerGreaterThan(player.volume,50)">SetVolume(51)</value>
+		<value condition="!Skin.HasSetting(SmallVolumeJump) + !IntegerGreaterThan(player.volume,60)">SetVolume(61)</value>
+		<value condition="!Skin.HasSetting(SmallVolumeJump) + !IntegerGreaterThan(player.volume,70)">SetVolume(71)</value>
+		<value condition="!Skin.HasSetting(SmallVolumeJump) + !IntegerGreaterThan(player.volume,80)">SetVolume(81)</value>
+		<value condition="!Skin.HasSetting(SmallVolumeJump) + !IntegerGreaterThan(player.volume,90)">SetVolume(91)</value>
+		<value condition="!Skin.HasSetting(SmallVolumeJump) + !IntegerGreaterThan(player.volume,99)">SetVolume(100)</value>
 		<value>VolumeUp</value>
+	</variable>
+	<variable name="GlobalSearchResults">
+		<value condition="Container(9000).Hasfocus(1)">$LOCALIZE[31007] [COLOR=blue]$INFO[Container(111).NumItems][/COLOR] $VAR[CommonCountItems] $INFO[Container(111).CurrentPage, - $LOCALIZE[31024] ([COLOR=blue]]$INFO[Container(111).NumPages,/,[/COLOR])]</value>
+		<value condition="Container(9000).Hasfocus(2)">$LOCALIZE[31007] [COLOR=blue]$INFO[Container(121).NumItems][/COLOR] $VAR[CommonCountItems] $INFO[Container(121).CurrentPage, - $LOCALIZE[31024] ([COLOR=blue]]$INFO[Container(121).NumPages,/,[/COLOR])]</value>
+		<value condition="Container(9000).Hasfocus(3)">$LOCALIZE[31007] [COLOR=blue]$INFO[Container(131).NumItems][/COLOR] $VAR[CommonCountItems] $INFO[Container(131).CurrentPage, - $LOCALIZE[31024] ([COLOR=blue]]$INFO[Container(131).NumPages,/,[/COLOR])]</value>
+		<value condition="Container(9000).Hasfocus(4)">$LOCALIZE[31007] [COLOR=blue]$INFO[Container(141).NumItems][/COLOR] $VAR[CommonCountItems] $INFO[Container(141).CurrentPage, - $LOCALIZE[31024] ([COLOR=blue]]$INFO[Container(141).NumPages,/,[/COLOR])]</value>
+		<value condition="Container(9000).Hasfocus(5)">$LOCALIZE[31007] [COLOR=blue]$INFO[Container(151).NumItems][/COLOR] $VAR[CommonCountItems] $INFO[Container(151).CurrentPage, - $LOCALIZE[31024] ([COLOR=blue]]$INFO[Container(151).NumPages,/,[/COLOR])]</value>
+		<value condition="Container(9000).Hasfocus(6)">$LOCALIZE[31007] [COLOR=blue]$INFO[Container(161).NumItems][/COLOR] $VAR[CommonCountItems] $INFO[Container(161).CurrentPage, - $LOCALIZE[31024] ([COLOR=blue]]$INFO[Container(161).NumPages,/,[/COLOR])]</value>
+		<value condition="Container(9000).Hasfocus(7)">$LOCALIZE[31007] [COLOR=blue]$INFO[Container(171).NumItems][/COLOR] $VAR[CommonCountItems] $INFO[Container(171).CurrentPage, - $LOCALIZE[31024] ([COLOR=blue]]$INFO[Container(171).NumPages,/,[/COLOR])]</value>
+		<value condition="Container(9000).Hasfocus(8)">$LOCALIZE[31007] [COLOR=blue]$INFO[Container(181).NumItems][/COLOR] $VAR[CommonCountItems] $INFO[Container(181).CurrentPage, - $LOCALIZE[31024] ([COLOR=blue]]$INFO[Container(181).NumPages,/,[/COLOR])]</value>
 	</variable>
 	<variable name="CommonCountIcons">
 		<value condition="Window.IsActive(script-globalsearch-main.xml) + Container(9000).Hasfocus(1)">CommonCount/MovieCount.png</value>
