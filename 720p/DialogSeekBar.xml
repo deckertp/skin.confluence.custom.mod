@@ -139,9 +139,9 @@
 				<visible>!Window.IsVisible(home)</visible>
 				<control type="label">
 					<description>Playing Label</description>
-					<posx>110r</posx>
-					<posy>40r</posy>
-					<width>240</width>
+					<posx>410</posx>
+					<posy>35r</posy>
+					<width>130</width>
 					<height>20</height>
 					<align>right</align>
 					<aligny>center</aligny>
@@ -152,9 +152,9 @@
 				</control>
 				<control type="label">
 					<description>Paused Label</description>
-					<posx>110r</posx>
-					<posy>40r</posy>
-					<width>240</width>
+					<posx>410</posx>
+					<posy>35r</posy>
+					<width>130</width>
 					<height>20</height>
 					<align>right</align>
 					<aligny>center</aligny>
@@ -165,9 +165,9 @@
 				</control>
 				<control type="label">
 					<description>Cache Label</description>
-					<posx>110r</posx>
-					<posy>40r</posy>
-					<width>240</width>
+					<posx>410</posx>
+					<posy>35r</posy>
+					<width>130</width>
 					<height>20</height>
 					<align>right</align>
 					<aligny>center</aligny>
@@ -178,9 +178,9 @@
 				</control>
 				<control type="label">
 					<description>Seeking Label</description>
-					<posx>110r</posx>
-					<posy>40r</posy>
-					<width>240</width>
+					<posx>410</posx>
+					<posy>35r</posy>
+					<width>130</width>
 					<height>20</height>
 					<align>right</align>
 					<aligny>center</aligny>
@@ -191,9 +191,9 @@
 				</control>
 				<control type="label">
 					<description>Final Seek amount Label</description>
-					<posx>110r</posx>
-					<posy>40r</posy>
-					<width>240</width>
+					<posx>410</posx>
+					<posy>35r</posy>
+					<width>130</width>
 					<height>20</height>
 					<align>right</align>
 					<aligny>center</aligny>
@@ -204,9 +204,9 @@
 				</control>
 				<control type="label">
 					<description>FF Label</description>
-					<posx>110r</posx>
-					<posy>40r</posy>
-					<width>240</width>
+					<posx>410</posx>
+					<posy>35r</posy>
+					<width>130</width>
 					<height>20</height>
 					<align>right</align>
 					<aligny>center</aligny>
@@ -217,9 +217,9 @@
 				</control>
 				<control type="label">
 					<description>RW Label</description>
-					<posx>110r</posx>
-					<posy>40r</posy>
-					<width>240</width>
+					<posx>410</posx>
+					<posy>35r</posy>
+					<width>130</width>
 					<height>20</height>
 					<align>right</align>
 					<aligny>center</aligny>
