@@ -17,7 +17,7 @@
 				<aspectratio>keep</aspectratio>
 				<texture>DefaultFile.png</texture>
 			</control>
-				<control type="fadelabel" id="401">
+			<control type="fadelabel" id="401">
 				<description>Line 1 Label</description>
 				<posx>75</posx>
 				<posy>15</posy>
