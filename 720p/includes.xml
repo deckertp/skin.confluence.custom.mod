@@ -1023,7 +1023,7 @@
 			<posy>0</posy>
 			<visible>!IsEmpty(Weather.Conditions) + Weather.IsFetched + !IsEmpty(Weather.Plugin) + Skin.HasSetting(HideSystemWeather)</visible>
 			<visible>![Window.IsVisible(FullscreenVideo) | Window.IsVisible(Visualisation)]</visible>
-			<animation effect="fade" start="100" end="0" time="200" condition="Window.IsVisible(DialogVideoInfo.xml)">Conditional</animation>
+			<animation effect="fade" start="100" end="0" time="200" condition="Window.IsVisible(DialogVideoInfo.xml) | Window.IsVisible(infodialog)">Conditional</animation>
 			<include>Window_OpenClose_Animation</include>
 			<control type="image">
 				<description>Weather image</description>
@@ -1132,6 +1132,7 @@
 			<animation effect="slide" start="0,0" end="-40,0" time="100" condition="Window.IsVisible(Mutebug)">conditional</animation>
 			<animation effect="slide" start="0,0" end="0,-50" time="100" condition="Window.IsVisible(busydialog)">conditional</animation>
 			<animation effect="slide" start="0,0" end="350,0" time="200" condition="Window.IsVisible(extendedprogressdialog)">conditional</animation>
+			<animation effect="fade" start="100" end="0" time="200" condition="Window.IsVisible(volumebar)">Conditional</animation>
 			<animation effect="fade" start="100" end="0" time="200" condition="Window.IsVisible(CustomAddMenuItems.xml) | Window.IsVisible(CustomAddonSelection.xml) | Window.IsVisible(CustomAddonType.xml) | Window.IsVisible(CustomAddSubMenuItems.xml) | Window.IsVisible(CustomSubMenuType.xml) | Window.IsVisible(CustomWidgetType.xml) | Window.IsVisible(Favourites)">Conditional</animation>
 			<visible>!Skin.HasSetting(HideSystemClock)</visible>
 		</control>
@@ -1150,6 +1151,7 @@
 			<animation effect="slide" start="0,0" end="-40,0" time="100" condition="Window.IsVisible(Mutebug)">conditional</animation>
 			<animation effect="slide" start="0,0" end="0,-50" time="100" condition="Window.IsVisible(busydialog)">conditional</animation>
 			<animation effect="slide" start="0,0" end="350,0" time="200" condition="Window.IsVisible(extendedprogressdialog)">conditional</animation>
+			<animation effect="fade" start="100" end="0" time="200" condition="Window.IsVisible(volumebar)">Conditional</animation>
 			<animation effect="fade" start="100" end="0" time="200" condition="Window.IsVisible(CustomAddMenuItems.xml) | Window.IsVisible(CustomAddonSelection.xml) | Window.IsVisible(CustomAddonType.xml) | Window.IsVisible(CustomAddSubMenuItems.xml) | Window.IsVisible(CustomSubMenuType.xml) | Window.IsVisible(CustomWidgetType.xml) | Window.IsVisible(Favourites)">Conditional</animation>
 			<visible>!Skin.HasSetting(HideSystemClock)</visible>
 		</control>

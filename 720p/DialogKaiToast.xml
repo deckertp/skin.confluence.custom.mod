@@ -4,22 +4,10 @@
 	<animation effect="fade" start="100" end="0" time="200">WindowClose</animation>
 	<coordinates>
 		<posx>-5</posx>
-		<posy>655</posy>
+		<posy>-5</posy>
 	</coordinates>
 	<controls>
 		<control type="group">
-			<animation effect="slide" start="0,0" end="0,-147" time="0" condition="Window.IsActive(home) + !Window.IsActive(script-globalsearch-main.xml) + !Skin.HasSetting(RaiseMainMenuBar)">Conditional</animation>
-			<animation effect="slide" start="0,0" end="0,-322" time="0" condition="Window.IsActive(home) + Skin.HasSetting(RaiseMainMenuBar) + !Window.IsActive(script-globalsearch-main.xml)">Conditional</animation>
-			<control type="image">
-				<posx>0</posx>
-				<posy>0</posy>
-				<width>400</width>
-				<height>70</height>
-				<include condition="!IsEmpty(Skin.String(MediaPanelTrans))">TransparentEffect</include>
-				<texture>ContentPanel.png</texture>
-				<visible>!Window.IsActive(script-globalsearch-main.xml)</visible>
-				<visible>Window.IsActive(home) | Window.IsVisible(FullscreenVideo)  | Window.IsVisible(visualisation)</visible>
-			</control>
 			<control type="image" id="400">
 				<description>avatar</description>
 				<posx>20</posx>
@@ -29,7 +17,7 @@
 				<aspectratio>keep</aspectratio>
 				<texture>DefaultFile.png</texture>
 			</control>
-			<control type="fadelabel" id="401">
+				<control type="fadelabel" id="401">
 				<description>Line 1 Label</description>
 				<posx>75</posx>
 				<posy>15</posy>
