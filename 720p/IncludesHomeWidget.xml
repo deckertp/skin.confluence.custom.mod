@@ -19,7 +19,7 @@
 				<control type="label">
 					<description>Title label</description>
 					<posx>180</posx>
-					<posy>220</posy>
+					<posy>-35</posy>
 					<height>20</height>
 					<width>540</width>
 					<label>$LOCALIZE[31175]</label>
@@ -173,7 +173,7 @@
 				<control type="label">
 					<description>Title label</description>
 					<posx>240</posx>
-					<posy>220</posy>
+					<posy>-35</posy>
 					<height>20</height>
 					<width>480</width>
 					<label>$LOCALIZE[31178]</label>
@@ -413,7 +413,7 @@
 				<control type="label">
 					<description>Title label</description>
 					<posx>160</posx>
-					<posy>220</posy>
+					<posy>-35</posy>
 					<height>20</height>
 					<width>480</width>
 					<label>$LOCALIZE[31181]</label>
@@ -595,7 +595,7 @@
 				<control type="label">
 					<description>Title label</description>
 					<posx>180</posx>
-					<posy>220</posy>
+					<posy>-35</posy>
 					<height>20</height>
 					<width>540</width>
 					<label>$LOCALIZE[31184]</label>
@@ -749,7 +749,7 @@
 				<control type="label">
 					<description>Title label</description>
 					<posx>180</posx>
-					<posy>220</posy>
+					<posy>-35</posy>
 					<height>20</height>
 					<width>540</width>
 					<label>$LOCALIZE[31176]</label>
@@ -903,7 +903,7 @@
 				<control type="label">
 					<description>Title label</description>
 					<posx>240</posx>
-					<posy>220</posy>
+					<posy>-35</posy>
 					<height>20</height>
 					<width>480</width>
 					<label>$LOCALIZE[31179]</label>
@@ -1143,7 +1143,7 @@
 				<control type="label">
 					<description>Title label</description>
 					<posx>160</posx>
-					<posy>220</posy>
+					<posy>-35</posy>
 					<height>20</height>
 					<width>480</width>
 					<label>$LOCALIZE[31182]</label>
@@ -1325,7 +1325,7 @@
 				<control type="label">
 					<description>Title label</description>
 					<posx>180</posx>
-					<posy>220</posy>
+					<posy>-35</posy>
 					<height>20</height>
 					<width>540</width>
 					<label>$LOCALIZE[31185]</label>
@@ -1479,7 +1479,7 @@
 				<control type="label">
 					<description>Title label</description>
 					<posx>180</posx>
-					<posy>220</posy>
+					<posy>-35</posy>
 					<height>20</height>
 					<width>540</width>
 					<label>$LOCALIZE[31177]</label>
@@ -1633,7 +1633,7 @@
 				<control type="label">
 					<description>Title label</description>
 					<posx>240</posx>
-					<posy>220</posy>
+					<posy>-35</posy>
 					<height>20</height>
 					<width>480</width>
 					<label>$LOCALIZE[31180]</label>
@@ -1873,7 +1873,7 @@
 				<control type="label">
 					<description>Title label</description>
 					<posx>160</posx>
-					<posy>220</posy>
+					<posy>-35</posy>
 					<height>20</height>
 					<width>480</width>
 					<label>$LOCALIZE[31183]</label>
@@ -2055,7 +2055,7 @@
 				<control type="label">
 					<description>Title label</description>
 					<posx>180</posx>
-					<posy>220</posy>
+					<posy>-35</posy>
 					<height>20</height>
 					<width>540</width>
 					<label>$LOCALIZE[31186]</label>
@@ -2210,7 +2210,7 @@
 				<control type="label">
 					<description>Recent Title label</description>
 					<posx>180</posx>
-					<posy>220</posy>
+					<posy>-35</posy>
 					<height>20</height>
 					<width>540</width>
 					<label>$INFO[Container(9000).ListItem.Label] - $LOCALIZE[31175]</label>
@@ -2225,7 +2225,7 @@
 				<control type="label">
 					<description>Random Title label</description>
 					<posx>180</posx>
-					<posy>220</posy>
+					<posy>-35</posy>
 					<height>20</height>
 					<width>540</width>
 					<label>$INFO[Container(9000).ListItem.Label] - $LOCALIZE[31176]</label>
@@ -2501,7 +2501,7 @@
 				<control type="label">
 					<description>Random Title label</description>
 					<posx>240</posx>
-					<posy>220</posy>
+					<posy>-35</posy>
 					<height>20</height>
 					<width>480</width>
 					<label>$INFO[Container(9000).ListItem.Label] - $LOCALIZE[31178]</label>
@@ -2516,7 +2516,7 @@
 				<control type="label">
 					<description>Recent Title label</description>
 					<posx>240</posx>
-					<posy>220</posy>
+					<posy>-35</posy>
 					<height>20</height>
 					<width>480</width>
 					<label>$INFO[Container(9000).ListItem.Label] - $LOCALIZE[31179]</label>
@@ -2802,7 +2802,7 @@
 				<control type="label">
 					<description>Random Title label</description>
 					<posx>180</posx>
-					<posy>220</posy>
+					<posy>-35</posy>
 					<height>20</height>
 					<width>540</width>
 					<label>$LOCALIZE[16101] $LOCALIZE[20342]</label>
@@ -2956,7 +2956,7 @@
 				<control type="label">
 					<description>Title label</description>
 					<posx>240</posx>
-					<posy>220</posy>
+					<posy>-35</posy>
 					<height>20</height>
 					<width>480</width>
 					<label>$INFO[Window(Weather).Property(Location)]</label>
@@ -3142,7 +3142,7 @@
 				<control type="label">
 					<description>Title label</description>
 					<posx>240</posx>
-					<posy>220</posy>
+					<posy>-35</posy>
 					<height>20</height>
 					<width>480</width>
 					<label>$LOCALIZE[1036]</label>
