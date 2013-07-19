@@ -243,6 +243,7 @@
 						<onup condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</onup>
 						<ondown>9000</ondown>
 						<onclick>$VAR[VolumeStepUp]</onclick>
+						<onclick>VolumeUp</onclick>
 						<visible>!Skin.HasSetting(DisableFloorVolumeButtons)</visible>
 					</control>
 					<control type="button" id="608">
@@ -259,6 +260,7 @@
 						<onup condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</onup>
 						<ondown>9000</ondown>
 						<onclick>$VAR[VolumeStepDown]</onclick>
+						<onclick>VolumeDown</onclick>
 						<visible>!Skin.HasSetting(DisableFloorVolumeButtons)</visible>
 					</control>
 					<control type="button" id="609">
@@ -380,6 +382,7 @@
 						<onup condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</onup>
 						<ondown>9000</ondown>
 						<onclick>$VAR[VolumeStepUp]</onclick>
+						<onclick>VolumeUp</onclick>
 						<visible>!Skin.HasSetting(DisableFloorVolumeButtons)</visible>
 					</control>
 					<control type="button" id="606">
@@ -396,6 +399,7 @@
 						<onup condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</onup>
 						<ondown>9000</ondown>
 						<onclick>$VAR[VolumeStepDown]</onclick>
+						<onclick>VolumeDown</onclick>
 						<visible>!Skin.HasSetting(DisableFloorVolumeButtons)</visible>
 					</control>
 					<control type="button" id="607">
@@ -1055,12 +1059,6 @@
 				</content>
 			</control>
 		</control>
-		
-		
-		
-		
-		
-		
 		<control type="group">
 			<posx>0</posx>
 			<posy>33r</posy>
@@ -1126,26 +1124,13 @@
 			</control>
 			<control type="image">
 				<description>RSS background</description>
-				<posx>1150</posx>				
+				<posx>1150</posx>
 				<posy>2</posy>
 				<width>24</width>
 				<height>24</height>
 				<texture>icon-rss.png</texture>
 			</control>
 		</control>
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		<control type="group" id="10">
 			<posx>20</posx>
 			<posy>55r</posy>

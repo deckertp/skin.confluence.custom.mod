@@ -10,7 +10,6 @@
 			<control type="group">
 				<visible>!player.passthrough</visible>
 				<control type="image">
-					<description>Lite Volume Logo</description>
 					<posx>10</posx>
 					<posy>0</posy>
 					<width>40</width>
@@ -19,18 +18,28 @@
 					<texture>VolumeIcon.png</texture>
 				</control>
 				<control type="progress" id="1">
-					<description>progress control</description>
 					<posx>50</posx>
 					<posy>8</posy>
 					<width>230</width>
 					<height>18</height>
 					<info>Player.Volume</info>
 				</control>
+				<control type="label" id="1">
+					<posx>10</posx>
+					<posy>26</posy>
+					<width>270</width>
+					<height>20</height>
+					<label>$LOCALIZE[13376] $INFO[Player.Volume]</label>
+					<font>font10_title</font>
+					<textcolor>white</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<align>center</align>
+					<aligny>center</aligny>
+				</control>
 			</control>
 			<control type="group">
 				<visible>player.passthrough</visible>
 				<control type="image">
-					<description>Lite Volume Logo</description>
 					<posx>240</posx>
 					<posy>0</posy>
 					<width>40</width>
@@ -40,7 +49,6 @@
 					<texture>VolumeIcon.png</texture>
 				</control>
 				<control type="label">
-					<description>Passthrough Label</description>
 					<posx>235</posx>
 					<posy>6</posy>
 					<width>230</width>
