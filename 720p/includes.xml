@@ -3,6 +3,7 @@
 	<include file="defaults.xml" />
 	<include file="IncludesVariables.xml" />
 	<include file="IncludesListItemCount.xml" />
+	<include file="IncludesHomeNowPlaying.xml" />
 	<include file="ViewsVideoLibrary.xml" />
 	<include file="ViewsMusicLibrary.xml" />
 	<include file="ViewsFileMode.xml" />
@@ -739,7 +740,7 @@
 				<texturenofocus>OSDChannelUPNF.png</texturenofocus>
 				<onleft>50</onleft>
 				<onright>601</onright>
-				<onup>610</onup>
+				<onup>612</onup>
 				<ondown>611</ondown>
 				<onclick>XBMC.PlayerControl(Previous)</onclick>
 			</control>
@@ -753,7 +754,7 @@
 				<texturenofocus>OSDChannelDownNF.png</texturenofocus>
 				<onleft>600</onleft>
 				<onright>603</onright>
-				<onup>610</onup>
+				<onup>612</onup>
 				<ondown>611</ondown>
 				<onclick>XBMC.PlayerControl(Next)</onclick>
 			</control>
@@ -767,7 +768,7 @@
 				<texturenofocus>OSDStopNF.png</texturenofocus>
 				<onleft>601</onleft>
 				<onright>604</onright>
-				<onup>610</onup>
+				<onup>612</onup>
 				<ondown>611</ondown>
 				<onclick>down</onclick>
 				<onclick>XBMC.PlayerControl(Stop)</onclick>
@@ -785,7 +786,7 @@
 				<alttexturenofocus>OSDPlayNF.png</alttexturenofocus>
 				<onleft>603</onleft>
 				<onright>605</onright>
-				<onup>610</onup>
+				<onup>612</onup>
 				<ondown>606</ondown>
 				<onback>50</onback>
 				<onclick>XBMC.PlayerControl(Play)</onclick>
@@ -802,7 +803,7 @@
 				<texturenofocus>OSDRecordOffNF.png</texturenofocus>
 				<onleft>604</onleft>
 				<onright>50</onright>
-				<onup>610</onup>
+				<onup>612</onup>
 				<ondown>611</ondown>
 				<onclick>XBMC.PlayerControl(record)</onclick>
 				<enable>Player.CanRecord</enable>
@@ -826,7 +827,7 @@
 				<texturenofocus>OSDPrevTrackNF.png</texturenofocus>
 				<onleft>50</onleft>
 				<onright>606</onright>
-				<onup>610</onup>
+				<onup>612</onup>
 				<ondown>611</ondown>
 				<onback>50</onback>
 				<onclick>XBMC.PlayerControl(Previous)</onclick>
@@ -841,7 +842,7 @@
 				<texturenofocus>OSDRewindNF.png</texturenofocus>
 				<onleft>600</onleft>
 				<onright>603</onright>
-				<onup>610</onup>
+				<onup>612</onup>
 				<ondown>611</ondown>
 				<onback>50</onback>
 				<onclick>XBMC.PlayerControl(Rewind)</onclick>
@@ -862,7 +863,7 @@
 					<alttexturenofocus>OSDPlayNF.png</alttexturenofocus>
 					<onleft>606</onleft>
 					<onright>601</onright>
-					<onup>610</onup>
+					<onup>612</onup>
 					<ondown>611</ondown>
 					<onback>50</onback>
 					<onclick>XBMC.PlayerControl(Play)</onclick>
@@ -877,7 +878,7 @@
 					<texturenofocus>OSDStopNF.png</texturenofocus>
 					<onleft>603</onleft>
 					<onright>607</onright>
-					<onup>610</onup>
+					<onup>612</onup>
 					<ondown>611</ondown>
 					<onback>50</onback>
 					<onclick>down</onclick>
@@ -893,7 +894,7 @@
 					<texturenofocus>OSDForwardNF.png</texturenofocus>
 					<onleft>601</onleft>
 					<onright>602</onright>
-					<onup>610</onup>
+					<onup>612</onup>
 					<ondown>611</ondown>
 					<onback>50</onback>
 					<onclick>XBMC.PlayerControl(Forward)</onclick>
@@ -909,7 +910,7 @@
 					<texturenofocus>OSDNextTrackNF.png</texturenofocus>
 					<onleft>607</onleft>
 					<onright>604</onright>
-					<onup>610</onup>
+					<onup>612</onup>
 					<ondown>611</ondown>
 					<onback>50</onback>
 					<onclick>XBMC.PlayerControl(Next)</onclick>
@@ -929,7 +930,7 @@
 					<onclick>XBMC.PlayerControl(Repeat)</onclick>
 					<onleft>602</onleft>
 					<onright>605</onright>
-					<onup>610</onup>
+					<onup>612</onup>
 					<ondown>611</ondown>
 					<onback>50</onback>
 				</control>
@@ -1001,7 +1002,7 @@
 					<onclick>XBMC.PlayerControl(Random)</onclick>
 					<onleft>604</onleft>
 					<onright>50</onright>
-					<onup>610</onup>
+					<onup>612</onup>
 					<ondown>611</ondown>
 					<onback>50</onback>
 				</control>
