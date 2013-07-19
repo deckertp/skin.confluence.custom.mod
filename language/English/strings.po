@@ -268,17 +268,11 @@ msgctxt "#31074"
 msgid "Clean Library"
 msgstr ""
 
-#empty strings from id 31075 to 31076
-
-msgctxt "#31077"
-msgid "Show Video Now Playing Info"
+msgctxt "#31075"
+msgid "Show Now Playing Info"
 msgstr ""
 
-msgctxt "#31078"
-msgid "Show Music Now Playing Info"
-msgstr ""
-
-#empty string id 31079
+#empty strings from id 31076 to 31079
 
 msgctxt "#31080"
 msgid "Cenralised FanArt Directories"
