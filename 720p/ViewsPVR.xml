@@ -286,7 +286,8 @@
 				<textureslidernib>ScrollBarNib.png</textureslidernib>
 				<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 				<onleft>11</onleft>
-				<onright>32</onright>
+				<onright condition="Skin.HasSetting(DisableHomeReturnButtons)">32</onright>
+				<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">82</onright>
 				<showonepage>false</showonepage>
 				<orientation>vertical</orientation>
 			</control>
@@ -578,7 +579,8 @@
 				<textureslidernib>ScrollBarNib.png</textureslidernib>
 				<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 				<onleft>12</onleft>
-				<onright>33</onright>
+				<onright condition="Skin.HasSetting(DisableHomeReturnButtons)">33</onright>
+				<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">82</onright>
 				<showonepage>false</showonepage>
 				<orientation>vertical</orientation>
 			</control>
@@ -767,7 +769,8 @@
 				<textureslidernib>ScrollBarNib.png</textureslidernib>
 				<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 				<onleft>13</onleft>
-				<onright>34</onright>
+				<onright condition="Skin.HasSetting(DisableHomeReturnButtons)">34</onright>
+				<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">82</onright>
 				<showonepage>false</showonepage>
 				<orientation>vertical</orientation>
 			</control>
@@ -1283,7 +1286,8 @@
 					<textureslidernib>ScrollBarNib.png</textureslidernib>
 					<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 					<onleft>11</onleft>
-					<onright>35</onright>
+					<onright condition="Skin.HasSetting(DisableHomeReturnButtons)">35</onright>
+					<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">82</onright>
 					<showonepage>false</showonepage>
 					<orientation>vertical</orientation>
 				</control>
@@ -1645,7 +1649,8 @@
 					<textureslidernib>ScrollBarNib.png</textureslidernib>
 					<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 					<onleft>16</onleft>
-					<onright>36</onright>
+					<onright condition="Skin.HasSetting(DisableHomeReturnButtons)">36</onright>
+					<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">82</onright>
 					<showonepage>false</showonepage>
 					<orientation>vertical</orientation>
 				</control>
@@ -1954,7 +1959,8 @@
 					<textureslidernib>ScrollBarNib.png</textureslidernib>
 					<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 					<onleft>15</onleft>
-					<onright>31</onright>
+					<onright condition="Skin.HasSetting(DisableHomeReturnButtons)">31</onright>
+					<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">82</onright>
 					<showonepage>false</showonepage>
 					<orientation>vertical</orientation>
 				</control>
@@ -2314,7 +2320,8 @@
 					<textureslidernib>ScrollBarNib.png</textureslidernib>
 					<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 					<onleft>16</onleft>
-					<onright>31</onright>
+					<onright condition="Skin.HasSetting(DisableHomeReturnButtons)">31</onright>
+					<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">82</onright>
 					<showonepage>false</showonepage>
 					<orientation>vertical</orientation>
 				</control>
