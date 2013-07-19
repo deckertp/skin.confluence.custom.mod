@@ -58,6 +58,14 @@ msgstr ""
 
 #empty strings from id 31010 to 31021
 
+msgctxt "#31016"
+msgid "Shows"
+msgstr ""
+
+msgctxt "#31017"
+msgid "HD Movies"
+msgstr ""
+
 msgctxt "#31018"
 msgid "Movie Sets"
 msgstr ""

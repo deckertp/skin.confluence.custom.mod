@@ -5,7 +5,6 @@
 	<controls>
 		<include>CommonBackground</include>
 		<include>ContentPanelBackgroundsPVR</include>
-		<include>MainWindowMouseButtons</include>
 		<control type="label" id="29">
 			<description>Empty so we can pass the values up one level</description>
 			<visible>False</visible>
@@ -86,7 +85,9 @@
 			<include>LiveTVSearchView</include>
 			<!-- view id = 17 -->
 		</control>
+		<include condition="!Skin.HasSetting(HideNumItemsCount)">CommonPageCount</include>
 		<include>CommonNowPlaying</include>
+		<include>MainWindowMouseButtons</include>
 		<include>BehindDialogFadeOut</include>
 		<control type="image">
 			<posx>0</posx>
