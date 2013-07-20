@@ -277,8 +277,7 @@
 				<onright>81</onright>
 				<onup>50</onup>
 				<ondown>50</ondown>
-				<visible>!Skin.HasSetting(DisableFloorVolumeButtons)</visible>
-				<visible>Player.HasMedia + !SubString(Window(videolibrary).Property(TvTunesIsAlive),TRUE)</visible>
+				<visible>!Skin.HasSetting(DisableFloorVolumeButtons) + Player.HasMedia</visible>
 			</control>
 			<control type="image">
 				<description>volume Icon</description>
@@ -288,8 +287,7 @@
 				<height>35</height>
 				<aspectratio>keep</aspectratio>
 				<texture>icon_volplus.png</texture>
-				<visible>!Skin.HasSetting(DisableFloorVolumeButtons)</visible>
-				<visible>Player.HasMedia + !SubString(Window(videolibrary).Property(TvTunesIsAlive),TRUE)</visible>
+				<visible>!Skin.HasSetting(DisableFloorVolumeButtons) + Player.HasMedia</visible>
 			</control>
 			<control type="button" id="81">
 				<description>Volume Down button</description>
@@ -308,8 +306,7 @@
 				<onright>82</onright>
 				<onup>50</onup>
 				<ondown>50</ondown>
-				<visible>!Skin.HasSetting(DisableFloorVolumeButtons)</visible>
-				<visible>Player.HasMedia + !SubString(Window(videolibrary).Property(TvTunesIsAlive),TRUE)</visible>
+				<visible>!Skin.HasSetting(DisableFloorVolumeButtons) + Player.HasMedia</visible>
 			</control>
 			<control type="image">
 				<description>Volume Icon</description>
@@ -319,8 +316,7 @@
 				<height>35</height>
 				<aspectratio>keep</aspectratio>
 				<texture>icon_volminus.png</texture>
-				<visible>!Skin.HasSetting(DisableFloorVolumeButtons)</visible>
-				<visible>Player.HasMedia + !SubString(Window(videolibrary).Property(TvTunesIsAlive),TRUE)</visible>
+				<visible>!Skin.HasSetting(DisableFloorVolumeButtons) + Player.HasMedia</visible>
 			</control>
 			<control type="button" id="82">
 				<description>Back push button</description>
@@ -1118,6 +1114,7 @@
 			<texture>xbmc-logo.png</texture>
 			<include>VisibleFadeEffect</include>
 			<include>Window_OpenClose_Animation</include>
+			<animation effect="fade" start="100" end="0" time="200" condition="Window.IsVisible(infodialog)">Conditional</animation>
 			<visible>!Skin.HasSetting(HideSystemWeather)</visible>
 		</control>
 		<control type="label">
