@@ -1715,7 +1715,7 @@
 				<fadetime>600</fadetime>
 				<animation effect="fade" start="0" end="100" time="300">Visible</animation>
 				<animation effect="fade" start="100" end="0" time="300">Hidden</animation>
-				<visible>!IsEmpty(Player.Art(fanart)) + !Skin.HasSetting(HideVisualizationFanart) + !Skin.HasSetting(AllowSlideShowArt)</visible>
+				<visible>!IsEmpty(Player.Art(fanart)) + !Skin.HasSetting(HideVisualizationFanart) + !Skin.HasSetting(AllowSlideShowArt) + !Skin.HasSetting(AllowVizExtraFanart)</visible>
 			</control>
 			<control type="multiimage">
 				<description>Artist ExtraFanArt Multi-image Background</description>
@@ -1759,7 +1759,7 @@
 				<fadetime>600</fadetime>
 				<animation effect="fade" start="0" end="100" time="300">Visible</animation>
 				<animation effect="fade" start="100" end="0" time="300">Hidden</animation>
-				<visible>!IsEmpty(Player.Art(fanart)) + !Skin.HasSetting(HideVisualizationFanart) + !Skin.HasSetting(AllowSlideShowArt) + !Skin.HasSetting(AllowVizExtraFanart)</visible>
+				<visible>!IsEmpty(Player.Art(fanart)) + !Skin.HasSetting(HideVisualizationFanart) + !Skin.HasSetting(AllowSlideShowArt) + !Skin.HasSetting(AllowVizExtraFanart) + !Skin.HasSetting(AllowVizExtraFanart)</visible>
 			</control>
 			<control type="multiimage">
 				<description>Artist ExtraFanArt Multi-image Background</description>
