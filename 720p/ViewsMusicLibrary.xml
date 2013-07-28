@@ -116,7 +116,7 @@
 				<onleft>506</onleft>
 				<onright condition="Skin.HasSetting(DisableHomeReturnButtons)">9000</onright>
 				<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">82</onright>
-				<showonepage>false</showonepage>
+				<showonepage>true</showonepage>
 				<orientation>vertical</orientation>
 				<visible>Control.IsVisible(506)</visible>
 			</control>
@@ -357,7 +357,7 @@
 				<onup>509</onup>
 				<ondown condition="Skin.HasSetting(DisableHomeReturnButtons)">9000</ondown>
 				<ondown condition="!Skin.HasSetting(DisableHomeReturnButtons)">82</ondown>
-				<showonepage>false</showonepage>
+				<showonepage>true</showonepage>
 				<orientation>horizontal</orientation>
 				<visible>Control.IsVisible(509)</visible>
 			</control>
@@ -614,7 +614,7 @@
 				<onleft>511</onleft>
 				<onright condition="Skin.HasSetting(DisableHomeReturnButtons)">9000</onright>
 				<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">82</onright>
-				<showonepage>false</showonepage>
+				<showonepage>true</showonepage>
 				<orientation>vertical</orientation>
 				<visible>Control.IsVisible(511)</visible>
 			</control>
@@ -797,7 +797,7 @@
 				<onleft>512</onleft>
 				<onright condition="Skin.HasSetting(DisableHomeReturnButtons)">9000</onright>
 				<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">82</onright>
-				<showonepage>false</showonepage>
+				<showonepage>true</showonepage>
 				<orientation>vertical</orientation>
 				<visible>Control.IsVisible(512)</visible>
 			</control>
@@ -1032,7 +1032,7 @@
 				<onleft>513</onleft>
 				<onright condition="Skin.HasSetting(DisableHomeReturnButtons)">9000</onright>
 				<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">82</onright>
-				<showonepage>false</showonepage>
+				<showonepage>true</showonepage>
 				<orientation>vertical</orientation>
 				<visible>Control.IsVisible(513)</visible>
 			</control>

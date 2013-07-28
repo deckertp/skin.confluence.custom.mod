@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <window>
 	<defaultcontrol always="true">604</defaultcontrol>
-	<include>dialogeffect</include>
+	<include>DialogEffect</include>
 	<coordinates>
 		<system>1</system>
 		<posx>0</posx>
@@ -304,7 +304,6 @@
 				<onup>1000</onup>
 				<ondown>1000</ondown>
 				<onclick>$VAR[VolumeStepUp]</onclick>
-				<onclick>VolumeUp</onclick>
 				<visible>!Skin.HasSetting(DisableFloorVolumeButtons)</visible>
 			</control>
 			<control type="button" id="611">
@@ -321,7 +320,6 @@
 				<onup>1000</onup>
 				<ondown>1000</ondown>
 				<onclick>$VAR[VolumeStepDown]</onclick>
-				<onclick>VolumeDown</onclick>
 				<visible>!Skin.HasSetting(DisableFloorVolumeButtons)</visible>
 			</control>
 			<control type="button" id="612">

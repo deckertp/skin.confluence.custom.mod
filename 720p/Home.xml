@@ -243,7 +243,6 @@
 						<onup condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</onup>
 						<ondown>9000</ondown>
 						<onclick>$VAR[VolumeStepUp]</onclick>
-						<onclick>VolumeUp</onclick>
 						<visible>!Skin.HasSetting(DisableFloorVolumeButtons)</visible>
 					</control>
 					<control type="button" id="608">
@@ -260,7 +259,6 @@
 						<onup condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</onup>
 						<ondown>9000</ondown>
 						<onclick>$VAR[VolumeStepDown]</onclick>
-						<onclick>VolumeDown</onclick>
 						<visible>!Skin.HasSetting(DisableFloorVolumeButtons)</visible>
 					</control>
 					<control type="button" id="609">
@@ -382,7 +380,6 @@
 						<onup condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</onup>
 						<ondown>9000</ondown>
 						<onclick>$VAR[VolumeStepUp]</onclick>
-						<onclick>VolumeUp</onclick>
 						<visible>!Skin.HasSetting(DisableFloorVolumeButtons)</visible>
 					</control>
 					<control type="button" id="606">
@@ -399,7 +396,6 @@
 						<onup condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</onup>
 						<ondown>9000</ondown>
 						<onclick>$VAR[VolumeStepDown]</onclick>
-						<onclick>VolumeDown</onclick>
 						<visible>!Skin.HasSetting(DisableFloorVolumeButtons)</visible>
 					</control>
 					<control type="button" id="607">

@@ -7,7 +7,7 @@
 		<posx>335</posx>
 		<posy>35</posy>
 	</coordinates>
-	<include>dialogeffect</include>
+	<include>DialogEffect</include>
 	<controls>
 		<control type="image">
 			<description>background image</description>
@@ -251,7 +251,7 @@
 			<onright>3</onright>
 			<ondown>61</ondown>
 			<onup>61</onup>
-			<showonepage>false</showonepage>
+			<showonepage>true</showonepage>
 			<orientation>vertical</orientation>
 		</control>
 		<control type="label">

@@ -6,7 +6,7 @@
 		<posx>240</posx>
 		<posy>45</posy>
 	</coordinates>
-	<include>dialogeffect</include>
+	<include>DialogEffect</include>
 	<controls>
 		<control type="group">
 			<control type="image">
@@ -77,7 +77,7 @@
 				<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 				<onleft>5</onleft>
 				<onright>5</onright>
-				<showonepage>false</showonepage>
+				<showonepage>true</showonepage>
 				<orientation>vertical</orientation>
 			</control>
 			<control type="list" id="5">

@@ -7,7 +7,7 @@
 		<posy>60</posy>
 		<origin x="185" y="10">!IsEmpty(ListItem.Property(Addon.broken))</origin>
 	</coordinates>
-	<include>dialogeffect</include>
+	<include>DialogEffect</include>
 	<controls>
 		<control type="group">
 			<include>VisibleFadeEffect</include>
@@ -259,7 +259,7 @@
 						<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 						<onleft>9000</onleft>
 						<onright>61</onright>
-						<showonepage>false</showonepage>
+						<showonepage>true</showonepage>
 						<orientation>vertical</orientation>
 					</control>
 					<control type="label">
@@ -325,7 +325,7 @@
 						<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 						<onleft>60</onleft>
 						<onright>9000</onright>
-						<showonepage>false</showonepage>
+						<showonepage>true</showonepage>
 						<orientation>vertical</orientation>
 					</control>
 				</control>

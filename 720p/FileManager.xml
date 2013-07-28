@@ -88,7 +88,7 @@
 				<onright>20</onright>
 				<ondown>20</ondown>
 				<onup>20</onup>
-				<showonepage>false</showonepage>
+				<showonepage>true</showonepage>
 				<orientation>vertical</orientation>
 			</control>
 			<control type="list" id="20">
@@ -262,7 +262,7 @@
 				<onright>30</onright>
 				<ondown>21</ondown>
 				<onup>21</onup>
-				<showonepage>false</showonepage>
+				<showonepage>true</showonepage>
 				<orientation>vertical</orientation>
 			</control>
 			<control type="list" id="21">

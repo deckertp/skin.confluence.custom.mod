@@ -117,7 +117,6 @@
 					<font>-</font>
 					<aligny>-</aligny>
 					<onclick>$VAR[VolumeStepUp]</onclick>
-					<onclick>VolumeUp</onclick>
 					<texturefocus border="5">floor_buttonFO.png</texturefocus>
 					<texturenofocus border="5">floor_button.png</texturenofocus>
 					<onleft condition="Player.HasMedia + !SubString(Window(videolibrary).Property(TvTunesIsAlive),TRUE)">84</onleft>
@@ -149,7 +148,6 @@
 					<font>-</font>
 					<aligny>-</aligny>
 					<onclick>$VAR[VolumeStepDown]</onclick>
-					<onclick>VolumeDown</onclick>
 					<texturefocus border="5">floor_buttonFO.png</texturefocus>
 					<texturenofocus border="5">floor_button.png</texturenofocus>
 					<onleft>80</onleft>
@@ -724,7 +722,7 @@
 							<onleft>111</onleft>
 							<onright condition="Skin.HasSetting(DisableHomeReturnButtons)">9000</onright>
 							<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">82</onright>
-							<showonepage>false</showonepage>
+							<showonepage>true</showonepage>
 							<orientation>vertical</orientation>
 							<visible>Container(9000).Hasfocus(1)</visible>
 						</control>
@@ -884,7 +882,7 @@
 							<onleft>121</onleft>
 							<onright condition="Skin.HasSetting(DisableHomeReturnButtons)">9000</onright>
 							<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">82</onright>
-							<showonepage>false</showonepage>
+							<showonepage>true</showonepage>
 							<orientation>vertical</orientation>
 							<visible>Container(9000).Hasfocus(2)</visible>
 						</control>
@@ -1002,7 +1000,7 @@
 							<onleft>131</onleft>
 							<onright condition="Skin.HasSetting(DisableHomeReturnButtons)">9000</onright>
 							<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">82</onright>
-							<showonepage>false</showonepage>
+							<showonepage>true</showonepage>
 							<orientation>vertical</orientation>
 							<visible>Container(9000).Hasfocus(3)</visible>
 						</control>
@@ -1157,7 +1155,7 @@
 							<onleft>141</onleft>
 							<onright condition="Skin.HasSetting(DisableHomeReturnButtons)">9000</onright>
 							<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">82</onright>
-							<showonepage>false</showonepage>
+							<showonepage>true</showonepage>
 							<orientation>vertical</orientation>
 							<visible>Container(9000).Hasfocus(4)</visible>
 						</control>
@@ -1333,7 +1331,7 @@
 							<onleft>151</onleft>
 							<onright condition="Skin.HasSetting(DisableHomeReturnButtons)">9000</onright>
 							<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">82</onright>
-							<showonepage>false</showonepage>
+							<showonepage>true</showonepage>
 							<orientation>vertical</orientation>
 							<visible>Container(9000).Hasfocus(5)</visible>
 						</control>
@@ -1473,7 +1471,7 @@
 							<onleft>161</onleft>
 							<onright condition="Skin.HasSetting(DisableHomeReturnButtons)">9000</onright>
 							<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">82</onright>
-							<showonepage>false</showonepage>
+							<showonepage>true</showonepage>
 							<orientation>vertical</orientation>
 							<visible>Container(9000).Hasfocus(6)</visible>
 						</control>
@@ -1613,7 +1611,7 @@
 							<onleft>171</onleft>
 							<onright condition="Skin.HasSetting(DisableHomeReturnButtons)">9000</onright>
 							<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">82</onright>
-							<showonepage>false</showonepage>
+							<showonepage>true</showonepage>
 							<orientation>vertical</orientation>
 							<visible>Container(9000).Hasfocus(7)</visible>
 						</control>
@@ -1773,7 +1771,7 @@
 							<onleft>181</onleft>
 							<onright condition="Skin.HasSetting(DisableHomeReturnButtons)">9000</onright>
 							<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">82</onright>
-							<showonepage>false</showonepage>
+							<showonepage>true</showonepage>
 							<orientation>vertical</orientation>
 							<visible>Container(9000).Hasfocus(8)</visible>
 						</control>

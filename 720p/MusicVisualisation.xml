@@ -70,7 +70,11 @@
 					<description>Cd overlay</description>
 					<posx>120</posx>
 					<posy>15</posy>&gt;
-					<width>170</width><height>175</height><include>CDArtSpinner</include><texture fallback="livecdcase/DefaultCDArt.png" background="true">$INFO[Player.FolderPath,,cdart.png]</texture><aspectratio align="center">keep</aspectratio></control>
+					<width>170</width><height>175</height>
+					<include>CDArtSpinner</include>
+					<texture fallback="livecdcase/DefaultCDArt.png" background="true">$INFO[Player.FolderPath,,cdart.png]</texture>
+					<aspectratio align="center">keep</aspectratio>
+				</control>
 				<control type="image">
 					<description>Cover Image</description>
 					<posx>40</posx>
@@ -112,7 +116,17 @@
 					<height>78</height>
 					<texture fallback="xbmc-logo.png">$INFO[Player.FolderPath,,../logo.png]</texture>
 					<aspectratio aligny="bottom" align="left">keep</aspectratio>
+					<visible>IsEmpty(Skin.String(PhysicalMusicFolder))</visible>
 				</control>
+				<control type="image">
+					<posx>0</posx>
+					<posy>-10</posy>
+					<width>200</width>
+					<height>78</height>
+					<texture fallback="xbmc-logo.png">$INFO[Skin.String(PhysicalMusicFolder)]/$INFO[MusicPlayer.Artist]/logo.png</texture>
+					<aspectratio aligny="bottom" align="left">keep</aspectratio>
+					<visible>!IsEmpty(Skin.String(PhysicalMusicFolder))</visible>
+				</control>				
 				<control type="label" id="1">
 					<description>Artist label</description>
 					<posx>20</posx>

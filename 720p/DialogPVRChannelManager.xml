@@ -7,7 +7,7 @@
 		<posx>190</posx>
 		<posy>30</posy>
 	</coordinates>
-	<include>dialogeffect</include>
+	<include>DialogEffect</include>
 	<controls>
 		<control type="image">
 			<posx>0</posx>
@@ -84,7 +84,7 @@
 				<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 				<onleft>9002</onleft>
 				<onright>20</onright>
-				<showonepage>false</showonepage>
+				<showonepage>true</showonepage>
 				<orientation>vertical</orientation>
 			</control>
 			<control type="image">
