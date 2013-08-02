@@ -281,8 +281,7 @@
 				<visible>!Skin.HasSetting(HideHomeAddonName)</visible>
 			</control>
 		</focusedlayout>
-	</include>	
-	
+	</include>
 	<include name="HomeAddonSetOne">
 		<item>
 			<label>$INFO[Skin.String(AddonSetOne.1.Label)]</label>

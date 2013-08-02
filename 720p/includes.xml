@@ -2,11 +2,8 @@
 <includes>
 	<include file="defaults.xml" />
 	<include file="IncludesVariables.xml" />
-	
 	<include file="IncludesHomeSubMenuSystem.xml" />
 	<include file="IncludesHomeAddOnSystem.xml" />
-	
-	
 	<include file="IncludesListItemCount.xml" />
 	<include file="IncludesHomeNowPlaying.xml" />
 	<include file="ViewsVideoLibrary.xml" />
@@ -19,7 +16,6 @@
 	<include file="IncludesMenuContentItems.xml" />
 	<include file="IncludesCodecFlagging.xml" />
 	<include file="IncludesHomeWidget.xml" />
-	
 	<include file="IncludesBackgroundBuilding.xml" />
 	<include file="IncludesGenreFlagging.xml" />
 	<include file="IncludesBackgroundEffect.xml" />
@@ -160,6 +156,19 @@
 		<font>font13</font>
 		<texturefocus border="5">button-focus.png</texturefocus>
 		<texturenofocus>-</texturenofocus>
+		<pulseonselect>false</pulseonselect>
+	</include>
+	<include name="ButtonHomeSubCommonValues">
+		<height>35</height>
+		<width>180</width>
+		<textwidth>195</textwidth>
+		<align>center</align>
+		<aligny>center</aligny>
+		<font>font12</font>
+		<textcolor>grey2</textcolor>
+		<focusedcolor>white</focusedcolor>
+		<texturefocus border="5">HomeSubFO.png</texturefocus>
+		<texturenofocus border="5">HomeSubNF.png</texturenofocus>
 		<pulseonselect>false</pulseonselect>
 	</include>
 	<include name="ButtonMediaSubCommonValues">
