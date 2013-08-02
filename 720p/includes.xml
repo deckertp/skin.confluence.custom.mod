@@ -2,6 +2,11 @@
 <includes>
 	<include file="defaults.xml" />
 	<include file="IncludesVariables.xml" />
+	
+	<include file="IncludesHomeSubMenuSystem.xml" />
+	<include file="IncludesHomeAddOnSystem.xml" />
+	
+	
 	<include file="IncludesListItemCount.xml" />
 	<include file="IncludesHomeNowPlaying.xml" />
 	<include file="ViewsVideoLibrary.xml" />
@@ -14,7 +19,7 @@
 	<include file="IncludesMenuContentItems.xml" />
 	<include file="IncludesCodecFlagging.xml" />
 	<include file="IncludesHomeWidget.xml" />
-	<include file="IncludesHomeMenuItems.xml" />
+	
 	<include file="IncludesBackgroundBuilding.xml" />
 	<include file="IncludesGenreFlagging.xml" />
 	<include file="IncludesBackgroundEffect.xml" />
@@ -168,36 +173,6 @@
 		<texturenofocus border="5">button-nofocus.png</texturenofocus>
 		<pulseonselect>false</pulseonselect>
 	</include>
-	<include name="ButtonHomeSubCommonValues">
-		<height>35</height>
-		<width>180</width>
-		<textwidth>195</textwidth>
-		<align>center</align>
-		<aligny>center</aligny>
-		<font>font12</font>
-		<textcolor>grey2</textcolor>
-		<focusedcolor>white</focusedcolor>
-		<texturefocus border="5">HomeSubFO.png</texturefocus>
-		<texturenofocus border="5">HomeSubNF.png</texturenofocus>
-		<pulseonselect>false</pulseonselect>
-	</include>
-	<include name="HomeSubMenuCommonValues">
-		<posx>0</posx>
-		<posy>0</posy>
-		<width>1280</width>
-		<height>35</height>
-		<align>center</align>
-		<onup>9000</onup>
-		<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
-		<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">21</ondown>
-		<itemgap>0</itemgap>
-		<orientation>Horizontal</orientation>
-		<animation effect="slide" start="0,-40" end="0,0" delay="200" time="200" tween="quadratic" easing="out">Visible</animation>
-		<animation effect="slide" start="0,0" end="0,-40" time="200" tween="quadratic" easing="out">Hidden</animation>
-		<animation effect="fade" start="100" end="0" time="0" condition="!ControlGroup(9001).HasFocus + Skin.HasSetting(AutoHideSubMenu)">conditional</animation>
-		<animation effect="fade" start="0" end="100" delay="300" time="200" condition="ControlGroup(9001).HasFocus + Skin.HasSetting(AutoHideSubMenu)">conditional</animation>
-		<animation effect="fade" start="100" end="0" time="0" condition="ControlGroup(9001).HasFocus + Skin.HasSetting(AutoHideSubMenu)">WindowClose</animation>
-	</include>
 	<include name="ButtonInfoDialogsCommonValues">
 		<height>40</height>
 		<width>170</width>
@@ -267,7 +242,6 @@
 				<height>45</height>
 				<label>1036</label>
 				<font>-</font>
-				<aligny>-</aligny>
 				<onclick>$VAR[VolumeStepUp]</onclick>
 				<texturefocus border="5">floor_buttonFO.png</texturefocus>
 				<texturenofocus border="5">floor_button.png</texturenofocus>
@@ -324,7 +298,6 @@
 				<height>45</height>
 				<label>1036</label>
 				<font>-</font>
-				<aligny>-</aligny>
 				<onclick>back</onclick>
 				<texturefocus border="5">floor_buttonFO.png</texturefocus>
 				<texturenofocus border="5">floor_button.png</texturenofocus>
@@ -388,7 +361,6 @@
 				<height>45</height>
 				<label>31003</label>
 				<font>-</font>
-				<aligny>-</aligny>
 				<onclick>ActivateWindow(PlayerControls)</onclick>
 				<texturefocus border="5">floor_buttonFO.png</texturefocus>
 				<texturenofocus border="5">floor_button.png</texturenofocus>
@@ -1009,8 +981,6 @@
 			<include>ButtonCommonValues</include>
 			<label>31008</label>
 			<onclick>fullscreen</onclick>
-			<textureradiofocus>GoFullscreen.png</textureradiofocus>
-			<textureradionofocus>GoFullscreen.png</textureradionofocus>
 			<visible>Player.HasMedia</visible>
 		</control>
 	</include>
@@ -1154,118 +1124,6 @@
 			<animation effect="fade" start="100" end="0" time="200" condition="Window.IsVisible(CustomAddMenuItems.xml) | Window.IsVisible(CustomAddonSelection.xml) | Window.IsVisible(CustomAddonType.xml) | Window.IsVisible(CustomAddSubMenuItems.xml) | Window.IsVisible(CustomSubMenuType.xml) | Window.IsVisible(CustomWidgetType.xml) | Window.IsVisible(Favourites)">Conditional</animation>
 			<visible>!Skin.HasSetting(HideSystemClock)</visible>
 		</control>
-	</include>
-	<include name="HomeAddonsCommonLayout">
-		<include>Window_OpenClose_Animation</include>
-		<animation effect="slide" start="0,0" end="0,-195" time="0" condition="!Skin.HasSetting(RaiseMainMenuBar)">Conditional</animation>
-		<animation type="Visible">
-			<effect type="slide" start="0,30" end="0,0" delay="200" easing="out" tween="quadratic" time="200" />
-			<effect type="fade" start="0" end="100" delay="200" time="200" />
-		</animation>
-		<animation type="Hidden">
-			<effect type="zoom" start="100" end="70" center="auto" easing="in" tween="quadratic" time="300" />
-			<effect type="fade" start="100" end="0" time="300" />
-		</animation>
-		<hitrect x="0" y="530" w="1280" h="120" />
-		<posx>0</posx>
-		<posy>190r</posy>
-		<width>1280</width>
-		<height>200</height>
-		<pagecontrol>-</pagecontrol>
-		<scrolltime>300</scrolltime>
-		<focusposition>3</focusposition>
-		<movement>2</movement>
-		<orientation>Horizontal</orientation>
-		<itemlayout height="200" width="182">
-			<control type="image">
-				<posx>0</posx>
-				<posy>0</posy>
-				<width>180</width>
-				<height>120</height>
-				<aspectratio aligny="bottom">keep</aspectratio>
-				<bordertexture border="5">button-nofocus.png</bordertexture>
-				<bordersize>3</bordersize>
-				<texture background="true">$INFO[ListItem.Icon]</texture>
-			</control>
-			<control type="image">
-				<posx>5</posx>
-				<posy>120</posy>
-				<width>170</width>
-				<height>110</height>
-				<aspectratio aligny="top">keep</aspectratio>
-				<texture diffuse="diffuse_mirror2.png" flipy="true" background="true">$INFO[ListItem.Icon]</texture>
-			</control>
-			<control type="label">
-				<posx>91</posx>
-				<posy>125</posy>
-				<width>180</width>
-				<height>20</height>
-				<font>font12</font>
-				<textcolor>grey2</textcolor>
-				<align>center</align>
-				<aligny>center</aligny>
-				<label>$VAR[MainItemLabel]</label>
-				<visible>!Skin.HasSetting(HideHomeAddonName)</visible>
-			</control>
-		</itemlayout>
-		<focusedlayout height="200" width="182">
-			<control type="image">
-				<posx>0</posx>
-				<posy>0</posy>
-				<width>180</width>
-				<height>120</height>
-				<aspectratio aligny="bottom">keep</aspectratio>
-				<bordertexture border="5">button-nofocus.png</bordertexture>
-				<bordersize>3</bordersize>
-				<texture background="true">$INFO[ListItem.Icon]</texture>
-				<visible>!ControlGroup(9002).HasFocus</visible>
-			</control>
-			<control type="image">
-				<posx>0</posx>
-				<posy>0</posy>
-				<width>180</width>
-				<height>120</height>
-				<aspectratio aligny="bottom">keep</aspectratio>
-				<bordertexture border="10">folder-focus.png</bordertexture>
-				<bordersize>6</bordersize>
-				<texture background="true">$INFO[ListItem.Icon]</texture>
-				<visible>ControlGroup(9002).HasFocus</visible>
-			</control>
-			<control type="image">
-				<posx>5</posx>
-				<posy>120</posy>
-				<width>170</width>
-				<height>110</height>
-				<aspectratio aligny="top">keep</aspectratio>
-				<texture diffuse="diffuse_mirror2.png" flipy="true" background="true">$INFO[ListItem.Icon]</texture>
-			</control>
-			<control type="label">
-				<posx>91</posx>
-				<posy>125</posy>
-				<width>180</width>
-				<height>20</height>
-				<font>font12</font>
-				<textcolor>white</textcolor>
-				<align>center</align>
-				<aligny>center</aligny>
-				<label>$VAR[MainItemLabel]</label>
-				<visible>Control.HasFocus(9002)</visible>
-				<visible>!Skin.HasSetting(HideHomeAddonName)</visible>
-			</control>
-			<control type="label">
-				<posx>91</posx>
-				<posy>125</posy>
-				<width>180</width>
-				<height>20</height>
-				<font>font12</font>
-				<textcolor>grey2</textcolor>
-				<align>center</align>
-				<aligny>center</aligny>
-				<label>$VAR[MainItemLabel]</label>
-				<visible>!Control.HasFocus(9002)</visible>
-				<visible>!Skin.HasSetting(HideHomeAddonName)</visible>
-			</control>
-		</focusedlayout>
 	</include>
 	<include name="TVNextAiredListCommonLayout">
 		<itemlayout height="150" width="280">
@@ -1800,7 +1658,7 @@
 				<animation effect="fade" start="0" end="100" time="300">Visible</animation>
 				<animation effect="fade" start="100" end="0" time="300">Hidden</animation>
 				<visible>!IsEmpty(Player.Art(fanart)) + !Skin.HasSetting(HideVisualizationFanart) + !Skin.HasSetting(AllowSlideShowArt) + !Skin.HasSetting(AllowVizExtraFanart) + !IsEmpty(Skin.String(PhysicalMusicFolder))</visible>
-			</control>			
+			</control>
 			<control type="multiimage">
 				<description>Artist ExtraFanArt Multi-image Background</description>
 				<include>Dimensions_Fullscreen</include>
