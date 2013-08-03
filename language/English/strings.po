@@ -284,7 +284,11 @@ msgctxt "#31076"
 msgid "Auto Start Visualisation With Audio Playback"
 msgstr ""
 
-#empty strings from id 31077 to 31079
+msgctxt "#31077"
+msgid "Trakt List Manager"
+msgstr ""
+
+#empty strings from id 31078 to 31079
 
 msgctxt "#31080"
 msgid "Cenralised FanArt Directories"

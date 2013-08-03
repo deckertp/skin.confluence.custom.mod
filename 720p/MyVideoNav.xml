@@ -237,7 +237,7 @@
 					<selected>Skin.HasSetting(View724DisableCases)</selected>
 					<visible>Control.IsVisible(724)</visible>
 				</control>
-				<control type="radiobutton" id="104">
+				<control type="radiobutton" id="105">
 					<description>Use Disk Type Case</description>
 					<textwidth>170</textwidth>
 					<include>ButtonCommonValues</include>
@@ -285,6 +285,13 @@
 					<selected>system.ismaster</selected>
 					<visible>system.haslocks</visible>
 				</control>
+				<control type="button" id="104">
+					<description>Trakt.tv</description>
+					<include>ButtonCommonValues</include>
+					<label>31077</label>
+					<onclick>RunScript(script.trakt,action=contextmenu)</onclick>
+					<visible>System.HasAddon(plugin.video.trakt_list_manager)</visible>
+				</control>					
 				<include>CommonNowPlaying_Controls</include>
 			</control>
 		</control>
