@@ -36,6 +36,7 @@
 				<aspectratio aligny="top" align="left">keep</aspectratio>
 				<texture>xbmc-logo.png</texture>
 				<include>Window_OpenClose_Animation</include>
+				<animation effect="fade" start="100" end="0" time="200" condition="Window.IsVisible(infodialog)">Conditional</animation>
 			</control>
 			<control type="image">
 				<posx>265</posx>
