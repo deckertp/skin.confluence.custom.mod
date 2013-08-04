@@ -254,6 +254,7 @@
 		<control type="image">
 			<include>Dimensions_Fullscreen</include>
 			<texture>media-overlay.jpg</texture>
+			<visible>!Skin.HasSetting(EnableMinSpec)</visible>
 			<visible>Player.HasVideo + ![Window.IsVisible(PVR) + [Control.IsVisible(11) | Control.IsVisible(12)]]</visible>
 			<include>VisibleFadeEffect</include>
 		</control>
@@ -268,6 +269,7 @@
 		</control>
 		<control type="videowindow">
 			<include>Dimensions_Fullscreen</include>
+			<visible>!Skin.HasSetting(EnableMinSpec)</visible>
 			<visible>Player.HasVideo + ![Window.IsVisible(PVR) + [Control.IsVisible(11) | Control.IsVisible(12)]]</visible>
 		</control>
 		<control type="image">
