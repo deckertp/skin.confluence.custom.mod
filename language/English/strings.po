@@ -824,7 +824,15 @@ msgctxt "#31212"
 msgid "Music Path"
 msgstr ""
 
-#empty strings from id 31213 to 31299
+msgctxt "#31213"
+msgid "Recently Added"
+msgstr ""
+
+msgctxt "#31214"
+msgid "Recently Played"
+msgstr ""
+
+#empty strings from id 31215 to 31299
 #Extra labels
 
 msgctxt "#31300"
