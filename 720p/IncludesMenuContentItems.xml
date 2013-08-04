@@ -31,6 +31,7 @@
 				<label>$LOCALIZE[31144]</label>
 				<include>ClearButtonChoice</include>
 				<include>CloseMenuChoice</include>
+				<visible>!substring(Window(home).Property(UsrSelectBtn),HomeItem,Left)</visible>
 				<visible>!substring(Window(home).Property(UsrSelectBtn),UserSub,Left) + !substring(Window(home).Property(UsrSelectBtn),SubPictures) + !substring(Window(home).Property(UsrSelectBtn),SubProg)</visible>
 				<visible>substring(Window(home).Property(UsrSelectBtn),.7,Right) | substring(Window(home).Property(UsrSelectBtn),.8,Right) | substring(Window(home).Property(UsrSelectBtn),.9,Right) | substring(Window(home).Property(UsrSelectBtn),.10,Right)</visible>
 			</item>
