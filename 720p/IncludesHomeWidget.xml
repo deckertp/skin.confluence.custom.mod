@@ -4600,6 +4600,7 @@
 				<label>$INFO[Window(Home).Property(RecommendedAlbum.1.Title)]</label>
 				<label2>$INFO[Window(Home).Property(RecommendedAlbum.1.Artist)]</label2>
 				<onclick>PlayList.Clear</onclick>
+				<onclick condition="Window.IsVisible(2123)">Dialog.Close(2123)</onclick>
 				<onclick>$INFO[Window(Home).Property(RecommendedAlbum.1.Play)]</onclick>
 				<icon>$INFO[Window(Home).Property(RecommendedAlbum.1.Thumb)]</icon>
 				<thumb>$INFO[Window(Home).Property(RecommendedAlbum.1.Fanart)]</thumb>
@@ -4609,6 +4610,7 @@
 				<label>$INFO[Window(Home).Property(RecommendedAlbum.2.Title)]</label>
 				<label2>$INFO[Window(Home).Property(RecommendedAlbum.2.Artist)]</label2>
 				<onclick>PlayList.Clear</onclick>
+				<onclick condition="Window.IsVisible(2123)">Dialog.Close(2123)</onclick>
 				<onclick>$INFO[Window(Home).Property(RecommendedAlbum.2.Play)]</onclick>
 				<icon>$INFO[Window(Home).Property(RecommendedAlbum.2.Thumb)]</icon>
 				<thumb>$INFO[Window(Home).Property(RecommendedAlbum.2.Fanart)]</thumb>
@@ -4618,6 +4620,7 @@
 				<label>$INFO[Window(Home).Property(RecommendedAlbum.3.Title)]</label>
 				<label2>$INFO[Window(Home).Property(RecommendedAlbum.3.Artist)]</label2>
 				<onclick>PlayList.Clear</onclick>
+				<onclick condition="Window.IsVisible(2123)">Dialog.Close(2123)</onclick>
 				<onclick>$INFO[Window(Home).Property(RecommendedAlbum.3.Play)]</onclick>
 				<icon>$INFO[Window(Home).Property(RecommendedAlbum.3.Thumb)]</icon>
 				<thumb>$INFO[Window(Home).Property(RecommendedAlbum.3.Fanart)]</thumb>
@@ -4627,6 +4630,7 @@
 				<label>$INFO[Window(Home).Property(RecommendedAlbum.4.Title)]</label>
 				<label2>$INFO[Window(Home).Property(RecommendedAlbum.4.Artist)]</label2>
 				<onclick>PlayList.Clear</onclick>
+				<onclick condition="Window.IsVisible(2123)">Dialog.Close(2123)</onclick>
 				<onclick>$INFO[Window(Home).Property(RecommendedAlbum.4.Play)]</onclick>
 				<icon>$INFO[Window(Home).Property(RecommendedAlbum.4.Thumb)]</icon>
 				<thumb>$INFO[Window(Home).Property(RecommendedAlbum.4.Fanart)]</thumb>
@@ -4636,6 +4640,7 @@
 				<label>$INFO[Window(Home).Property(RecommendedAlbum.5.Title)]</label>
 				<label2>$INFO[Window(Home).Property(RecommendedAlbum.5.Artist)]</label2>
 				<onclick>PlayList.Clear</onclick>
+				<onclick condition="Window.IsVisible(2123)">Dialog.Close(2123)</onclick>
 				<onclick>$INFO[Window(Home).Property(RecommendedAlbum.5.Play)]</onclick>
 				<icon>$INFO[Window(Home).Property(RecommendedAlbum.5.Thumb)]</icon>
 				<thumb>$INFO[Window(Home).Property(RecommendedAlbum.5.Fanart)]</thumb>
@@ -4645,6 +4650,7 @@
 				<label>$INFO[Window(Home).Property(RecommendedAlbum.6.Title)]</label>
 				<label2>$INFO[Window(Home).Property(RecommendedAlbum.6.Artist)]</label2>
 				<onclick>PlayList.Clear</onclick>
+				<onclick condition="Window.IsVisible(2123)">Dialog.Close(2123)</onclick>
 				<onclick>$INFO[Window(Home).Property(RecommendedAlbum.6.Play)]</onclick>
 				<icon>$INFO[Window(Home).Property(RecommendedAlbum.6.Thumb)]</icon>
 				<thumb>$INFO[Window(Home).Property(RecommendedAlbum.6.Fanart)]</thumb>
@@ -4654,6 +4660,7 @@
 				<label>$INFO[Window(Home).Property(RecommendedAlbum.7.Title)]</label>
 				<label2>$INFO[Window(Home).Property(RecommendedAlbum.7.Artist)]</label2>
 				<onclick>PlayList.Clear</onclick>
+				<onclick condition="Window.IsVisible(2123)">Dialog.Close(2123)</onclick>
 				<onclick>$INFO[Window(Home).Property(RecommendedAlbum.7.Play)]</onclick>
 				<icon>$INFO[Window(Home).Property(RecommendedAlbum.7.Thumb)]</icon>
 				<thumb>$INFO[Window(Home).Property(RecommendedAlbum.7.Fanart)]</thumb>
@@ -4663,6 +4670,7 @@
 				<label>$INFO[Window(Home).Property(RecommendedAlbum.8.Title)]</label>
 				<label2>$INFO[Window(Home).Property(RecommendedAlbum.8.Artist)]</label2>
 				<onclick>PlayList.Clear</onclick>
+				<onclick condition="Window.IsVisible(2123)">Dialog.Close(2123)</onclick>
 				<onclick>$INFO[Window(Home).Property(RecommendedAlbum.8.Play)]</onclick>
 				<icon>$INFO[Window(Home).Property(RecommendedAlbum.8.Thumb)]</icon>
 				<thumb>$INFO[Window(Home).Property(RecommendedAlbum.8.Fanart)]</thumb>
@@ -4672,6 +4680,7 @@
 				<label>$INFO[Window(Home).Property(RecommendedAlbum.9.Title)]</label>
 				<label2>$INFO[Window(Home).Property(RecommendedAlbum.9.Artist)]</label2>
 				<onclick>PlayList.Clear</onclick>
+				<onclick condition="Window.IsVisible(2123)">Dialog.Close(2123)</onclick>
 				<onclick>$INFO[Window(Home).Property(RecommendedAlbum.9.Play)]</onclick>
 				<icon>$INFO[Window(Home).Property(RecommendedAlbum.9.Thumb)]</icon>
 				<thumb>$INFO[Window(Home).Property(RecommendedAlbum.9.Fanart)]</thumb>
@@ -4681,10 +4690,121 @@
 				<label>$INFO[Window(Home).Property(RecommendedAlbum.10.Title)]</label>
 				<label2>$INFO[Window(Home).Property(RecommendedAlbum.10.Artist)]</label2>
 				<onclick>PlayList.Clear</onclick>
+				<onclick condition="Window.IsVisible(2123)">Dialog.Close(2123)</onclick>
 				<onclick>$INFO[Window(Home).Property(RecommendedAlbum.10.Play)]</onclick>
 				<icon>$INFO[Window(Home).Property(RecommendedAlbum.10.Thumb )]</icon>
 				<thumb>$INFO[Window(Home).Property(RecommendedAlbum.10.Fanart)]</thumb>
 				<visible>!IsEmpty(Window(Home).Property(RecommendedAlbum.10.Title))</visible>
+			</item>
+			<item id="11">
+				<label>$INFO[Window(Home).Property(RecommendedAlbum.11.Title)]</label>
+				<label2>$INFO[Window(Home).Property(RecommendedAlbum.11.Artist)]</label2>
+				<onclick>PlayList.Clear</onclick>
+				<onclick>Dialog.Close(2123)</onclick>
+				<onclick>$INFO[Window(Home).Property(RecommendedAlbum.11.Play)]</onclick>
+				<icon>$INFO[Window(Home).Property(RecommendedAlbum.11.Thumb)]</icon>
+				<thumb>$INFO[Window(Home).Property(RecommendedAlbum.11.Fanart)]</thumb>
+				<visible>!IsEmpty(Window(Home).Property(RecommendedAlbum.11.Title)) + Window.IsVisible(2123)</visible>
+			</item>
+			<item id="12">
+				<label>$INFO[Window(Home).Property(RecommendedAlbum.12.Title)]</label>
+				<label2>$INFO[Window(Home).Property(RecommendedAlbum.12.Artist)]</label2>
+				<onclick>PlayList.Clear</onclick>
+				<onclick>Dialog.Close(2123)</onclick>
+				<onclick>$INFO[Window(Home).Property(RecommendedAlbum.12.Play)]</onclick>
+				<icon>$INFO[Window(Home).Property(RecommendedAlbum.12.Thumb)]</icon>
+				<thumb>$INFO[Window(Home).Property(RecommendedAlbum.12.Fanart)]</thumb>
+				<visible>!IsEmpty(Window(Home).Property(RecommendedAlbum.12.Title)) + Window.IsVisible(2123)</visible>
+			</item>
+			<item id="13">
+				<label>$INFO[Window(Home).Property(RecommendedAlbum.13.Title)]</label>
+				<label2>$INFO[Window(Home).Property(RecommendedAlbum.13.Artist)]</label2>
+				<onclick>PlayList.Clear</onclick>
+				<onclick>Dialog.Close(2123)</onclick>
+				<onclick>$INFO[Window(Home).Property(RecommendedAlbum.13.Play)]</onclick>
+				<icon>$INFO[Window(Home).Property(RecommendedAlbum.13.Thumb)]</icon>
+				<thumb>$INFO[Window(Home).Property(RecommendedAlbum.13.Fanart)]</thumb>
+				<visible>!IsEmpty(Window(Home).Property(RecommendedAlbum.13.Title)) + Window.IsVisible(2123)</visible>
+			</item>
+			<item id="14">
+				<label>$INFO[Window(Home).Property(RecommendedAlbum.14.Title)]</label>
+				<label2>$INFO[Window(Home).Property(RecommendedAlbum.14.Artist)]</label2>
+				<onclick>PlayList.Clear</onclick>
+				<onclick>Dialog.Close(2123)</onclick>
+				<onclick>$INFO[Window(Home).Property(RecommendedAlbum.14.Play)]</onclick>
+				<icon>$INFO[Window(Home).Property(RecommendedAlbum.14.Thumb)]</icon>
+				<thumb>$INFO[Window(Home).Property(RecommendedAlbum.14.Fanart)]</thumb>
+				<visible>!IsEmpty(Window(Home).Property(RecommendedAlbum.14.Title)) + Window.IsVisible(2123)</visible>
+			</item>
+			<item id="15">
+				<label>$INFO[Window(Home).Property(RecommendedAlbum.15.Title)]</label>
+				<label2>$INFO[Window(Home).Property(RecommendedAlbum.15.Artist)]</label2>
+				<onclick>PlayList.Clear</onclick>
+				<onclick>Dialog.Close(2123)</onclick>
+				<onclick>$INFO[Window(Home).Property(RecommendedAlbum.15.Play)]</onclick>
+				<icon>$INFO[Window(Home).Property(RecommendedAlbum.15.Thumb)]</icon>
+				<thumb>$INFO[Window(Home).Property(RecommendedAlbum.15.Fanart)]</thumb>
+				<visible>!IsEmpty(Window(Home).Property(RecommendedAlbum.15.Title)) + Window.IsVisible(2123)</visible>
+			</item>
+			<item id="16">
+				<label>$INFO[Window(Home).Property(RecommendedAlbum.16.Title)]</label>
+				<label2>$INFO[Window(Home).Property(RecommendedAlbum.16.Artist)]</label2>
+				<onclick>PlayList.Clear</onclick>
+				<onclick>Dialog.Close(2123)</onclick>
+				<onclick>$INFO[Window(Home).Property(RecommendedAlbum.16.Play)]</onclick>
+				<icon>$INFO[Window(Home).Property(RecommendedAlbum.16.Thumb)]</icon>
+				<thumb>$INFO[Window(Home).Property(RecommendedAlbum.16.Fanart)]</thumb>
+				<visible>!IsEmpty(Window(Home).Property(RecommendedAlbum.16.Title)) + Window.IsVisible(2123)</visible>
+			</item>
+			<item id="17">
+				<label>$INFO[Window(Home).Property(RecommendedAlbum.17.Title)]</label>
+				<label2>$INFO[Window(Home).Property(RecommendedAlbum.17.Artist)]</label2>
+				<onclick>PlayList.Clear</onclick>
+				<onclick>Dialog.Close(2123)</onclick>
+				<onclick>$INFO[Window(Home).Property(RecommendedAlbum.17.Play)]</onclick>
+				<icon>$INFO[Window(Home).Property(RecommendedAlbum.17.Thumb)]</icon>
+				<thumb>$INFO[Window(Home).Property(RecommendedAlbum.17.Fanart)]</thumb>
+				<visible>!IsEmpty(Window(Home).Property(RecommendedAlbum.17.Title)) + Window.IsVisible(2123)</visible>
+			</item>
+			<item id="18">
+				<label>$INFO[Window(Home).Property(RecommendedAlbum.18.Title)]</label>
+				<label2>$INFO[Window(Home).Property(RecommendedAlbum.18.Artist)]</label2>
+				<onclick>PlayList.Clear</onclick>
+				<onclick>Dialog.Close(2123)</onclick>
+				<onclick>$INFO[Window(Home).Property(RecommendedAlbum.18.Play)]</onclick>
+				<icon>$INFO[Window(Home).Property(RecommendedAlbum.18.Thumb)]</icon>
+				<thumb>$INFO[Window(Home).Property(RecommendedAlbum.18.Fanart)]</thumb>
+				<visible>!IsEmpty(Window(Home).Property(RecommendedAlbum.18.Title)) + Window.IsVisible(2123)</visible>
+			</item>
+			<item id="19">
+				<label>$INFO[Window(Home).Property(RecommendedAlbum.19.Title)]</label>
+				<label2>$INFO[Window(Home).Property(RecommendedAlbum.19.Artist)]</label2>
+				<onclick>PlayList.Clear</onclick>
+				<onclick>Dialog.Close(2123)</onclick>
+				<onclick>$INFO[Window(Home).Property(RecommendedAlbum.19.Play)]</onclick>
+				<icon>$INFO[Window(Home).Property(RecommendedAlbum.19.Thumb)]</icon>
+				<thumb>$INFO[Window(Home).Property(RecommendedAlbum.19.Fanart)]</thumb>
+				<visible>!IsEmpty(Window(Home).Property(RecommendedAlbum.19.Title)) + Window.IsVisible(2123)</visible>
+			</item>
+			<item id="20">
+				<label>$INFO[Window(Home).Property(RecommendedAlbum.20.Title)]</label>
+				<label2>$INFO[Window(Home).Property(RecommendedAlbum.20.Artist)]</label2>
+				<onclick>PlayList.Clear</onclick>
+				<onclick>Dialog.Close(2123)</onclick>
+				<onclick>$INFO[Window(Home).Property(RecommendedAlbum.20.Play)]</onclick>
+				<icon>$INFO[Window(Home).Property(RecommendedAlbum.20.Thumb )]</icon>
+				<thumb>$INFO[Window(Home).Property(RecommendedAlbum.20.Fanart)]</thumb>
+				<visible>!IsEmpty(Window(Home).Property(RecommendedAlbum.20.Title)) + Window.IsVisible(2123)</visible>
+			</item>
+			<item id="21">
+				<label>$INFO[Window(Home).Property(RecentAlbum.1.Title)]</label>
+				<label2>$INFO[Window(Home).Property(RecentAlbum.1.Artist)]</label2>
+				<onclick>PlayList.Clear</onclick>
+				<onclick>Dialog.Close(2123)</onclick>
+				<onclick>$INFO[Window(Home).Property(RecentAlbum.1.Play)]</onclick>
+				<icon>$INFO[Window(Home).Property(RecentAlbum.1.Thumb)]</icon>
+				<thumb>$INFO[Window(Home).Property(RecentAlbum.1.Fanart)]</thumb>
+				<visible>IsEmpty(Window(Home).Property(RecommendedAlbum.1.Title)) + !IsEmpty(Window(Home).Property(RecentAlbum.1.Title)) + Window.IsVisible(2123)</visible>
 			</item>
 		</content>
 	</include>
