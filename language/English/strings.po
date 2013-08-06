@@ -840,7 +840,11 @@ msgctxt "#31216"
 msgid "Show Suggested Media Button"
 msgstr ""
 
-#empty strings from id 31217 to 31299
+msgctxt "#31217"
+msgid "Search"
+msgstr ""
+
+#empty strings from id 31218 to 31299
 #Extra labels
 
 msgctxt "#31300"

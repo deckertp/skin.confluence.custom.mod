@@ -441,6 +441,19 @@
 				<include>CloseMenuChoice</include>
 			</item>
 			<item>
+				<description>Music Search</description>
+				<label>$LOCALIZE[2] $LOCALIZE[31217]</label>
+				<onclick>Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].Path,RunScript(script.globalsearch,musicvideos=true&amp;artists=true&amp;albums=true&amp;songs=true))</onclick>
+				<onclick>Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].Label,$LOCALIZE[31217])</onclick>
+				<onclick condition="Window.IsVisible(2114)">Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].Sub,Music)</onclick>
+				<onclick condition="Window.IsVisible(2114)">Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].Addon,None)</onclick>
+				<onclick condition="Window.IsVisible(2114)">Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].Widget,RecentAlbums)</onclick>
+				<onclick condition="Window.IsVisible(2114)">Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].Type,Music)</onclick>
+				<onclick condition="Window.IsVisible(2114)">Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].Fanart,special://skin/backgrounds/homescreen/search.jpg)</onclick>
+				<include>CloseMenuChoice</include>
+				<visible>Library.HasContent(Music) + System.HasAddon(script.globalsearch)</visible>
+			</item>
+			<item>
 				<description>Concerts</description>
 				<label>$LOCALIZE[20389]</label>
 				<include>ClearButtonChoice</include>
@@ -659,6 +672,20 @@
 				<onclick condition="Window.IsVisible(2114)">Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].Type,Movies)</onclick>
 				<onclick condition="Window.IsVisible(2114)">Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].Fanart,special://skin/backgrounds/homescreen/videos.jpg)</onclick>
 				<include>CloseMenuChoice</include>
+			</item>
+			<item>
+				<description>Movies Search</description>
+				<label>$LOCALIZE[342] $LOCALIZE[31217]</label>
+				<include>ClearButtonChoice</include>
+				<onclick>Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].Path,RunScript(script.globalsearch,musicvideos=true&amp;movies=true))</onclick>
+				<onclick>Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].Label,$LOCALIZE[31217])</onclick>
+				<onclick condition="Window.IsVisible(2114)">Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].Sub,Movies)</onclick>
+				<onclick condition="Window.IsVisible(2114)">Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].Addon,None)</onclick>
+				<onclick condition="Window.IsVisible(2114)">Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].Widget,RecentMovies)</onclick>
+				<onclick condition="Window.IsVisible(2114)">Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].Type,Movies)</onclick>
+				<onclick condition="Window.IsVisible(2114)">Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].Fanart,special://skin/backgrounds/homescreen/search.jpg)</onclick>
+				<include>CloseMenuChoice</include>
+				<visible>Library.HasContent(Movies) + System.HasAddon(script.globalsearch)</visible>
 			</item>
 			<item>
 				<description>TVShows</description>
