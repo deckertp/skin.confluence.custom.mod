@@ -1124,7 +1124,8 @@
 			<animation effect="slide" start="0,0" end="0,-50" time="100" condition="Window.IsVisible(busydialog)">conditional</animation>
 			<animation effect="slide" start="0,0" end="350,0" time="200" condition="Window.IsVisible(extendedprogressdialog)">conditional</animation>
 			<animation effect="fade" start="100" end="0" time="200" condition="Window.IsVisible(VolumeBar) | Window.IsVisible(filebrowser)  | Window.IsVisible(movieinformation)">Conditional</animation>
-			<animation effect="fade" start="100" end="0" time="200" condition="Window.IsVisible(CustomAddMenuItems.xml) | Window.IsVisible(CustomAddonSelection.xml) | Window.IsVisible(CustomAddonType.xml) | Window.IsVisible(CustomAddSubMenuItems.xml) | Window.IsVisible(CustomSubMenuType.xml) | Window.IsVisible(CustomWidgetType.xml) | Window.IsVisible(Favourites)">Conditional</animation>
+			<animation effect="fade" start="100" end="0" time="200" condition="Window.IsVisible(CustomAddMenuItems.xml) | Window.IsVisible(CustomAddonSelection.xml) | Window.IsVisible(CustomAddonType.xml) | Window.IsVisible(CustomAddSubMenuItems.xml) | Window.IsVisible(CustomSubMenuType.xml) | Window.IsVisible(CustomWidgetType.xml)">Conditional</animation>
+			<animation effect="fade" start="100" end="65" time="200" condition="Window.IsVisible(2123) | Window.IsVisible(2124) | Window.IsVisible(2125) | Window.IsVisible(Favourites)">Conditional</animation>
 			<visible>!Skin.HasSetting(HideSystemClock)</visible>
 		</control>
 		<control type="label">
@@ -1143,7 +1144,8 @@
 			<animation effect="slide" start="0,0" end="0,-50" time="100" condition="Window.IsVisible(busydialog)">conditional</animation>
 			<animation effect="slide" start="0,0" end="350,0" time="200" condition="Window.IsVisible(extendedprogressdialog)">conditional</animation>
 			<animation effect="fade" start="100" end="0" time="200" condition="Window.IsVisible(volumebar) | Window.IsVisible(filebrowser) | Window.IsVisible(movieinformation)">Conditional</animation>
-			<animation effect="fade" start="100" end="0" time="200" condition="Window.IsVisible(CustomAddMenuItems.xml) | Window.IsVisible(CustomAddonSelection.xml) | Window.IsVisible(CustomAddonType.xml) | Window.IsVisible(CustomAddSubMenuItems.xml) | Window.IsVisible(CustomSubMenuType.xml) | Window.IsVisible(CustomWidgetType.xml) | Window.IsVisible(Favourites)">Conditional</animation>
+			<animation effect="fade" start="100" end="0" time="200" condition="Window.IsVisible(CustomAddMenuItems.xml) | Window.IsVisible(CustomAddonSelection.xml) | Window.IsVisible(CustomAddonType.xml) | Window.IsVisible(CustomAddSubMenuItems.xml) | Window.IsVisible(CustomSubMenuType.xml) | Window.IsVisible(CustomWidgetType.xml)">Conditional</animation>
+			<animation effect="fade" start="100" end="65" time="200" condition="Window.IsVisible(2123) | Window.IsVisible(2124) | Window.IsVisible(2125) | Window.IsVisible(Favourites)">Conditional</animation>
 			<visible>!Skin.HasSetting(HideSystemClock)</visible>
 		</control>
 	</include>

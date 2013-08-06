@@ -49,11 +49,33 @@
 			<onleft>9000</onleft>
 			<onright>9000</onright>
 			<onup>21</onup>
-			<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch) + Player.HasMedia">611</ondown>
-			<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + !Skin.HasSetting(HideHomeSearch) + !Player.HasMedia">612</ondown>
-			<ondown condition="Skin.HasSetting(RaiseMainMenuBar) + Skin.HasSetting(HideHomeSearch)">611</ondown>
+			<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
 			<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 			<visible>false</visible>
+		</control>
+		<control type="button" id="9004">
+			<posx>34r</posx>
+			<posy>240</posy>
+			<width>42</width>
+			<height>128</height>
+			<font>-</font>
+			<texturefocus flipx="true">HasSubFO.png</texturefocus>
+			<texturenofocus flipx="true">HasSub.png</texturenofocus>
+			<onup condition="Skin.HasSetting(RaiseMainMenuBar)">9003</onup>
+			<onup condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</onup>
+			<ondown condition="!Skin.HasSetting(HideHomeSearch) + Player.HasMedia">611</ondown>
+			<ondown condition="!Skin.HasSetting(HideHomeSearch) + !Player.HasMedia">612</ondown>
+			<ondown condition="Skin.HasSetting(HideHomeSearch)">611</ondown>
+			<onleft>9000</onleft>
+			<onright>9000</onright>
+			<onclick condition="StringCompare(Container(9000).ListItem.Property(HiLiteItem),Movies)">ActivateWindow(2125)</onclick>
+			<onclick condition="StringCompare(Container(9000).ListItem.Property(HiLiteItem),TVShows)">ActivateWindow(2124)</onclick>
+			<onclick condition="StringCompare(Container(9000).ListItem.Property(HiLiteItem),Music)">ActivateWindow(2123)</onclick>
+			<animation effect="slide" start="0,0" end="0,175" time="0" condition="!Skin.HasSetting(RaiseMainMenuBar)">Conditional</animation>
+			<animation effect="slide" start="50,0" end="0,0" time="300" tween="quadratic" easing="out">WindowOpen</animation>
+			<animation effect="fade" start="100" end="0" time="0" condition="Window.IsVisible(2123) | Window.IsVisible(2124) | Window.IsVisible(2125) | Window.IsVisible(Favourites)">Conditional</animation>
+			<visible>StringCompare(Container(9000).ListItem.Property(HiLiteItem),Movies) | StringCompare(Container(9000).ListItem.Property(HiLiteItem),TVShows)  | StringCompare(Container(9000).ListItem.Property(HiLiteItem),Music)</visible>
+			<visible>!Skin.HasSetting(HideSuggestedMedia)</visible>
 		</control>
 		<control type="group">
 			<description>Controls for currently playing media</description>
@@ -61,6 +83,7 @@
 			<posy>370</posy>
 			<animation effect="slide" start="0,0" end="0,175" time="0" condition="!Skin.HasSetting(RaiseMainMenuBar)">Conditional</animation>
 			<animation effect="slide" start="0,0" end="-100,0" time="300" condition="!Player.HasMedia + !Skin.HasSetting(HideHomeStats)">conditional</animation>
+			<animation effect="fade" start="100" end="65" time="200" condition="Window.IsVisible(2123) | Window.IsVisible(2124) | Window.IsVisible(2125) | Window.IsVisible(Favourites)">conditional</animation>			
 			<animation effect="slide" start="0,0" end="365,0" time="300" condition="!Player.HasMedia + Skin.HasSetting(HideHomeStats)">conditional</animation>
 			<animation effect="slide" start="0,0" end="-60,0" time="0" condition="System.HasAddon(plugin.audio.lastfm) + Player.HasAudio">conditional</animation>
 			<animation effect="slide" start="0,0" end="-60,0" time="0" condition="!Skin.HasSetting(DisableFloorVolumeButtons) + Player.HasMedia">conditional</animation>
@@ -105,15 +128,13 @@
 				<textureradionofocus>icon_search.png</textureradionofocus>
 				<onleft>611</onleft>
 				<onright>601</onright>
-				<onup condition="Skin.HasSetting(RaiseMainMenuBar)">9003</onup>
-				<onup condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</onup>
+				<onup>9004</onup>
 				<ondown>9000</ondown>
 				<visible>!Skin.HasSetting(HideHomeSearch)</visible>
 			</control>
 			<control type="group" id="600">
 				<posx>180</posx>
-				<onup condition="Skin.HasSetting(RaiseMainMenuBar)">9003</onup>
-				<onup condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</onup>
+<onup>9004</onup>
 				<ondown>9000</ondown>
 				<defaultcontrol>-</defaultcontrol>
 				<enable>Player.HasMedia</enable>
@@ -145,8 +166,7 @@
 						<texturenofocus>OSDPrevTrackNF.png</texturenofocus>
 						<onleft>612</onleft>
 						<onright>602</onright>
-						<onup condition="Skin.HasSetting(RaiseMainMenuBar)">9003</onup>
-						<onup condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</onup>
+						<onup>9004</onup>
 						<ondown>9000</ondown>
 						<onclick>XBMC.PlayerControl(Previous)</onclick>
 					</control>
@@ -160,8 +180,7 @@
 						<texturenofocus>OSDRewindNF.png</texturenofocus>
 						<onleft>601</onleft>
 						<onright>603</onright>
-						<onup condition="Skin.HasSetting(RaiseMainMenuBar)">9003</onup>
-						<onup condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</onup>
+						<onup>9004</onup>
 						<ondown>9000</ondown>
 						<onclick>XBMC.PlayerControl(Rewind)</onclick>
 					</control>
@@ -178,8 +197,7 @@
 						<alttexturenofocus>OSDPlayNF.png</alttexturenofocus>
 						<onleft>602</onleft>
 						<onright>604</onright>
-						<onup condition="Skin.HasSetting(RaiseMainMenuBar)">9003</onup>
-						<onup condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</onup>
+<onup>9004</onup>
 						<ondown>9000</ondown>
 						<onclick>XBMC.PlayerControl(Play)</onclick>
 					</control>
@@ -193,8 +211,7 @@
 						<texturenofocus>OSDStopNF.png</texturenofocus>
 						<onleft>603</onleft>
 						<onright>605</onright>
-						<onup condition="Skin.HasSetting(RaiseMainMenuBar)">9003</onup>
-						<onup condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</onup>
+						<onup>9004</onup>
 						<ondown>9000</ondown>
 						<onclick>down</onclick>
 						<onclick>XBMC.PlayerControl(Stop)</onclick>
@@ -209,8 +226,7 @@
 						<texturenofocus>OSDForwardNF.png</texturenofocus>
 						<onleft>604</onleft>
 						<onright>606</onright>
-						<onup condition="Skin.HasSetting(RaiseMainMenuBar)">9003</onup>
-						<onup condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</onup>
+						<onup>9004</onup>
 						<ondown>9000</ondown>
 						<onclick>XBMC.PlayerControl(Forward)</onclick>
 					</control>
@@ -224,8 +240,7 @@
 						<texturenofocus>OSDNextTrackNF.png</texturenofocus>
 						<onleft>605</onleft>
 						<onright>607</onright>
-						<onup condition="Skin.HasSetting(RaiseMainMenuBar)">9003</onup>
-						<onup condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</onup>
+<onup>9004</onup>
 						<ondown>9000</ondown>
 						<onclick>XBMC.PlayerControl(Next)</onclick>
 					</control>
@@ -239,8 +254,7 @@
 						<texturenofocus>OSDVolUpNF.png</texturenofocus>
 						<onleft>606</onleft>
 						<onright>608</onright>
-						<onup condition="Skin.HasSetting(RaiseMainMenuBar)">9003</onup>
-						<onup condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</onup>
+						<onup>9004</onup>
 						<ondown>9000</ondown>
 						<onclick>$VAR[VolumeStepUp]</onclick>
 						<visible>!Skin.HasSetting(DisableFloorVolumeButtons)</visible>
@@ -255,8 +269,7 @@
 						<texturenofocus>OSDVolDownNF.png</texturenofocus>
 						<onleft>607</onleft>
 						<onright>609</onright>
-						<onup condition="Skin.HasSetting(RaiseMainMenuBar)">9003</onup>
-						<onup condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</onup>
+<onup>9004</onup>
 						<ondown>9000</ondown>
 						<onclick>$VAR[VolumeStepDown]</onclick>
 						<visible>!Skin.HasSetting(DisableFloorVolumeButtons)</visible>
@@ -271,8 +284,7 @@
 						<texturenofocus>lastfm/lastfm-love-nofocus.png</texturenofocus>
 						<onleft>608</onleft>
 						<onright>610</onright>
-						<onup condition="Skin.HasSetting(RaiseMainMenuBar)">9003</onup>
-						<onup condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</onup>
+						<onup>9004</onup>
 						<ondown>9000</ondown>
 						<onclick>RunScript(plugin.audio.lastfm,action=LastFM.Love&amp;artist=$INFO[MusicPlayer.Artist]&amp;song=$INFO[MusicPlayer.Title])</onclick>
 						<enable>SubString(Window(Home).Property(LastFM.CanLove),true)</enable>
@@ -289,11 +301,10 @@
 						<texturenofocus>lastfm/lastfm-hate-nofocus.png</texturenofocus>
 						<onleft>609</onleft>
 						<onright>611</onright>
-						<onup condition="Skin.HasSetting(RaiseMainMenuBar)">9003</onup>
-						<onup condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</onup>
+						<onup>9004</onup>
 						<ondown>9000</ondown>
 						<onclick>RunScript(plugin.audio.lastfm,action=LastFM.Ban&amp;artist=$INFO[MusicPlayer.Artist]&amp;song=$INFO[MusicPlayer.Title])</onclick>
-						<!--enable>SubString(Window(Home).Property(LastFM.CanBan),true)</enable-->
+						<enable>SubString(Window(Home).Property(LastFM.CanBan),true)</enable>
 						<visible>System.HasAddon(plugin.audio.lastfm) + Player.HasAudio</visible>
 						<animation effect="slide" start="0,0" end="-60,0" time="0" condition="Skin.HasSetting(DisableFloorVolumeButtons)">conditional</animation>
 					</control>
@@ -310,8 +321,7 @@
 						<texturenofocus>OSDChannelUPNF.png</texturenofocus>
 						<onleft>612</onleft>
 						<onright>602</onright>
-						<onup condition="Skin.HasSetting(RaiseMainMenuBar)">9003</onup>
-						<onup condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</onup>
+						<onup>9004</onup>
 						<ondown>9000</ondown>
 						<onclick>XBMC.PlayerControl(Previous)</onclick>
 					</control>
@@ -325,8 +335,7 @@
 						<texturenofocus>OSDChannelDownNF.png</texturenofocus>
 						<onleft>601</onleft>
 						<onright>603</onright>
-						<onup condition="Skin.HasSetting(RaiseMainMenuBar)">9003</onup>
-						<onup condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</onup>
+<onup>9004</onup>
 						<ondown>9000</ondown>
 						<onclick>XBMC.PlayerControl(Next)</onclick>
 					</control>
@@ -340,8 +349,7 @@
 						<texturenofocus>OSDStopNF.png</texturenofocus>
 						<onleft>602</onleft>
 						<onright>604</onright>
-						<onup condition="Skin.HasSetting(RaiseMainMenuBar)">9003</onup>
-						<onup condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</onup>
+						<onup>9004</onup>
 						<ondown>9000</ondown>
 						<onclick>down</onclick>
 						<onclick>XBMC.PlayerControl(Stop)</onclick>
@@ -359,8 +367,7 @@
 						<alttexturenofocus>OSDPlayNF.png</alttexturenofocus>
 						<onleft>603</onleft>
 						<onright>605</onright>
-						<onup condition="Skin.HasSetting(RaiseMainMenuBar)">9003</onup>
-						<onup condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</onup>
+<onup>9004</onup>
 						<ondown>9000</ondown>
 						<onclick>XBMC.PlayerControl(Play)</onclick>
 						<enable>Player.PauseEnabled</enable>
@@ -376,8 +383,7 @@
 						<texturenofocus>OSDVolUpNF.png</texturenofocus>
 						<onleft>604</onleft>
 						<onright>606</onright>
-						<onup condition="Skin.HasSetting(RaiseMainMenuBar)">9003</onup>
-						<onup condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</onup>
+<onup>9004</onup>
 						<ondown>9000</ondown>
 						<onclick>$VAR[VolumeStepUp]</onclick>
 						<visible>!Skin.HasSetting(DisableFloorVolumeButtons)</visible>
@@ -392,8 +398,7 @@
 						<texturenofocus>OSDVolDownNF.png</texturenofocus>
 						<onleft>605</onleft>
 						<onright>607</onright>
-						<onup condition="Skin.HasSetting(RaiseMainMenuBar)">9003</onup>
-						<onup condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</onup>
+<onup>9004</onup>
 						<ondown>9000</ondown>
 						<onclick>$VAR[VolumeStepDown]</onclick>
 						<visible>!Skin.HasSetting(DisableFloorVolumeButtons)</visible>
@@ -408,8 +413,7 @@
 						<texturenofocus>OSDRecordOffNF.png</texturenofocus>
 						<onleft>606</onleft>
 						<onright>611</onright>
-						<onup condition="Skin.HasSetting(RaiseMainMenuBar)">9003</onup>
-						<onup condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</onup>
+<onup>9004</onup>
 						<ondown>9000</ondown>
 						<onclick>XBMC.PlayerControl(record)</onclick>
 						<animation effect="slide" start="0,0" end="-60,0" time="0" condition="Skin.HasSetting(DisableFloorVolumeButtons)">conditional</animation>
@@ -442,8 +446,7 @@
 				<textureradionofocus>GoFullscreen.png</textureradionofocus>
 				<onleft>603</onleft>
 				<onright>612</onright>
-				<onup condition="Skin.HasSetting(RaiseMainMenuBar)">9003</onup>
-				<onup condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</onup>
+<onup>9004</onup>
 				<ondown>9000</ondown>
 				<enable>Player.HasMedia</enable>
 			</control>
@@ -555,6 +558,7 @@
 						<align>center</align>
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Label]</label>
+						<visible>!Control.HasFocus(9000)</visible>
 					</control>
 					<control type="label">
 						<posx>170</posx>
@@ -787,6 +791,7 @@
 			<posx>0</posx>
 			<posy>33r</posy>
 			<visible>system.getbool(lookandfeel.enablerssfeeds) | [Player.HasAudio + !IsEmpty(MusicPlayer.offset(1).Artist) + !Skin.HasSetting(HideNextSongsInfo)]</visible>
+			<animation effect="fade" start="100" end="65" time="200" condition="Window.IsVisible(2123) | Window.IsVisible(2124) | Window.IsVisible(2125) | Window.IsVisible(Favourites)">conditional</animation>			
 			<include>Window_OpenClose_Animation</include>
 			<control type="rss">
 				<description>RSS feed</description>

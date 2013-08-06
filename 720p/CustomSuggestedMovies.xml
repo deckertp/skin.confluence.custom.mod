@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<window type="dialog" id="2123">
+<window type="dialog" id="2125">
 	<defaultcontrol always="true">450</defaultcontrol>
 	<coordinates>
 		<system>1</system>
@@ -10,7 +10,7 @@
 		<control type="group">
 			<animation effect="slide" start="400,0" end="0,0" time="400" tween="quadratic" easing="out">WindowOpen</animation>
 			<animation effect="slide" start="0,0" end="400,0" time="400" tween="quadratic" easing="out">WindowClose</animation>
-			<control type="image">
+						<control type="image">
 				<posx>434r</posx>
 				<posy>260</posy>
 				<width>42</width>
@@ -87,7 +87,7 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<textcolor>blue</textcolor>
-				<label>[B]$LOCALIZE[31183][/B]</label>
+				<label>[B]$LOCALIZE[31177][/B]</label>
 			</control>
 			<control type="image">
 				<posx>380r</posx>
@@ -96,17 +96,45 @@
 				<height>200</height>
 				<aspectratio align="center">stretch</aspectratio>
 				<fadetime>IconCrossfadeTime</fadetime>
-				<texture fallback="Fallback/FanartMusicSmall.jpg" diffuse="episodematte.png">$INFO[Container(450).ListItem.Icon]</texture>
+				<texture fallback="Fallback/FanartVideoSmall.jpg" diffuse="episodematte.png">$INFO[Container(450).ListItem.Thumb]</texture>
 				<bordertexture border="8">ThumbShadow.png</bordertexture>
 				<bordersize>8</bordersize>
 			</control>
+			
+			<!--control type="image">
+				<posx>85r</posx>
+				<posy>30</posy>
+				<width>40</width>
+				<height>40</height>
+				<texture diffuse="poster-diffuse.png">$VAR[PartlyWatched,OverlayStatus/resumable/,.png]</texture>
+				<animation effect="fade" start="0" end="100" time="100" condition="!Container(450).listItem.Property(Watched)">Conditional</animation>
+			</control>
+			<control type="image">
+				<posx>85r</posx>
+				<posy>30</posy>
+				<width>40</width>
+				<height>40</height>
+				<texture diffuse="poster-diffuse.png">MediaStatus/OverlayUnwatched.png</texture>
+				<animation effect="fade" start="100" end="0" time="0" condition="Container(450).listItem.Property(Watched)">Conditional</animation>
+			</control>
+			<control type="image">
+				<posx>85r</posx>
+				<posy>30</posy>
+				<width>40</width>
+				<height>40</height>
+				<texture>$VAR[WatchTypePath,OverlayStatus/]</texture>
+				<animation effect="fade" start="100" end="0" time="0" condition="!Container(450).listItem.Property(Watched)">Conditional</animation>
+			</control-->
+			
+			
+			
 			<control type="list" id="450">
 				<posx>390r</posx>
 				<posy>250</posy>
 				<width>450</width>
 				<height>400</height>
 				<onup>450</onup>
-				<onleft>Dialog.Close(2123)</onleft>
+				<onleft>Dialog.Close(2125)</onleft>
 				<onright>60</onright>
 				<ondown>450</ondown>
 				<pagecontrol>60</pagecontrol>
@@ -128,7 +156,7 @@
 						<align>left</align>
 						<aligny>center</aligny>
 						<selectedcolor>selected</selectedcolor>
-						<info>ListItem.Label</info>
+						<label>$INFO[ListItem.Label]</label>
 					</control>
 				</itemlayout>
 				<focusedlayout height="40">
@@ -157,10 +185,10 @@
 						<align>left</align>
 						<aligny>center</aligny>
 						<selectedcolor>selected</selectedcolor>
-						<info>ListItem.Label</info>
+						<label>$INFO[ListItem.Label]</label>
 					</control>
 				</focusedlayout>
-				<include>SuggestedAlbumContent</include>
+				<include>SuggestedVideoContent</include>
 			</control>
 			<control type="scrollbar" id="60">
 				<posx>1256</posx>
