@@ -63,6 +63,7 @@
 					<onup>600</onup>
 					<ondown>600</ondown>
 					<onclick>$VAR[VolumeStepUp]</onclick>
+						<onclick>VolumeUp</onclick>
 					<enable>!player.passthrough</enable>
 					<visible>!Skin.HasSetting(DisableFloorVolumeButtons)</visible>
 				</control>
@@ -80,6 +81,7 @@
 					<onup>600</onup>
 					<ondown>600</ondown>
 					<onclick>$VAR[VolumeStepDown]</onclick>
+					<onclick>VolumeDown</onclick>
 					<enable>!player.passthrough</enable>
 					<visible>!Skin.HasSetting(DisableFloorVolumeButtons)</visible>
 				</control>
@@ -324,6 +326,7 @@
 					<onup>1000</onup>
 					<ondown>1000</ondown>
 					<onclick>$VAR[VolumeStepUp]</onclick>
+						<onclick>VolumeUp</onclick>
 					<enable>!player.passthrough</enable>
 					<visible>!Skin.HasSetting(DisableFloorVolumeButtons)</visible>
 				</control>
@@ -341,6 +344,7 @@
 					<onup>1000</onup>
 					<ondown>1000</ondown>
 					<onclick>$VAR[VolumeStepDown]</onclick>
+					<onclick>VolumeDown</onclick>
 					<enable>!player.passthrough</enable>
 					<visible>!Skin.HasSetting(DisableFloorVolumeButtons)</visible>
 				</control>
