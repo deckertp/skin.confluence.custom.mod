@@ -972,6 +972,7 @@
 						<description>Play Trailer</description>
 						<include>ButtonInfoDialogsCommonValues</include>
 						<label>20410</label>
+						<visible>!Skin.HasSetting(EnableMinSpec)</visible>
 						<visible>!IsEmpty(ListItem.Trailer) + !Skin.HasSetting(WindowedTrailer)</visible>
 					</control>
 					<control type="button" id="15">
@@ -979,6 +980,7 @@
 						<include>ButtonInfoDialogsCommonValues</include>
 						<label>20410</label>
 						<onclick>PlayMedia($INFO[ListItem.Trailer],1)</onclick>
+						<visible>!Skin.HasSetting(EnableMinSpec)</visible>
 						<visible>!IsEmpty(ListItem.Trailer) + Skin.HasSetting(WindowedTrailer)</visible>
 					</control>
 					<control type="button" id="100">
