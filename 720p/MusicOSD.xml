@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <window>
-	<defaultcontrol always="true">604</defaultcontrol>
+	<defaultcontrol always="true">606</defaultcontrol>
 	<include>DialogEffect</include>
 	<coordinates>
 		<system>1</system>
@@ -116,16 +116,50 @@
 				<height>50</height>
 				<label>210</label>
 				<font>-</font>
-				<texturefocus>OSDPrevTrackFO.png</texturefocus>
-				<texturenofocus>OSDPrevTrackNF.png</texturenofocus>
+				<texturefocus>OSDVolUpFO.png</texturefocus>
+				<texturenofocus>OSDVolUpNF.png</texturenofocus>
 				<onleft>601</onleft>
 				<onright>603</onright>
 				<onup>1000</onup>
 				<ondown>1000</ondown>
-				<onclick>PlayerControl(Previous)</onclick>
+				<onclick>$VAR[VolumeStepUp]</onclick>
+				<onclick>VolumeUp</onclick>
+				<visible>!Skin.HasSetting(DisableFloorVolumeButtons)</visible>
 			</control>
 			<control type="button" id="603">
 				<posx>150</posx>
+				<posy>0</posy>
+				<width>50</width>
+				<height>50</height>
+				<label>210</label>
+				<font>-</font>
+				<texturefocus>OSDVolDownFO.png</texturefocus>
+				<texturenofocus>OSDVolDownNF.png</texturenofocus>
+				<onleft>602</onleft>
+				<onright>604</onright>
+				<onup>1000</onup>
+				<ondown>1000</ondown>
+				<onclick>$VAR[VolumeStepDown]</onclick>
+				<onclick>VolumeDown</onclick>
+				<visible>!Skin.HasSetting(DisableFloorVolumeButtons)</visible>
+			</control>
+			<control type="button" id="604">
+				<posx>200</posx>
+				<posy>0</posy>
+				<width>50</width>
+				<height>50</height>
+				<label>210</label>
+				<font>-</font>
+				<texturefocus>OSDPrevTrackFO.png</texturefocus>
+				<texturenofocus>OSDPrevTrackNF.png</texturenofocus>
+				<onleft>603</onleft>
+				<onright>605</onright>
+				<onup>1000</onup>
+				<ondown>1000</ondown>
+				<onclick>PlayerControl(Previous)</onclick>
+			</control>
+			<control type="button" id="605">
+				<posx>250</posx>
 				<posy>0</posy>
 				<width>50</width>
 				<height>50</height>
@@ -133,14 +167,14 @@
 				<font>-</font>
 				<texturefocus>OSDRewindFO.png</texturefocus>
 				<texturenofocus>OSDRewindNF.png</texturenofocus>
-				<onleft>602</onleft>
-				<onright>604</onright>
+				<onleft>604</onleft>
+				<onright>606</onright>
 				<onup>1000</onup>
 				<ondown>1000</ondown>
 				<onclick>PlayerControl(Rewind)</onclick>
 			</control>
-			<control type="togglebutton" id="604">
-				<posx>200</posx>
+			<control type="togglebutton" id="606">
+				<posx>300</posx>
 				<posy>0</posy>
 				<width>50</width>
 				<height>50</height>
@@ -152,14 +186,14 @@
 				<usealttexture>Player.Paused | Player.Forwarding | Player.Rewinding</usealttexture>
 				<alttexturefocus>OSDPlayFO.png</alttexturefocus>
 				<alttexturenofocus>OSDPlayNF.png</alttexturenofocus>
-				<onleft>603</onleft>
-				<onright>605</onright>
+				<onleft>605</onleft>
+				<onright>607</onright>
 				<onup>1000</onup>
 				<ondown>1000</ondown>
 				<onclick>PlayerControl(Play)</onclick>
 			</control>
-			<control type="button" id="605">
-				<posx>250</posx>
+			<control type="button" id="607">
+				<posx>350</posx>
 				<posy>0</posy>
 				<width>50</width>
 				<height>50</height>
@@ -167,14 +201,14 @@
 				<font>-</font>
 				<texturefocus>OSDStopFO.png</texturefocus>
 				<texturenofocus>OSDStopNF.png</texturenofocus>
-				<onleft>604</onleft>
-				<onright>606</onright>
+				<onleft>606</onleft>
+				<onright>608</onright>
 				<onup>1000</onup>
 				<ondown>1000</ondown>
 				<onclick>PlayerControl(Stop)</onclick>
 			</control>
-			<control type="button" id="606">
-				<posx>300</posx>
+			<control type="button" id="608">
+				<posx>400</posx>
 				<posy>0</posy>
 				<width>50</width>
 				<height>50</height>
@@ -182,14 +216,14 @@
 				<font>-</font>
 				<texturefocus>OSDForwardFO.png</texturefocus>
 				<texturenofocus>OSDForwardNF.png</texturenofocus>
-				<onleft>605</onleft>
-				<onright>607</onright>
+				<onleft>607</onleft>
+				<onright>609</onright>
 				<onup>1000</onup>
 				<ondown>1000</ondown>
 				<onclick>PlayerControl(Forward)</onclick>
 			</control>
-			<control type="button" id="607">
-				<posx>350</posx>
+			<control type="button" id="609">
+				<posx>450</posx>
 				<posy>0</posy>
 				<width>50</width>
 				<height>50</height>
@@ -197,14 +231,14 @@
 				<font>-</font>
 				<texturefocus>OSDNextTrackFO.png</texturefocus>
 				<texturenofocus>OSDNextTrackNF.png</texturenofocus>
-				<onleft>606</onleft>
-				<onright>608</onright>
+				<onleft>608</onleft>
+				<onright>610</onright>
 				<onup>1000</onup>
 				<ondown>1000</ondown>
 				<onclick>PlayerControl(Next)</onclick>
 			</control>
-			<control type="button" id="608">
-				<posx>400</posx>
+			<control type="button" id="610">
+				<posx>500</posx>
 				<posy>0</posy>
 				<width>50</width>
 				<height>50</height>
@@ -213,67 +247,67 @@
 				<texturefocus>-</texturefocus>
 				<texturenofocus>-</texturenofocus>
 				<onclick>XBMC.PlayerControl(Repeat)</onclick>
-				<onleft>607</onleft>
-				<onright>609</onright>
+				<onleft>609</onleft>
+				<onright>611</onright>
 				<onup>1000</onup>
 				<ondown>1000</ondown>
 			</control>
 			<control type="image">
-				<posx>400</posx>
+				<posx>500</posx>
 				<posy>0</posy>
 				<width>50</width>
 				<height>50</height>
 				<texture>OSDRepeatNF.png</texture>
 				<visible>!Playlist.IsRepeat + !Playlist.IsRepeatOne</visible>
-				<visible>!Control.HasFocus(608)</visible>
+				<visible>!Control.HasFocus(610)</visible>
 			</control>
 			<control type="image">
-				<posx>400</posx>
+				<posx>500</posx>
 				<posy>0</posy>
 				<width>50</width>
 				<height>50</height>
 				<texture>OSDRepeatFO.png</texture>
 				<visible>!Playlist.IsRepeat + !Playlist.IsRepeatOne</visible>
-				<visible>Control.HasFocus(608)</visible>
+				<visible>Control.HasFocus(610)</visible>
 			</control>
 			<control type="image">
-				<posx>400</posx>
+				<posx>500</posx>
 				<posy>0</posy>
 				<width>50</width>
 				<height>50</height>
 				<texture>OSDRepeatOneNF.png</texture>
 				<visible>Playlist.IsRepeatOne</visible>
-				<visible>!Control.HasFocus(608)</visible>
+				<visible>!Control.HasFocus(610)</visible>
 			</control>
 			<control type="image">
-				<posx>400</posx>
+				<posx>500</posx>
 				<posy>0</posy>
 				<width>50</width>
 				<height>50</height>
 				<texture>OSDRepeatOneFO.png</texture>
 				<visible>Playlist.IsRepeatOne</visible>
-				<visible>Control.HasFocus(608)</visible>
+				<visible>Control.HasFocus(610)</visible>
 			</control>
 			<control type="image">
-				<posx>400</posx>
+				<posx>500</posx>
 				<posy>0</posy>
 				<width>50</width>
 				<height>50</height>
 				<texture>OSDRepeatAllNF.png</texture>
 				<visible>Playlist.IsRepeat</visible>
-				<visible>!Control.HasFocus(608)</visible>
+				<visible>!Control.HasFocus(610)</visible>
 			</control>
 			<control type="image">
-				<posx>400</posx>
+				<posx>500</posx>
 				<posy>0</posy>
 				<width>50</width>
 				<height>50</height>
 				<texture>OSDRepeatAllFO.png</texture>
 				<visible>Playlist.IsRepeat</visible>
-				<visible>Control.HasFocus(608)</visible>
+				<visible>Control.HasFocus(610)</visible>
 			</control>
-			<control type="togglebutton" id="609">
-				<posx>450</posx>
+			<control type="togglebutton" id="611">
+				<posx>550</posx>
 				<posy>0</posy>
 				<width>50</width>
 				<height>50</height>
@@ -285,44 +319,10 @@
 				<alttexturefocus>OSDRandomOnFO.png</alttexturefocus>
 				<alttexturenofocus>OSDRandomOnNF.png</alttexturenofocus>
 				<onclick>XBMC.PlayerControl(Random)</onclick>
-				<onleft>608</onleft>
-				<onright>610</onright>
-				<onup>1000</onup>
-				<ondown>1000</ondown>
-			</control>
-			<control type="button" id="610">
-				<posx>500</posx>
-				<posy>0</posy>
-				<width>50</width>
-				<height>50</height>
-				<label>210</label>
-				<font>-</font>
-				<texturefocus>OSDVolUpFO.png</texturefocus>
-				<texturenofocus>OSDVolUpNF.png</texturenofocus>
-				<onleft>609</onleft>
-				<onright>611</onright>
-				<onup>1000</onup>
-				<ondown>1000</ondown>
-				<onclick>$VAR[VolumeStepUp]</onclick>
-				<onclick>VolumeUp</onclick>
-				<visible>!Skin.HasSetting(DisableFloorVolumeButtons)</visible>
-			</control>
-			<control type="button" id="611">
-				<posx>550</posx>
-				<posy>0</posy>
-				<width>50</width>
-				<height>50</height>
-				<label>210</label>
-				<font>-</font>
-				<texturefocus>OSDVolDownFO.png</texturefocus>
-				<texturenofocus>OSDVolDownNF.png</texturenofocus>
 				<onleft>610</onleft>
 				<onright>612</onright>
 				<onup>1000</onup>
 				<ondown>1000</ondown>
-				<onclick>$VAR[VolumeStepDown]</onclick>
-				<onclick>VolumeDown</onclick>
-				<visible>!Skin.HasSetting(DisableFloorVolumeButtons)</visible>
 			</control>
 			<control type="button" id="612">
 				<posx>610</posx>
