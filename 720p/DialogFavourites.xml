@@ -18,57 +18,57 @@
 				<texture border="15,0,0,0" flipx="true">HomeBladeSub.png</texture>
 			</control>
 			<control type="group">
-			<control type="button" id="61">
-				<description>Back push button</description>
-				<posx>100r</posx>
-				<posy>50r</posy>
-				<width>45</width>
-				<height>45</height>
-				<label>1036</label>
-				<font>-</font>
-				<onclick>PreviousMenu</onclick>
-				<texturefocus border="5">floor_buttonFO.png</texturefocus>
-				<texturenofocus border="5">floor_button.png</texturenofocus>
-				<onleft>450</onleft>
-				<onright>62</onright>
-				<onup>450</onup>
-				<ondown>450</ondown>
-			</control>
-			<control type="image">
-				<description>Back Icon</description>
-				<posx>95r</posx>
-				<posy>45r</posy>
-				<width>35</width>
-				<height>35</height>
-				<aspectratio>keep</aspectratio>
-				<texture>icon_back.png</texture>
-			</control>			
-			<control type="button" id="62">
-				<description>Home push button</description>
-				<posx>55r</posx>
-				<posy>50r</posy>
-				<width>45</width>
-				<height>45</height>
-				<label>31003</label>
-				<font>-</font>
-				<onclick>PreviousMenu</onclick>
-				<texturefocus border="5">floor_buttonFO.png</texturefocus>
-				<texturenofocus border="5">floor_button.png</texturenofocus>
-				<onleft>61</onleft>
-				<onright>450</onright>
-				<onup>450</onup>
-				<ondown>450</ondown>
-			</control>
-			<control type="image">
-				<description>Home Icon</description>
-				<posx>50r</posx>
-				<posy>45r</posy>
-				<width>35</width>
-				<height>35</height>
-				<aspectratio>keep</aspectratio>
-				<texture>icon_home.png</texture>
-			</control>
-			<visible>!Skin.HasSetting(DisableHomeReturnButtons)</visible>
+				<control type="button" id="61">
+					<description>Back push button</description>
+					<posx>100r</posx>
+					<posy>50r</posy>
+					<width>45</width>
+					<height>45</height>
+					<label>1036</label>
+					<font>-</font>
+					<onclick>PreviousMenu</onclick>
+					<texturefocus border="5">floor_buttonFO.png</texturefocus>
+					<texturenofocus border="5">floor_button.png</texturenofocus>
+					<onleft>450</onleft>
+					<onright>62</onright>
+					<onup>450</onup>
+					<ondown>450</ondown>
+				</control>
+				<control type="image">
+					<description>Back Icon</description>
+					<posx>95r</posx>
+					<posy>45r</posy>
+					<width>35</width>
+					<height>35</height>
+					<aspectratio>keep</aspectratio>
+					<texture>icon_back.png</texture>
+				</control>
+				<control type="button" id="62">
+					<description>Home push button</description>
+					<posx>55r</posx>
+					<posy>50r</posy>
+					<width>45</width>
+					<height>45</height>
+					<label>31003</label>
+					<font>-</font>
+					<onclick>PreviousMenu</onclick>
+					<texturefocus border="5">floor_buttonFO.png</texturefocus>
+					<texturenofocus border="5">floor_button.png</texturenofocus>
+					<onleft>61</onleft>
+					<onright>450</onright>
+					<onup>450</onup>
+					<ondown>450</ondown>
+				</control>
+				<control type="image">
+					<description>Home Icon</description>
+					<posx>50r</posx>
+					<posy>45r</posy>
+					<width>35</width>
+					<height>35</height>
+					<aspectratio>keep</aspectratio>
+					<texture>icon_home.png</texture>
+				</control>
+				<visible>!Skin.HasSetting(DisableHomeReturnButtons)</visible>
 			</control>
 			<control type="label">
 				<posx>380r</posx>

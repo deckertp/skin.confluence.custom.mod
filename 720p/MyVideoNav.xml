@@ -291,7 +291,7 @@
 					<label>31077</label>
 					<onclick>RunScript(script.trakt,action=contextmenu)</onclick>
 					<visible>System.HasAddon(plugin.video.trakt_list_manager)</visible>
-				</control>					
+				</control>
 				<include>CommonNowPlaying_Controls</include>
 			</control>
 		</control>

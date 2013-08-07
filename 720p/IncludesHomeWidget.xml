@@ -5,7 +5,7 @@
 			<onup>21</onup>
 			<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
 			<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
-			<animation effect="fade" start="100" end="65" time="200" condition="Window.IsVisible(2123) | Window.IsVisible(2124) | Window.IsVisible(2125) | Window.IsVisible(Favourites)">conditional</animation>			
+			<animation effect="fade" start="100" end="65" time="200" condition="Window.IsVisible(2123) | Window.IsVisible(2124) | Window.IsVisible(2125) | Window.IsVisible(Favourites)">conditional</animation>
 			<include>VisibleFadeEffect</include>
 			<animation effect="fade" time="300" delay="1000">WindowOpen</animation>
 			<animation effect="fade" time="200">WindowClose</animation>
@@ -42,7 +42,7 @@
 					<onright>8000</onright>
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
-			<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -194,7 +194,7 @@
 					<onright>8001</onright>
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
-			<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -433,7 +433,7 @@
 					<onright>8002</onright>
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
-			<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -615,7 +615,7 @@
 					<onright>8003</onright>
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
-			<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -768,7 +768,7 @@
 					<onright>8004</onright>
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
-			<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -920,7 +920,7 @@
 					<onright>8005</onright>
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
-			<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -1159,7 +1159,7 @@
 					<onright>8006</onright>
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
-			<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -1341,7 +1341,7 @@
 					<onright>8007</onright>
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
-			<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -1494,7 +1494,7 @@
 					<onright>8008</onright>
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
-			<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -1646,7 +1646,7 @@
 					<onright>8009</onright>
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
-			<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -1885,7 +1885,7 @@
 					<onright>8010</onright>
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
-			<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -2067,7 +2067,7 @@
 					<onright>8011</onright>
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
-			<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -2237,7 +2237,7 @@
 					<onright>8012</onright>
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
-			<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -2259,7 +2259,7 @@
 					<onright>8012</onright>
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
-			<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -2281,7 +2281,7 @@
 					<onright>8012</onright>
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
-			<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -2303,7 +2303,7 @@
 					<onright>8012</onright>
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
-			<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -2325,7 +2325,7 @@
 					<onright>8012</onright>
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
-			<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -2347,7 +2347,7 @@
 					<onright>8012</onright>
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
-			<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -2369,7 +2369,7 @@
 					<onright>8012</onright>
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
-			<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -2391,7 +2391,7 @@
 					<onright>8012</onright>
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
-			<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -2413,7 +2413,7 @@
 					<onright>8012</onright>
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
-			<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -2435,7 +2435,7 @@
 					<onright>8012</onright>
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
-			<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -2517,7 +2517,7 @@
 					<onright>8013</onright>
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
-			<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -2540,7 +2540,7 @@
 					<onright>8013</onright>
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
-			<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -2563,7 +2563,7 @@
 					<onright>8013</onright>
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
-			<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -2586,7 +2586,7 @@
 					<onright>8013</onright>
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
-			<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -2609,7 +2609,7 @@
 					<onright>8013</onright>
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
-			<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -2632,7 +2632,7 @@
 					<onright>8013</onright>
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
-			<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -2655,7 +2655,7 @@
 					<onright>8013</onright>
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
-			<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -2678,7 +2678,7 @@
 					<onright>8013</onright>
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
-			<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -2701,7 +2701,7 @@
 					<onright>8013</onright>
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
-			<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -2724,7 +2724,7 @@
 					<onright>8013</onright>
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
-			<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -2793,7 +2793,7 @@
 					<onright>8014</onright>
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
-			<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -2945,7 +2945,7 @@
 					<onright>8015</onright>
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
-			<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -3130,7 +3130,7 @@
 					<onright>8016</onright>
 					<onup>21</onup>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
-			<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
+					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>200</scrolltime>
@@ -3794,8 +3794,8 @@
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecommendedMovie.1.File)])</onclick>
 				<icon>$INFO[Window(Home).Property(RecommendedMovie.1.Art(poster))]</icon>
 				<thumb>$INFO[Window(Home).Property(RecommendedMovie.1.Art(fanart))]</thumb>
+				<property name="Logo">$INFO[Window(Home).Property(RecommendedMovie.1.Art(clearlogo))]</property>
 				<property name="PercentPlayed">$INFO[Window(Home).Property(RecommendedMovie.1.PercentPlayed)]</property>
-				<property name="Watched">$INFO[Window(Home).Property(RecommendedMovie.1.Watched)]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecommendedMovie.1.Title))</visible>
 			</item>
 			<item id="2">
@@ -3806,8 +3806,8 @@
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecommendedMovie.2.File)])</onclick>
 				<icon>$INFO[Window(Home).Property(RecommendedMovie.2.Art(poster))]</icon>
 				<thumb>$INFO[Window(Home).Property(RecommendedMovie.2.Art(fanart))]</thumb>
+				<property name="Logo">$INFO[Window(Home).Property(RecommendedMovie.2.Art(clearlogo))]</property>
 				<property name="PercentPlayed">$INFO[Window(Home).Property(RecommendedMovie.2.PercentPlayed)]</property>
-				<property name="Watched">$INFO[Window(Home).Property(RecommendedMovie.2.Watched)]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecommendedMovie.2.Title))</visible>
 			</item>
 			<item id="3">
@@ -3818,8 +3818,8 @@
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecommendedMovie.3.File)])</onclick>
 				<icon>$INFO[Window(Home).Property(RecommendedMovie.3.Art(poster))]</icon>
 				<thumb>$INFO[Window(Home).Property(RecommendedMovie.3.Art(fanart))]</thumb>
+				<property name="Logo">$INFO[Window(Home).Property(RecommendedMovie.3.Art(clearlogo))]</property>
 				<property name="PercentPlayed">$INFO[Window(Home).Property(RecommendedMovie.3.PercentPlayed)]</property>
-				<property name="Watched">$INFO[Window(Home).Property(RecommendedMovie.3.Watched)]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecommendedMovie.3.Title))</visible>
 			</item>
 			<item id="4">
@@ -3830,8 +3830,8 @@
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecommendedMovie.4.File)])</onclick>
 				<icon>$INFO[Window(Home).Property(RecommendedMovie.4.Art(poster))]</icon>
 				<thumb>$INFO[Window(Home).Property(RecommendedMovie.4.Art(fanart))]</thumb>
+				<property name="Logo">$INFO[Window(Home).Property(RecommendedMovie.4.Art(clearlogo))]</property>
 				<property name="PercentPlayed">$INFO[Window(Home).Property(RecommendedMovie.4.PercentPlayed)]</property>
-				<property name="Watched">$INFO[Window(Home).Property(RecommendedMovie.4.Watched)]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecommendedMovie.4.Title))</visible>
 			</item>
 			<item id="5">
@@ -3842,8 +3842,8 @@
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecommendedMovie.5.File)])</onclick>
 				<icon>$INFO[Window(Home).Property(RecommendedMovie.5.Art(poster))]</icon>
 				<thumb>$INFO[Window(Home).Property(RecommendedMovie.5.Art(fanart))]</thumb>
+				<property name="Logo">$INFO[Window(Home).Property(RecommendedMovie.5.Art(clearlogo))]</property>
 				<property name="PercentPlayed">$INFO[Window(Home).Property(RecommendedMovie.5.PercentPlayed)]</property>
-				<property name="Watched">$INFO[Window(Home).Property(RecommendedMovie.5.Watched)]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecommendedMovie.5.Title))</visible>
 			</item>
 			<item id="6">
@@ -3854,8 +3854,8 @@
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecommendedMovie.6.File)])</onclick>
 				<icon>$INFO[Window(Home).Property(RecommendedMovie.6.Art(poster))]</icon>
 				<thumb>$INFO[Window(Home).Property(RecommendedMovie.6.Art(fanart))]</thumb>
+				<property name="Logo">$INFO[Window(Home).Property(RecommendedMovie.6.Art(clearlogo))]</property>
 				<property name="PercentPlayed">$INFO[Window(Home).Property(RecommendedMovie.6.PercentPlayed)]</property>
-				<property name="Watched">$INFO[Window(Home).Property(RecommendedMovie.6.Watched)]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecommendedMovie.6.Title))</visible>
 			</item>
 			<item id="7">
@@ -3866,8 +3866,8 @@
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecommendedMovie.7.File)])</onclick>
 				<icon>$INFO[Window(Home).Property(RecommendedMovie.7.Art(poster))]</icon>
 				<thumb>$INFO[Window(Home).Property(RecommendedMovie.7.Art(fanart))]</thumb>
+				<property name="Logo">$INFO[Window(Home).Property(RecommendedMovie.7.Art(clearlogo))]</property>
 				<property name="PercentPlayed">$INFO[Window(Home).Property(RecommendedMovie.7.PercentPlayed)]</property>
-				<property name="Watched">$INFO[Window(Home).Property(RecommendedMovie.7.Watched)]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecommendedMovie.7.Title))</visible>
 			</item>
 			<item id="8">
@@ -3878,8 +3878,8 @@
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecommendedMovie.8.File)])</onclick>
 				<icon>$INFO[Window(Home).Property(RecommendedMovie.8.Art(poster))]</icon>
 				<thumb>$INFO[Window(Home).Property(RecommendedMovie.8.Art(fanart))]</thumb>
+				<property name="Logo">$INFO[Window(Home).Property(RecommendedMovie.8.Art(clearlogo))]</property>
 				<property name="PercentPlayed">$INFO[Window(Home).Property(RecommendedMovie.8.PercentPlayed)]</property>
-				<property name="Watched">$INFO[Window(Home).Property(RecommendedMovie.8.Watched)]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecommendedMovie.8.Title))</visible>
 			</item>
 			<item id="9">
@@ -3890,8 +3890,8 @@
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecommendedMovie.9.File)])</onclick>
 				<icon>$INFO[Window(Home).Property(RecommendedMovie.9.Art(poster))]</icon>
 				<thumb>$INFO[Window(Home).Property(RecommendedMovie.9.Art(fanart))]</thumb>
+				<property name="Logo">$INFO[Window(Home).Property(RecommendedMovie.9.Art(clearlogo))]</property>
 				<property name="PercentPlayed">$INFO[Window(Home).Property(RecommendedMovie.9.PercentPlayed)]</property>
-				<property name="Watched">$INFO[Window(Home).Property(RecommendedMovie.9.Watched)]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecommendedMovie.9.Title))</visible>
 			</item>
 			<item id="10">
@@ -3902,8 +3902,8 @@
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecommendedMovie.10.File)])</onclick>
 				<icon>$INFO[Window(Home).Property(RecommendedMovie.10.Art(poster))]</icon>
 				<thumb>$INFO[Window(Home).Property(RecommendedMovie.10.Art(fanart))]</thumb>
+				<property name="Logo">$INFO[Window(Home).Property(RecommendedMovie.10.Art(clearlogo))]</property>
 				<property name="PercentPlayed">$INFO[Window(Home).Property(RecommendedMovie.10.PercentPlayed)]</property>
-				<property name="Watched">$INFO[Window(Home).Property(RecommendedMovie.10.Watched)]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecommendedMovie.10.Title))</visible>
 			</item>
 			<item id="11">
@@ -3914,8 +3914,8 @@
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecommendedMovie.11.File)])</onclick>
 				<icon>$INFO[Window(Home).Property(RecommendedMovie.11.Art(poster))]</icon>
 				<thumb>$INFO[Window(Home).Property(RecommendedMovie.11.Art(fanart))]</thumb>
+				<property name="Logo">$INFO[Window(Home).Property(RecommendedMovie.11.Art(clearlogo))]</property>
 				<property name="PercentPlayed">$INFO[Window(Home).Property(RecommendedMovie.11.PercentPlayed)]</property>
-				<property name="Watched">$INFO[Window(Home).Property(RecommendedMovie.11.Watched)]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecommendedMovie.11.Title))</visible>
 			</item>
 			<item id="12">
@@ -3926,8 +3926,8 @@
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecommendedMovie.12.File)])</onclick>
 				<icon>$INFO[Window(Home).Property(RecommendedMovie.12.Art(poster))]</icon>
 				<thumb>$INFO[Window(Home).Property(RecommendedMovie.12.Art(fanart))]</thumb>
+				<property name="Logo">$INFO[Window(Home).Property(RecommendedMovie.12.Art(clearlogo))]</property>
 				<property name="PercentPlayed">$INFO[Window(Home).Property(RecommendedMovie.12.PercentPlayed)]</property>
-				<property name="Watched">$INFO[Window(Home).Property(RecommendedMovie.12.Watched)]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecommendedMovie.12.Title))</visible>
 			</item>
 			<item id="13">
@@ -3938,8 +3938,8 @@
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecommendedMovie.13.File)])</onclick>
 				<icon>$INFO[Window(Home).Property(RecommendedMovie.13.Art(poster))]</icon>
 				<thumb>$INFO[Window(Home).Property(RecommendedMovie.13.Art(fanart))]</thumb>
+				<property name="Logo">$INFO[Window(Home).Property(RecommendedMovie.13.Art(clearlogo))]</property>
 				<property name="PercentPlayed">$INFO[Window(Home).Property(RecommendedMovie.13.PercentPlayed)]</property>
-				<property name="Watched">$INFO[Window(Home).Property(RecommendedMovie.13.Watched)]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecommendedMovie.13.Title))</visible>
 			</item>
 			<item id="14">
@@ -3950,8 +3950,8 @@
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecommendedMovie.14.File)])</onclick>
 				<icon>$INFO[Window(Home).Property(RecommendedMovie.14.Art(poster))]</icon>
 				<thumb>$INFO[Window(Home).Property(RecommendedMovie.14.Art(fanart))]</thumb>
+				<property name="Logo">$INFO[Window(Home).Property(RecommendedMovie.14.Art(clearlogo))]</property>
 				<property name="PercentPlayed">$INFO[Window(Home).Property(RecommendedMovie.14.PercentPlayed)]</property>
-				<property name="Watched">$INFO[Window(Home).Property(RecommendedMovie.14.Watched)]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecommendedMovie.14.Title))</visible>
 			</item>
 			<item id="15">
@@ -3962,8 +3962,8 @@
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecommendedMovie.15.File)])</onclick>
 				<icon>$INFO[Window(Home).Property(RecommendedMovie.15.Art(poster))]</icon>
 				<thumb>$INFO[Window(Home).Property(RecommendedMovie.15.Art(fanart))]</thumb>
+				<property name="Logo">$INFO[Window(Home).Property(RecommendedMovie.15.Art(clearlogo))]</property>
 				<property name="PercentPlayed">$INFO[Window(Home).Property(RecommendedMovie.15.PercentPlayed)]</property>
-				<property name="Watched">$INFO[Window(Home).Property(RecommendedMovie.15.Watched)]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecommendedMovie.15.Title))</visible>
 			</item>
 			<item id="16">
@@ -3974,8 +3974,8 @@
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecommendedMovie.16.File)])</onclick>
 				<icon>$INFO[Window(Home).Property(RecommendedMovie.16.Art(poster))]</icon>
 				<thumb>$INFO[Window(Home).Property(RecommendedMovie.16.Art(fanart))]</thumb>
+				<property name="Logo">$INFO[Window(Home).Property(RecommendedMovie.16.Art(clearlogo))]</property>
 				<property name="PercentPlayed">$INFO[Window(Home).Property(RecommendedMovie.16.PercentPlayed)]</property>
-				<property name="Watched">$INFO[Window(Home).Property(RecommendedMovie.16.Watched)]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecommendedMovie.16.Title))</visible>
 			</item>
 			<item id="17">
@@ -3986,8 +3986,8 @@
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecommendedMovie.17.File)])</onclick>
 				<icon>$INFO[Window(Home).Property(RecommendedMovie.17.Art(poster))]</icon>
 				<thumb>$INFO[Window(Home).Property(RecommendedMovie.17.Art(fanart))]</thumb>
+				<property name="Logo">$INFO[Window(Home).Property(RecommendedMovie.17.Art(clearlogo))]</property>
 				<property name="PercentPlayed">$INFO[Window(Home).Property(RecommendedMovie.17.PercentPlayed)]</property>
-				<property name="Watched">$INFO[Window(Home).Property(RecommendedMovie.17.Watched)]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecommendedMovie.17.Title))</visible>
 			</item>
 			<item id="18">
@@ -3998,8 +3998,8 @@
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecommendedMovie.18.File)])</onclick>
 				<icon>$INFO[Window(Home).Property(RecommendedMovie.18.Art(poster))]</icon>
 				<thumb>$INFO[Window(Home).Property(RecommendedMovie.18.Art(fanart))]</thumb>
+				<property name="Logo">$INFO[Window(Home).Property(RecommendedMovie.18.Art(clearlogo))]</property>
 				<property name="PercentPlayed">$INFO[Window(Home).Property(RecommendedMovie.18.PercentPlayed)]</property>
-				<property name="Watched">$INFO[Window(Home).Property(RecommendedMovie.18.Watched)]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecommendedMovie.18.Title))</visible>
 			</item>
 			<item id="19">
@@ -4010,8 +4010,8 @@
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecommendedMovie.19.File)])</onclick>
 				<icon>$INFO[Window(Home).Property(RecommendedMovie.19.Art(poster))]</icon>
 				<thumb>$INFO[Window(Home).Property(RecommendedMovie.19.Art(fanart))]</thumb>
+				<property name="Logo">$INFO[Window(Home).Property(RecommendedMovie.19.Art(clearlogo))]</property>
 				<property name="PercentPlayed">$INFO[Window(Home).Property(RecommendedMovie.19.PercentPlayed)]</property>
-				<property name="Watched">$INFO[Window(Home).Property(RecommendedMovie.19.Watched)]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecommendedMovie.19.Title))</visible>
 			</item>
 			<item id="20">
@@ -4022,11 +4022,11 @@
 				<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecommendedMovie.20.File)])</onclick>
 				<icon>$INFO[Window(Home).Property(RecommendedMovie.20.Art(poster))]</icon>
 				<thumb>$INFO[Window(Home).Property(RecommendedMovie.20.Art(fanart))]</thumb>
+				<property name="Logo">$INFO[Window(Home).Property(RecommendedMovie.20.Art(clearlogo))]</property>
 				<property name="PercentPlayed">$INFO[Window(Home).Property(RecommendedMovie.20.PercentPlayed)]</property>
-				<property name="Watched">$INFO[Window(Home).Property(RecommendedMovie.20.Watched)]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecommendedMovie.20.Title))</visible>
 			</item>
-<item id="21">
+			<item id="21">
 				<label>$INFO[Window.Property(LatestMovie.1.Title)]</label>
 				<label2></label2>
 				<onclick>PlayList.Clear</onclick>
@@ -4347,6 +4347,7 @@
 				<thumb>$INFO[Window(Home).Property(RecommendedEpisode.1.Art(tvshow.fanart))]</thumb>
 				<icon>$INFO[Window(Home).Property(RecommendedEpisode.1.Art(thumb))]</icon>
 				<property name="Logo">$INFO[Window(Home).Property(RecommendedEpisode.1.Art(tvshow.clearlogo))]</property>
+				<property name="PercentPlayed">$INFO[Window(Home).Property(RecommendedEpisode.1.PercentPlayed)]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecommendedEpisode.1.TVshowTitle))</visible>
 			</item>
 			<item id="2">
@@ -4358,6 +4359,7 @@
 				<thumb>$INFO[Window(Home).Property(RecommendedEpisode.2.Art(tvshow.fanart))]</thumb>
 				<icon>$INFO[Window(Home).Property(RecommendedEpisode.2.Art(thumb))]</icon>
 				<property name="Logo">$INFO[Window(Home).Property(RecommendedEpisode.2.Art(tvshow.clearlogo))]</property>
+				<property name="PercentPlayed">$INFO[Window(Home).Property(RecommendedEpisode.2.PercentPlayed)]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecommendedEpisode.2.TVshowTitle))</visible>
 			</item>
 			<item id="3">
@@ -4369,6 +4371,7 @@
 				<thumb>$INFO[Window(Home).Property(RecommendedEpisode.3.Art(tvshow.fanart))]</thumb>
 				<icon>$INFO[Window(Home).Property(RecommendedEpisode.3.Art(thumb))]</icon>
 				<property name="Logo">$INFO[Window(Home).Property(RecommendedEpisode.3.Art(tvshow.clearlogo))]</property>
+				<property name="PercentPlayed">$INFO[Window(Home).Property(RecommendedEpisode.3.PercentPlayed)]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecommendedEpisode.3.TVshowTitle))</visible>
 			</item>
 			<item id="4">
@@ -4380,6 +4383,7 @@
 				<thumb>$INFO[Window(Home).Property(RecommendedEpisode.4.Art(tvshow.fanart))]</thumb>
 				<icon>$INFO[Window(Home).Property(RecommendedEpisode.4.Art(thumb))]</icon>
 				<property name="Logo">$INFO[Window(Home).Property(RecommendedEpisode.4.Art(tvshow.clearlogo))]</property>
+				<property name="PercentPlayed">$INFO[Window(Home).Property(RecommendedEpisode.4.PercentPlayed)]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecommendedEpisode.4.TVshowTitle))</visible>
 			</item>
 			<item id="5">
@@ -4391,6 +4395,7 @@
 				<thumb>$INFO[Window(Home).Property(RecommendedEpisode.5.Art(tvshow.fanart))]</thumb>
 				<icon>$INFO[Window(Home).Property(RecommendedEpisode.5.Art(thumb))]</icon>
 				<property name="Logo">$INFO[Window(Home).Property(RecommendedEpisode.5.Art(tvshow.clearlogo))]</property>
+				<property name="PercentPlayed">$INFO[Window(Home).Property(RecommendedEpisode.5.PercentPlayed)]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecommendedEpisode.5.TVshowTitle))</visible>
 			</item>
 			<item id="6">
@@ -4402,6 +4407,7 @@
 				<thumb>$INFO[Window(Home).Property(RecommendedEpisode.6.Art(tvshow.fanart))]</thumb>
 				<icon>$INFO[Window(Home).Property(RecommendedEpisode.6.Art(thumb))]</icon>
 				<property name="Logo">$INFO[Window(Home).Property(RecommendedEpisode.6.Art(tvshow.clearlogo))]</property>
+				<property name="PercentPlayed">$INFO[Window(Home).Property(RecommendedEpisode.6.PercentPlayed)]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecommendedEpisode.6.TVshowTitle))</visible>
 			</item>
 			<item id="7">
@@ -4413,6 +4419,7 @@
 				<thumb>$INFO[Window(Home).Property(RecommendedEpisode.7.Art(tvshow.fanart))]</thumb>
 				<icon>$INFO[Window(Home).Property(RecommendedEpisode.7.Art(thumb))]</icon>
 				<property name="Logo">$INFO[Window(Home).Property(RecommendedEpisode.7.Art(tvshow.clearlogo))]</property>
+				<property name="PercentPlayed">$INFO[Window(Home).Property(RecommendedEpisode.7.PercentPlayed)]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecommendedEpisode.7.TVshowTitle))</visible>
 			</item>
 			<item id="8">
@@ -4424,6 +4431,7 @@
 				<thumb>$INFO[Window(Home).Property(RecommendedEpisode.8.Art(tvshow.fanart))]</thumb>
 				<icon>$INFO[Window(Home).Property(RecommendedEpisode.8.Art(thumb))]</icon>
 				<property name="Logo">$INFO[Window(Home).Property(RecommendedEpisode.8.Art(tvshow.clearlogo))]</property>
+				<property name="PercentPlayed">$INFO[Window(Home).Property(RecommendedEpisode.8.PercentPlayed)]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecommendedEpisode.8.TVshowTitle))</visible>
 			</item>
 			<item id="9">
@@ -4435,6 +4443,7 @@
 				<thumb>$INFO[Window(Home).Property(RecommendedEpisode.9.Art(tvshow.fanart))]</thumb>
 				<icon>$INFO[Window(Home).Property(RecommendedEpisode.9.Art(thumb))]</icon>
 				<property name="Logo">$INFO[Window(Home).Property(RecommendedEpisode.9.Art(tvshow.clearlogo))]</property>
+				<property name="PercentPlayed">$INFO[Window(Home).Property(RecommendedEpisode.9.PercentPlayed)]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecommendedEpisode.9.TVshowTitle))</visible>
 			</item>
 			<item id="10">
@@ -4446,6 +4455,7 @@
 				<thumb>$INFO[Window(Home).Property(RecommendedEpisode.10.Art(tvshow.fanart))]</thumb>
 				<icon>$INFO[Window(Home).Property(RecommendedEpisode.10.Art(thumb))]</icon>
 				<property name="Logo">$INFO[Window(Home).Property(RecommendedEpisode.10.Art(tvshow.clearlogo))]</property>
+				<property name="PercentPlayed">$INFO[Window(Home).Property(RecommendedEpisode.10.PercentPlayed)]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecommendedEpisode.10.TVshowTitle))</visible>
 			</item>
 			<item id="11">
@@ -4457,6 +4467,7 @@
 				<thumb>$INFO[Window(Home).Property(RecommendedEpisode.11.Art(tvshow.fanart))]</thumb>
 				<icon>$INFO[Window(Home).Property(RecommendedEpisode.11.Art(thumb))]</icon>
 				<property name="Logo">$INFO[Window(Home).Property(RecommendedEpisode.11.Art(tvshow.clearlogo))]</property>
+				<property name="PercentPlayed">$INFO[Window(Home).Property(RecommendedEpisode.11.PercentPlayed)]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecommendedEpisode.11.TVshowTitle)) + Window.IsVisible(2124)</visible>
 			</item>
 			<item id="12">
@@ -4468,6 +4479,7 @@
 				<thumb>$INFO[Window(Home).Property(RecommendedEpisode.12.Art(tvshow.fanart))]</thumb>
 				<icon>$INFO[Window(Home).Property(RecommendedEpisode.12.Art(thumb))]</icon>
 				<property name="Logo">$INFO[Window(Home).Property(RecommendedEpisode.12.Art(tvshow.clearlogo))]</property>
+				<property name="PercentPlayed">$INFO[Window(Home).Property(RecommendedEpisode.12.PercentPlayed)]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecommendedEpisode.12.TVshowTitle)) + Window.IsVisible(2124)</visible>
 			</item>
 			<item id="13">
@@ -4479,6 +4491,7 @@
 				<thumb>$INFO[Window(Home).Property(RecommendedEpisode.13.Art(tvshow.fanart))]</thumb>
 				<icon>$INFO[Window(Home).Property(RecommendedEpisode.13.Art(thumb))]</icon>
 				<property name="Logo">$INFO[Window(Home).Property(RecommendedEpisode.13.Art(tvshow.clearlogo))]</property>
+				<property name="PercentPlayed">$INFO[Window(Home).Property(RecommendedEpisode.13.PercentPlayed)]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecommendedEpisode.13.TVshowTitle)) + Window.IsVisible(2124)</visible>
 			</item>
 			<item id="14">
@@ -4490,6 +4503,7 @@
 				<thumb>$INFO[Window(Home).Property(RecommendedEpisode.14.Art(tvshow.fanart))]</thumb>
 				<icon>$INFO[Window(Home).Property(RecommendedEpisode.14.Art(thumb))]</icon>
 				<property name="Logo">$INFO[Window(Home).Property(RecommendedEpisode.14.Art(tvshow.clearlogo))]</property>
+				<property name="PercentPlayed">$INFO[Window(Home).Property(RecommendedEpisode.14.PercentPlayed)]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecommendedEpisode.14.TVshowTitle)) + Window.IsVisible(2124)</visible>
 			</item>
 			<item id="15">
@@ -4501,6 +4515,7 @@
 				<thumb>$INFO[Window(Home).Property(RecommendedEpisode.15.Art(tvshow.fanart))]</thumb>
 				<icon>$INFO[Window(Home).Property(RecommendedEpisode.15.Art(thumb))]</icon>
 				<property name="Logo">$INFO[Window(Home).Property(RecommendedEpisode.15.Art(tvshow.clearlogo))]</property>
+				<property name="PercentPlayed">$INFO[Window(Home).Property(RecommendedEpisode.15.PercentPlayed)]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecommendedEpisode.15.TVshowTitle)) + Window.IsVisible(2124)</visible>
 			</item>
 			<item id="16">
@@ -4512,6 +4527,7 @@
 				<thumb>$INFO[Window(Home).Property(RecommendedEpisode.16.Art(tvshow.fanart))]</thumb>
 				<icon>$INFO[Window(Home).Property(RecommendedEpisode.16.Art(thumb))]</icon>
 				<property name="Logo">$INFO[Window(Home).Property(RecommendedEpisode.16.Art(tvshow.clearlogo))]</property>
+				<property name="PercentPlayed">$INFO[Window(Home).Property(RecommendedEpisode.16.PercentPlayed)]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecommendedEpisode.16.TVshowTitle)) + Window.IsVisible(2124)</visible>
 			</item>
 			<item id="17">
@@ -4523,6 +4539,7 @@
 				<thumb>$INFO[Window(Home).Property(RecommendedEpisode.17.Art(tvshow.fanart))]</thumb>
 				<icon>$INFO[Window(Home).Property(RecommendedEpisode.17.Art(thumb))]</icon>
 				<property name="Logo">$INFO[Window(Home).Property(RecommendedEpisode.17.Art(tvshow.clearlogo))]</property>
+				<property name="PercentPlayed">$INFO[Window(Home).Property(RecommendedEpisode.17.PercentPlayed)]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecommendedEpisode.17.TVshowTitle)) + Window.IsVisible(2124)</visible>
 			</item>
 			<item id="18">
@@ -4534,6 +4551,7 @@
 				<thumb>$INFO[Window(Home).Property(RecommendedEpisode.18.Art(tvshow.fanart))]</thumb>
 				<icon>$INFO[Window(Home).Property(RecommendedEpisode.18.Art(thumb))]</icon>
 				<property name="Logo">$INFO[Window(Home).Property(RecommendedEpisode.18.Art(tvshow.clearlogo))]</property>
+				<property name="PercentPlayed">$INFO[Window(Home).Property(RecommendedEpisode.18.PercentPlayed)]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecommendedEpisode.18.TVshowTitle)) + Window.IsVisible(2124)</visible>
 			</item>
 			<item id="19">
@@ -4545,6 +4563,7 @@
 				<thumb>$INFO[Window(Home).Property(RecommendedEpisode.19.Art(tvshow.fanart))]</thumb>
 				<icon>$INFO[Window(Home).Property(RecommendedEpisode.19.Art(thumb))]</icon>
 				<property name="Logo">$INFO[Window(Home).Property(RecommendedEpisode.19.Art(tvshow.clearlogo))]</property>
+				<property name="PercentPlayed">$INFO[Window(Home).Property(RecommendedEpisode.19.PercentPlayed)]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecommendedEpisode.19.TVshowTitle)) + Window.IsVisible(2124)</visible>
 			</item>
 			<item id="20">
@@ -4556,6 +4575,7 @@
 				<thumb>$INFO[Window(Home).Property(RecommendedEpisode.20.Art(tvshow.fanart))]</thumb>
 				<icon>$INFO[Window(Home).Property(RecommendedEpisode.20.Art(thumb))]</icon>
 				<property name="Logo">$INFO[Window(Home).Property(RecommendedEpisode.20.Art(tvshow.clearlogo))]</property>
+				<property name="PercentPlayed">$INFO[Window(Home).Property(RecommendedEpisode.20.PercentPlayed)]</property>
 				<visible>!IsEmpty(Window(Home).Property(RecommendedEpisode.20.TVshowTitle)) + Window.IsVisible(2124)</visible>
 			</item>
 			<item id="21">
@@ -4568,7 +4588,7 @@
 				<thumb>$INFO[Window(Home).Property(RecentEpisode.1.Art(tvshow.fanart))]</thumb>
 				<property name="Logo">$INFO[Window(Home).Property(RecentEpisode.1.Art(tvshow.clearlogo))]</property>
 				<visible>IsEmpty(Window(Home).Property(RecommendedEpisode.1.TVshowTitle)) + !IsEmpty(Window(Home).Property(RecentEpisode.1.TVshowTitle)) + Window.IsVisible(2124)</visible>
-			</item>		
+			</item>
 		</content>
 	</include>
 	<include name="RecentAlbumContent">

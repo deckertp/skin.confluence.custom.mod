@@ -290,7 +290,7 @@
 				<onclick condition="Window.IsVisible(2114)">Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].Fanart,special://skin/backgrounds/homescreen/music.jpg)</onclick>
 				<include>CloseMenuChoice</include>
 				<visible>Library.HasContent(Music)</visible>
-			</item>			
+			</item>
 			<item>
 				<description>Music Recently Added</description>
 				<label>$LOCALIZE[2] $LOCALIZE[31213]</label>
@@ -303,7 +303,7 @@
 				<onclick condition="Window.IsVisible(2114)">Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].Fanart,special://skin/backgrounds/homescreen/music.jpg)</onclick>
 				<include>CloseMenuChoice</include>
 				<visible>Library.HasContent(Music)</visible>
-			</item>	
+			</item>
 			<item>
 				<description>Music Recently Played</description>
 				<label>$LOCALIZE[2] $LOCALIZE[31214]</label>
@@ -316,7 +316,7 @@
 				<onclick condition="Window.IsVisible(2114)">Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].Fanart,special://skin/backgrounds/homescreen/music.jpg)</onclick>
 				<include>CloseMenuChoice</include>
 				<visible>Library.HasContent(Music)</visible>
-			</item>	
+			</item>
 			<item>
 				<description>Music Top 100 Songs</description>
 				<label>$LOCALIZE[10504]</label>
@@ -329,7 +329,7 @@
 				<onclick condition="Window.IsVisible(2114)">Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].Fanart,special://skin/backgrounds/homescreen/music.jpg)</onclick>
 				<include>CloseMenuChoice</include>
 				<visible>Library.HasContent(Music)</visible>
-			</item>	
+			</item>
 			<item>
 				<description>Music PartyMode</description>
 				<label>$LOCALIZE[2] $LOCALIZE[589]</label>

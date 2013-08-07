@@ -304,7 +304,7 @@
 				<onup>1000</onup>
 				<ondown>1000</ondown>
 				<onclick>$VAR[VolumeStepUp]</onclick>
-					<onclick>VolumeUp</onclick>
+				<onclick>VolumeUp</onclick>
 				<visible>!Skin.HasSetting(DisableFloorVolumeButtons)</visible>
 			</control>
 			<control type="button" id="611">

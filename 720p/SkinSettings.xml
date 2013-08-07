@@ -261,7 +261,7 @@
 						<onclick>Skin.Setbool(HideXBMCIntro)</onclick>
 						<onclick>Skin.Reset(AutoScroll)</onclick>
 						<selected>Skin.HasSetting(EnableMinSpec)</selected>
-					</control>					
+					</control>
 					<control type="radiobutton" id="102">
 						<width>750</width>
 						<height>40</height>
@@ -498,7 +498,7 @@
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<enable>System.HasAddon(service.skin.widgets)</enable>
-					</control>					
+					</control>
 					<control type="radiobutton" id="121">
 						<description>Show Global Search</description>
 						<width>750</width>
@@ -6668,7 +6668,7 @@
 				<label>1036</label>
 				<font>-</font>
 				<onclick>$VAR[VolumeStepUp]</onclick>
-					<onclick>VolumeUp</onclick>
+				<onclick>VolumeUp</onclick>
 				<texturefocus border="5">floor_buttonFO.png</texturefocus>
 				<texturenofocus border="5">floor_button.png</texturenofocus>
 				<onleft condition="Player.HasMedia + !SubString(Window(videolibrary).Property(TvTunesIsAlive),TRUE)">84</onleft>

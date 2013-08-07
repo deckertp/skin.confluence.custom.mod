@@ -46,7 +46,6 @@
 	<include name="DefaultInitialSetup">
 		<onload condition="System.Platform.Android">Skin.Setbool(EnableMinSpec)</onload>
 		<onload condition="System.HasAddon(script.raspbmc.settings)">Skin.Setbool(EnableMinSpec)</onload>
-		
 		<onload condition="!System.HasAddon(script.globalsearch)">Skin.Setbool(HideHomeSearch)</onload>
 		<onload condition="!System.HasAddon(script.randomandlastitems)">Skin.Setbool(DisableScriptPlayList)</onload>
 		<onload>Skin.SetString(WeatherFanartDir,special://skin/backgrounds/weather/)</onload>
