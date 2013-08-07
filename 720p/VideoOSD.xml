@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <window>
-	<defaultcontrol always="true">605</defaultcontrol>
+	<defaultcontrol always="true">701</defaultcontrol>
 	<include>DialogEffect</include>
 	<coordinates>
 		<system>1</system>
