@@ -1327,5 +1327,10 @@
 			<height>720</height>
 			<texture background="true">cdwall-grid.png</texture>
 		</control>
+		<control type="image">
+			<include>Dimensions_Fullscreen</include>
+			<aspectratio>stretch</aspectratio>
+			<texture>black-back.png</texture>
+		</control>
 	</include>
 </includes>
