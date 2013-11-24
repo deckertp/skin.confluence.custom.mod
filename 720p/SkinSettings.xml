@@ -1242,7 +1242,45 @@
 						<onclick>ActivateWindow(2118)</onclick>
 						<visible>!IsEmpty(Skin.String(HomeItem.1.Label))</visible>
 					</control>
-					<control type="button" id="206">
+					
+					
+					
+					
+					<control type="radiobutton" id="206">
+						<description>Live Content BackGrounds</description>
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<label> - $LOCALIZE[31945]</label>
+						<onclick condition="!Skin.String(HomeItem.1.Live)">Skin.SetString(HomeItem.1.Live,LiveContent)</onclick>
+						<onclick condition="Skin.String(HomeItem.1.Live)">Skin.Reset(HomeItem.1.Live)</onclick>					
+						<selected>Skin.String(HomeItem.1.Live)</selected>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<enable>
+							StringCompare(Skin.String(HomeItem.1.Type),Music) |
+							StringCompare(Skin.String(HomeItem.1.Type),Videos) |
+							StringCompare(Skin.String(HomeItem.1.Type),Movies) |
+							StringCompare(Skin.String(HomeItem.1.Type),TVShows) |
+							StringCompare(Skin.String(HomeItem.1.Type),Concerts)
+						</enable>
+						<visible>!IsEmpty(Skin.String(HomeItem.1.Label))</visible>
+					</control>			
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<control type="button" id="207">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -1256,7 +1294,7 @@
 						<onclick>ActivateWindow(2114)</onclick>
 						<onclick condition="!IsEmpty(Skin.String(HomeItem.2.Label))">Skin.SetString(HomeItem.2.Label)</onclick>
 					</control>
-					<control type="button" id="207">
+					<control type="button" id="208">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -1270,7 +1308,7 @@
 						<onclick>ActivateWindow(2116)</onclick>
 						<visible>!IsEmpty(Skin.String(HomeItem.2.Label))</visible>
 					</control>
-					<control type="button" id="208">
+					<control type="button" id="209">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -1285,7 +1323,7 @@
 						<onclick>ActivateWindow(2117)</onclick>
 						<visible>!IsEmpty(Skin.String(HomeItem.2.Label))</visible>
 					</control>
-					<control type="button" id="209">
+					<control type="button" id="210">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -1300,7 +1338,34 @@
 						<onclick>ActivateWindow(2118)</onclick>
 						<visible>!IsEmpty(Skin.String(HomeItem.2.Label))</visible>
 					</control>
-					<control type="button" id="210">
+					
+					
+<control type="radiobutton" id="211">
+						<description>Live Content BackGrounds</description>
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<label> - $LOCALIZE[31945]</label>
+						<onclick condition="!Skin.String(HomeItem.2.Live)">Skin.SetString(HomeItem.2.Live,LiveContent)</onclick>
+						<onclick condition="Skin.String(HomeItem.2.Live)">Skin.Reset(HomeItem.2.Live)</onclick>					
+						<selected>Skin.String(HomeItem.2.Live)</selected>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<enable>
+							StringCompare(Skin.String(HomeItem.2.Type),Music) |
+							StringCompare(Skin.String(HomeItem.2.Type),Videos) |
+							StringCompare(Skin.String(HomeItem.2.Type),Movies) |
+							StringCompare(Skin.String(HomeItem.2.Type),TVShows) |
+							StringCompare(Skin.String(HomeItem.2.Type),Concerts)
+						</enable>
+						<visible>!IsEmpty(Skin.String(HomeItem.2.Label))</visible>
+					</control>								
+					
+					
+					
+					<control type="button" id="212">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -1314,7 +1379,7 @@
 						<onclick>ActivateWindow(2114)</onclick>
 						<onclick condition="!IsEmpty(Skin.String(HomeItem.3.Label))">Skin.SetString(HomeItem.3.Label)</onclick>
 					</control>
-					<control type="button" id="211">
+					<control type="button" id="213">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -1328,7 +1393,7 @@
 						<onclick>ActivateWindow(2116)</onclick>
 						<visible>!IsEmpty(Skin.String(HomeItem.3.Label))</visible>
 					</control>
-					<control type="button" id="212">
+					<control type="button" id="214">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -1343,7 +1408,7 @@
 						<onclick>ActivateWindow(2117)</onclick>
 						<visible>!IsEmpty(Skin.String(HomeItem.3.Label))</visible>
 					</control>
-					<control type="button" id="213">
+					<control type="button" id="215">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -1358,7 +1423,34 @@
 						<onclick>ActivateWindow(2118)</onclick>
 						<visible>!IsEmpty(Skin.String(HomeItem.3.Label))</visible>
 					</control>
-					<control type="button" id="214">
+					
+					
+<control type="radiobutton" id="216">
+						<description>Live Content BackGrounds</description>
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<label> - $LOCALIZE[31945]</label>
+						<onclick condition="!Skin.String(HomeItem.3.Live)">Skin.SetString(HomeItem.3.Live,LiveContent)</onclick>
+						<onclick condition="Skin.String(HomeItem.3.Live)">Skin.Reset(HomeItem.3.Live)</onclick>					
+						<selected>Skin.String(HomeItem.3.Live)</selected>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<enable>
+							StringCompare(Skin.String(HomeItem.3.Type),Music) |
+							StringCompare(Skin.String(HomeItem.3.Type),Videos) |
+							StringCompare(Skin.String(HomeItem.3.Type),Movies) |
+							StringCompare(Skin.String(HomeItem.3.Type),TVShows) |
+							StringCompare(Skin.String(HomeItem.3.Type),Concerts)
+						</enable>
+						<visible>!IsEmpty(Skin.String(HomeItem.3.Label))</visible>
+					</control>								
+					
+					
+					
+					<control type="button" id="217">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -1372,7 +1464,7 @@
 						<onclick>ActivateWindow(2114)</onclick>
 						<onclick condition="!IsEmpty(Skin.String(HomeItem.4.Label))">Skin.SetString(HomeItem.4.Label)</onclick>
 					</control>
-					<control type="button" id="215">
+					<control type="button" id="218">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -1386,7 +1478,7 @@
 						<onclick>ActivateWindow(2116)</onclick>
 						<visible>!IsEmpty(Skin.String(HomeItem.4.Label))</visible>
 					</control>
-					<control type="button" id="216">
+					<control type="button" id="219">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -1401,7 +1493,7 @@
 						<onclick>ActivateWindow(2117)</onclick>
 						<visible>!IsEmpty(Skin.String(HomeItem.4.Label))</visible>
 					</control>
-					<control type="button" id="217">
+					<control type="button" id="220">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -1416,7 +1508,34 @@
 						<onclick>ActivateWindow(2118)</onclick>
 						<visible>!IsEmpty(Skin.String(HomeItem.4.Label))</visible>
 					</control>
-					<control type="button" id="218">
+					
+<control type="radiobutton" id="221">
+						<description>Live Content BackGrounds</description>
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<label> - $LOCALIZE[31945]</label>
+						<onclick condition="!Skin.String(HomeItem.4.Live)">Skin.SetString(HomeItem.4.Live,LiveContent)</onclick>
+						<onclick condition="Skin.String(HomeItem.4.Live)">Skin.Reset(HomeItem.4.Live)</onclick>					
+						<selected>Skin.String(HomeItem.4.Live)</selected>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<enable>
+							StringCompare(Skin.String(HomeItem.4.Type),Music) |
+							StringCompare(Skin.String(HomeItem.4.Type),Videos) |
+							StringCompare(Skin.String(HomeItem.4.Type),Movies) |
+							StringCompare(Skin.String(HomeItem.4.Type),TVShows) |
+							StringCompare(Skin.String(HomeItem.4.Type),Concerts)
+						</enable>
+						<visible>!IsEmpty(Skin.String(HomeItem.4.Label))</visible>
+					</control>								
+					
+					
+					
+					
+					<control type="button" id="222">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -1430,7 +1549,7 @@
 						<onclick>ActivateWindow(2114)</onclick>
 						<onclick condition="!IsEmpty(Skin.String(HomeItem.5.Label))">Skin.SetString(HomeItem.5.Label)</onclick>
 					</control>
-					<control type="button" id="219">
+					<control type="button" id="223">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -1444,7 +1563,7 @@
 						<onclick>ActivateWindow(2116)</onclick>
 						<visible>!IsEmpty(Skin.String(HomeItem.5.Label))</visible>
 					</control>
-					<control type="button" id="220">
+					<control type="button" id="224">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -1459,7 +1578,7 @@
 						<onclick>ActivateWindow(2117)</onclick>
 						<visible>!IsEmpty(Skin.String(HomeItem.5.Label))</visible>
 					</control>
-					<control type="button" id="221">
+					<control type="button" id="225">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -1474,7 +1593,37 @@
 						<onclick>ActivateWindow(2118)</onclick>
 						<visible>!IsEmpty(Skin.String(HomeItem.5.Label))</visible>
 					</control>
-					<control type="button" id="222">
+					
+					
+						
+<control type="radiobutton" id="226">
+						<description>Live Content BackGrounds</description>
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<label> - $LOCALIZE[31945]</label>
+						<onclick condition="!Skin.String(HomeItem.5.Live)">Skin.SetString(HomeItem.5.Live,LiveContent)</onclick>
+						<onclick condition="Skin.String(HomeItem.5.Live)">Skin.Reset(HomeItem.5.Live)</onclick>					
+						<selected>Skin.String(HomeItem.5.Live)</selected>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<enable>
+							StringCompare(Skin.String(HomeItem.5.Type),Music) |
+							StringCompare(Skin.String(HomeItem.5.Type),Videos) |
+							StringCompare(Skin.String(HomeItem.5.Type),Movies) |
+							StringCompare(Skin.String(HomeItem.5.Type),TVShows) |
+							StringCompare(Skin.String(HomeItem.5.Type),Concerts)
+						</enable>
+						<visible>!IsEmpty(Skin.String(HomeItem.5.Label))</visible>
+					</control>								
+					
+					
+					
+					
+					
+					<control type="button" id="227">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -1488,7 +1637,7 @@
 						<onclick>ActivateWindow(2114)</onclick>
 						<onclick condition="!IsEmpty(Skin.String(HomeItem.6.Label))">Skin.SetString(HomeItem.6.Label)</onclick>
 					</control>
-					<control type="button" id="223">
+					<control type="button" id="228">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -1502,7 +1651,7 @@
 						<onclick>ActivateWindow(2116)</onclick>
 						<visible>!IsEmpty(Skin.String(HomeItem.6.Label))</visible>
 					</control>
-					<control type="button" id="224">
+					<control type="button" id="229">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -1517,7 +1666,7 @@
 						<onclick>ActivateWindow(2117)</onclick>
 						<visible>!IsEmpty(Skin.String(HomeItem.6.Label))</visible>
 					</control>
-					<control type="button" id="225">
+					<control type="button" id="230">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -1532,7 +1681,34 @@
 						<onclick>ActivateWindow(2118)</onclick>
 						<visible>!IsEmpty(Skin.String(HomeItem.6.Label))</visible>
 					</control>
-					<control type="button" id="226">
+					
+					
+					
+<control type="radiobutton" id="231">
+						<description>Live Content BackGrounds</description>
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<label> - $LOCALIZE[31945]</label>
+						<onclick condition="!Skin.String(HomeItem.6.Live)">Skin.SetString(HomeItem.6.Live,LiveContent)</onclick>
+						<onclick condition="Skin.String(HomeItem.6.Live)">Skin.Reset(HomeItem.6.Live)</onclick>					
+						<selected>Skin.String(HomeItem.6.Live)</selected>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<enable>
+							StringCompare(Skin.String(HomeItem.6.Type),Music) |
+							StringCompare(Skin.String(HomeItem.6.Type),Videos) |
+							StringCompare(Skin.String(HomeItem.6.Type),Movies) |
+							StringCompare(Skin.String(HomeItem.6.Type),TVShows) |
+							StringCompare(Skin.String(HomeItem.6.Type),Concerts)
+						</enable>
+						<visible>!IsEmpty(Skin.String(HomeItem.6.Label))</visible>
+					</control>								
+					
+					
+					<control type="button" id="232">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -1546,7 +1722,7 @@
 						<onclick>ActivateWindow(2114)</onclick>
 						<onclick condition="!IsEmpty(Skin.String(HomeItem.7.Label))">Skin.SetString(HomeItem.7.Label)</onclick>
 					</control>
-					<control type="button" id="227">
+					<control type="button" id="233">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -1560,7 +1736,7 @@
 						<onclick>ActivateWindow(2116)</onclick>
 						<visible>!IsEmpty(Skin.String(HomeItem.7.Label))</visible>
 					</control>
-					<control type="button" id="228">
+					<control type="button" id="234">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -1575,7 +1751,7 @@
 						<onclick>ActivateWindow(2117)</onclick>
 						<visible>!IsEmpty(Skin.String(HomeItem.7.Label))</visible>
 					</control>
-					<control type="button" id="229">
+					<control type="button" id="235">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -1590,7 +1766,34 @@
 						<onclick>ActivateWindow(2118)</onclick>
 						<visible>!IsEmpty(Skin.String(HomeItem.7.Label))</visible>
 					</control>
-					<control type="button" id="230">
+					
+					
+<control type="radiobutton" id="236">
+						<description>Live Content BackGrounds</description>
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<label> - $LOCALIZE[31945]</label>
+						<onclick condition="!Skin.String(HomeItem.7.Live)">Skin.SetString(HomeItem.7.Live,LiveContent)</onclick>
+						<onclick condition="Skin.String(HomeItem.7.Live)">Skin.Reset(HomeItem.7.Live)</onclick>					
+						<selected>Skin.String(HomeItem.7.Live)</selected>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<enable>
+							StringCompare(Skin.String(HomeItem.7.Type),Music) |
+							StringCompare(Skin.String(HomeItem.7.Type),Videos) |
+							StringCompare(Skin.String(HomeItem.7.Type),Movies) |
+							StringCompare(Skin.String(HomeItem.7.Type),TVShows) |
+							StringCompare(Skin.String(HomeItem.7.Type),Concerts)
+						</enable>
+						<visible>!IsEmpty(Skin.String(HomeItem.7.Label))</visible>
+					</control>								
+					
+					
+					
+					<control type="button" id="237">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -1604,7 +1807,7 @@
 						<onclick>ActivateWindow(2114)</onclick>
 						<onclick condition="!IsEmpty(Skin.String(HomeItem.8.Label))">Skin.SetString(HomeItem.8.Label)</onclick>
 					</control>
-					<control type="button" id="231">
+					<control type="button" id="238">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -1618,7 +1821,7 @@
 						<onclick>ActivateWindow(2116)</onclick>
 						<visible>!IsEmpty(Skin.String(HomeItem.8.Label))</visible>
 					</control>
-					<control type="button" id="232">
+					<control type="button" id="239">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -1633,7 +1836,7 @@
 						<onclick>ActivateWindow(2117)</onclick>
 						<visible>!IsEmpty(Skin.String(HomeItem.8.Label))</visible>
 					</control>
-					<control type="button" id="233">
+					<control type="button" id="240">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -1648,7 +1851,35 @@
 						<onclick>ActivateWindow(2118)</onclick>
 						<visible>!IsEmpty(Skin.String(HomeItem.8.Label))</visible>
 					</control>
-					<control type="button" id="234">
+					
+					
+<control type="radiobutton" id="241">
+						<description>Live Content BackGrounds</description>
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<label> - $LOCALIZE[31945]</label>
+						<onclick condition="!Skin.String(HomeItem.8.Live)">Skin.SetString(HomeItem.8.Live,LiveContent)</onclick>
+						<onclick condition="Skin.String(HomeItem.8.Live)">Skin.Reset(HomeItem.8.Live)</onclick>					
+						<selected>Skin.String(HomeItem.8.Live)</selected>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<enable>
+							StringCompare(Skin.String(HomeItem.8.Type),Music) |
+							StringCompare(Skin.String(HomeItem.8.Type),Videos) |
+							StringCompare(Skin.String(HomeItem.8.Type),Movies) |
+							StringCompare(Skin.String(HomeItem.8.Type),TVShows) |
+							StringCompare(Skin.String(HomeItem.8.Type),Concerts)
+						</enable>
+						<visible>!IsEmpty(Skin.String(HomeItem.8.Label))</visible>
+					</control>								
+					
+					
+					
+					
+					<control type="button" id="242">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -1662,7 +1893,7 @@
 						<onclick>ActivateWindow(2114)</onclick>
 						<onclick condition="!IsEmpty(Skin.String(HomeItem.9.Label))">Skin.SetString(HomeItem.9.Label)</onclick>
 					</control>
-					<control type="button" id="235">
+					<control type="button" id="243">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -1676,7 +1907,7 @@
 						<onclick>ActivateWindow(2116)</onclick>
 						<visible>!IsEmpty(Skin.String(HomeItem.9.Label))</visible>
 					</control>
-					<control type="button" id="236">
+					<control type="button" id="244">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -1691,7 +1922,7 @@
 						<onclick>ActivateWindow(2117)</onclick>
 						<visible>!IsEmpty(Skin.String(HomeItem.9.Label))</visible>
 					</control>
-					<control type="button" id="237">
+					<control type="button" id="245">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -1706,7 +1937,34 @@
 						<onclick>ActivateWindow(2118)</onclick>
 						<visible>!IsEmpty(Skin.String(HomeItem.9.Label))</visible>
 					</control>
-					<control type="button" id="238">
+					
+					
+<control type="radiobutton" id="246">
+						<description>Live Content BackGrounds</description>
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<label> - $LOCALIZE[31945]</label>
+						<onclick condition="!Skin.String(HomeItem.9.Live)">Skin.SetString(HomeItem.9.Live,LiveContent)</onclick>
+						<onclick condition="Skin.String(HomeItem.9.Live)">Skin.Reset(HomeItem.9.Live)</onclick>					
+						<selected>Skin.String(HomeItem.9.Live)</selected>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<enable>
+							StringCompare(Skin.String(HomeItem.9.Type),Music) |
+							StringCompare(Skin.String(HomeItem.9.Type),Videos) |
+							StringCompare(Skin.String(HomeItem.9.Type),Movies) |
+							StringCompare(Skin.String(HomeItem.9.Type),TVShows) |
+							StringCompare(Skin.String(HomeItem.9.Type),Concerts)
+						</enable>
+						<visible>!IsEmpty(Skin.String(HomeItem.9.Label))</visible>
+					</control>								
+					
+					
+					
+					<control type="button" id="247">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -1720,7 +1978,7 @@
 						<onclick>ActivateWindow(2114)</onclick>
 						<onclick condition="!IsEmpty(Skin.String(HomeItem.10.Label))">Skin.SetString(HomeItem.10.Label)</onclick>
 					</control>
-					<control type="button" id="239">
+					<control type="button" id="248">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -1734,7 +1992,7 @@
 						<onclick>ActivateWindow(2116)</onclick>
 						<visible>!IsEmpty(Skin.String(HomeItem.10.Label))</visible>
 					</control>
-					<control type="button" id="240">
+					<control type="button" id="249">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -1749,7 +2007,7 @@
 						<onclick>ActivateWindow(2117)</onclick>
 						<visible>!IsEmpty(Skin.String(HomeItem.10.Label))</visible>
 					</control>
-					<control type="button" id="241">
+					<control type="button" id="250">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -1764,7 +2022,49 @@
 						<onclick>ActivateWindow(2118)</onclick>
 						<visible>!IsEmpty(Skin.String(HomeItem.10.Label))</visible>
 					</control>
-					<control type="radiobutton" id="242">
+					
+					
+					
+					
+					
+					
+					
+					
+<control type="radiobutton" id="251">
+						<description>Live Content BackGrounds</description>
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<label> - $LOCALIZE[31945]</label>
+						<onclick condition="!Skin.String(HomeItem.10.Live)">Skin.SetString(HomeItem.10.Live,LiveContent)</onclick>
+						<onclick condition="Skin.String(HomeItem.10.Live)">Skin.Reset(HomeItem.10.Live)</onclick>					
+						<selected>Skin.String(HomeItem.10.Live)</selected>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<enable>
+							StringCompare(Skin.String(HomeItem.10.Type),Music) |
+							StringCompare(Skin.String(HomeItem.10.Type),Videos) |
+							StringCompare(Skin.String(HomeItem.10.Type),Movies) |
+							StringCompare(Skin.String(HomeItem.10.Type),TVShows) |
+							StringCompare(Skin.String(HomeItem.10.Type),Concerts)
+						</enable>
+						<visible>!IsEmpty(Skin.String(HomeItem.10.Label))</visible>
+					</control>								
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<control type="radiobutton" id="252">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -1776,7 +2076,7 @@
 						<onclick>Skin.ToggleSetting(HideSytemMenuItem)</onclick>
 						<selected>!Skin.HasSetting(HideSytemMenuItem)</selected>
 					</control>
-					<control type="button" id="243">
+					<control type="button" id="253">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -1791,7 +2091,7 @@
 						<onclick>ActivateWindow(2117)</onclick>
 						<enable>!Skin.HasSetting(HideSytemMenuItem)</enable>
 					</control>
-					<control type="button" id="244">
+					<control type="button" id="254">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -4563,7 +4863,7 @@
 								<icon>$INFO[Skin.CurrentTheme,special://skin/backgrounds/,.jpg]</icon>
 								<thumb>$INFO[Skin.String(HomeItem.1.FanArt)]</thumb>
 								<property name="HiLiteItem">$INFO[Skin.String(HomeItem.1.Type)]</property>
-								<visible>!IsEmpty(Skin.String(HomeItem.1.Path)) + !Skin.HasSetting(GlobalBackground)</visible>
+								<visible>!IsEmpty(Skin.String(HomeItem.1.Path)) + !Skin.String(HomeItem.1.Live) + !Skin.HasSetting(GlobalBackground)</visible>
 							</item>
 							<item id="3">
 								<description>Home Menu Item Two</description>
@@ -4572,7 +4872,7 @@
 								<icon>$INFO[Skin.CurrentTheme,special://skin/backgrounds/,.jpg]</icon>
 								<thumb>$INFO[Skin.String(HomeItem.2.FanArt)]</thumb>
 								<property name="HiLiteItem">$INFO[Skin.String(HomeItem.2.Type)]</property>
-								<visible>!IsEmpty(Skin.String(HomeItem.2.Path)) + !Skin.HasSetting(GlobalBackground)</visible>
+								<visible>!IsEmpty(Skin.String(HomeItem.2.Path)) + !Skin.String(HomeItem.2.Live) + !Skin.HasSetting(GlobalBackground)</visible>
 							</item>
 							<item id="4">
 								<description>Home Menu Item Three</description>
@@ -4581,7 +4881,7 @@
 								<icon>$INFO[Skin.CurrentTheme,special://skin/backgrounds/,.jpg]</icon>
 								<thumb>$INFO[Skin.String(HomeItem.3.FanArt)]</thumb>
 								<property name="HiLiteItem">$INFO[Skin.String(HomeItem.3.Type)]</property>
-								<visible>!IsEmpty(Skin.String(HomeItem.3.Path)) + !Skin.HasSetting(GlobalBackground)</visible>
+								<visible>!IsEmpty(Skin.String(HomeItem.3.Path)) + !Skin.String(HomeItem.3.Live) + !Skin.HasSetting(GlobalBackground)</visible>
 							</item>
 							<item id="5">
 								<description>Home Menu Item Four</description>
@@ -4590,7 +4890,7 @@
 								<icon>$INFO[Skin.CurrentTheme,special://skin/backgrounds/,.jpg]</icon>
 								<thumb>$INFO[Skin.String(HomeItem.4.FanArt)]</thumb>
 								<property name="HiLiteItem">$INFO[Skin.String(HomeItem.4.Type)]</property>
-								<visible>!IsEmpty(Skin.String(HomeItem.4.Path)) + !Skin.HasSetting(GlobalBackground)</visible>
+								<visible>!IsEmpty(Skin.String(HomeItem.4.Path)) + !Skin.String(HomeItem.4.Live) + !Skin.HasSetting(GlobalBackground)</visible>
 							</item>
 							<item id="6">
 								<description>Home Menu Item Five</description>
@@ -4599,7 +4899,7 @@
 								<icon>$INFO[Skin.CurrentTheme,special://skin/backgrounds/,.jpg]</icon>
 								<thumb>$INFO[Skin.String(HomeItem.5.FanArt)]</thumb>
 								<property name="HiLiteItem">$INFO[Skin.String(HomeItem.5.Type)]</property>
-								<visible>!IsEmpty(Skin.String(HomeItem.5.Path)) + !Skin.HasSetting(GlobalBackground)</visible>
+								<visible>!IsEmpty(Skin.String(HomeItem.5.Path)) + !Skin.String(HomeItem.5.Live) + !Skin.HasSetting(GlobalBackground)</visible>
 							</item>
 							<item id="7">
 								<description>Home Menu Item Six</description>
@@ -4608,7 +4908,7 @@
 								<icon>$INFO[Skin.CurrentTheme,special://skin/backgrounds/,.jpg]</icon>
 								<thumb>$INFO[Skin.String(HomeItem.6.FanArt)]</thumb>
 								<property name="HiLiteItem">$INFO[Skin.String(HomeItem.6.Type)]</property>
-								<visible>!IsEmpty(Skin.String(HomeItem.6.Path)) + !Skin.HasSetting(GlobalBackground)</visible>
+								<visible>!IsEmpty(Skin.String(HomeItem.6.Path)) + !Skin.String(HomeItem.6.Live) + !Skin.HasSetting(GlobalBackground)</visible>
 							</item>
 							<item id="8">
 								<description>Home Menu Item Seven</description>
@@ -4617,7 +4917,7 @@
 								<icon>$INFO[Skin.CurrentTheme,special://skin/backgrounds/,.jpg]</icon>
 								<thumb>$INFO[Skin.String(HomeItem.7.FanArt)]</thumb>
 								<property name="HiLiteItem">$INFO[Skin.String(HomeItem.7.Type)]</property>
-								<visible>!IsEmpty(Skin.String(HomeItem.7.Path)) + !Skin.HasSetting(GlobalBackground)</visible>
+								<visible>!IsEmpty(Skin.String(HomeItem.7.Path)) + !Skin.String(HomeItem.7.Live) + !Skin.HasSetting(GlobalBackground)</visible>
 							</item>
 							<item id="9">
 								<description>Home Menu Item Eight</description>
@@ -4626,7 +4926,7 @@
 								<icon>$INFO[Skin.CurrentTheme,special://skin/backgrounds/,.jpg]</icon>
 								<thumb>$INFO[Skin.String(HomeItem.8.FanArt)]</thumb>
 								<property name="HiLiteItem">$INFO[Skin.String(HomeItem.8.Type)]</property>
-								<visible>!IsEmpty(Skin.String(HomeItem.8.Path)) + !Skin.HasSetting(GlobalBackground)</visible>
+								<visible>!IsEmpty(Skin.String(HomeItem.8.Path)) + !Skin.String(HomeItem.8.Live) + !Skin.HasSetting(GlobalBackground)</visible>
 							</item>
 							<item id="10">
 								<description>Home Menu Item Nine</description>
@@ -4635,7 +4935,7 @@
 								<icon>$INFO[Skin.CurrentTheme,special://skin/backgrounds/,.jpg]</icon>
 								<thumb>$INFO[Skin.String(HomeItem.9.FanArt)]</thumb>
 								<property name="HiLiteItem">$INFO[Skin.String(HomeItem.9.Type)]</property>
-								<visible>!IsEmpty(Skin.String(HomeItem.9.Path)) + !Skin.HasSetting(GlobalBackground)</visible>
+								<visible>!IsEmpty(Skin.String(HomeItem.9.Path)) + !Skin.String(HomeItem.9.Live) + !Skin.HasSetting(GlobalBackground)</visible>
 							</item>
 							<item id="11">
 								<description>Home Menu Item Ten</description>
@@ -4644,7 +4944,7 @@
 								<icon>$INFO[Skin.CurrentTheme,special://skin/backgrounds/,.jpg]</icon>
 								<thumb>$INFO[Skin.String(HomeItem.10.FanArt)]</thumb>
 								<property name="HiLiteItem">$INFO[Skin.String(HomeItem.10.Type)]</property>
-								<visible>!IsEmpty(Skin.String(HomeItem.10.Path)) + !Skin.HasSetting(GlobalBackground)</visible>
+								<visible>!IsEmpty(Skin.String(HomeItem.10.Path)) + !Skin.String(HomeItem.10.Live) + !Skin.HasSetting(GlobalBackground)</visible>
 							</item>
 							<item id="12">
 								<description>DVD Tray</description>

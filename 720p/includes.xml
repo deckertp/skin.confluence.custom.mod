@@ -93,6 +93,7 @@
 		<onload>Skin.SetString(HomeItem.4.Addon,None)</onload>
 		<onload>Skin.SetString(HomeItem.4.Widget,UnWatched)</onload>
 		<onload>Skin.SetString(HomeItem.4.Type,Videos)</onload>
+		<onload condition="Library.HasContent(Movies)">Skin.SetString(HomeItem.4.Live,LiveContent)</onload>
 		<onload>Skin.SetString(HomeItem.4.Fanart,special://skin/backgrounds/homescreen/videos.jpg)</onload>
 		<onload condition="Library.HasContent(Movies)">Skin.SetString(HomeItem.5.Label,$LOCALIZE[20342])</onload>
 		<onload condition="Library.HasContent(Movies)">Skin.SetString(HomeItem.5.Path,ActivateWindow(Videos,MovieTitles,return))</onload>
@@ -100,6 +101,7 @@
 		<onload condition="Library.HasContent(Movies)">Skin.SetString(HomeItem.5.Addon,None)</onload>
 		<onload condition="Library.HasContent(Movies)">Skin.SetString(HomeItem.5.Widget,SuggestedMovies)</onload>
 		<onload condition="Library.HasContent(Movies)">Skin.SetString(HomeItem.5.Type,Movies)</onload>
+		<onload condition="Library.HasContent(Movies)">Skin.SetString(HomeItem.5.Live,LiveContent)</onload>
 		<onload condition="Library.HasContent(Movies)">Skin.SetString(HomeItem.5.Fanart,special://skin/backgrounds/homescreen/videos.jpg)</onload>
 		<onload condition="Library.HasContent(TVShows)">Skin.SetString(HomeItem.6.Label,$LOCALIZE[20343])</onload>
 		<onload condition="Library.HasContent(TVShows)">Skin.SetString(HomeItem.6.Path,ActivateWindow(Videos,TVShowTitles,return))</onload>
@@ -107,6 +109,7 @@
 		<onload condition="Library.HasContent(TVShows)">Skin.SetString(HomeItem.6.Addon,None)</onload>
 		<onload condition="Library.HasContent(TVShows)">Skin.SetString(HomeItem.6.Widget,SuggestedEpisodes)</onload>
 		<onload condition="Library.HasContent(TVShows)">Skin.SetString(HomeItem.6.Type,TVShows)</onload>
+		<onload condition="Library.HasContent(TVShows)">Skin.SetString(HomeItem.6.Live,LiveContent)</onload>
 		<onload condition="Library.HasContent(TVShows)">Skin.SetString(HomeItem.6.Fanart,special://skin/backgrounds/homescreen/videos.jpg)</onload>
 		<onload>Skin.SetString(HomeItem.7.Label,$LOCALIZE[31332])</onload>
 		<onload>Skin.SetString(HomeItem.7.Path,ActivateWindow(VideoLibrary,"special://skin/extras/Playlists/GenreFamily.xsp",return))</onload>
@@ -129,6 +132,7 @@
 		<onload>Skin.SetString(HomeItem.9.Addon,None)</onload>
 		<onload>Skin.SetString(HomeItem.9.Widget,SuggestedAlbums)</onload>
 		<onload>Skin.SetString(HomeItem.9.Type,Music)</onload>
+		<onload condition="Library.HasContent(Music)">Skin.SetString(HomeItem.9.Live,LiveContent)</onload>
 		<onload>Skin.SetString(HomeItem.9.Fanart,special://skin/backgrounds/homescreen/music.jpg)</onload>
 		<onload>Skin.SetString(HomeItem.10.Label,$LOCALIZE[0])</onload>
 		<onload condition="!System.Platform.Android">Skin.SetString(HomeItem.10.Path,ActivateWindow(Programs,Addons,return))</onload>
@@ -1347,6 +1351,12 @@
 		<width>1280</width>
 		<height>720</height>
 	</include>
+	
+	
+	
+	
+	
+	
 	<include name="LiveCDCasesbackground">
 		<control type="group">
 			<animation effect="fade" time="600">VisibleChange</animation>
@@ -1574,6 +1584,986 @@
 			</control>
 		</control>
 	</include>
+	
+	
+	
+	
+	
+<include name="LiveContentBackgrounds">
+		<control type="group">
+			<animation effect="fade" time="600">VisibleChange</animation>
+			<include>Window_OpenClose_Animation</include>
+			<control type="image">
+				<description>Default Global Background Image</description>
+				<include>Dimensions_Fullscreen</include>
+				<aspectratio>scale</aspectratio>
+				<texture fallback="special://skin/backgrounds/SKINDEFAULT.jpg">$INFO[Skin.CurrentTheme,special://skin/backgrounds/,.jpg]</texture>
+			</control>
+			<control type="group">
+				<posx>-133</posx>
+				<control type="group">
+					<posx>746</posx>
+					<posy>356</posy>
+					<animation effect="zoom" start="150" end="150" center="auto" time="0" condition="true">Conditional</animation>
+					<animation effect="rotate" center="auto" start="9" end="9" time="0" condition="true">Conditional</animation>
+					<control type="image">
+						<posx>36</posx>
+						<posy>11</posy>
+						<width>201</width>
+						<height>201</height>
+						<fadetime>600</fadetime>
+						<texture background="true" diffuse="livecdcase/CDmask.png" fallback="livecdcase/DefaultAlbumCover.png">$INFO[Window(home).Property(RandomAlbum.5.Art(thumb))]</texture>
+						<aspectratio scalediffuse="false">scale</aspectratio>
+					</control>
+					<control type="image">
+						<width>250</width>
+						<height>228</height>
+						<bordertexture>livecdcase/CDshadow.png</bordertexture>
+						<texture background="true">livecdcase/CDglass.png</texture>
+					</control>
+				</control>
+				<control type="group">
+					<posx>466</posx>
+					<posy>-106</posy>
+					<animation effect="zoom" start="150" end="150" center="auto" time="0" condition="true">Conditional</animation>
+					<animation effect="rotate" center="auto" start="65" end="65" time="0" condition="true">Conditional</animation>
+					<control type="image">
+						<posx>36</posx>
+						<posy>11</posy>
+						<width>201</width>
+						<height>201</height>
+						<fadetime>600</fadetime>
+						<texture background="true" diffuse="livecdcase/CDmask.png" fallback="livecdcase/DefaultAlbumCover.png">$INFO[Window(home).Property(RandomAlbum.9.Art(thumb))]</texture>
+						<aspectratio scalediffuse="false">scale</aspectratio>
+					</control>
+					<control type="image">
+						<width>250</width>
+						<height>228</height>
+						<bordertexture>livecdcase/CDshadow.png</bordertexture>
+						<texture background="true">livecdcase/CDglass.png</texture>
+					</control>
+				</control>
+				<control type="group">
+					<posx>336</posx>
+					<posy>110</posy>
+					<animation effect="zoom" start="150" end="150" center="auto" time="0" condition="true">Conditional</animation>
+					<animation effect="rotate" center="auto" start="10" end="10" time="0" condition="true">Conditional</animation>
+					<control type="image">
+						<posx>36</posx>
+						<posy>11</posy>
+						<width>201</width>
+						<height>201</height>
+						<texture background="true" diffuse="livecdcase/CDmask.png" fallback="livecdcase/DefaultAlbumCover.png">$INFO[Window(home).Property(RandomAlbum.8.Art(thumb))]</texture>
+						<fadetime>600</fadetime>
+						<aspectratio scalediffuse="false">scale</aspectratio>
+					</control>
+					<control type="image">
+						<width>250</width>
+						<height>228</height>
+						<bordertexture>livecdcase/CDshadow.png</bordertexture>
+						<texture background="true">livecdcase/CDglass.png</texture>
+					</control>
+				</control>
+				<control type="group">
+					<posx>1026</posx>
+					<posy>188</posy>
+					<animation effect="zoom" start="150" end="150" center="auto" time="0" condition="true">Conditional</animation>
+					<animation effect="rotate" center="auto" start="-20" end="-20" time="0" condition="true">Conditional</animation>
+					<control type="image">
+						<posx>36</posx>
+						<posy>11</posy>
+						<width>201</width>
+						<height>201</height>
+						<fadetime>600</fadetime>
+						<texture background="true" diffuse="livecdcase/CDmask.png" fallback="livecdcase/DefaultAlbumCover.png">$INFO[Window(home).Property(RandomAlbum.7.Art(thumb))]</texture>
+						<aspectratio scalediffuse="false">scale</aspectratio>
+					</control>
+					<control type="image">
+						<width>250</width>
+						<height>228</height>
+						<bordertexture>livecdcase/CDshadow.png</bordertexture>
+						<texture background="true">livecdcase/CDglass.png</texture>
+					</control>
+				</control>
+				<control type="group">
+					<posx>606</posx>
+					<posy>26</posy>
+					<animation effect="zoom" start="150" end="150" center="auto" time="0" condition="true">Conditional</animation>
+					<animation effect="rotate" center="auto" start="25" end="25" time="0" condition="true">Conditional</animation>
+					<control type="image">
+						<posx>36</posx>
+						<posy>11</posy>
+						<width>201</width>
+						<height>201</height>
+						<texture background="true" diffuse="livecdcase/CDmask.png" fallback="livecdcase/DefaultAlbumCover.png">$INFO[Window(home).Property(RandomAlbum.4.Art(thumb))]</texture>
+						<fadetime>600</fadetime>
+						<aspectratio scalediffuse="false">scale</aspectratio>
+					</control>
+					<control type="image">
+						<width>250</width>
+						<height>228</height>
+						<bordertexture>livecdcase/CDshadow.png</bordertexture>
+						<texture background="true">livecdcase/CDglass.png</texture>
+					</control>
+				</control>
+				<control type="group">
+					<posx>1200</posx>
+					<posy>51</posy>
+					<animation effect="zoom" start="150" end="150" center="auto" time="0" condition="true">Conditional</animation>
+					<animation effect="rotate" center="auto" start="75" end="75" time="0" condition="true">Conditional</animation>
+					<control type="image">
+						<posx>36</posx>
+						<posy>11</posy>
+						<width>201</width>
+						<height>201</height>
+						<fadetime>600</fadetime>
+						<texture background="true" diffuse="livecdcase/CDmask.png" fallback="livecdcase/DefaultAlbumCover.png">$INFO[Window(home).Property(RandomAlbum.6.Art(thumb))]</texture>
+						<aspectratio scalediffuse="false">scale</aspectratio>
+					</control>
+					<control type="image">
+						<width>250</width>
+						<height>228</height>
+						<bordertexture>livecdcase/CDshadow.png</bordertexture>
+						<texture background="true">livecdcase/CDglass.png</texture>
+					</control>
+				</control>
+				<control type="group">
+					<posx>1113</posx>
+					<posy>423</posy>
+					<animation effect="zoom" start="150" end="150" center="auto" time="0" condition="true">Conditional</animation>
+					<animation effect="rotate" center="auto" start="45" end="45" time="0" condition="true">Conditional</animation>
+					<control type="image">
+						<posx>36</posx>
+						<posy>11</posy>
+						<width>201</width>
+						<height>201</height>
+						<fadetime>600</fadetime>
+						<texture background="true" diffuse="livecdcase/CDmask.png" fallback="livecdcase/DefaultAlbumCover.png">$INFO[Window(home).Property(RandomAlbum.10.Art(thumb))]</texture>
+						<aspectratio scalediffuse="false">scale</aspectratio>
+					</control>
+					<control type="image">
+						<width>250</width>
+						<height>228</height>
+						<bordertexture>livecdcase/CDshadow.png</bordertexture>
+						<texture background="true">livecdcase/CDglass.png</texture>
+					</control>
+				</control>
+				<control type="group">
+					<posx>1130</posx>
+					<posy>340</posy>
+					<animation effect="zoom" start="150" end="150" center="auto" time="0" condition="true">Conditional</animation>
+					<animation effect="rotate" center="auto" start="-15" end="-15" time="0" condition="true">Conditional</animation>
+					<control type="image">
+						<posx>36</posx>
+						<posy>11</posy>
+						<width>201</width>
+						<fadetime>600</fadetime>
+						<height>201</height>
+						<texture background="true" diffuse="livecdcase/CDmask.png" fallback="livecdcase/DefaultAlbumCover.png">$INFO[Window(home).Property(RandomAlbum.3.Art(thumb))]</texture>
+						<aspectratio scalediffuse="false">scale</aspectratio>
+					</control>
+					<control type="image">
+						<width>250</width>
+						<height>228</height>
+						<bordertexture>livecdcase/CDshadow.png</bordertexture>
+						<texture background="true">livecdcase/CDglass.png</texture>
+					</control>
+				</control>
+				<control type="group">
+					<posx>700</posx>
+					<posy>186</posy>
+					<animation effect="zoom" start="150" end="150" center="auto" time="0" condition="true">Conditional</animation>
+					<animation effect="rotate" center="auto" start="-10" end="-10" time="0" condition="true">Conditional</animation>
+					<control type="image">
+						<posx>36</posx>
+						<posy>11</posy>
+						<width>201</width>
+						<height>201</height>
+						<fadetime>600</fadetime>
+						<texture background="true" diffuse="livecdcase/CDmask.png" fallback="livecdcase/DefaultAlbumCover.png">$INFO[Window(home).Property(RandomAlbum.2.Art(thumb))]</texture>
+						<aspectratio scalediffuse="false">scale</aspectratio>
+					</control>
+					<control type="image">
+						<width>250</width>
+						<height>228</height>
+						<bordertexture>livecdcase/CDshadow.png</bordertexture>
+						<texture background="true">livecdcase/CDglass.png</texture>
+					</control>
+				</control>
+				<control type="group">
+					<posx>500</posx>
+					<posy>366</posy>
+					<animation effect="zoom" start="150" end="150" center="auto" time="0" condition="true">Conditional</animation>
+					<animation effect="rotate" center="auto" start="3" end="3" time="0" condition="true">Conditional</animation>
+					<control type="image">
+						<posx>36</posx>
+						<posy>11</posy>
+						<width>201</width>
+						<height>201</height>
+						<texture background="true" diffuse="livecdcase/CDmask.png" fallback="livecdcase/DefaultAlbumCover.png">$INFO[Window(home).Property(RandomAlbum.1.Art(thumb))]</texture>
+						<fadetime>600</fadetime>
+						<aspectratio scalediffuse="false">scale</aspectratio>
+					</control>
+					<control type="image">
+						<width>250</width>
+						<height>228</height>
+						<bordertexture>livecdcase/CDshadow.png</bordertexture>
+						<texture background="true">livecdcase/CDglass.png</texture>
+					</control>
+				</control>
+				<visible>StringCompare(Container(9000).ListItem.Property(HiLiteItem),Music) + Library.HasContent(Music)</visible>
+			</control>
+			<control type="group">
+				<posx>-133</posx>
+				<control type="group">
+					<control type="group">
+						<description>Case 1</description>
+						<posx>747</posx>
+						<posy>422</posy>
+						<animation effect="zoom" start="180" end="180" center="auto" time="0" tween="linear" condition="true">Conditional</animation>
+						<animation effect="rotate" center="auto" start="-65" end="-65" time="0" condition="true">Conditional</animation>
+						<control type="image">
+							<posx>26</posx>
+							<posy>6</posy>
+							<width>149</width>
+							<fadetime>600</fadetime>
+							<height>223</height>
+							<fadetime>600</fadetime>
+							<align>center</align>
+							<aspectratio scalediffuse="false">scale</aspectratio>
+							<texture background="true" diffuse="ClearCase/EmptyCaseMask.png">$INFO[Window(home).Property(RandomMovie.5.Art(poster))]</texture>
+						</control>
+						<control type="image">
+							<posx>0</posx>
+							<posy>0</posy>
+							<width>184</width>
+							<height>240</height>
+							<texture background="true">ClearCase/ClearCase.png</texture>
+						</control>
+					</control>
+					<control type="group">
+						<description>Case 2</description>
+						<posx>623</posx>
+						<posy>0</posy>
+						<animation effect="zoom" start="180" end="180" center="auto" time="0" tween="linear" condition="true">Conditional</animation>
+						<animation effect="rotate" center="auto" start="65" end="65" time="0" condition="true">Conditional</animation>
+						<control type="image">
+							<posx>26</posx>
+							<posy>6</posy>
+							<width>149</width>
+							<fadetime>600</fadetime>
+							<height>223</height>
+							<align>center</align>
+							<aspectratio scalediffuse="false">scale</aspectratio>
+							<texture background="true" diffuse="ClearCase/EmptyCaseMask.png">$INFO[Window(home).Property(RandomMovie.9.Art(poster))]</texture>
+						</control>
+						<control type="image">
+							<posx>0</posx>
+							<posy>0</posy>
+							<width>184</width>
+							<height>240</height>
+							<texture background="true">ClearCase/ClearCase.png</texture>
+						</control>
+					</control>
+					<control type="group">
+						<description>Case 3</description>
+						<posx>453</posx>
+						<posy>150</posy>
+						<animation effect="zoom" start="180" end="180" center="auto" time="0" tween="linear" condition="true">Conditional</animation>
+						<animation effect="rotate" center="auto" start="10" end="10" time="0" condition="true">Conditional</animation>
+						<control type="image">
+							<posx>26</posx>
+							<posy>6</posy>
+							<fadetime>600</fadetime>
+							<width>149</width>
+							<height>223</height>
+							<align>center</align>
+							<texture background="true" diffuse="ClearCase/EmptyCaseMask.png">$INFO[Window(home).Property(RandomMovie.8.Art(poster))]</texture>
+						</control>
+						<control type="image">
+							<posx>0</posx>
+							<posy>0</posy>
+							<width>184</width>
+							<height>240</height>
+							<texture background="true">ClearCase/ClearCase.png</texture>
+						</control>
+					</control>
+					<control type="group">
+						<description>Case 4</description>
+						<posx>1033</posx>
+						<posy>250</posy>
+						<animation effect="zoom" start="180" end="180" center="auto" time="0" tween="linear" condition="true">Conditional</animation>
+						<animation effect="rotate" center="auto" start="-20" end="-20" time="0" condition="true">Conditional</animation>
+						<control type="image">
+							<posx>26</posx>
+							<posy>6</posy>
+							<fadetime>600</fadetime>
+							<width>149</width>
+							<height>223</height>
+							<align>center</align>
+							<aspectratio scalediffuse="false">scale</aspectratio>
+							<texture background="true" diffuse="ClearCase/EmptyCaseMask.png">$INFO[Window(home).Property(RandomMovie.7.Art(poster))]</texture>
+						</control>
+						<control type="image">
+							<posx>0</posx>
+							<posy>0</posy>
+							<width>184</width>
+							<height>240</height>
+							<texture background="true">ClearCase/ClearCase.png</texture>
+						</control>
+					</control>
+					<control type="group">
+						<description>Case 5</description>
+						<posx>667</posx>
+						<posy>113</posy>
+						<animation effect="zoom" start="180" end="180" center="auto" time="0" tween="linear" condition="true">Conditional</animation>
+						<animation effect="rotate" center="auto" start="25" end="25" time="0" condition="true">Conditional</animation>
+						<control type="image">
+							<posx>26</posx>
+							<posy>6</posy>
+							<width>149</width>
+							<height>223</height>
+							<fadetime>600</fadetime>
+							<align>center</align>
+							<aspectratio scalediffuse="false">scale</aspectratio>
+							<texture background="true" diffuse="ClearCase/EmptyCaseMask.png">$INFO[Window(home).Property(RandomMovie.4.Art(poster))]</texture>
+						</control>
+						<control type="image">
+							<posx>0</posx>
+							<posy>0</posy>
+							<width>184</width>
+							<height>240</height>
+							<texture background="true">ClearCase/ClearCase.png</texture>
+						</control>
+					</control>
+					<visible>!StringCompare(Container(9000).ListItem.Property(HiLiteItem),Videos) | StringCompare(Container(9000).ListItem.Property(HiLiteItem),Videos) + !Library.HasContent(TVShows)</visible>
+				</control>
+				<control type="group">
+					<description>Case 6</description>
+					<posx>870</posx>
+					<posy>65</posy>
+					<animation effect="zoom" start="180" end="180" center="auto" time="0" tween="linear" condition="true">Conditional</animation>
+					<animation effect="rotate" center="auto" start="75" end="75" time="0" condition="true">Conditional</animation>
+					<control type="image">
+						<posx>26</posx>
+						<posy>6</posy>
+						<width>149</width>
+						<height>223</height>
+						<fadetime>600</fadetime>
+						<align>center</align>
+						<aspectratio scalediffuse="false">scale</aspectratio>
+						<texture background="true" diffuse="ClearCase/EmptyCaseMask.png">$INFO[Window(home).Property(RandomMovie.6.Art(poster))]</texture>
+					</control>
+					<control type="image">
+						<posx>0</posx>
+						<posy>0</posy>
+						<width>184</width>
+						<height>240</height>
+						<texture background="true">ClearCase/ClearCase.png</texture>
+					</control>
+				</control>
+				<control type="group">
+					<description>Case 7</description>
+					<posx>1000</posx>
+					<posy>293</posy>
+					<animation effect="zoom" start="180" end="180" center="auto" time="0" tween="linear" condition="true">Conditional</animation>
+					<animation effect="rotate" center="auto" start="45" end="45" time="0" condition="true">Conditional</animation>
+					<control type="image">
+						<posx>26</posx>
+						<posy>6</posy>
+						<width>149</width>
+						<height>223</height>
+						<fadetime>600</fadetime>
+						<align>center</align>
+						<aspectratio scalediffuse="false">scale</aspectratio>
+						<texture background="true" diffuse="ClearCase/EmptyCaseMask.png">$INFO[Window(home).Property(RandomMovie.10.Art(poster))]</texture>
+					</control>
+					<control type="image">
+						<posx>0</posx>
+						<posy>0</posy>
+						<width>184</width>
+						<height>240</height>
+						<texture background="true">ClearCase/ClearCase.png</texture>
+					</control>
+				</control>
+				<control type="group">
+					<description>Case 8</description>
+					<posx>1137</posx>
+					<posy>373</posy>
+					<animation effect="zoom" start="180" end="180" center="auto" time="0" tween="linear" condition="true">Conditional</animation>
+					<animation effect="rotate" center="auto" start="-35" end="-35" time="0" condition="true">Conditional</animation>
+					<control type="image">
+						<posx>26</posx>
+						<posy>6</posy>
+						<width>149</width>
+						<height>223</height>
+						<fadetime>600</fadetime>
+						<align>center</align>
+						<aspectratio scalediffuse="false">scale</aspectratio>
+						<texture background="true" diffuse="ClearCase/EmptyCaseMask.png">$INFO[Window(home).Property(RandomMovie.3.Art(poster))]</texture>
+					</control>
+					<control type="image">
+						<posx>0</posx>
+						<posy>0</posy>
+						<width>184</width>
+						<height>240</height>
+						<texture background="true">ClearCase/ClearCase.png</texture>
+					</control>
+				</control>
+				<control type="group">
+					<description>Case 9</description>
+					<posx>733</posx>
+					<posy>262</posy>
+					<animation effect="zoom" start="180" end="180" center="auto" time="0" tween="linear" condition="true">Conditional</animation>
+					<animation effect="rotate" center="auto" start="-10" end="-10" time="0" condition="true">Conditional</animation>
+					<control type="image">
+						<posx>26</posx>
+						<posy>6</posy>
+						<width>149</width>
+						<fadetime>600</fadetime>
+						<height>223</height>
+						<align>center</align>
+						<aspectratio scalediffuse="false">scale</aspectratio>
+						<texture background="true" diffuse="ClearCase/EmptyCaseMask.png">$INFO[Window(home).Property(RandomMovie.2.Art(poster))]</texture>
+					</control>
+					<control type="image">
+						<posx>0</posx>
+						<posy>0</posy>
+						<width>184</width>
+						<height>240</height>
+						<texture background="true">ClearCase/ClearCase.png</texture>
+					</control>
+				</control>
+				<control type="group">
+					<description>Case 10</description>
+					<posx>407</posx>
+					<posy>297</posy>
+					<animation effect="zoom" start="180" end="180" center="auto" time="0" tween="linear" condition="true">Conditional</animation>
+					<animation effect="rotate" center="auto" start="3" end="3" time="0" condition="true">Conditional</animation>
+					<control type="image">
+						<posx>26</posx>
+						<posy>6</posy>
+						<width>149</width>
+						<fadetime>600</fadetime>
+						<height>223</height>
+						<align>center</align>
+						<aspectratio scalediffuse="false">scale</aspectratio>
+						<texture background="true" diffuse="ClearCase/EmptyCaseMask.png">$INFO[Window(home).Property(RandomMovie.1.Art(poster))]</texture>
+					</control>
+					<control type="image">
+						<posx>0</posx>
+						<posy>0</posy>
+						<width>184</width>
+						<height>240</height>
+						<texture background="true">ClearCase/ClearCase.png</texture>
+					</control>
+				</control>
+				<visible>StringCompare(Container(9000).ListItem.Property(HiLiteItem),Movies) | StringCompare(Container(9000).ListItem.Property(HiLiteItem),Videos)</visible>
+				<visible>Library.HasContent(Movies)</visible>
+			</control>
+			<control type="group">
+				<posx>-133</posx>
+				<control type="group">
+					<description>Case 1</description>
+					<posx>747</posx>
+					<posy>422</posy>
+					<animation effect="zoom" start="180" end="180" center="auto" time="0" tween="linear" condition="true">Conditional</animation>
+					<animation effect="rotate" center="auto" start="-65" end="-65" time="0" condition="true">Conditional</animation>
+					<control type="image">
+						<posx>26</posx>
+						<posy>6</posy>
+						<width>149</width>
+						<fadetime>600</fadetime>
+						<height>223</height>
+						<fadetime>600</fadetime>
+						<align>center</align>
+						<aspectratio scalediffuse="false">scale</aspectratio>
+						<texture background="true" diffuse="ClearCase/EmptyCaseMask.png">$INFO[Window(home).Property(RandomEpisode.5.Art(tvshow.poster))]</texture>
+					</control>
+					<control type="image">
+						<posx>0</posx>
+						<posy>0</posy>
+						<width>184</width>
+						<height>240</height>
+						<texture background="true">ClearCase/ClearCase.png</texture>
+					</control>
+				</control>
+				<control type="group">
+					<description>Case 2</description>
+					<posx>623</posx>
+					<posy>0</posy>
+					<animation effect="zoom" start="180" end="180" center="auto" time="0" tween="linear" condition="true">Conditional</animation>
+					<animation effect="rotate" center="auto" start="65" end="65" time="0" condition="true">Conditional</animation>
+					<control type="image">
+						<posx>26</posx>
+						<posy>6</posy>
+						<width>149</width>
+						<fadetime>600</fadetime>
+						<height>223</height>
+						<align>center</align>
+						<aspectratio scalediffuse="false">scale</aspectratio>
+						<texture background="true" diffuse="ClearCase/EmptyCaseMask.png">$INFO[Window(home).Property(RandomEpisode.9.Art(tvshow.poster))]</texture>
+					</control>
+					<control type="image">
+						<posx>0</posx>
+						<posy>0</posy>
+						<width>184</width>
+						<height>240</height>
+						<texture background="true">ClearCase/ClearCase.png</texture>
+					</control>
+				</control>
+				<control type="group">
+					<description>Case 3</description>
+					<posx>453</posx>
+					<posy>150</posy>
+					<animation effect="zoom" start="180" end="180" center="auto" time="0" tween="linear" condition="true">Conditional</animation>
+					<animation effect="rotate" center="auto" start="10" end="10" time="0" condition="true">Conditional</animation>
+					<control type="image">
+						<posx>26</posx>
+						<posy>6</posy>
+						<fadetime>600</fadetime>
+						<width>149</width>
+						<height>223</height>
+						<align>center</align>
+						<texture background="true" diffuse="ClearCase/EmptyCaseMask.png">$INFO[Window(home).Property(RandomEpisode.8.Art(tvshow.poster))]</texture>
+					</control>
+					<control type="image">
+						<posx>0</posx>
+						<posy>0</posy>
+						<width>184</width>
+						<height>240</height>
+						<texture background="true">ClearCase/ClearCase.png</texture>
+					</control>
+				</control>
+				<control type="group">
+					<description>Case 4</description>
+					<posx>1033</posx>
+					<posy>250</posy>
+					<animation effect="zoom" start="180" end="180" center="auto" time="0" tween="linear" condition="true">Conditional</animation>
+					<animation effect="rotate" center="auto" start="-20" end="-20" time="0" condition="true">Conditional</animation>
+					<control type="image">
+						<posx>26</posx>
+						<posy>6</posy>
+						<fadetime>600</fadetime>
+						<width>149</width>
+						<height>223</height>
+						<align>center</align>
+						<aspectratio scalediffuse="false">scale</aspectratio>
+						<texture background="true" diffuse="ClearCase/EmptyCaseMask.png">$INFO[Window(home).Property(RandomEpisode.7.Art(tvshow.poster))]</texture>
+					</control>
+					<control type="image">
+						<posx>0</posx>
+						<posy>0</posy>
+						<width>184</width>
+						<height>240</height>
+						<texture background="true">ClearCase/ClearCase.png</texture>
+					</control>
+				</control>
+				<control type="group">
+					<description>Case 5</description>
+					<posx>667</posx>
+					<posy>113</posy>
+					<animation effect="zoom" start="180" end="180" center="auto" time="0" tween="linear" condition="true">Conditional</animation>
+					<animation effect="rotate" center="auto" start="25" end="25" time="0" condition="true">Conditional</animation>
+					<control type="image">
+						<posx>26</posx>
+						<posy>6</posy>
+						<width>149</width>
+						<height>223</height>
+						<fadetime>600</fadetime>
+						<align>center</align>
+						<aspectratio scalediffuse="false">scale</aspectratio>
+						<texture background="true" diffuse="ClearCase/EmptyCaseMask.png">$INFO[Window(home).Property(RandomEpisode.4.Art(tvshow.poster))]</texture>
+					</control>
+					<control type="image">
+						<posx>0</posx>
+						<posy>0</posy>
+						<width>184</width>
+						<height>240</height>
+						<texture background="true">ClearCase/ClearCase.png</texture>
+					</control>
+				</control>
+				<control type="group">
+					<control type="group">
+						<description>Case 6</description>
+						<posx>870</posx>
+						<posy>65</posy>
+						<animation effect="zoom" start="180" end="180" center="auto" time="0" tween="linear" condition="true">Conditional</animation>
+						<animation effect="rotate" center="auto" start="75" end="75" time="0" condition="true">Conditional</animation>
+						<control type="image">
+							<posx>26</posx>
+							<posy>6</posy>
+							<width>149</width>
+							<height>223</height>
+							<fadetime>600</fadetime>
+							<align>center</align>
+							<aspectratio scalediffuse="false">scale</aspectratio>
+							<texture background="true" diffuse="ClearCase/EmptyCaseMask.png">$INFO[Window(home).Property(RandomEpisode.6.Art(tvshow.poster))]</texture>
+						</control>
+						<control type="image">
+							<posx>0</posx>
+							<posy>0</posy>
+							<width>184</width>
+							<height>240</height>
+							<texture background="true">ClearCase/ClearCase.png</texture>
+						</control>
+					</control>
+					<control type="group">
+						<description>Case 7</description>
+						<posx>1000</posx>
+						<posy>293</posy>
+						<animation effect="zoom" start="180" end="180" center="auto" time="0" tween="linear" condition="true">Conditional</animation>
+						<animation effect="rotate" center="auto" start="45" end="45" time="0" condition="true">Conditional</animation>
+						<control type="image">
+							<posx>26</posx>
+							<posy>6</posy>
+							<width>149</width>
+							<height>223</height>
+							<fadetime>600</fadetime>
+							<align>center</align>
+							<aspectratio scalediffuse="false">scale</aspectratio>
+							<texture background="true" diffuse="ClearCase/EmptyCaseMask.png">$INFO[Window(home).Property(RandomEpisode.10.Art(tvshow.poster))]</texture>
+						</control>
+						<control type="image">
+							<posx>0</posx>
+							<posy>0</posy>
+							<width>184</width>
+							<height>240</height>
+							<texture background="true">ClearCase/ClearCase.png</texture>
+						</control>
+					</control>
+					<control type="group">
+						<description>Case 8</description>
+						<posx>1137</posx>
+						<posy>373</posy>
+						<animation effect="zoom" start="180" end="180" center="auto" time="0" tween="linear" condition="true">Conditional</animation>
+						<animation effect="rotate" center="auto" start="-35" end="-35" time="0" condition="true">Conditional</animation>
+						<control type="image">
+							<posx>26</posx>
+							<posy>6</posy>
+							<width>149</width>
+							<height>223</height>
+							<fadetime>600</fadetime>
+							<align>center</align>
+							<aspectratio scalediffuse="false">scale</aspectratio>
+							<texture background="true" diffuse="ClearCase/EmptyCaseMask.png">$INFO[Window(home).Property(RandomEpisode.3.Art(tvshow.poster))]</texture>
+						</control>
+						<control type="image">
+							<posx>0</posx>
+							<posy>0</posy>
+							<width>184</width>
+							<height>240</height>
+							<texture background="true">ClearCase/ClearCase.png</texture>
+						</control>
+					</control>
+					<control type="group">
+						<description>Case 9</description>
+						<posx>733</posx>
+						<posy>262</posy>
+						<animation effect="zoom" start="180" end="180" center="auto" time="0" tween="linear" condition="true">Conditional</animation>
+						<animation effect="rotate" center="auto" start="-10" end="-10" time="0" condition="true">Conditional</animation>
+						<control type="image">
+							<posx>26</posx>
+							<posy>6</posy>
+							<width>149</width>
+							<fadetime>600</fadetime>
+							<height>223</height>
+							<align>center</align>
+							<aspectratio scalediffuse="false">scale</aspectratio>
+							<texture background="true" diffuse="ClearCase/EmptyCaseMask.png">$INFO[Window(home).Property(RandomEpisode.2.Art(tvshow.poster))]</texture>
+						</control>
+						<control type="image">
+							<posx>0</posx>
+							<posy>0</posy>
+							<width>184</width>
+							<height>240</height>
+							<texture background="true">ClearCase/ClearCase.png</texture>
+						</control>
+					</control>
+					<control type="group">
+						<description>Case 10</description>
+						<posx>407</posx>
+						<posy>297</posy>
+						<animation effect="zoom" start="180" end="180" center="auto" time="0" tween="linear" condition="true">Conditional</animation>
+						<animation effect="rotate" center="auto" start="3" end="3" time="0" condition="true">Conditional</animation>
+						<control type="image">
+							<posx>26</posx>
+							<posy>6</posy>
+							<width>149</width>
+							<fadetime>600</fadetime>
+							<height>223</height>
+							<align>center</align>
+							<aspectratio scalediffuse="false">scale</aspectratio>
+							<texture background="true" diffuse="ClearCase/EmptyCaseMask.png">$INFO[Window(home).Property(RandomEpisode.1.Art(tvshow.poster))]</texture>
+						</control>
+						<control type="image">
+							<posx>0</posx>
+							<posy>0</posy>
+							<width>184</width>
+							<height>240</height>
+							<texture background="true">ClearCase/ClearCase.png</texture>
+						</control>
+					</control>
+					<visible>!StringCompare(Container(9000).ListItem.Property(HiLiteItem),Videos)</visible>
+				</control>
+				<visible>StringCompare(Container(9000).ListItem.Property(HiLiteItem),TVShows) | StringCompare(Container(9000).ListItem.Property(HiLiteItem),Videos)</visible>
+				<visible>Library.HasContent(TVShows)</visible>
+			</control>
+			<control type="group">
+				<posx>-133</posx>
+				<control type="group">
+					<description>Case 1</description>
+					<posx>747</posx>
+					<posy>422</posy>
+					<animation effect="zoom" start="180" end="180" center="auto" time="0" tween="linear" condition="true">Conditional</animation>
+					<animation effect="rotate" center="auto" start="-65" end="-65" time="0" condition="true">Conditional</animation>
+					<control type="image">
+						<posx>26</posx>
+						<posy>6</posy>
+						<width>149</width>
+						<fadetime>600</fadetime>
+						<height>223</height>
+						<fadetime>600</fadetime>
+						<align>center</align>
+						<aspectratio scalediffuse="false">scale</aspectratio>
+						<texture background="true" diffuse="ClearCase/EmptyCaseMask.png">$INFO[Window(home).Property(RandomMusicVideo.5.Art(poster))]</texture>
+					</control>
+					<control type="image">
+						<posx>0</posx>
+						<posy>0</posy>
+						<width>184</width>
+						<height>240</height>
+						<texture background="true">ClearCase/ClearCase.png</texture>
+					</control>
+				</control>
+				<control type="group">
+					<description>Case 2</description>
+					<posx>623</posx>
+					<posy>0</posy>
+					<animation effect="zoom" start="180" end="180" center="auto" time="0" tween="linear" condition="true">Conditional</animation>
+					<animation effect="rotate" center="auto" start="65" end="65" time="0" condition="true">Conditional</animation>
+					<control type="image">
+						<posx>26</posx>
+						<posy>6</posy>
+						<width>149</width>
+						<fadetime>600</fadetime>
+						<height>223</height>
+						<align>center</align>
+						<aspectratio scalediffuse="false">scale</aspectratio>
+						<texture background="true" diffuse="ClearCase/EmptyCaseMask.png">$INFO[Window(home).Property(RandomMusicVideo.9.Art(poster))]</texture>
+					</control>
+					<control type="image">
+						<posx>0</posx>
+						<posy>0</posy>
+						<width>184</width>
+						<height>240</height>
+						<texture background="true">ClearCase/ClearCase.png</texture>
+					</control>
+				</control>
+				<control type="group">
+					<description>Case 3</description>
+					<posx>453</posx>
+					<posy>150</posy>
+					<animation effect="zoom" start="180" end="180" center="auto" time="0" tween="linear" condition="true">Conditional</animation>
+					<animation effect="rotate" center="auto" start="10" end="10" time="0" condition="true">Conditional</animation>
+					<control type="image">
+						<posx>26</posx>
+						<posy>6</posy>
+						<fadetime>600</fadetime>
+						<width>149</width>
+						<height>223</height>
+						<align>center</align>
+						<texture background="true" diffuse="ClearCase/EmptyCaseMask.png">$INFO[Window(home).Property(RandomMusicVideo.8.Art(poster))]</texture>
+					</control>
+					<control type="image">
+						<posx>0</posx>
+						<posy>0</posy>
+						<width>184</width>
+						<height>240</height>
+						<texture background="true">ClearCase/ClearCase.png</texture>
+					</control>
+				</control>
+				<control type="group">
+					<description>Case 4</description>
+					<posx>1033</posx>
+					<posy>250</posy>
+					<animation effect="zoom" start="180" end="180" center="auto" time="0" tween="linear" condition="true">Conditional</animation>
+					<animation effect="rotate" center="auto" start="-20" end="-20" time="0" condition="true">Conditional</animation>
+					<control type="image">
+						<posx>26</posx>
+						<posy>6</posy>
+						<fadetime>600</fadetime>
+						<width>149</width>
+						<height>223</height>
+						<align>center</align>
+						<aspectratio scalediffuse="false">scale</aspectratio>
+						<texture background="true" diffuse="ClearCase/EmptyCaseMask.png">$INFO[Window(home).Property(RandomMusicVideo.7.Art(poster))]</texture>
+					</control>
+					<control type="image">
+						<posx>0</posx>
+						<posy>0</posy>
+						<width>184</width>
+						<height>240</height>
+						<texture background="true">ClearCase/ClearCase.png</texture>
+					</control>
+				</control>
+				<control type="group">
+					<description>Case 5</description>
+					<posx>667</posx>
+					<posy>113</posy>
+					<animation effect="zoom" start="180" end="180" center="auto" time="0" tween="linear" condition="true">Conditional</animation>
+					<animation effect="rotate" center="auto" start="25" end="25" time="0" condition="true">Conditional</animation>
+					<control type="image">
+						<posx>26</posx>
+						<posy>6</posy>
+						<width>149</width>
+						<height>223</height>
+						<fadetime>600</fadetime>
+						<align>center</align>
+						<aspectratio scalediffuse="false">scale</aspectratio>
+						<texture background="true" diffuse="ClearCase/EmptyCaseMask.png">$INFO[Window(home).Property(RandomMusicVideo.4.Art(poster))]</texture>
+					</control>
+					<control type="image">
+						<posx>0</posx>
+						<posy>0</posy>
+						<width>184</width>
+						<height>240</height>
+						<texture background="true">ClearCase/ClearCase.png</texture>
+					</control>
+				</control>
+				<control type="group">
+					<description>Case 6</description>
+					<posx>870</posx>
+					<posy>65</posy>
+					<animation effect="zoom" start="180" end="180" center="auto" time="0" tween="linear" condition="true">Conditional</animation>
+					<animation effect="rotate" center="auto" start="75" end="75" time="0" condition="true">Conditional</animation>
+					<control type="image">
+						<posx>26</posx>
+						<posy>6</posy>
+						<width>149</width>
+						<height>223</height>
+						<fadetime>600</fadetime>
+						<align>center</align>
+						<aspectratio scalediffuse="false">scale</aspectratio>
+						<texture background="true" diffuse="ClearCase/EmptyCaseMask.png">$INFO[Window(home).Property(RandomMusicVideo.6.Art(poster))]</texture>
+					</control>
+					<control type="image">
+						<posx>0</posx>
+						<posy>0</posy>
+						<width>184</width>
+						<height>240</height>
+						<texture background="true">ClearCase/ClearCase.png</texture>
+					</control>
+				</control>
+				<control type="group">
+					<description>Case 7</description>
+					<posx>1000</posx>
+					<posy>293</posy>
+					<animation effect="zoom" start="180" end="180" center="auto" time="0" tween="linear" condition="true">Conditional</animation>
+					<animation effect="rotate" center="auto" start="45" end="45" time="0" condition="true">Conditional</animation>
+					<control type="image">
+						<posx>26</posx>
+						<posy>6</posy>
+						<width>149</width>
+						<height>223</height>
+						<fadetime>600</fadetime>
+						<align>center</align>
+						<aspectratio scalediffuse="false">scale</aspectratio>
+						<texture background="true" diffuse="ClearCase/EmptyCaseMask.png">$INFO[Window(home).Property(RandomMusicVideo.10.Art(poster))]</texture>
+					</control>
+					<control type="image">
+						<posx>0</posx>
+						<posy>0</posy>
+						<width>184</width>
+						<height>240</height>
+						<texture background="true">ClearCase/ClearCase.png</texture>
+					</control>
+				</control>
+				<control type="group">
+					<description>Case 8</description>
+					<posx>1137</posx>
+					<posy>373</posy>
+					<animation effect="zoom" start="180" end="180" center="auto" time="0" tween="linear" condition="true">Conditional</animation>
+					<animation effect="rotate" center="auto" start="-35" end="-35" time="0" condition="true">Conditional</animation>
+					<control type="image">
+						<posx>26</posx>
+						<posy>6</posy>
+						<width>149</width>
+						<height>223</height>
+						<fadetime>600</fadetime>
+						<align>center</align>
+						<aspectratio scalediffuse="false">scale</aspectratio>
+						<texture background="true" diffuse="ClearCase/EmptyCaseMask.png">$INFO[Window(home).Property(RandomMusicVideo.3.Art(poster))]</texture>
+					</control>
+					<control type="image">
+						<posx>0</posx>
+						<posy>0</posy>
+						<width>184</width>
+						<height>240</height>
+						<texture background="true">ClearCase/ClearCase.png</texture>
+					</control>
+				</control>
+				<control type="group">
+					<description>Case 9</description>
+					<posx>733</posx>
+					<posy>262</posy>
+					<animation effect="zoom" start="180" end="180" center="auto" time="0" tween="linear" condition="true">Conditional</animation>
+					<animation effect="rotate" center="auto" start="-10" end="-10" time="0" condition="true">Conditional</animation>
+					<control type="image">
+						<posx>26</posx>
+						<posy>6</posy>
+						<width>149</width>
+						<fadetime>600</fadetime>
+						<height>223</height>
+						<align>center</align>
+						<aspectratio scalediffuse="false">scale</aspectratio>
+						<texture background="true" diffuse="ClearCase/EmptyCaseMask.png">$INFO[Window(home).Property(RandomMusicVideo.2.Art(poster))]</texture>
+					</control>
+					<control type="image">
+						<posx>0</posx>
+						<posy>0</posy>
+						<width>184</width>
+						<height>240</height>
+						<texture background="true">ClearCase/ClearCase.png</texture>
+					</control>
+				</control>
+				<control type="group">
+					<description>Case 10</description>
+					<posx>407</posx>
+					<posy>297</posy>
+					<animation effect="zoom" start="180" end="180" center="auto" time="0" tween="linear" condition="true">Conditional</animation>
+					<animation effect="rotate" center="auto" start="3" end="3" time="0" condition="true">Conditional</animation>
+					<control type="image">
+						<posx>26</posx>
+						<posy>6</posy>
+						<width>149</width>
+						<fadetime>600</fadetime>
+						<height>223</height>
+						<align>center</align>
+						<aspectratio scalediffuse="false">scale</aspectratio>
+						<texture background="true" diffuse="ClearCase/EmptyCaseMask.png">$INFO[Window(home).Property(RandomMusicVideo.1.Art(poster))]</texture>
+					</control>
+					<control type="image">
+						<posx>0</posx>
+						<posy>0</posy>
+						<width>184</width>
+						<height>240</height>
+						<texture background="true">ClearCase/ClearCase.png</texture>
+					</control>
+				</control>
+				<visible>StringCompare(Container(9000).ListItem.Property(HiLiteItem),Concerts) + Library.HasContent(MusicVideos)</visible>
+			</control>
+		</control>
+	</include>	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	<include name="MusicPlayingBottom">
 		<control type="group">
 			<control type="image">

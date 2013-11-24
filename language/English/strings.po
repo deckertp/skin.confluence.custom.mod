@@ -1021,3 +1021,7 @@ msgstr ""
 msgctxt "#31959"
 msgid "SYSTEM"
 msgstr ""
+
+msgctxt "#31945"
+msgid "Use Live Backgrounds"
+msgstr ""
