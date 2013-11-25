@@ -252,7 +252,7 @@
 						<onclick>Skin.ToggleSetting(HolidayEffects)</onclick>
 						<selected>Skin.HasSetting(HolidayEffects)</selected>
 						<visible>System.Date(11-24,1-6)</visible>
-					</control>					
+					</control>
 					<control type="radiobutton" id="102">
 						<width>750</width>
 						<height>40</height>
@@ -589,8 +589,6 @@
 						<selected>!Skin.HasSetting(HideWidgetFanArt)</selected>
 						<enable>!Skin.HasSetting(HideBackGroundFanart)</enable>
 					</control>
-					
-					
 					<control type="radiobutton" id="128">
 						<description>RainDrop Effect</description>
 						<width>750</width>
@@ -605,9 +603,6 @@
 						<selected>Skin.HasSetting(HideRainDropEffect)</selected>
 						<enable>!Skin.HasSetting(EnableMinSpec)</enable>
 					</control>
-					
-					
-					
 					<control type="label" id="129">
 						<width>750</width>
 						<height>45</height>

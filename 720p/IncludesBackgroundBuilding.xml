@@ -259,8 +259,6 @@
 			<fadetime>1000</fadetime>
 			<visible>!Window.IsVisible(home)</visible>
 		</control>
-		
-		
 		<control type="group">
 			<visible>!Skin.HasSetting(HideBackGroundFanart) + !Player.HasVideo</visible>
 			<control type="image">
