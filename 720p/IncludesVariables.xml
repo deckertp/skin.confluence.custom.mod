@@ -108,6 +108,8 @@
 	</variable>
 	<variable name="HomeMenuItemBackground" type="text">
 		<!-- Home Screen Backgrounds -->
+		<value condition="Skin.HasSetting(HolidayEffects) + IsEmpty(Skin.String(HolidayThemePath))">special://skin/extras/Holiday/xmastree.jpg</value>
+		<value condition="Skin.HasSetting(HolidayEffects) + !IsEmpty(Skin.String(HolidayThemePath))">$INFO[Skin.String(HolidayThemePath)]</value>
 		<value condition="Skin.HasSetting(GlobalBackground) + !IsEmpty(Skin.String(CustomBackgroundPath))">$INFO[Skin.String(CustomBackgroundPath)]</value>
 		<value condition="Skin.HasSetting(GlobalBackground) + IsEmpty(Skin.String(CustomBackgroundPath))">$INFO[Skin.CurrentTheme,special://skin/backgrounds/,.jpg]</value>
 		<value condition="Control.HasFocus(20) + !IsEmpty(Skin.String(PowerBtnBackground))">$INFO[Skin.String(PowerBtnBackground)]</value>
@@ -138,6 +140,8 @@
 	</variable>
 	<variable name="CommonMenuItemBackground" type="text">
 		<!-- Not in Home Default Backgrounds -->
+		<value condition="Skin.HasSetting(HolidayEffects) + IsEmpty(Skin.String(HolidayThemePath))">special://skin/extras/Holiday/xmastree.jpg</value>
+		<value condition="Skin.HasSetting(HolidayEffects) + !IsEmpty(Skin.String(HolidayThemePath))">$INFO[Skin.String(HolidayThemePath)]</value>
 		<value condition="Skin.HasSetting(GlobalBackground) + !IsEmpty(Skin.String(CustomBackgroundPath))">$INFO[Skin.String(CustomBackgroundPath)]</value>
 		<value condition="Skin.HasSetting(GlobalBackground) + IsEmpty(Skin.String(CustomBackgroundPath))">$INFO[Skin.CurrentTheme,special://skin/backgrounds/,.jpg]</value>
 		<value condition="StringCompare(Window(home).Property(MenuItemSelected),Weather) + Skin.HasSetting(ShowWeatherFanart)">$INFO[Skin.String(WeatherFanartDir)]$INFO[Window(Weather).Property(Current.FanartCode)]</value>
@@ -157,6 +161,8 @@
 		<value>$INFO[Skin.CurrentTheme,special://skin/backgrounds/,.jpg]</value>
 	</variable>
 	<variable name="SubMenuItemBackground" type="text">
+		<value condition="Skin.HasSetting(HolidayEffects) + IsEmpty(Skin.String(HolidayThemePath))">special://skin/extras/Holiday/xmastree.jpg</value>
+		<value condition="Skin.HasSetting(HolidayEffects) + !IsEmpty(Skin.String(HolidayThemePath))">$INFO[Skin.String(HolidayThemePath)]</value>
 		<value condition="Skin.HasSetting(GlobalBackground) + !IsEmpty(Skin.String(CustomBackgroundPath))">$INFO[Skin.String(CustomBackgroundPath)]</value>
 		<value condition="Skin.HasSetting(GlobalBackground) + IsEmpty(Skin.String(CustomBackgroundPath))">$INFO[Skin.CurrentTheme,special://skin/backgrounds/,.jpg]</value>
 		<value condition="StringCompare(Container(9000).ListItem.Property(HiLiteItem),Weather) + Skin.HasSetting(ShowWeatherFanart)">$INFO[Skin.String(WeatherFanartDir)]$INFO[Window(Weather).Property(Current.FanartCode)]</value>

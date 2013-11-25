@@ -61,6 +61,7 @@
 		<onload condition="Skin.HasSetting(EnableMinSpec)">Skin.Setbool(HideVisualizationFanart)</onload>
 		<onload condition="Skin.HasSetting(EnableMinSpec)">Skin.Setbool(HideNextSongsInfo)</onload>
 		<onload condition="Skin.HasSetting(EnableMinSpec)">Skin.Setbool(HideXBMCIntro)</onload>
+		<onload condition="System.Date(11-24,1-6)">Skin.Setbool(HolidayEffects)</onload>
 		<onload>Skin.SetBool(ShowWeatherFanart)</onload>
 		<onload>Skin.SetBool(ShowMovieDBFanart)</onload>
 		<onload>Skin.SetBool(ShowTVShowDBFanart)</onload>
@@ -150,6 +151,7 @@
 		<onload>Skin.SetString(SearchBtnBackground,special://skin/backgrounds/homescreen/search.jpg)</onload>
 		<onload>Skin.SetString(PowerBtnBackground,special://skin/backgrounds/homescreen/shutdown.jpg)</onload>
 		<onload>Skin.SetString(FavBtnBackground,special://skin/backgrounds/homescreen/favourite.jpg)</onload>
+		<onload>Skin.SetString(HolidayThemePath,special://skin/extras/Holiday/)</onload>
 		<onload>Skin.SetBool(InitialSetUpRun)</onload>
 	</include>
 	<include name="BehindDialogFadeOut">
@@ -2689,4 +2691,23 @@
 			<visible>Skin.HasSetting(AllowTransparentFanart) + !IsEmpty(Visualisation.Name) + !stringcompare(Visualisation.Name,Waveform) + !stringcompare(Visualisation.Name,DirectX Spectrum)</visible>
 		</control>
 	</include>
+	
+	
+	
+	
+	
+	
+	
+	<include name="Holiday Theme"> 
+		<!--snow-->
+	</include>					
+
+	
+	
+	
+	
+	
+	
+	
+	
 </includes>

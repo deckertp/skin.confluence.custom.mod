@@ -14,7 +14,7 @@
 				<include>LiveContentBackgrounds</include>
 				<visible>StringCompare(Container(9000).ListItem.Property(Background),LiveContent) + SubString(Window(Home).Property(SkinWidgets_RandomItems),true)</visible>
 			</control>
-			<visible>Window.IsVisible(home) + !Skin.HasSetting(GlobalBackground)</visible>
+			<visible>Window.IsVisible(home) + !Skin.HasSetting(GlobalBackground) + !Skin.HasSetting(HolidayEffects)</visible>
 		</control>
 		<control type="group">
 			<control type="multiimage">
@@ -43,10 +43,31 @@
 				<visible>Window.IsVisible(home)</visible>
 				<visible>!Skin.HasSetting(GlobalWeatherFanart) + !IsEmpty(Skin.String(CustomBackgroundPath))</visible>
 			</control>
-			<visible>Skin.HasSetting(GlobalBackground)</visible>
+			<visible>Skin.HasSetting(GlobalBackground) + !Skin.HasSetting(HolidayEffects)</visible>
 		</control>
 		<control type="group">
-			<visible>!Skin.HasSetting(HideBackGroundFanart) + !Skin.HasSetting(HideWidgetFanArt)</visible>
+			<control type="image">
+				<description>Holiday Theme Default Image</description>
+				<include>Dimensions_Fullscreen</include>
+				<aspectratio>scale</aspectratio>
+				<include>VisibleFadeEffect</include>
+				<texture>special://skin/extras/Holiday/xmastree.jpg</texture>
+				<visible>IsEmpty(Skin.String(HolidayThemePath))</visible>
+			</control>
+			<control type="multiimage">
+				<description>Holiday Theme Images</description>
+				<include>Dimensions_Fullscreen</include>
+				<imagepath background="true">$INFO[Skin.String(HolidayThemePath)]</imagepath>
+				<timeperimage>8000</timeperimage>
+				<randomize>true</randomize>
+				<fadetime>1000</fadetime>
+				<visible>Window.IsVisible(home)</visible>
+				<visible>!IsEmpty(Skin.String(HolidayThemePath))</visible>
+			</control>
+			<visible>Skin.HasSetting(HolidayEffects)</visible>
+		</control>
+		<control type="group">
+			<visible>!Skin.HasSetting(HideBackGroundFanart) + !Skin.HasSetting(HideWidgetFanArt) + !Skin.HasSetting(HolidayEffects)</visible>
 			<control type="image">
 				<description>Recently Added Movies Background Image</description>
 				<include>Dimensions_Fullscreen</include>
@@ -238,6 +259,8 @@
 			<fadetime>1000</fadetime>
 			<visible>!Window.IsVisible(home)</visible>
 		</control>
+		
+		
 		<control type="group">
 			<visible>!Skin.HasSetting(HideBackGroundFanart) + !Player.HasVideo</visible>
 			<control type="image">

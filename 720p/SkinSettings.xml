@@ -240,6 +240,20 @@
 						<aligny>center</aligny>
 					</control>
 					<control type="radiobutton" id="101">
+						<description>Christmas Theme</description>
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<label>$LOCALIZE[31946]</label>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<onclick>Skin.ToggleSetting(HolidayEffects)</onclick>
+						<selected>Skin.HasSetting(HolidayEffects)</selected>
+						<visible>System.Date(11-24,1-6)</visible>
+					</control>					
+					<control type="radiobutton" id="102">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -262,7 +276,7 @@
 						<onclick>Skin.Reset(AutoScroll)</onclick>
 						<selected>Skin.HasSetting(EnableMinSpec)</selected>
 					</control>
-					<control type="radiobutton" id="102">
+					<control type="radiobutton" id="103">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -274,7 +288,7 @@
 						<onclick>Skin.ToggleSetting(ABCKeyBoard)</onclick>
 						<selected>!Skin.HasSetting(ABCKeyBoard)</selected>
 					</control>
-					<control type="radiobutton" id="103">
+					<control type="radiobutton" id="104">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -286,7 +300,7 @@
 						<onclick>Skin.ToggleSetting(HideSystemClock)</onclick>
 						<selected>!Skin.HasSetting(HideSystemClock)</selected>
 					</control>
-					<control type="radiobutton" id="104">
+					<control type="radiobutton" id="105">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -300,7 +314,7 @@
 						<enable>!Skin.HasSetting(EnableMinSpec)</enable>
 						<visible>!IsEmpty(Weather.Plugin)</visible>
 					</control>
-					<control type="radiobutton" id="105">
+					<control type="radiobutton" id="106">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -312,7 +326,7 @@
 						<onclick>Skin.ToggleSetting(KioskMode)</onclick>
 						<selected>Skin.HasSetting(KioskMode)</selected>
 					</control>
-					<control type="radiobutton" id="106">
+					<control type="radiobutton" id="107">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -325,7 +339,7 @@
 						<enable>!Skin.HasSetting(EnableMinSpec)</enable>
 						<selected>!Skin.HasSetting(HideBusyAnimation)</selected>
 					</control>
-					<control type="radiobutton" id="107">
+					<control type="radiobutton" id="108">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -337,7 +351,7 @@
 						<onclick>Skin.ToggleSetting(DisableHomeReturnButtons)</onclick>
 						<selected>!Skin.HasSetting(DisableHomeReturnButtons)</selected>
 					</control>
-					<control type="radiobutton" id="108">
+					<control type="radiobutton" id="109">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -349,7 +363,7 @@
 						<onclick>Skin.ToggleSetting(DisableFloorVolumeButtons)</onclick>
 						<selected>!Skin.HasSetting(DisableFloorVolumeButtons)</selected>
 					</control>
-					<control type="radiobutton" id="109">
+					<control type="radiobutton" id="110">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -362,7 +376,7 @@
 						<selected>!Skin.HasSetting(SmallVolumeJump)</selected>
 						<enable>!Skin.HasSetting(DisableFloorVolumeButtons)</enable>
 					</control>
-					<control type="radiobutton" id="110">
+					<control type="radiobutton" id="111">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -374,7 +388,7 @@
 						<onclick>Skin.ToggleSetting(ParentDirLabel)</onclick>
 						<selected>!Skin.HasSetting(ParentDirLabel)</selected>
 					</control>
-					<control type="radiobutton" id="111">
+					<control type="radiobutton" id="112">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -386,7 +400,7 @@
 						<onclick>Skin.ToggleSetting(MediaShortDescription)</onclick>
 						<selected>Skin.HasSetting(MediaShortDescription)</selected>
 					</control>
-					<control type="radiobutton" id="112">
+					<control type="radiobutton" id="113">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -398,7 +412,7 @@
 						<onclick>Skin.ToggleSetting(HideNumItemsCount)</onclick>
 						<selected>Skin.HasSetting(HideNumItemsCount)</selected>
 					</control>
-					<control type="radiobutton" id="113">
+					<control type="radiobutton" id="114">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -411,7 +425,7 @@
 						<enable>!Skin.HasSetting(EnableMinSpec)</enable>
 						<selected>Skin.HasSetting(HideBackGroundFanart)</selected>
 					</control>
-					<control type="radiobutton" id="114">
+					<control type="radiobutton" id="115">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -423,7 +437,7 @@
 						<onclick>Skin.ToggleSetting(HideEpisodeThumb)</onclick>
 						<selected>!Skin.HasSetting(HideEpisodeThumb)</selected>
 					</control>
-					<control type="radiobutton" id="115">
+					<control type="radiobutton" id="116">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -436,7 +450,7 @@
 						<enable>!Skin.HasSetting(EnableMinSpec)</enable>
 						<selected>!Skin.HasSetting(ShowBackgroundVis)</selected>
 					</control>
-					<control type="label" id="116">
+					<control type="label" id="117">
 						<width>750</width>
 						<height>45</height>
 						<font>font13_title</font>
@@ -446,7 +460,7 @@
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
-					<control type="radiobutton" id="117">
+					<control type="radiobutton" id="118">
 						<description>enable Now Playing Info</description>
 						<width>750</width>
 						<height>40</height>
@@ -459,7 +473,7 @@
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 					</control>
-					<control type="radiobutton" id="118">
+					<control type="radiobutton" id="119">
 						<description>Show System Stats</description>
 						<width>750</width>
 						<height>40</height>
@@ -472,7 +486,7 @@
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 					</control>
-					<control type="radiobutton" id="119">
+					<control type="radiobutton" id="120">
 						<description>Raise Main Menu</description>
 						<width>750</width>
 						<height>40</height>
@@ -485,7 +499,7 @@
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 					</control>
-					<control type="radiobutton" id="120">
+					<control type="radiobutton" id="121">
 						<description>Show Suggested Media</description>
 						<width>750</width>
 						<height>40</height>
@@ -499,7 +513,7 @@
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<enable>System.HasAddon(service.skin.widgets)</enable>
 					</control>
-					<control type="radiobutton" id="121">
+					<control type="radiobutton" id="122">
 						<description>Show Global Search</description>
 						<width>750</width>
 						<height>40</height>
@@ -513,7 +527,7 @@
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<enable>System.HasAddon(script.globalsearch)</enable>
 					</control>
-					<control type="button" id="122">
+					<control type="button" id="123">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -526,7 +540,7 @@
 						<enable>!Skin.HasSetting(HideHomeSearch)</enable>
 						<visible>System.HasAddon(script.globalsearch)</visible>
 					</control>
-					<control type="radiobutton" id="123">
+					<control type="radiobutton" id="124">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -538,7 +552,7 @@
 						<onclick>Skin.ToggleSetting(AutoHideSubMenu)</onclick>
 						<selected>!Skin.HasSetting(AutoHideSubMenu)</selected>
 					</control>
-					<control type="radiobutton" id="124">
+					<control type="radiobutton" id="125">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -550,7 +564,7 @@
 						<onclick>Skin.ToggleSetting(HideHomeAddonName)</onclick>
 						<selected>!Skin.HasSetting(HideHomeAddonName)</selected>
 					</control>
-					<control type="radiobutton" id="125">
+					<control type="radiobutton" id="126">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -562,7 +576,7 @@
 						<onclick>Skin.ToggleSetting(AutoHidePowerBtn)</onclick>
 						<selected>!Skin.HasSetting(AutoHidePowerBtn)</selected>
 					</control>
-					<control type="radiobutton" id="126">
+					<control type="radiobutton" id="127">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -575,7 +589,9 @@
 						<selected>!Skin.HasSetting(HideWidgetFanArt)</selected>
 						<enable>!Skin.HasSetting(HideBackGroundFanart)</enable>
 					</control>
-					<control type="radiobutton" id="127">
+					
+					
+					<control type="radiobutton" id="128">
 						<description>RainDrop Effect</description>
 						<width>750</width>
 						<height>40</height>
@@ -589,7 +605,10 @@
 						<selected>Skin.HasSetting(HideRainDropEffect)</selected>
 						<enable>!Skin.HasSetting(EnableMinSpec)</enable>
 					</control>
-					<control type="label" id="128">
+					
+					
+					
+					<control type="label" id="129">
 						<width>750</width>
 						<height>45</height>
 						<font>font13_title</font>
@@ -599,7 +618,7 @@
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
-					<control type="radiobutton" id="129">
+					<control type="radiobutton" id="130">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -611,7 +630,7 @@
 						<onclick>Skin.ToggleSetting(AutoStartVisualization)</onclick>
 						<selected>Skin.HasSetting(AutoStartVisualization)</selected>
 					</control>
-					<control type="radiobutton" id="130">
+					<control type="radiobutton" id="131">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -623,7 +642,7 @@
 						<onclick>Skin.ToggleSetting(HideVisualizationCDart)</onclick>
 						<selected>!Skin.HasSetting(HideVisualizationCDart)</selected>
 					</control>
-					<control type="radiobutton" id="131">
+					<control type="radiobutton" id="132">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -636,7 +655,7 @@
 						<selected>!Skin.HasSetting(HideTraditionalCDart)</selected>
 						<enable>!Skin.HasSetting(HideVisualizationCDart)</enable>
 					</control>
-					<control type="radiobutton" id="132">
+					<control type="radiobutton" id="133">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -649,7 +668,7 @@
 						<onclick>Skin.SetBool(HideVisualizationFanart)</onclick>
 						<selected>Skin.HasSetting(ShowBackgroundAlbumWall)</selected>
 					</control>
-					<control type="radiobutton" id="133">
+					<control type="radiobutton" id="134">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -662,7 +681,7 @@
 						<onclick>Skin.Reset(ShowBackgroundAlbumWall)</onclick>
 						<selected>!Skin.HasSetting(HideVisualizationFanart)</selected>
 					</control>
-					<control type="radiobutton" id="134">
+					<control type="radiobutton" id="135">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -675,7 +694,7 @@
 						<selected>Skin.HasSetting(AnimateVizFanart)</selected>
 						<enable>!Skin.HasSetting(HideVisualizationFanart)</enable>
 					</control>
-					<control type="radiobutton" id="135">
+					<control type="radiobutton" id="136">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -688,7 +707,7 @@
 						<selected>Skin.HasSetting(AllowTransparentFanart)</selected>
 						<enable>!Skin.HasSetting(HideVisualizationFanart)</enable>
 					</control>
-					<control type="radiobutton" id="136">
+					<control type="radiobutton" id="137">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -702,7 +721,7 @@
 						<selected>Skin.HasSetting(AllowVizExtraFanart)</selected>
 						<enable>!Skin.HasSetting(HideVisualizationFanart)</enable>
 					</control>
-					<control type="radiobutton" id="137">
+					<control type="radiobutton" id="138">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -716,7 +735,7 @@
 						<selected>Skin.HasSetting(AllowSlideShowArt)</selected>
 						<enable>System.HasAddon(script.artistslideshow) + !Skin.HasSetting(HideVisualizationFanart)</enable>
 					</control>
-					<control type="radiobutton" id="138">
+					<control type="radiobutton" id="139">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -729,7 +748,7 @@
 						<selected>Skin.HasSetting(AllowSlideShowBio)</selected>
 						<enable>System.HasAddon(script.artistslideshow)</enable>
 					</control>
-					<control type="button" id="139">
+					<control type="button" id="140">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -742,7 +761,7 @@
 						<enable>Skin.HasSetting(AllowSlideShowArt) | Skin.HasSetting(AllowSlideShowBio)</enable>
 						<visible>System.HasAddon(script.artistslideshow)</visible>
 					</control>
-					<control type="label" id="140">
+					<control type="label" id="141">
 						<width>750</width>
 						<height>45</height>
 						<font>font13_title</font>
@@ -752,7 +771,7 @@
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
-					<control type="radiobutton" id="141">
+					<control type="radiobutton" id="142">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -764,7 +783,7 @@
 						<onclick>Skin.ToggleSetting(HideInfoStartOSD)</onclick>
 						<selected>!Skin.HasSetting(HideInfoStartOSD)</selected>
 					</control>
-					<control type="radiobutton" id="142">
+					<control type="radiobutton" id="143">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -776,7 +795,7 @@
 						<onclick>Skin.ToggleSetting(HidePauseInfo)</onclick>
 						<selected>!Skin.HasSetting(HidePauseInfo)</selected>
 					</control>
-					<control type="radiobutton" id="143">
+					<control type="radiobutton" id="144">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -788,7 +807,7 @@
 						<onclick>Skin.ToggleSetting(OSDInfoLogo)</onclick>
 						<selected>Skin.HasSetting(OSDInfoLogo)</selected>
 					</control>
-					<control type="radiobutton" id="144">
+					<control type="radiobutton" id="145">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -800,7 +819,7 @@
 						<onclick>Skin.ToggleSetting(HideSeekBarOSD)</onclick>
 						<selected>!Skin.HasSetting(HideSeekBarOSD)</selected>
 					</control>
-					<control type="label" id="145">
+					<control type="label" id="146">
 						<width>750</width>
 						<height>45</height>
 						<font>font13_title</font>
@@ -810,7 +829,7 @@
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
-					<control type="radiobutton" id="146">
+					<control type="radiobutton" id="147">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -822,7 +841,7 @@
 						<onclick>Skin.ToggleSetting(HideYearTitle)</onclick>
 						<selected>!Skin.HasSetting(HideYearTitle)</selected>
 					</control>
-					<control type="radiobutton" id="147">
+					<control type="radiobutton" id="148">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -834,7 +853,7 @@
 						<onclick>Skin.ToggleSetting(HideNextSongsInfo)</onclick>
 						<selected>!Skin.HasSetting(HideNextSongsInfo)</selected>
 					</control>
-					<control type="button" id="148">
+					<control type="button" id="149">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -848,7 +867,7 @@
 						<onclick condition="stringcompare(Container(9009).ListItem.Label,Default)">Skin.Reset(WatchStatusType)</onclick>
 						<onclick condition="!stringcompare(Container(9009).ListItem.Label,Default)">Skin.SetString(WatchStatusType,$INFO[Container(9009).ListItem.Label])</onclick>
 					</control>
-					<control type="radiobutton" id="149">
+					<control type="radiobutton" id="150">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -860,7 +879,7 @@
 						<onclick>Skin.ToggleSetting(AutoScroll)</onclick>
 						<selected>Skin.HasSetting(AutoScroll)</selected>
 					</control>
-					<control type="radiobutton" id="150">
+					<control type="radiobutton" id="151">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -872,7 +891,7 @@
 						<onclick>Skin.ToggleSetting(Show_SlideShow_Paused)</onclick>
 						<selected>!Skin.HasSetting(Show_SlideShow_Paused)</selected>
 					</control>
-					<control type="radiobutton" id="151">
+					<control type="radiobutton" id="152">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -884,7 +903,7 @@
 						<onclick>Skin.ToggleSetting(WindowedTrailer)</onclick>
 						<selected>Skin.HasSetting(WindowedTrailer)</selected>
 					</control>
-					<control type="button" id="152">
+					<control type="button" id="153">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -897,7 +916,7 @@
 						<onclick>Control.Move(9008,1)</onclick>
 						<onclick>Skin.SetString(MPAACountryCert,$INFO[Container(9008).ListItem.Label])</onclick>
 					</control>
-					<control type="label" id="153">
+					<control type="label" id="154">
 						<width>750</width>
 						<height>45</height>
 						<font>font13_title</font>
@@ -907,18 +926,18 @@
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
-					<control type="group" id="154">
+					<control type="group" id="155">
 						<width>750</width>
 						<height>40</height>
-						<control type="grouplist" id="155">
+						<control type="grouplist" id="156">
 							<orientation>horizontal</orientation>
 							<width>750</width>
 							<height>40</height>
 							<itemgap>0</itemgap>
-							<onup>152</onup>
-							<ondown>162</ondown>
+							<onup>153</onup>
+							<ondown>163</ondown>
 							<align>left</align>
-							<control type="radiobutton" id="156">
+							<control type="radiobutton" id="157">
 								<description>Default</description>
 								<width>150</width>
 								<height>40</height>
@@ -930,7 +949,7 @@
 								<onclick>Skin.Reset(MediaPanelTrans)</onclick>
 								<selected>IsEmpty(Skin.String(MediaPanelTrans))</selected>
 							</control>
-							<control type="radiobutton" id="157">
+							<control type="radiobutton" id="158">
 								<description>Step 1</description>
 								<width>150</width>
 								<height>40</height>
@@ -942,7 +961,7 @@
 								<onclick>Skin.SetString(MediaPanelTrans,EEEEEEEE)</onclick>
 								<selected>stringcompare(Skin.String(MediaPanelTrans),EEEEEEEE)</selected>
 							</control>
-							<control type="radiobutton" id="158">
+							<control type="radiobutton" id="159">
 								<description>Step 2</description>
 								<width>150</width>
 								<height>40</height>
@@ -954,7 +973,7 @@
 								<onclick>Skin.SetString(MediaPanelTrans,DDDDDDDD)</onclick>
 								<selected>stringcompare(Skin.String(MediaPanelTrans),DDDDDDDD)</selected>
 							</control>
-							<control type="radiobutton" id="159">
+							<control type="radiobutton" id="160">
 								<description>Step 3</description>
 								<width>150</width>
 								<height>40</height>
@@ -966,7 +985,7 @@
 								<onclick>Skin.SetString(MediaPanelTrans,CCCCCCCC)</onclick>
 								<selected>stringcompare(Skin.String(MediaPanelTrans),CCCCCCCC)</selected>
 							</control>
-							<control type="radiobutton" id="160">
+							<control type="radiobutton" id="161">
 								<description>Step 4</description>
 								<width>150</width>
 								<height>40</height>
@@ -980,7 +999,7 @@
 							</control>
 						</control>
 					</control>
-					<control type="label" id="161">
+					<control type="label" id="162">
 						<width>750</width>
 						<height>45</height>
 						<font>font13_title</font>
@@ -990,7 +1009,7 @@
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
-					<control type="radiobutton" id="162">
+					<control type="radiobutton" id="163">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -1003,7 +1022,7 @@
 						<onclick>Skin.Reset(EnableStartupPlaylist)</onclick>
 						<selected>!Skin.HasSetting(HideXBMCIntro)</selected>
 					</control>
-					<control type="radiobutton" id="163">
+					<control type="radiobutton" id="164">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -1016,7 +1035,7 @@
 						<onclick>Skin.ToggleSetting(Use_Startup_Playlist)</onclick>
 						<selected>Skin.HasSetting(Use_Startup_Playlist)</selected>
 					</control>
-					<control type="button" id="164">
+					<control type="button" id="165">
 						<description>Startup Playlist Path</description>
 						<width>750</width>
 						<height>40</height>
@@ -4685,6 +4704,7 @@
 						<onup>505</onup>
 						<ondown>504</ondown>
 						<selected>Skin.HasSetting(GlobalBackground)</selected>
+						<enable>!Skin.HasSetting(HolidayEffects)</enable>
 					</control>
 					<control type="button" id="504">
 						<description>Menu Item Next Button</description>
@@ -4806,7 +4826,7 @@
 								<icon>$INFO[Skin.CurrentTheme,special://skin/backgrounds/,.jpg]</icon>
 								<thumb>$INFO[Skin.String(CustomBackgroundPath)]</thumb>
 								<property name="HiLiteItem">Global</property>
-								<visible>Skin.HasSetting(GlobalBackground)</visible>
+								<visible>Skin.HasSetting(GlobalBackground) + !Skin.HasSetting(HolidayEffects)</visible>
 							</item>
 							<item id="2">
 								<description>Home Menu Item One</description>
@@ -4816,7 +4836,7 @@
 								<thumb>$INFO[Skin.String(HomeItem.1.FanArt)]</thumb>
 								<property name="HiLiteItem">$INFO[Skin.String(HomeItem.1.Type)]</property>
 								<property name="BackgroundType">$INFO[Skin.String(HomeItem.1.Live)]</property>
-								<visible>!IsEmpty(Skin.String(HomeItem.1.Path)) + !Skin.HasSetting(GlobalBackground)</visible>
+								<visible>!IsEmpty(Skin.String(HomeItem.1.Path)) + !Skin.HasSetting(GlobalBackground) + !Skin.HasSetting(HolidayEffects)</visible>
 							</item>
 							<item id="3">
 								<description>Home Menu Item Two</description>
@@ -4826,7 +4846,7 @@
 								<thumb>$INFO[Skin.String(HomeItem.2.FanArt)]</thumb>
 								<property name="HiLiteItem">$INFO[Skin.String(HomeItem.2.Type)]</property>
 								<property name="BackgroundType">$INFO[Skin.String(HomeItem.2.Live)]</property>
-								<visible>!IsEmpty(Skin.String(HomeItem.2.Path)) + !Skin.HasSetting(GlobalBackground)</visible>
+								<visible>!IsEmpty(Skin.String(HomeItem.2.Path)) + !Skin.HasSetting(GlobalBackground) + !Skin.HasSetting(HolidayEffects)</visible>
 							</item>
 							<item id="4">
 								<description>Home Menu Item Three</description>
@@ -4836,7 +4856,7 @@
 								<thumb>$INFO[Skin.String(HomeItem.3.FanArt)]</thumb>
 								<property name="HiLiteItem">$INFO[Skin.String(HomeItem.3.Type)]</property>
 								<property name="BackgroundType">$INFO[Skin.String(HomeItem.3.Live)]</property>
-								<visible>!IsEmpty(Skin.String(HomeItem.3.Path)) + !Skin.HasSetting(GlobalBackground)</visible>
+								<visible>!IsEmpty(Skin.String(HomeItem.3.Path)) + !Skin.HasSetting(GlobalBackground) + !Skin.HasSetting(HolidayEffects)</visible>
 							</item>
 							<item id="5">
 								<description>Home Menu Item Four</description>
@@ -4846,7 +4866,7 @@
 								<thumb>$INFO[Skin.String(HomeItem.4.FanArt)]</thumb>
 								<property name="HiLiteItem">$INFO[Skin.String(HomeItem.4.Type)]</property>
 								<property name="BackgroundType">$INFO[Skin.String(HomeItem.4.Live)]</property>
-								<visible>!IsEmpty(Skin.String(HomeItem.4.Path)) + !Skin.HasSetting(GlobalBackground)</visible>
+								<visible>!IsEmpty(Skin.String(HomeItem.4.Path)) + !Skin.HasSetting(GlobalBackground) + !Skin.HasSetting(HolidayEffects)</visible>
 							</item>
 							<item id="6">
 								<description>Home Menu Item Five</description>
@@ -4856,7 +4876,7 @@
 								<thumb>$INFO[Skin.String(HomeItem.5.FanArt)]</thumb>
 								<property name="HiLiteItem">$INFO[Skin.String(HomeItem.5.Type)]</property>
 								<property name="BackgroundType">$INFO[Skin.String(HomeItem.5.Live)]</property>
-								<visible>!IsEmpty(Skin.String(HomeItem.5.Path)) + !Skin.HasSetting(GlobalBackground)</visible>
+								<visible>!IsEmpty(Skin.String(HomeItem.5.Path)) + !Skin.HasSetting(GlobalBackground) + !Skin.HasSetting(HolidayEffects)</visible>
 							</item>
 							<item id="7">
 								<description>Home Menu Item Six</description>
@@ -4866,7 +4886,7 @@
 								<thumb>$INFO[Skin.String(HomeItem.6.FanArt)]</thumb>
 								<property name="HiLiteItem">$INFO[Skin.String(HomeItem.6.Type)]</property>
 								<property name="BackgroundType">$INFO[Skin.String(HomeItem.6.Live)]</property>
-								<visible>!IsEmpty(Skin.String(HomeItem.6.Path)) + !Skin.HasSetting(GlobalBackground)</visible>
+								<visible>!IsEmpty(Skin.String(HomeItem.6.Path)) + !Skin.HasSetting(GlobalBackground) + !Skin.HasSetting(HolidayEffects)</visible>
 							</item>
 							<item id="8">
 								<description>Home Menu Item Seven</description>
@@ -4876,7 +4896,7 @@
 								<thumb>$INFO[Skin.String(HomeItem.7.FanArt)]</thumb>
 								<property name="HiLiteItem">$INFO[Skin.String(HomeItem.7.Type)]</property>
 								<property name="BackgroundType">$INFO[Skin.String(HomeItem.7.Live)]</property>
-								<visible>!IsEmpty(Skin.String(HomeItem.7.Path)) + !Skin.HasSetting(GlobalBackground)</visible>
+								<visible>!IsEmpty(Skin.String(HomeItem.7.Path)) + !Skin.HasSetting(GlobalBackground) + !Skin.HasSetting(HolidayEffects)</visible>
 							</item>
 							<item id="9">
 								<description>Home Menu Item Eight</description>
@@ -4886,7 +4906,7 @@
 								<thumb>$INFO[Skin.String(HomeItem.8.FanArt)]</thumb>
 								<property name="HiLiteItem">$INFO[Skin.String(HomeItem.8.Type)]</property>
 								<property name="BackgroundType">$INFO[Skin.String(HomeItem.8.Live)]</property>
-								<visible>!IsEmpty(Skin.String(HomeItem.8.Path)) + !Skin.HasSetting(GlobalBackground)</visible>
+								<visible>!IsEmpty(Skin.String(HomeItem.8.Path)) + !Skin.HasSetting(GlobalBackground) + !Skin.HasSetting(HolidayEffects)</visible>
 							</item>
 							<item id="10">
 								<description>Home Menu Item Nine</description>
@@ -4896,7 +4916,7 @@
 								<thumb>$INFO[Skin.String(HomeItem.9.FanArt)]</thumb>
 								<property name="HiLiteItem">$INFO[Skin.String(HomeItem.9.Type)]</property>
 								<property name="BackgroundType">$INFO[Skin.String(HomeItem.9.Live)]</property>
-								<visible>!IsEmpty(Skin.String(HomeItem.9.Path)) + !Skin.HasSetting(GlobalBackground)</visible>
+								<visible>!IsEmpty(Skin.String(HomeItem.9.Path)) + !Skin.HasSetting(GlobalBackground) + !Skin.HasSetting(HolidayEffects)</visible>
 							</item>
 							<item id="11">
 								<description>Home Menu Item Ten</description>
@@ -4906,7 +4926,7 @@
 								<thumb>$INFO[Skin.String(HomeItem.10.FanArt)]</thumb>
 								<property name="HiLiteItem">$INFO[Skin.String(HomeItem.10.Type)]</property>
 								<property name="BackgroundType">$INFO[Skin.String(HomeItem.10.Live)]</property>
-								<visible>!IsEmpty(Skin.String(HomeItem.10.Path)) + !Skin.HasSetting(GlobalBackground)</visible>
+								<visible>!IsEmpty(Skin.String(HomeItem.10.Path)) + !Skin.HasSetting(GlobalBackground) + !Skin.HasSetting(HolidayEffects)</visible>
 							</item>
 							<item id="12">
 								<description>DVD Tray</description>
@@ -4915,7 +4935,7 @@
 								<icon>$INFO[Skin.CurrentTheme,special://skin/backgrounds/,.jpg]</icon>
 								<thumb>$INFO[Skin.String(HomeItem.11.FanArt)]</thumb>
 								<property name="HiLiteItem">PlayDisc</property>
-								<visible>!Skin.HasSetting(GlobalBackground)</visible>
+								<visible>!Skin.HasSetting(GlobalBackground) + !Skin.HasSetting(HolidayEffects)</visible>
 							</item>
 							<item id="13">
 								<description>Home Menu Settings</description>
@@ -4924,7 +4944,7 @@
 								<icon>$INFO[Skin.CurrentTheme,special://skin/backgrounds/,.jpg]</icon>
 								<thumb>$INFO[Skin.String(HomeItem.12.FanArt)]</thumb>
 								<property name="HiLiteItem">Settings</property>
-								<visible>!Skin.HasSetting(HideHomeMenuSystem) + !Skin.HasSetting(GlobalBackground)</visible>
+								<visible>!Skin.HasSetting(HideHomeMenuSystem) + !Skin.HasSetting(GlobalBackground) + !Skin.HasSetting(HolidayEffects)</visible>
 							</item>
 							<item id="14">
 								<description>Search Button</description>
@@ -4933,7 +4953,7 @@
 								<icon>$INFO[Skin.CurrentTheme,special://skin/backgrounds/,.jpg]</icon>
 								<thumb>$INFO[Skin.String(SearchBtnBackground)]</thumb>
 								<property name="HiLiteItem">MenuButton</property>
-								<visible>!Skin.HasSetting(HideHomeSearch) + !Skin.HasSetting(GlobalBackground)</visible>
+								<visible>!Skin.HasSetting(HideHomeSearch) + !Skin.HasSetting(GlobalBackground) + !Skin.HasSetting(HolidayEffects)</visible>
 							</item>
 							<item id="15">
 								<description>Power Button</description>
@@ -4942,7 +4962,7 @@
 								<icon>$INFO[Skin.CurrentTheme,special://skin/backgrounds/,.jpg]</icon>
 								<thumb>$INFO[Skin.String(PowerBtnBackground)]</thumb>
 								<property name="HiLiteItem">MenuButton</property>
-								<visible>!Skin.HasSetting(AutoHidePowerBtn) + !Skin.HasSetting(GlobalBackground)</visible>
+								<visible>!Skin.HasSetting(AutoHidePowerBtn) + !Skin.HasSetting(GlobalBackground) + !Skin.HasSetting(HolidayEffects)</visible>
 							</item>
 							<item id="16">
 								<description>Favourites Button</description>
@@ -4951,7 +4971,7 @@
 								<icon>$INFO[Skin.CurrentTheme,special://skin/backgrounds/,.jpg]</icon>
 								<thumb>$INFO[Skin.String(FavBtnBackground)]</thumb>
 								<property name="HiLiteItem">MenuButton</property>
-								<visible>!Skin.HasSetting(GlobalBackground)</visible>
+								<visible>!Skin.HasSetting(GlobalBackground) + !Skin.HasSetting(HolidayEffects)</visible>
 							</item>
 							<item id="17">
 								<description>Startup Window</description>
@@ -4960,6 +4980,15 @@
 								<icon>special://skin/backgrounds/homescreen/startup.jpg</icon>
 								<thumb>$INFO[Skin.String(StartUpBackgroundPath)]</thumb>
 								<property name="HiLiteItem">StartUp</property>
+							</item>
+							<item id="18">
+								<description>Holiday Theme</description>
+								<label>$LOCALIZE[31947]</label>
+								<onclick>noop</onclick>
+								<icon>special://skin/extras/Holiday/xmastree.jpg</icon>
+								<thumb>$INFO[Skin.String(HolidayThemePath)]</thumb>
+								<property name="HiLiteItem">Holidayp</property>
+								<visible>Skin.HasSetting(HolidayEffects)</visible>
 							</item>
 						</content>
 					</control>
@@ -6452,6 +6481,66 @@
 								<texturefocus border="5">button-focus.png</texturefocus>
 								<onclick>Skin.SetString(StartUpBackgroundPath,special://skin/backgrounds/homescreen/startup.jpg)</onclick>
 								<onclick>Skin.Reset(HideStartUpBackground)</onclick>
+								<onleft>501</onleft>
+								<onright>500</onright>
+								<onup>504</onup>
+								<ondown>504</ondown>
+							</control>
+						</control>
+						<control type="group">
+							<visible>Container(9005).HasFocus(18)</visible>
+							<control type="button" id="500">
+								<description>Single Image button</description>
+								<posx>55</posx>
+								<posy>0</posy>
+								<width>180</width>
+								<height>40</height>
+								<label>31149</label>
+								<font>font12_title</font>
+								<textcolor>grey2</textcolor>
+								<focusedcolor>white</focusedcolor>
+								<align>center</align>
+								<texturenofocus border="5">button-nofocus.png</texturenofocus>
+								<texturefocus border="5">button-focus.png</texturefocus>
+								<onclick>Skin.SetImage(HolidayThemePath)</onclick>
+								<onleft>502</onleft>
+								<onright>501</onright>
+								<onup>504</onup>
+								<ondown>504</ondown>
+							</control>
+							<control type="button" id="501">
+								<description>Multi Image button</description>
+								<posx>240</posx>
+								<posy>0</posy>
+								<width>180</width>
+								<height>40</height>
+								<label>31150</label>
+								<font>font12_title</font>
+								<textcolor>grey2</textcolor>
+								<focusedcolor>white</focusedcolor>
+								<align>center</align>
+								<texturenofocus border="5">button-nofocus.png</texturenofocus>
+								<texturefocus border="5">button-focus.png</texturefocus>
+								<onclick>Skin.SetPath(HolidayThemePath)</onclick>
+								<onleft>500</onleft>
+								<onright>502</onright>
+								<onup>504</onup>
+								<ondown>504</ondown>
+							</control>
+							<control type="button" id="502">
+								<description>Default Image button</description>
+								<posx>425</posx>
+								<posy>0</posy>
+								<width>180</width>
+								<height>40</height>
+								<label>571</label>
+								<font>font12_title</font>
+								<textcolor>grey2</textcolor>
+								<focusedcolor>white</focusedcolor>
+								<align>center</align>
+								<texturenofocus border="5">button-nofocus.png</texturenofocus>
+								<texturefocus border="5">button-focus.png</texturefocus>
+								<onclick>Skin.SetString(HolidayThemePath,special://skin/extras/Holiday/xmastree.jpg)</onclick>
 								<onleft>501</onleft>
 								<onright>500</onright>
 								<onup>504</onup>
