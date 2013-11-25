@@ -2,10 +2,27 @@
 <window>
 	<defaultcontrol always="true">9000</defaultcontrol>
 	<allowoverlay>no</allowoverlay>
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	<include condition="!Skin.HasSetting(InitialSetUpRun)">DefaultInitialSetup</include>
 	<onload condition="!IsEmpty(Window(home).Property(MenuItemSelected))">ClearProperty(MenuItemSelected,Home)</onload>
 	<onload condition="!IsEmpty(Window(home).Property(MenuItemActive))">ClearProperty(MenuItemActive,Home)</onload>
 	<onload condition="!IsEmpty(Window(home).Property(SubMenuBackground))">ClearProperty(SubMenuBackground,Home)</onload>
+	
+	
+	<onload condition="Skin.HasSetting(HolidayEffects) + System.Date(1-7,11-23)">Skin.Reset(HolidayEffects)</onload>
+	
+	
+	
+	
+	
 	<onload condition="System.HasAddon(script.favourites)">XBMC.RunScript(script.favourites)</onload>
 	<onload condition="System.HasAddon(script.artistslideshow) + IsEmpty(Window.Property(ArtistSlideshowRunning)) + Skin.HasSetting(AllowSlideShowArt)">RunScript(script.artistslideshow, daemon=True)</onload>
 	<onload condition="!Skin.HasSetting(HideHomeSearch) + !System.HasAddon(script.globalsearch)">Skin.Setbool(HideHomeSearch)</onload>
@@ -25,7 +42,7 @@
 	<onload condition="!Skin.HasSetting(DisableScriptPlayList) + !IsEmpty(Skin.String(HomeItem.10.Playlist))">XBMC.RunScript(script.randomandlastitems,playlist=$INFO[Skin.String(HomeItem.10.Playlist)],method=$VAR[RandomOrLastAction],limit=10,unwatched=$VAR[RandomOrLastUnWatched],resume=False,property=HomePlayListTen)</onload>
 	<controls>
 		<include>CommonBackground</include>
-		<include condition="!Skin.HasSetting(EnableMinSpec)">BackgroundRainDropEffect</include>
+		<include condition="!Skin.HasSetting(EnableMinSpec) | Skin.HasSetting(HolidayEffects)">BackgroundRainDropEffect</include>
 		<control type="image">
 			<posx>0</posx>
 			<posy>100r</posy>
