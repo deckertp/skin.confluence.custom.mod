@@ -13,7 +13,7 @@
 				<width>1280</width>
 				<height>256</height>
 				<texture flipy="true">HomeNowPlayingBack.png</texture>
-				<visible>!Skin.HasSetting(HideSeekBarOSD) | Window.IsActive(VideoOSD) | Player.ShowInfo</visible>
+				<visible>!Skin.HasSetting(HideSeekBarOSD) | Window.IsActive(VideoOSD) | Player.ShowInfo | [!Skin.HasSetting(HideInfoStartOSD) + !IntegerGreaterThan(Player.time,6)]</visible>
 			</control>
 			<control type="label" id="1">
 				<description>Chapter Count Header label</description>
@@ -28,7 +28,7 @@
 				<shadowcolor>black</shadowcolor>
 				<label>$INFO[Player.ChapterName,[B][COLOR=white]$LOCALIZE[21396]: [/COLOR][/B]]</label>
 				<animation effect="fade" start="100" end="0" time="200" condition="Window.IsVisible(infodialog)">Conditional</animation>
-				<visible>Player.ChapterCount + !VideoPlayer.Content(LiveTV) + [!Skin.HasSetting(HideSeekBarOSD) | Window.IsActive(VideoOSD)]</visible>
+				<visible>Player.ChapterCount + !VideoPlayer.Content(LiveTV) + [!Skin.HasSetting(HideSeekBarOSD) | Window.IsActive(VideoOSD) ]</visible>
 				<visible>!SubString(Player.ChapterName,$LOCALIZE[21396],left)</visible>
 			</control>
 			<control type="label" id="1">
@@ -101,7 +101,7 @@
 		</control>
 		<control type="group" id="1">
 			<visible>!StringCompare(VideoPlayer.Title,XBMC-Intro-Video.mkv)</visible>
-			<visible>[Player.ShowInfo | Window.IsActive(VideoOSD)] | Player.Seeking | Player.DisplayAfterSeek | Player.Paused | Player.Forwarding | Player.Rewinding | [!Skin.HasSetting(HideInfoStartOSD) + !IntegerGreaterThan(Player.time,5)]</visible>
+			<visible>[Player.ShowInfo | Window.IsActive(VideoOSD)] | Player.Seeking | Player.DisplayAfterSeek | Player.Paused | Player.Forwarding | Player.Rewinding | [!Skin.HasSetting(HideInfoStartOSD) + !IntegerGreaterThan(Player.time,6)]</visible>
 			<visible>![Window.IsVisible(osdvideosettings) | Window.IsVisible(osdaudiosettings) | Window.IsVisible(videobookmarks) | Window.IsVisible(PVROSDChannels) | Window.IsVisible(PVROSDGuide)]</visible>
 			<control type="group" id="1">
 				<visible>!Skin.HasSetting(HidePauseInfo) + !IsEmpty(VideoPlayer.Plot) + Player.Paused + !Player.Caching</visible>
@@ -135,7 +135,7 @@
 				<width>1280</width>
 				<height>230</height>
 				<texture>HomeNowPlayingBack.png</texture>
-				<visible>!Skin.HasSetting(HideSeekBarOSD) | Window.IsActive(VideoOSD) | Player.ShowInfo</visible>
+				<visible>!Skin.HasSetting(HideSeekBarOSD) | Window.IsActive(VideoOSD) | Player.ShowInfo | [!Skin.HasSetting(HideInfoStartOSD) + !IntegerGreaterThan(Player.time,6)]</visible>
 			</control>
 			<control type="group" id="1">
 				<control type="image" id="1">
@@ -171,7 +171,7 @@
 					<visible>[IsEmpty(Player.Art(clearart)) + IsEmpty(Player.Art(clearlogo)) + !Skin.HasSetting(OSDInfoLogo)] | [IsEmpty(Player.Art(clearlogo)) + Skin.HasSetting(OSDInfoLogo)]</visible>
 				</control>
 				<visible>VideoPlayer.Content(Movies)</visible>
-				<visible>!Skin.HasSetting(HideSeekBarOSD) | Window.IsActive(VideoOSD) | Player.ShowInfo</visible>
+				<visible>!Skin.HasSetting(HideSeekBarOSD) | Window.IsActive(VideoOSD) | Player.ShowInfo | [!Skin.HasSetting(HideInfoStartOSD) + !IntegerGreaterThan(Player.time,6)]</visible>
 			</control>
 			<control type="group" id="1">
 				<control type="image" id="1">
@@ -207,7 +207,7 @@
 					<visible>[IsEmpty(Player.Art(tvshow.clearart)) + IsEmpty(Player.Art(tvshow.clearlogo)) + !Skin.HasSetting(OSDInfoLogo)] | [IsEmpty(Player.Art(tvshow.clearlogo)) + Skin.HasSetting(OSDInfoLogo)]</visible>
 				</control>
 				<visible>VideoPlayer.Content(Episodes)</visible>
-				<visible>!Skin.HasSetting(HideSeekBarOSD) | Window.IsActive(VideoOSD) | Player.ShowInfo</visible>
+				<visible>!Skin.HasSetting(HideSeekBarOSD) | Window.IsActive(VideoOSD) | Player.ShowInfo | [!Skin.HasSetting(HideInfoStartOSD) + !IntegerGreaterThan(Player.time,6)]</visible>
 			</control>
 			<control type="image" id="1">
 				<description>cover image</description>
@@ -220,10 +220,10 @@
 				<bordertexture border="8">ThumbShadow.png</bordertexture>
 				<bordersize>8</bordersize>
 				<visible>!VideoPlayer.Content(Movies) + !VideoPlayer.Content(Episodes)</visible>
-				<visible>!Skin.HasSetting(HideSeekBarOSD) | Window.IsActive(VideoOSD) | Player.ShowInfo</visible>
+				<visible>!Skin.HasSetting(HideSeekBarOSD) | Window.IsActive(VideoOSD) | Player.ShowInfo | [!Skin.HasSetting(HideInfoStartOSD) + !IntegerGreaterThan(Player.time,6)]</visible>
 			</control>
 			<control type="group" id="1">
-				<visible>!Skin.HasSetting(HideSeekBarOSD) | Window.IsActive(VideoOSD) | Player.ShowInfo</visible>
+				<visible>!Skin.HasSetting(HideSeekBarOSD) | Window.IsActive(VideoOSD) | Player.ShowInfo | [!Skin.HasSetting(HideInfoStartOSD) + !IntegerGreaterThan(Player.time,6)]</visible>
 				<posx>330</posx>
 				<posy>190r</posy>
 				<control type="label" id="1">
@@ -386,7 +386,7 @@
 			<control type="group" id="1">
 				<posx>330</posx>
 				<posy>100r</posy>
-				<visible>!Skin.HasSetting(HideSeekBarOSD) | Window.IsActive(VideoOSD) | Player.ShowInfo</visible>
+				<visible>!Skin.HasSetting(HideSeekBarOSD) | Window.IsActive(VideoOSD) | Player.ShowInfo | [!Skin.HasSetting(HideInfoStartOSD) + !IntegerGreaterThan(Player.time,6)]</visible>
 				<visible>!VideoPlayer.Content(LiveTV) | [VideoPlayer.Content(LiveTV) + VideoPlayer.HasEpg]</visible>
 				<control type="label" id="1">
 					<visible>!VideoPlayer.Content(LiveTV)</visible>
