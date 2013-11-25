@@ -1009,7 +1009,7 @@
 						<include>ButtonInfoDialogsCommonValues</include>
 						<label>31127</label>
 						<onclick>XBMC.RunScript(script.tvtunes,mode=solo)</onclick>
-						 <visible>!Skin.HasSetting(HideTvTunes) + System.HasAddon(script.tvtunes) + [Container.Content(TVShows) | Container.Content(movies)] + IsEmpty(Window(movieinformation).Property("TvTunes_HideVideoInfoButton"))</visible>
+						<visible>!Skin.HasSetting(HideTvTunes) + System.HasAddon(script.tvtunes) + [Container.Content(TVShows) | Container.Content(movies)] + IsEmpty(Window(movieinformation).Property("TvTunes_HideVideoInfoButton"))</visible>
 					</control>
 				</control>
 			</control>

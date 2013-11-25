@@ -784,7 +784,9 @@ msgctxt "#31201"
 msgid "User Selection Ten"
 msgstr ""
 
-#empty string with id 31202
+msgctxt "#31202"
+msgid "Show Year in Movie Title"
+msgstr ""
 
 msgctxt "#31203"
 msgid "Choose Your Song"

@@ -36,6 +36,7 @@
 		<onclick condition="Window.IsVisible(2114)">Skin.Reset($INFO[Window(home).Property(UsrSelectBtn)].Type)</onclick>
 		<onclick condition="Window.IsVisible(2114)">Skin.Reset($INFO[Window(home).Property(UsrSelectBtn)].Fanart)</onclick>
 		<onclick condition="Window.IsVisible(2114)">Skin.Reset($INFO[Window(home).Property(UsrSelectBtn)].Widget)</onclick>
+		<onclick condition="Window.IsVisible(2114)">Skin.Reset($INFO[Window(home).Property(UsrSelectBtn)].Live)</onclick>
 	</include>
 	<include name="CloseMenuChoice">
 		<onclick condition="Window.IsVisible(2114)">Dialog.Close(2114)</onclick>
@@ -1351,12 +1352,6 @@
 		<width>1280</width>
 		<height>720</height>
 	</include>
-	
-	
-	
-	
-	
-	
 	<include name="LiveCDCasesbackground">
 		<control type="group">
 			<animation effect="fade" time="600">VisibleChange</animation>
@@ -1584,12 +1579,7 @@
 			</control>
 		</control>
 	</include>
-	
-	
-	
-	
-	
-<include name="LiveContentBackgrounds">
+	<include name="LiveContentBackgrounds">
 		<control type="group">
 			<animation effect="fade" time="600">VisibleChange</animation>
 			<include>Window_OpenClose_Animation</include>
@@ -1597,7 +1587,8 @@
 				<description>Default Global Background Image</description>
 				<include>Dimensions_Fullscreen</include>
 				<aspectratio>scale</aspectratio>
-				<texture fallback="special://skin/backgrounds/SKINDEFAULT.jpg">$INFO[Skin.CurrentTheme,special://skin/backgrounds/,.jpg]</texture>
+				<!--texture fallback="special://skin/backgrounds/SKINDEFAULT.jpg">$INFO[Skin.CurrentTheme,special://skin/backgrounds/,.jpg]</texture-->
+				<texture fallback="special://skin/backgrounds/SKINDEFAULT.jpg">$INFO[Container(9000).ListItem.Icon]</texture>
 			</control>
 			<control type="group">
 				<posx>-133</posx>
@@ -2554,16 +2545,7 @@
 				<visible>StringCompare(Container(9000).ListItem.Property(HiLiteItem),Concerts) + Library.HasContent(MusicVideos)</visible>
 			</control>
 		</control>
-	</include>	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	</include>
 	<include name="MusicPlayingBottom">
 		<control type="group">
 			<control type="image">

@@ -291,14 +291,14 @@
 	</variable>
 	<variable name="DescriptiveLabel" type="text">
 		<value condition="StringCompare(ListItem.label,..)">$LOCALIZE[31316]</value>
-		<value condition="!IsEmpty(ListItem.Year) + !substring(ListItem.label,ListItem.Year) + Container.Content(Movies)">$INFO[ListItem.label] ([COLOR=white]$INFO[ListItem.Year][/COLOR])</value>
+		<value condition="!IsEmpty(ListItem.Year) + !Skin.HasSetting(HideYearTitle) + Container.Content(Movies)">$INFO[ListItem.label] ([COLOR=white]$INFO[ListItem.Year][/COLOR])</value>
 		<value condition="Container.Content(Seasons) | Container.Content(Episodes)">$INFO[ListItem.TVShowTitle] - $INFO[ListItem.label]</value>
 		<value condition="!IsEmpty(Window.Property(current.actor.agelong)) + [Container.Content(Actors) | Container.Content(Directors)]">$INFO[ListItem.label] ([COLOR=white]$INFO[Window.Property(current.actor.agelong)][/COLOR])</value>
 		<value condition="!IsEmpty(ListItem.Property(date))">$INFO[ListItem.label] ([COLOR=white]$INFO[ListItem.Property(date)][/COLOR])</value>
 		<value>$INFO[ListItem.label]</value>
 	</variable>
 	<variable name="VideoNowPlaying">
-		<value condition="VideoPlayer.Content(Movies) + !IsEmpty(VideoPlayer.Year) + !substring(VideoPlayer.Title,VideoPlayer.Year)">$INFO[VideoPlayer.Title] ($INFO[VideoPlayer.Year])</value>
+		<value condition="VideoPlayer.Content(Movies) + !IsEmpty(VideoPlayer.Year) + !Skin.HasSetting(HideYearTitle)">$INFO[VideoPlayer.Title] ($INFO[VideoPlayer.Year])</value>
 		<value>$INFO[VideoPlayer.Title]</value>
 	</variable>
 	<variable name="VideoDescription" type="text">
@@ -1407,12 +1407,20 @@
 		<value condition="Skin.HasSetting(GlobalBackground) + Skin.HasSetting(GlobalWeatherFanart)">$INFO[Skin.String(WeatherFanartDir)]$INFO[Window(Weather).Property(Current.FanartCode)]</value>
 		<value condition="StringCompare(Container(9005).ListItem.Property(HiLiteItem),Weather) + Skin.HasSetting(ShowWeatherFanart)">$INFO[Skin.String(WeatherFanartDir)]$INFO[Window(Weather).Property(Current.FanartCode)]</value>
 		<value condition="StringCompare(Container(9005).ListItem.Property(HiLiteItem),StartUp) + Skin.HasSetting(HideStartUpBackground)">black-back.png</value>
+		<value condition="StringCompare(Container(9005).ListItem.Property(BackgroundType),LiveContent) + StringCompare(Container(9005).ListItem.Property(HiLiteItem),Movies) + !IsEmpty(Skin.String(UsrMovieFanartDir))">$INFO[Skin.String(UsrMovieFanartDir)]</value>
+		<value condition="StringCompare(Container(9005).ListItem.Property(BackgroundType),LiveContent) + StringCompare(Container(9005).ListItem.Property(HiLiteItem),Movies) + IsEmpty(Skin.String(UsrMovieFanartDir))">$INFO[Container(9005).ListItem.Icon]</value>
 		<value condition="StringCompare(Container(9005).ListItem.Property(HiLiteItem),Movies) + Skin.HasSetting(ShowMovieDBFanart) + !IsEmpty(Skin.String(UsrMovieFanartDir))">$INFO[Skin.String(UsrMovieFanartDir)]</value>
 		<value condition="StringCompare(Container(9005).ListItem.Property(HiLiteItem),Movies) + Skin.HasSetting(ShowMovieDBFanart) + !IsEmpty(Window(Home).Property(RandomMovie.1.Art(fanart)))">$INFO[Window(Home).Property(RandomMovie.1.Art(fanart))]</value>
+		<value condition="StringCompare(Container(9005).ListItem.Property(BackgroundType),LiveContent) + StringCompare(Container(9005).ListItem.Property(HiLiteItem),TVShows) + !IsEmpty(Skin.String(UsrTVShowFanartDir))">$INFO[Skin.String(UsrTVShowFanartDir)]</value>
+		<value condition="StringCompare(Container(9005).ListItem.Property(BackgroundType),LiveContent) + StringCompare(Container(9005).ListItem.Property(HiLiteItem),TVShows) IsEmpty(Skin.String(UsrTVShowFanartDir))">$INFO[Container(9005).ListItem.Icon]</value>
 		<value condition="StringCompare(Container(9005).ListItem.Property(HiLiteItem),TVShows) + Skin.HasSetting(ShowTVShowDBFanart) + !IsEmpty(Skin.String(UsrTVShowFanartDir))">$INFO[Skin.String(UsrTVShowFanartDir)]</value>
 		<value condition="StringCompare(Container(9005).ListItem.Property(HiLiteItem),TVShows) + Skin.HasSetting(ShowTVShowDBFanart) + !IsEmpty(Window(Home).Property(RandomEpisode.1.Art(tvshow.fanart)))">$INFO[Window(Home).Property(RandomEpisode.1.Art(tvshow.fanart))]</value>
+		<value condition="StringCompare(Container(9005).ListItem.Property(BackgroundType),LiveContent) + StringCompare(Container(9005).ListItem.Property(HiLiteItem),Music) + !IsEmpty(Skin.String(UsrArtistsFanartDir))">$INFO[Skin.String(UsrArtistsFanartDir)]</value>
+		<value condition="StringCompare(Container(9005).ListItem.Property(BackgroundType),LiveContent) + StringCompare(Container(9005).ListItem.Property(HiLiteItem),Music) + IsEmpty(Skin.String(UsrArtistsFanartDir))">$INFO[Container(9005).ListItem.Icon]</value>
 		<value condition="StringCompare(Container(9005).ListItem.Property(HiLiteItem),Music) + Skin.HasSetting(ShowMusicDBFanart) + !IsEmpty(Skin.String(UsrArtistsFanartDir))">$INFO[Skin.String(UsrArtistsFanartDir)]</value>
 		<value condition="StringCompare(Container(9005).ListItem.Property(HiLiteItem),Music) + Skin.HasSetting(ShowMusicDBFanart) + !IsEmpty(Window(Home).Property(RandomAlbum.1.Fanart))">$INFO[Window(Home).Property(RandomAlbum.1.Fanart)]</value>
+		<value condition="StringCompare(Container(9005).ListItem.Property(BackgroundType),LiveContent) + StringCompare(Container(9005).ListItem.Property(HiLiteItem),Concerts) + !IsEmpty(Skin.String(UsrConcertsFanartDir))">$INFO[Skin.String(UsrConcertsFanartDir)]</value>
+		<value condition="StringCompare(Container(9005).ListItem.Property(BackgroundType),LiveContent) + StringCompare(Container(9005).ListItem.Property(HiLiteItem),Concerts) + IsEmpty(Skin.String(UsrConcertsFanartDir))">$INFO[Container(9005).ListItem.Icon]</value>
 		<value condition="StringCompare(Container(9005).ListItem.Property(HiLiteItem),Concerts) + Skin.HasSetting(ShowConcertDBFanart) + !IsEmpty(Skin.String(UsrConcertsFanartDir))">$INFO[Skin.String(UsrConcertsFanartDir)]</value>
 		<value condition="StringCompare(Container(9005).ListItem.Property(HiLiteItem),Concerts) + Skin.HasSetting(ShowConcertDBFanart) + !IsEmpty(Window(Home).Property(RandomMusicVideo.1.Fanart))">$INFO[Window(Home).Property(RandomMusicVideo.1.Fanart)]</value>
 		<value>$INFO[Container(9005).ListItem.Icon]</value>
@@ -1421,10 +1429,10 @@
 		<value condition="Skin.HasSetting(GlobalBackground) + Skin.HasSetting(GlobalWeatherFanart)">$LOCALIZE[31906]</value>
 		<value condition="StringCompare(Container(9005).ListItem.Property(HiLiteItem),Weather) + Skin.HasSetting(ShowWeatherFanart)">$LOCALIZE[31906]</value>
 		<value condition="StringCompare(Container(9005).ListItem.Property(HiLiteItem),StartUp) + Skin.HasSetting(HideStartUpBackground)">$LOCALIZE[31170]</value>
-		<value condition="StringCompare(Container(9005).ListItem.Property(HiLiteItem),Movies) + Skin.HasSetting(ShowMovieDBFanart)">$LOCALIZE[31907]</value>
-		<value condition="StringCompare(Container(9005).ListItem.Property(HiLiteItem),TVShows) + Skin.HasSetting(ShowTVShowDBFanart)">$LOCALIZE[31907]</value>
-		<value condition="StringCompare(Container(9005).ListItem.Property(HiLiteItem),Music) + Skin.HasSetting(ShowMusicDBFanart)">$LOCALIZE[31907]</value>
-		<value condition="StringCompare(Container(9005).ListItem.Property(HiLiteItem),Concerts) + Skin.HasSetting(ShowConcertDBFanart)">$LOCALIZE[31907]</value>
+		<value condition="!StringCompare(Container(9005).ListItem.Property(BackgroundType),LiveContent) + StringCompare(Container(9005).ListItem.Property(HiLiteItem),Movies) + Skin.HasSetting(ShowMovieDBFanart)">$LOCALIZE[31907]</value>
+		<value condition="!StringCompare(Container(9005).ListItem.Property(BackgroundType),LiveContent) + StringCompare(Container(9005).ListItem.Property(HiLiteItem),TVShows) + Skin.HasSetting(ShowTVShowDBFanart)">$LOCALIZE[31907]</value>
+		<value condition="!StringCompare(Container(9005).ListItem.Property(BackgroundType),LiveContent) + StringCompare(Container(9005).ListItem.Property(HiLiteItem),Music) + Skin.HasSetting(ShowMusicDBFanart)">$LOCALIZE[31907]</value>
+		<value condition="!StringCompare(Container(9005).ListItem.Property(BackgroundType),LiveContent) + StringCompare(Container(9005).ListItem.Property(HiLiteItem),Concerts) + Skin.HasSetting(ShowConcertDBFanart)">$LOCALIZE[31907]</value>
 		<value condition="StringCompare(Container(9005).ListItem.Property(HiLiteItem),MenuButton) + IsEmpty(Container(9005).ListItem.Thumb)">$LOCALIZE[31169]</value>
 		<value condition="!IsEmpty(Container(9005).ListItem.Thumb)">$INFO[Container(9005).ListItem.Thumb]</value>
 		<value>$LOCALIZE[31189]</value>

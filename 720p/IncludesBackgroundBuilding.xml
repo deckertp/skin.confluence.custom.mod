@@ -2,21 +2,20 @@
 <includes>
 	<include name="CommonBackground">
 		<control type="group">
-		<control type="multiimage">
-			<include>Dimensions_Fullscreen</include>
-			<imagepath background="true">$VAR[HomeMenuItemBackground]</imagepath>
-			<timeperimage>8000</timeperimage>
-			<randomize>true</randomize>
-			<fadetime>1000</fadetime>
-			<visible>!StringCompare(Container(9000).ListItem.Property(Background),LiveContent) | StringCompare(Container(9000).ListItem.Property(Background),LiveContent) + !SubString(Window(Home).Property(SkinWidgets_RandomItems),true)</visible>
-		</control>
-					<control type="group">
+			<control type="multiimage">
+				<include>Dimensions_Fullscreen</include>
+				<imagepath background="true">$VAR[HomeMenuItemBackground]</imagepath>
+				<timeperimage>8000</timeperimage>
+				<randomize>true</randomize>
+				<fadetime>1000</fadetime>
+				<visible>!StringCompare(Container(9000).ListItem.Property(Background),LiveContent) | StringCompare(Container(9000).ListItem.Property(Background),LiveContent) + !SubString(Window(Home).Property(SkinWidgets_RandomItems),true)</visible>
+			</control>
+			<control type="group">
 				<include>LiveContentBackgrounds</include>
 				<visible>StringCompare(Container(9000).ListItem.Property(Background),LiveContent) + SubString(Window(Home).Property(SkinWidgets_RandomItems),true)</visible>
 			</control>
 			<visible>Window.IsVisible(home) + !Skin.HasSetting(GlobalBackground)</visible>
 		</control>
-		
 		<control type="group">
 			<control type="multiimage">
 				<include>Dimensions_Fullscreen</include>
