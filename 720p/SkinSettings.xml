@@ -1288,7 +1288,7 @@
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<enable>
-							!Skin.HasSetting(GlobalBackground) +
+							!Skin.HasSetting(GlobalBackground) + !Skin.HasSetting(HolidayEffects) +
 							[StringCompare(Skin.String(HomeItem.1.Type),Music) |
 							StringCompare(Skin.String(HomeItem.1.Type),Videos) |
 							StringCompare(Skin.String(HomeItem.1.Type),Movies) |
@@ -1370,7 +1370,7 @@
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<enable>
-							!Skin.HasSetting(GlobalBackground) +
+							!Skin.HasSetting(GlobalBackground) + !Skin.HasSetting(HolidayEffects) +
 							[StringCompare(Skin.String(HomeItem.2.Type),Music) |
 							StringCompare(Skin.String(HomeItem.2.Type),Videos) |
 							StringCompare(Skin.String(HomeItem.2.Type),Movies) |
@@ -1452,7 +1452,7 @@
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<enable>
-							!Skin.HasSetting(GlobalBackground) +
+							!Skin.HasSetting(GlobalBackground) + !Skin.HasSetting(HolidayEffects) +
 							[StringCompare(Skin.String(HomeItem.3.Type),Music) |
 							StringCompare(Skin.String(HomeItem.3.Type),Videos) |
 							StringCompare(Skin.String(HomeItem.3.Type),Movies) |
@@ -1534,7 +1534,7 @@
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<enable>
-							!Skin.HasSetting(GlobalBackground) +
+							!Skin.HasSetting(GlobalBackground) + !Skin.HasSetting(HolidayEffects) +
 							[StringCompare(Skin.String(HomeItem.4.Type),Music) |
 							StringCompare(Skin.String(HomeItem.4.Type),Videos) |
 							StringCompare(Skin.String(HomeItem.4.Type),Movies) |
@@ -1616,7 +1616,7 @@
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<enable>
-							!Skin.HasSetting(GlobalBackground) +
+							!Skin.HasSetting(GlobalBackground) + !Skin.HasSetting(HolidayEffects) +
 							[StringCompare(Skin.String(HomeItem.5.Type),Music) |
 							StringCompare(Skin.String(HomeItem.5.Type),Videos) |
 							StringCompare(Skin.String(HomeItem.5.Type),Movies) |
@@ -1698,7 +1698,7 @@
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<enable>
-							!Skin.HasSetting(GlobalBackground) +
+							!Skin.HasSetting(GlobalBackground) + !Skin.HasSetting(HolidayEffects) +
 							[StringCompare(Skin.String(HomeItem.6.Type),Music) |
 							StringCompare(Skin.String(HomeItem.6.Type),Videos) |
 							StringCompare(Skin.String(HomeItem.6.Type),Movies) |
@@ -1780,7 +1780,7 @@
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<enable>
-							!Skin.HasSetting(GlobalBackground) +
+							!Skin.HasSetting(GlobalBackground) + !Skin.HasSetting(HolidayEffects) +
 							[StringCompare(Skin.String(HomeItem.7.Type),Music) |
 							StringCompare(Skin.String(HomeItem.7.Type),Videos) |
 							StringCompare(Skin.String(HomeItem.7.Type),Movies) |
@@ -1862,7 +1862,7 @@
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<enable>
-							!Skin.HasSetting(GlobalBackground) +
+							!Skin.HasSetting(GlobalBackground) + !Skin.HasSetting(HolidayEffects) +
 							[StringCompare(Skin.String(HomeItem.8.Type),Music) |
 							StringCompare(Skin.String(HomeItem.8.Type),Videos) |
 							StringCompare(Skin.String(HomeItem.8.Type),Movies) |
@@ -1944,7 +1944,7 @@
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<enable>
-							!Skin.HasSetting(GlobalBackground) +
+							!Skin.HasSetting(GlobalBackground) + !Skin.HasSetting(HolidayEffects) +
 							[StringCompare(Skin.String(HomeItem.9.Type),Music) |
 							StringCompare(Skin.String(HomeItem.9.Type),Videos) |
 							StringCompare(Skin.String(HomeItem.9.Type),Movies) |
@@ -2026,7 +2026,7 @@
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<enable>
-							!Skin.HasSetting(GlobalBackground) +
+							!Skin.HasSetting(GlobalBackground) + !Skin.HasSetting(HolidayEffects) +
 							[StringCompare(Skin.String(HomeItem.10.Type),Music) |
 							StringCompare(Skin.String(HomeItem.10.Type),Videos) |
 							StringCompare(Skin.String(HomeItem.10.Type),Movies) |
