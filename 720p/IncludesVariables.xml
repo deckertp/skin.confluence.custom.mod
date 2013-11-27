@@ -1562,4 +1562,8 @@
 		<value condition="StringCompare(ListItem.Label,..)">$LOCALIZE[31025]</value>
 		<value>$LOCALIZE[31025]</value>
 	</variable>
+	<variable name="OS-Label">
+		<value condition="System.HasAddon(script.raspbmc.settings)">$LOCALIZE[31948]</value>
+		<value>$LOCALIZE[31123]</value>
+	</variable>
 </includes>
