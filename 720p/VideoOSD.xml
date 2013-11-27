@@ -8,6 +8,8 @@
 		<posy>0</posy>
 	</coordinates>
 	<controls>
+		
+		
 		<control type="group">
 			<visible>IntegerGreaterThan(Player.time,3) + !StringCompare(VideoPlayer.Title,XBMC-Intro-Video.mkv)</visible>
 			<control type="slider" id="87">
@@ -25,6 +27,7 @@
 				<animation effect="fade" time="200">VisibleChange</animation>
 				<visible>![Window.IsVisible(SliderDialog) | Window.IsVisible(OSDVideoSettings) | Window.IsVisible(OSDAudioSettings) | Window.IsVisible(VideoBookmarks) | VideoPlayer.Content(LiveTV)]</visible>
 			</control>
+			
 			<control type="group" id="100">
 				<posx>320</posx>
 				<posy>55r</posy>
@@ -180,6 +183,8 @@
 					<onclick>PlayerControl(Next)</onclick>
 				</control>
 			</control>
+			
+			
 			<!-- !LiveTV -->
 			<control type="group">
 				<posx>510r</posx>
@@ -272,6 +277,8 @@
 					<animation effect="fade" start="100" end="50" time="100" condition="!VideoPlayer.HasMenu">Conditional</animation>
 				</control>
 			</control>
+			
+			
 			<!-- LiveTV -->
 			<control type="group" id="100">
 				<posx>320</posx>
@@ -417,6 +424,8 @@
 					<onclick>Dialog.Close(VideoOSD)</onclick>
 				</control>
 			</control>
+			
+			
 			<!-- LiveTV -->
 			<control type="group">
 				<posx>560r</posx>
