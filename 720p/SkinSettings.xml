@@ -874,26 +874,6 @@
 						<onclick>Skin.ToggleSetting(HideNextSongsInfo)</onclick>
 						<selected>!Skin.HasSetting(HideNextSongsInfo)</selected>
 					</control>
-					
-					
-					
-					
-					
-					
-				
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
 					<control type="button" id="153">
 						<width>750</width>
 						<height>40</height>
@@ -908,9 +888,6 @@
 						<onclick condition="stringcompare(Container(9009).ListItem.Label,Default)">Skin.Reset(WatchStatusType)</onclick>
 						<onclick condition="!stringcompare(Container(9009).ListItem.Label,Default)">Skin.SetString(WatchStatusType,$INFO[Container(9009).ListItem.Label])</onclick>
 					</control>
-					
-					
-					
 					<control type="radiobutton" id="154">
 						<width>750</width>
 						<height>40</height>
@@ -923,13 +900,7 @@
 						<onclick>Skin.ToggleSetting(HideNewMediaStat)</onclick>
 						<selected>!Skin.HasSetting(HideNewMediaStat)</selected>
 						<enable>!stringcompare(Skin.String(WatchStatusType),Hidden)</enable>
-					</control>	
-					
-					
-					
-					
-					
-					
+					</control>
 					<control type="radiobutton" id="155">
 						<width>750</width>
 						<height>40</height>

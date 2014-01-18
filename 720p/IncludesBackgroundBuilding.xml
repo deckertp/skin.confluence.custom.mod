@@ -287,6 +287,7 @@
 				<fadetime>FanartCrossfadeTime</fadetime>
 				<aspectratio>stretch</aspectratio>
 				<texture background="true">$INFO[ListItem.Art(discart)]</texture>
+				<animation effect="rotate" end="-45" center="auto" time="0" condition="true">Conditional</animation>
 				<visible>!IsEmpty(ListItem.Art(discart))</visible>
 			</control>
 			<control type="image">

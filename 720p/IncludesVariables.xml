@@ -17,7 +17,9 @@
 		<value condition="substring(ListItem.FilenameAndPath,vhs)">vhs</value>
 	</variable>
 	<variable name="VideoResolutionFlag">
-		<value condition="SubString(ListItem.FilenameAndPath,3dbd) | SubString(ListItem.FilenameAndPath,.SBS.)">flagging/lists/3D.png</value>
+		<value condition="!Window.IsVisible(VideoPlaylist) + !stringcompare(ListItem.Label,..) + ListItem.IsFolder + SubString(Container.FolderPath,videodb://,left)">flagging/lists/set.png</value>
+		<value condition="ListItem.IsStereoscopic">flagging/lists/3D.png</value>
+		<value condition="SubString(ListItem.FilenameAndPath,3dbd) | SubString(ListItem.FilenameAndPath,.3D.) | SubString(ListItem.FilenameAndPath,.TAB.)  | SubString(ListItem.FilenameAndPath,.OU.) | SubString(ListItem.FilenameAndPath,.SBS.)">flagging/lists/3D.png</value>
 		<value>$INFO[ListItem.VideoResolution,flagging/lists/,.png]</value>
 	</variable>
 	<variable name="rating">
