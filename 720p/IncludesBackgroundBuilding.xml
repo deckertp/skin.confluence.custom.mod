@@ -45,10 +45,6 @@
 			</control>
 			<visible>Skin.HasSetting(GlobalBackground) + !Skin.HasSetting(HolidayEffects)</visible>
 		</control>
-		
-		
-		
-		
 		<control type="group">
 			<control type="image">
 				<description>Holiday Theme Default Image</description>
@@ -282,9 +278,6 @@
 				<include>Window_OpenClose_Animation</include>
 				<visible>!StringCompare(ListItem.Label,..) + Container.Content(genres)</visible>
 			</control>
-			
-			
-			
 			<control type="image">
 				<posx>-350</posx>
 				<posy>440r</posy>
@@ -318,9 +311,6 @@
 				<texture background="true">$INFO[ListItem.Art(tvshow.characterart)]</texture>
 				<visible>IsEmpty(ListItem.Art(discart)) + !IsEmpty(ListItem.Art(tvshow.characterart)) + Container.Content(Episodes)</visible>
 			</control>
-
-
-			
 		</control>
 		<control type="image">
 			<include>Dimensions_Fullscreen</include>

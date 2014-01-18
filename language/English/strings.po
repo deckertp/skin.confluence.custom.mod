@@ -1463,3 +1463,7 @@ msgstr ""
 msgctxt "#31951"
 msgid "XBMC Command"
 msgstr ""
+
+msgctxt "#31952"
+msgid "Enable Play Disc Menu Item"
+msgstr ""

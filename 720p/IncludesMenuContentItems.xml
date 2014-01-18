@@ -374,7 +374,7 @@
 				<description>Playlist Music</description>
 				<label>$LOCALIZE[559] ([COLOR=selected]$LOCALIZE[2][/COLOR])</label>
 				<include>ClearButtonChoice</include>
-				<onclick>Skin.SetFile(UsrSelectAddon,.m3u|.xsp|.pls,special://musicplaylists/)</onclick>
+				<onclick>Skin.SetFile(UsrSelectAddon,.m3u|.xsp|.pls,special://PlayListMusics/)</onclick>
 				<onclick condition="!IsEmpty(Skin.String(UsrSelectAddon))">Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].Label,$LOCALIZE[559])</onclick>
 				<onclick condition="!IsEmpty(Skin.String(UsrSelectAddon))">Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].Path,PlayMedia("$INFO[Skin.String(UsrSelectAddon)]"))</onclick>
 				<!--onclick condition="Window.IsVisible(2114) + !IsEmpty(Skin.String(UsrSelectAddon))">Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].PlayList,$INFO[Skin.String(UsrSelectAddon)])</onclick-->
@@ -390,7 +390,7 @@
 				<description>Now Playing Music</description>
 				<label>$LOCALIZE[31040] ([COLOR=selected]$LOCALIZE[2][/COLOR])</label>
 				<include>ClearButtonChoice</include>
-				<onclick>Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].Path,ActivateWindow(musicplaylist))</onclick>
+				<onclick>Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].Path,ActivateWindow(PlayListMusic))</onclick>
 				<onclick>Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].Label,$LOCALIZE[31023])</onclick>
 				<onclick condition="Window.IsVisible(2114)">Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].Sub,Music)</onclick>
 				<onclick condition="Window.IsVisible(2114)">Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].Addon,None)</onclick>
@@ -981,7 +981,7 @@
 				<description>Playlist Window</description>
 				<label>$LOCALIZE[559] ([COLOR=selected]$LOCALIZE[513][/COLOR])</label>
 				<include>ClearButtonChoice</include>
-				<onclick>Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].Path,ActivateWindow(VideoLibrary,special://videoplaylists/,return))</onclick>
+				<onclick>Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].Path,ActivateWindow(VideoLibrary,special://PlayListVideos/,return))</onclick>
 				<onclick>Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].Label,$LOCALIZE[559])</onclick>
 				<onclick condition="Window.IsVisible(2114)">Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].Sub,Videos)</onclick>
 				<onclick condition="Window.IsVisible(2114)">Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].Addon,None)</onclick>
@@ -994,7 +994,7 @@
 				<description>Playlist Video</description>
 				<label>$LOCALIZE[559] ([COLOR=selected]$LOCALIZE[3][/COLOR])</label>
 				<include>ClearButtonChoice</include>
-				<onclick>Skin.SetFile(UsrSelectAddon,.xsp,special://videoplaylists/)</onclick>
+				<onclick>Skin.SetFile(UsrSelectAddon,.xsp,special://PlayListVideos/)</onclick>
 				<onclick condition="!IsEmpty(Skin.String(UsrSelectAddon))">Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].Label,$LOCALIZE[559])</onclick>
 				<onclick condition="!IsEmpty(Skin.String(UsrSelectAddon))">Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].Path,ActivateWindow(VideoLibrary,"$INFO[Skin.String(UsrSelectAddon)]",return))</onclick>
 				<onclick condition="Window.IsVisible(2114) + !IsEmpty(Skin.String(UsrSelectAddon))">Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].PlayList,$INFO[Skin.String(UsrSelectAddon)])</onclick>
