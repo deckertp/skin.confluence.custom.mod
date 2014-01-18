@@ -1467,3 +1467,7 @@ msgstr ""
 msgctxt "#31952"
 msgid "Enable Play Disc Menu Item"
 msgstr ""
+
+msgctxt "#31953"
+msgid "Enable New Media Banners"
+msgstr ""
