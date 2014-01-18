@@ -1434,8 +1434,6 @@ msgctxt "#31910"
 msgid "Map & Alerts"
 msgstr ""
 
-#empty strings from id 31911 to 31944
-
 msgctxt "#31945"
 msgid "Use Live Backgrounds"
 msgstr ""
