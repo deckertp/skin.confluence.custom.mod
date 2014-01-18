@@ -52,7 +52,7 @@
 				<aspectratio>scale</aspectratio>
 				<include>VisibleFadeEffect</include>
 				<texture>special://skin/extras/Holiday/xmastree.jpg</texture>
-				<visible>IsEmpty(Skin.String(HolidayThemePath)) | !Window.IsVisible(home) + !IsEmpty(Skin.String(HolidayThemePath))</visible>
+				<visible>IsEmpty(Skin.String(HolidayThemePath))</visible>
 			</control>
 			<control type="multiimage">
 				<description>Holiday Theme Images</description>
