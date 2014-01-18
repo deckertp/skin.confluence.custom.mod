@@ -151,7 +151,7 @@
 		<onload>Skin.SetString(SearchBtnBackground,special://skin/backgrounds/homescreen/search.jpg)</onload>
 		<onload>Skin.SetString(PowerBtnBackground,special://skin/backgrounds/homescreen/shutdown.jpg)</onload>
 		<onload>Skin.SetString(FavBtnBackground,special://skin/backgrounds/homescreen/favourite.jpg)</onload>
-		<onload>Skin.SetString(HolidayThemePath,special://skin/extras/Holiday/)</onload>
+		<onload>Skin.SetString(HolidayThemePath,special://skin/extras/Holiday/xmastree.jpg)</onload>
 		<onload>Skin.SetBool(InitialSetUpRun)</onload>
 	</include>
 	<include name="BehindDialogFadeOut">
