@@ -3868,6 +3868,13 @@
 							<texturefocus>MenuItemFO.png</texturefocus>
 							<texturenofocus>MenuItemNF.png</texturenofocus>
 							<onclick>Skin.SetString(UserSelectAddon.1.Label)</onclick>
+							
+							
+							
+	<onclick>Skin.SetImage(Window(home).Property(UserSelectAddon)].fanart)</onclick>						
+	<!--onclick>Skin.SetString($INFO[Window(home).Property(UserSelectAddon)].fanart,special://home/addons/$INFO[Skin.String(UserSelectAddon)]/fanart.jpg)</onclick-->						
+							
+
 						</control>
 						<control type="button" id="702">
 							<width>750</width>

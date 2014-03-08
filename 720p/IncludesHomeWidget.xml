@@ -2913,6 +2913,8 @@
 					<include>VisibleFadeEffect</include>
 				</control>
 			</control>
+			
+			
 			<control type="group">
 				<posx>160</posx>
 				<posy>50</posy>
@@ -3098,6 +3100,8 @@
 					<include>WeatherForecastContent</include>
 				</control>
 			</control>
+			
+			
 			<control type="group">
 				<posx>160</posx>
 				<posy>50</posy>

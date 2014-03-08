@@ -375,7 +375,7 @@
 		<value condition="Container.Content(Seasons)">$INFO[Container.ShowPlot]</value>
 		<value condition="Skin.HasSetting(MediaShortDescription) + !IsEmpty(ListItem.PlotOutline)">$INFO[ListItem.PlotOutline]</value>
 		<value condition="Skin.HasSetting(MediaShortDescription) + !IsEmpty(ListItem.Tagline)">$INFO[ListItem.Tagline]</value>
-		<value condition="!Skin.HasSetting(MediaShortDescription) + !IsEmpty(ListItem.Plot)">$INFO[ListItem.Plot]</value>
+		<value condition="!IsEmpty(ListItem.Plot)">$INFO[ListItem.Plot]</value>
 		<value>$LOCALIZE[161]</value>
 	</variable>
 	<variable name="UsrMPAACountry" type="text">
