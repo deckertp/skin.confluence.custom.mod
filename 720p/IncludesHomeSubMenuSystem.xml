@@ -27,7 +27,7 @@
 					<width>35</width>
 					<height>35</height>
 					<texture border="0,0,0,3" flipx="true">HomeSubEnd.png</texture>
-					<!--animation effect="slide" start="0,0" end="30,0" time="0" condition="!IntegerGreaterThan(Container(9010).NumItems,5) | !Container(9010).HasPrevious">conditional</animation-->
+					<animation effect="slide" start="0,0" end="30,0" time="0" condition="!IntegerGreaterThan(Container(9010).NumItems,5) | !Container(9010).HasPrevious">conditional</animation>
 					<visible>IntegerGreaterThan(Container(9010).NumItems,0)</visible>
 				</control>
 				<control type="button" id="800">
@@ -51,7 +51,7 @@
 					<width>35</width>
 					<height>35</height>
 					<texture border="0,0,0,3">HomeSubEnd.png</texture>
-					<!--animation effect="slide" start="0,0" end="-30,0" time="0" condition="!IntegerGreaterThan(Container(9010).NumItems,5) |  !Container(9010).HasNext">conditional</animation-->
+					<animation effect="slide" start="0,0" end="-30,0" time="0" condition="!IntegerGreaterThan(Container(9010).NumItems,5) |  !Container(9010).HasNext">conditional</animation>
 					<animation effect="slide" start="0,0" end="-195,0" time="0" condition="StringCompare(Container(9010).NumItems,4)">conditional</animation>
 					<animation effect="slide" start="0,0" end="-386,0" time="0" condition="StringCompare(Container(9010).NumItems,3)">conditional</animation>
 					<animation effect="slide" start="0,0" end="-579,0" time="0" condition="StringCompare(Container(9010).NumItems,2)">conditional</animation>
