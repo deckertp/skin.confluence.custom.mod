@@ -186,6 +186,42 @@
 				<animation effect="fade" time="200">VisibleChange</animation>
 				<visible>![Window.IsVisible(SliderDialog) | Window.IsVisible(OSDVideoSettings) | Window.IsVisible(OSDAudioSettings) | Window.IsVisible(VideoBookmarks)]</visible>
 				<visible>!VideoPlayer.Content(LiveTV)</visible>
+				
+				
+				<!--
+				<control type="button" id="255">
+					<visible>VideoPlayer.IsStereoscopic</visible>
+					<left>0</left>
+					<top>0</top>
+					<width>55</width>
+					<height>55</height>
+					<label>36501</label>
+					<font>-</font>
+					<texturefocus>OSDStereoscopicFO.png</texturefocus>
+					<texturenofocus>OSDStereoscopicNF.png</texturenofocus>
+					<onleft>205</onleft>
+					<onright>250</onright>
+					<onup>501</onup>
+					<ondown>1000</ondown>
+				</control>
+				
+				
+				<control type="button" id="250">
+					<left>55</left>
+					<top>0</top>
+					<width>55</width>
+					<height>55</height>
+					<label>31356</label>
+					<font>-</font>
+					<texturefocus>OSDSubtitlesFO.png</texturefocus>
+					<texturenofocus>OSDSubtitlesNF.png</texturenofocus>
+					<onleft>255</onleft>
+					<onright>251</onright>
+					<onup>404</onup>
+					<ondown>1000</ondown>
+				</control>
+				
+				-->
 				<control type="togglebutton" id="701">
 					<posx>0</posx>
 					<posy>0</posy>
@@ -208,6 +244,10 @@
 					<altclick>XBMC.RunScript($INFO[Skin.String(SubtitleScript.Path)])</altclick>
 					<usealttexture>IsEmpty(Skin.String(SubtitleScript.Path))</usealttexture>
 				</control>
+				
+				
+				
+				
 				<control type="button" id="702">
 					<posx>50</posx>
 					<posy>0</posy>
@@ -423,6 +463,30 @@
 				<animation effect="fade" time="200">VisibleChange</animation>
 				<visible>![Window.IsVisible(SliderDialog) | Window.IsVisible(OSDVideoSettings) | Window.IsVisible(OSDAudioSettings) | Window.IsVisible(VideoBookmarks) | Window.IsVisible(PVROSDChannels) | Window.IsVisible(PVROSDGuide)]</visible>
 				<visible>VideoPlayer.Content(LiveTV)</visible>
+				
+				
+				<!--
+				
+				<control type="button" id="354">
+					<visible>VideoPlayer.IsStereoscopic</visible>
+					<left>0</left>
+					<top>0</top>
+					<width>55</width>
+					<height>55</height>
+					<label>36501</label>
+					<font>-</font>
+					<texturefocus>OSDStereoscopicFO.png</texturefocus>
+					<texturenofocus>OSDStereoscopicNF.png</texturenofocus>
+					<onleft>307</onleft>
+					<onright>350</onright>
+					<onup>551</onup>
+					<ondown>1000</ondown>
+				</control>
+				
+				
+				
+				-->
+				
 				<control type="button" id="701">
 					<posx>0</posx>
 					<posy>0</posy>
