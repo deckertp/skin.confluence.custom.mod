@@ -481,6 +481,8 @@
 				<effect type="fade" start="100" end="0" time="300" />
 			</animation>
 			<include>HomeSubMenuControl</include>
+			
+			
 			<control type="image">
 				<posx>-100</posx>
 				<posy>0</posy>
@@ -495,6 +497,8 @@
 				<height>6</height>
 				<texture>HomeOverlay1.png</texture>
 			</control>
+			
+			
 			<include condition="Skin.HasSetting(WrapAroundHomeMenu)">WrapHomeMainMenu</include>
 			<include condition="!Skin.HasSetting(WrapAroundHomeMenu)">FixedHomeMainMenu</include>
 			<control type="image">
