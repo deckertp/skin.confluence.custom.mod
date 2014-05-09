@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
-  id="skin.confluence.custom.mod"
+  id="skin.ccm.frodo"
   version="1.3.5"
-  name="Confluence Customizable Frodo Mod"
+  name="CCM Frodo"
   provider-name="Mudislander">
   <requires>
 	<import addon="xbmc.gui" version="4.0.0"/>
