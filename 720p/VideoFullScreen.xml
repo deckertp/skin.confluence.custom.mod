@@ -100,7 +100,7 @@
 			</control>
 		</control>
 		<control type="group" id="1">
-			<visible>IntegerGreaterThan(Player.time,3) + !StringCompare(VideoPlayer.Title,XBMC-Intro-Video.mkv)</visible>
+			<!--visible>IntegerGreaterThan(Player.time,3) + !StringCompare(VideoPlayer.Title,XBMC-Intro-Video.mkv)</visible-->
 			<visible>[Player.ShowInfo | Window.IsActive(VideoOSD)] | Player.Seeking | Player.DisplayAfterSeek | Player.Paused | Player.Forwarding | Player.Rewinding | [!Skin.HasSetting(HideInfoStartOSD) + !IntegerGreaterThan(Player.time,8)]</visible>
 			<visible>![Window.IsVisible(osdvideosettings) | Window.IsVisible(osdaudiosettings) | Window.IsVisible(videobookmarks) | Window.IsVisible(PVROSDChannels) | Window.IsVisible(PVROSDGuide)]</visible>
 			<control type="group" id="1">
@@ -137,11 +137,16 @@
 				<texture>HomeNowPlayingBack.png</texture>
 				<visible>!Skin.HasSetting(HideSeekBarOSD) | Window.IsActive(VideoOSD) | Player.ShowInfo | [!Skin.HasSetting(HideInfoStartOSD) + !IntegerGreaterThan(Player.time,8)]</visible>
 			</control>
+			
+			
+			
+			
+			
 			<control type="group" id="1">
 				<control type="image" id="1">
 					<description>clearart image</description>
 					<posx>10</posx>
-					<posy>260r</posy>
+					<posy>300r</posy>
 					<width>300</width>
 					<height>230</height>
 					<texture>$INFO[Player.Art(clearart)]</texture>
@@ -151,7 +156,7 @@
 				<control type="image" id="1">
 					<description>logo image</description>
 					<posx>10</posx>
-					<posy>260r</posy>
+					<posy>300r</posy>
 					<width>300</width>
 					<height>230</height>
 					<texture>$INFO[Player.Art(clearlogo)]</texture>
@@ -161,7 +166,7 @@
 				<control type="image" id="1">
 					<description>Movie cover image</description>
 					<posx>20</posx>
-					<posy>350r</posy>
+					<posy>390r</posy>
 					<width>300</width>
 					<height>330</height>
 					<texture fallback="DefaultVideoCover.png">$INFO[Player.Art(thumb)]</texture>
@@ -177,7 +182,7 @@
 				<control type="image" id="1">
 					<description>clearart image</description>
 					<posx>10</posx>
-					<posy>260r</posy>
+					<posy>300r</posy>
 					<width>300</width>
 					<height>230</height>
 					<texture>$INFO[Player.Art(tvshow.clearart)]</texture>
@@ -187,7 +192,7 @@
 				<control type="image" id="1">
 					<description>logo image</description>
 					<posx>10</posx>
-					<posy>260r</posy>
+					<posy>300r</posy>
 					<width>300</width>
 					<height>230</height>
 					<texture>$INFO[Player.Art(tvshow.clearlogo)]</texture>
@@ -197,7 +202,7 @@
 				<control type="image" id="1">
 					<description>cover image</description>
 					<posx>20</posx>
-					<posy>260r</posy>
+					<posy>300r</posy>
 					<width>300</width>
 					<height>230</height>
 					<texture fallback="DefaultVideoCover.png">$INFO[Player.Art(thumb)]</texture>
@@ -212,7 +217,7 @@
 			<control type="image" id="1">
 				<description>cover image</description>
 				<posx>20</posx>
-				<posy>260r</posy>
+				<posy>300r</posy>
 				<width>300</width>
 				<height>230</height>
 				<texture fallback="DefaultVideoCover.png">$INFO[Player.Art(thumb)]</texture>
@@ -222,6 +227,13 @@
 				<visible>!VideoPlayer.Content(Movies) + !VideoPlayer.Content(Episodes)</visible>
 				<visible>!Skin.HasSetting(HideSeekBarOSD) | Window.IsActive(VideoOSD) | Player.ShowInfo | [!Skin.HasSetting(HideInfoStartOSD) + !IntegerGreaterThan(Player.time,8)]</visible>
 			</control>
+			
+			
+			
+			
+			
+			
+			
 			<control type="group" id="1">
 				<visible>!Skin.HasSetting(HideSeekBarOSD) | Window.IsActive(VideoOSD) | Player.ShowInfo | [!Skin.HasSetting(HideInfoStartOSD) + !IntegerGreaterThan(Player.time,8)]</visible>
 				<posx>330</posx>
