@@ -1249,6 +1249,9 @@
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<enable>!StringCompare(Skin.String(HomeItem.1.Sub),$LOCALIZE[31093]) + !IsEmpty(Skin.String(HomeItem.1.Path))</enable>
 					</control>
+					
+					
+					
 					<control type="button" id="202">
 						<width>750</width>
 						<height>40</height>
@@ -1261,8 +1264,9 @@
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.Reset(StickyHomeMenuAction)</onclick>
 						<onclick>SetProperty(UsrSelectBtn,HomeItem.1,home)</onclick>
+						
+						<onclick condition="Skin.String(HomeItem.1.Path)">SetProperty(UsrSelectPath,InUse,home)</onclick>
 						<onclick>ActivateWindow(2114)</onclick>
-						<onclick condition="!IsEmpty(Skin.String(HomeItem.1.Label))">Skin.SetString(HomeItem.1.Label)</onclick>
 					</control>
 					<control type="button" id="203">
 						<width>750</width>
@@ -1344,8 +1348,9 @@
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,HomeItem.2,home)</onclick>
+						<onclick condition="Skin.String(HomeItem.2.Path)">SetProperty(UsrSelectPath,InUse,home)</onclick>
 						<onclick>ActivateWindow(2114)</onclick>
-						<onclick condition="!IsEmpty(Skin.String(HomeItem.2.Label))">Skin.SetString(HomeItem.2.Label)</onclick>
+						<!--onclick condition="!IsEmpty(Skin.String(HomeItem.2.Label))">Skin.SetString(HomeItem.2.Label)</onclick-->
 					</control>
 					<control type="button" id="208">
 						<width>750</width>
@@ -1428,8 +1433,9 @@
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,HomeItem.3,home)</onclick>
+						<onclick condition="Skin.String(HomeItem.3.Path)">SetProperty(UsrSelectPath,InUse,home)</onclick>
 						<onclick>ActivateWindow(2114)</onclick>
-						<onclick condition="!IsEmpty(Skin.String(HomeItem.3.Label))">Skin.SetString(HomeItem.3.Label)</onclick>
+						<!--onclick condition="!IsEmpty(Skin.String(HomeItem.3.Label))">Skin.SetString(HomeItem.3.Label)</onclick-->
 					</control>
 					<control type="button" id="213">
 						<width>750</width>
@@ -1512,8 +1518,9 @@
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,HomeItem.4,home)</onclick>
+						<onclick condition="Skin.String(HomeItem.4.Path)">SetProperty(UsrSelectPath,InUse,home)</onclick>
 						<onclick>ActivateWindow(2114)</onclick>
-						<onclick condition="!IsEmpty(Skin.String(HomeItem.4.Label))">Skin.SetString(HomeItem.4.Label)</onclick>
+						<!--onclick condition="!IsEmpty(Skin.String(HomeItem.4.Label))">Skin.SetString(HomeItem.4.Label)</onclick-->
 					</control>
 					<control type="button" id="218">
 						<width>750</width>
@@ -1596,8 +1603,9 @@
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,HomeItem.5,home)</onclick>
+						<onclick condition="Skin.String(HomeItem.5.Path)">SetProperty(UsrSelectPath,InUse,home)</onclick>
 						<onclick>ActivateWindow(2114)</onclick>
-						<onclick condition="!IsEmpty(Skin.String(HomeItem.5.Label))">Skin.SetString(HomeItem.5.Label)</onclick>
+						<!--onclick condition="!IsEmpty(Skin.String(HomeItem.5.Label))">Skin.SetString(HomeItem.5.Label)</onclick-->
 					</control>
 					<control type="button" id="223">
 						<width>750</width>
@@ -1680,8 +1688,9 @@
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,HomeItem.6,home)</onclick>
+						<onclick condition="Skin.String(HomeItem.6.Path)">SetProperty(UsrSelectPath,InUse,home)</onclick>
 						<onclick>ActivateWindow(2114)</onclick>
-						<onclick condition="!IsEmpty(Skin.String(HomeItem.6.Label))">Skin.SetString(HomeItem.6.Label)</onclick>
+						<!--onclick condition="!IsEmpty(Skin.String(HomeItem.6.Label))">Skin.SetString(HomeItem.6.Label)</onclick-->
 					</control>
 					<control type="button" id="228">
 						<width>750</width>
@@ -1764,8 +1773,9 @@
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,HomeItem.7,home)</onclick>
+						<onclick condition="Skin.String(HomeItem.7.Path)">SetProperty(UsrSelectPath,InUse,home)</onclick>
 						<onclick>ActivateWindow(2114)</onclick>
-						<onclick condition="!IsEmpty(Skin.String(HomeItem.7.Label))">Skin.SetString(HomeItem.7.Label)</onclick>
+						<!--onclick condition="!IsEmpty(Skin.String(HomeItem.7.Label))">Skin.SetString(HomeItem.7.Label)</onclick-->
 					</control>
 					<control type="button" id="233">
 						<width>750</width>
@@ -1848,8 +1858,9 @@
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,HomeItem.8,home)</onclick>
+						<onclick condition="Skin.String(HomeItem.8.Path)">SetProperty(UsrSelectPath,InUse,home)</onclick>
 						<onclick>ActivateWindow(2114)</onclick>
-						<onclick condition="!IsEmpty(Skin.String(HomeItem.8.Label))">Skin.SetString(HomeItem.8.Label)</onclick>
+						<!--onclick condition="!IsEmpty(Skin.String(HomeItem.8.Label))">Skin.SetString(HomeItem.8.Label)</onclick-->
 					</control>
 					<control type="button" id="238">
 						<width>750</width>
@@ -1932,8 +1943,9 @@
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,HomeItem.9,home)</onclick>
+						<onclick condition="Skin.String(HomeItem.9.Path)">SetProperty(UsrSelectPath,InUse,home)</onclick>
 						<onclick>ActivateWindow(2114)</onclick>
-						<onclick condition="!IsEmpty(Skin.String(HomeItem.9.Label))">Skin.SetString(HomeItem.9.Label)</onclick>
+						<!--onclick condition="!IsEmpty(Skin.String(HomeItem.9.Label))">Skin.SetString(HomeItem.9.Label)</onclick-->
 					</control>
 					<control type="button" id="243">
 						<width>750</width>
@@ -2016,8 +2028,9 @@
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,HomeItem.10,home)</onclick>
+						<onclick condition="Skin.String(HomeItem.10.Path)">SetProperty(UsrSelectPath,InUse,home)</onclick>
 						<onclick>ActivateWindow(2114)</onclick>
-						<onclick condition="!IsEmpty(Skin.String(HomeItem.10.Label))">Skin.SetString(HomeItem.10.Label)</onclick>
+						<!--onclick condition="!IsEmpty(Skin.String(HomeItem.10.Label))">Skin.SetString(HomeItem.10.Label)</onclick-->
 					</control>
 					<control type="button" id="248">
 						<width>750</width>
