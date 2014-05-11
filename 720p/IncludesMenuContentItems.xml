@@ -62,7 +62,6 @@
 				<visible>!substring(Window(home).Property(UsrSelectBtn),UserSub,Left)</visible>
 				<visible>substring(Window(home).Property(UsrSelectBtn),SubPictures.1,Right) + Window.IsVisible(2115)</visible>
 			</item>
-			
 			<item>
 				<description>Edit XBMC Command</description>
 				<label>$LOCALIZE[31220]</label>
@@ -72,7 +71,6 @@
 				<visible>StringCompare(Window.Property(MenuItemType),MainMenu)</visible>
 				<visible>StringCompare(Window(home).Property(UsrSelectPath),InUse)</visible>
 			</item>
-			
 			<item>
 				<description>Weather</description>
 				<label>$LOCALIZE[8]</label>
@@ -295,7 +293,6 @@
 				<onclick condition="Window.IsVisible(2114)">Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].Fanart,special://skin/backgrounds/homescreen/music.jpg)</onclick>
 				<onclick>Skin.SetString($INFO[Window(home).Property(UsrSelectBtn)].Label)</onclick>
 				<include>CloseMenuChoice</include>
-				
 				<visible>Library.HasContent(Music)</visible>
 			</item>
 			<item>

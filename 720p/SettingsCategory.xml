@@ -108,11 +108,11 @@
 				<left>20</left>
 				<top>566</top>
 				<height>25</height>
-				<width>230</width> 
-				<label>31204</label> 
-				<font>font13_title</font> 
-				<textcolor>white</textcolor> 
-				<align>right</align> 
+				<width>230</width>
+				<label>31204</label>
+				<font>font13_title</font>
+				<textcolor>white</textcolor>
+				<align>right</align>
 				<aligny>center</aligny>
 			</control>
 			<control type="image">

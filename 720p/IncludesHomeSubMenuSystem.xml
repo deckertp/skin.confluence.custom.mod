@@ -77,7 +77,6 @@
 					<animation effect="slide" start="0,0" end="-820,0" time="0" condition="StringCompare(Container(9010).NumItems,1)">conditional</animation>
 					<visible>IntegerGreaterThan(Container(9010).NumItems,5) + Container(9010).HasNext</visible>
 				</control>
-				
 			</control>
 			<control type="group">
 				<visible>StringCompare(Container(9000).ListItem.Property(SubMenu),Music)</visible>
@@ -149,7 +148,6 @@
 					<animation effect="slide" start="0,0" end="-820,0" time="0" condition="StringCompare(Container(9011).NumItems,1)">conditional</animation>
 					<visible>IntegerGreaterThan(Container(9011).NumItems,5) + Container(9011).HasNext</visible>
 				</control>
-				
 			</control>
 			<control type="group">
 				<visible>StringCompare(Container(9000).ListItem.Property(SubMenu),Settings)</visible>
@@ -221,7 +219,6 @@
 					<animation effect="slide" start="0,0" end="-820,0" time="0" condition="StringCompare(Container(9012).NumItems,1)">conditional</animation>
 					<visible>IntegerGreaterThan(Container(9012).NumItems,5) + Container(9012).HasNext</visible>
 				</control>
-				
 			</control>
 			<control type="group">
 				<visible>StringCompare(Container(9000).ListItem.Property(SubMenu),PlayDisc)</visible>
@@ -293,7 +290,6 @@
 					<animation effect="slide" start="0,0" end="-820,0" time="0" condition="StringCompare(Container(9013).NumItems,1)">conditional</animation>
 					<visible>IntegerGreaterThan(Container(9013).NumItems,5) + Container(9013).HasNext</visible>
 				</control>
-				
 			</control>
 			<control type="group">
 				<visible>StringCompare(Container(9000).ListItem.Property(SubMenu),LiveTV)</visible>
@@ -365,7 +361,6 @@
 					<animation effect="slide" start="0,0" end="-820,0" time="0" condition="StringCompare(Container(9014).NumItems,1)">conditional</animation>
 					<visible>IntegerGreaterThan(Container(9014).NumItems,5) + Container(9014).HasNext</visible>
 				</control>
-				
 			</control>
 			<control type="group">
 				<visible>StringCompare(Container(9000).ListItem.Property(SubMenu),Pictures)</visible>
@@ -437,7 +432,6 @@
 					<animation effect="slide" start="0,0" end="-820,0" time="0" condition="StringCompare(Container(9015).NumItems,1)">conditional</animation>
 					<visible>IntegerGreaterThan(Container(9015).NumItems,5) + Container(9015).HasNext</visible>
 				</control>
-				
 			</control>
 			<control type="group">
 				<visible>StringCompare(Container(9000).ListItem.Property(SubMenu),Movies)</visible>
@@ -508,9 +502,7 @@
 					<animation effect="slide" start="0,0" end="-410,0" time="0" condition="StringCompare(Container(9016).NumItems,3)">conditional</animation>
 					<animation effect="slide" start="0,0" end="-615,0" time="0" condition="StringCompare(Container(9016).NumItems,2)">conditional</animation>
 					<animation effect="slide" start="0,0" end="-820,0" time="0" condition="StringCompare(Container(9016).NumItems,1)">conditional</animation>
-					
 					<visible>IntegerGreaterThan(Container(9016).NumItems,5) + Container(9016).HasNext</visible>
-				
 				</control>
 			</control>
 			<control type="group">
@@ -583,7 +575,6 @@
 					<animation effect="slide" start="0,0" end="-820,0" time="0" condition="StringCompare(Container(9017).NumItems,1)">conditional</animation>
 					<visible>IntegerGreaterThan(Container(9017).NumItems,5) + Container(9017).HasNext</visible>
 				</control>
-				
 			</control>
 			<control type="group">
 				<visible>StringCompare(Container(9000).ListItem.Property(SubMenu),Concerts)</visible>
@@ -655,7 +646,6 @@
 					<animation effect="slide" start="0,0" end="-820,0" time="0" condition="StringCompare(Container(9019).NumItems,1)">conditional</animation>
 					<visible>IntegerGreaterThan(Container(9019).NumItems,5) + Container(9019).HasNext</visible>
 				</control>
-				
 			</control>
 			<control type="group">
 				<visible>StringCompare(Container(9000).ListItem.Property(SubMenu),Favourites)</visible>
@@ -727,7 +717,6 @@
 					<animation effect="slide" start="0,0" end="-820,0" time="0" condition="StringCompare(Container(9020).NumItems,1)">conditional</animation>
 					<visible>IntegerGreaterThan(Container(9020).NumItems,5) + Container(9020).HasNext</visible>
 				</control>
-				
 			</control>
 			<control type="group">
 				<visible>StringCompare(Container(9000).ListItem.Property(SubMenu),UserOne)</visible>
@@ -799,7 +788,6 @@
 					<animation effect="slide" start="0,0" end="-820,0" time="0" condition="StringCompare(Container(9021).NumItems,1)">conditional</animation>
 					<visible>IntegerGreaterThan(Container(9021).NumItems,5) + Container(9021).HasNext</visible>
 				</control>
-				
 			</control>
 			<control type="group">
 				<visible>StringCompare(Container(9000).ListItem.Property(SubMenu),UserTwo)</visible>
@@ -871,7 +859,6 @@
 					<animation effect="slide" start="0,0" end="-820,0" time="0" condition="StringCompare(Container(9022).NumItems,1)">conditional</animation>
 					<visible>IntegerGreaterThan(Container(9022).NumItems,5) + Container(9022).HasNext</visible>
 				</control>
-				
 			</control>
 			<control type="group">
 				<visible>StringCompare(Container(9000).ListItem.Property(SubMenu),Programs)</visible>
@@ -943,7 +930,6 @@
 					<animation effect="slide" start="0,0" end="-820,0" time="0" condition="StringCompare(Container(9023).NumItems,1)">conditional</animation>
 					<visible>IntegerGreaterThan(Container(9023).NumItems,5) + Container(9023).HasNext</visible>
 				</control>
-				
 			</control>
 			<control type="group">
 				<visible>StringCompare(Container(9000).ListItem.Property(SubMenu),UserThree)</visible>
@@ -1015,7 +1001,6 @@
 					<animation effect="slide" start="0,0" end="-820,0" time="0" condition="StringCompare(Container(9024).NumItems,1)">conditional</animation>
 					<visible>IntegerGreaterThan(Container(9024).NumItems,5) + Container(9024).HasNext</visible>
 				</control>
-				
 			</control>
 		</control>
 	</include>

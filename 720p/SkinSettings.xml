@@ -1249,9 +1249,6 @@
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<enable>!StringCompare(Skin.String(HomeItem.1.Sub),$LOCALIZE[31093]) + !IsEmpty(Skin.String(HomeItem.1.Path))</enable>
 					</control>
-					
-					
-					
 					<control type="button" id="202">
 						<width>750</width>
 						<height>40</height>
@@ -1264,7 +1261,6 @@
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.Reset(StickyHomeMenuAction)</onclick>
 						<onclick>SetProperty(UsrSelectBtn,HomeItem.1,home)</onclick>
-						
 						<onclick condition="Skin.String(HomeItem.1.Path)">SetProperty(UsrSelectPath,InUse,home)</onclick>
 						<onclick>ActivateWindow(2114)</onclick>
 					</control>
@@ -3881,13 +3877,8 @@
 							<texturefocus>MenuItemFO.png</texturefocus>
 							<texturenofocus>MenuItemNF.png</texturenofocus>
 							<onclick>Skin.SetString(UserSelectAddon.1.Label)</onclick>
-							
-							
-							
-	<onclick>Skin.SetImage(Window(home).Property(UserSelectAddon)].fanart)</onclick>						
-	<!--onclick>Skin.SetString($INFO[Window(home).Property(UserSelectAddon)].fanart,special://home/addons/$INFO[Skin.String(UserSelectAddon)]/fanart.jpg)</onclick-->						
-							
-
+							<onclick>Skin.SetImage(Window(home).Property(UserSelectAddon)].fanart)</onclick>
+							<!--onclick>Skin.SetString($INFO[Window(home).Property(UserSelectAddon)].fanart,special://home/addons/$INFO[Skin.String(UserSelectAddon)]/fanart.jpg)</onclick-->
 						</control>
 						<control type="button" id="702">
 							<width>750</width>

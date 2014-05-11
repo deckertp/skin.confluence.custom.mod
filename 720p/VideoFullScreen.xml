@@ -137,11 +137,6 @@
 				<texture>HomeNowPlayingBack.png</texture>
 				<visible>!Skin.HasSetting(HideSeekBarOSD) | Window.IsActive(VideoOSD) | Player.ShowInfo | [!Skin.HasSetting(HideInfoStartOSD) + !IntegerGreaterThan(Player.time,8)]</visible>
 			</control>
-			
-			
-			
-			
-			
 			<control type="group" id="1">
 				<control type="image" id="1">
 					<description>clearart image</description>
@@ -227,13 +222,6 @@
 				<visible>!VideoPlayer.Content(Movies) + !VideoPlayer.Content(Episodes)</visible>
 				<visible>!Skin.HasSetting(HideSeekBarOSD) | Window.IsActive(VideoOSD) | Player.ShowInfo | [!Skin.HasSetting(HideInfoStartOSD) + !IntegerGreaterThan(Player.time,8)]</visible>
 			</control>
-			
-			
-			
-			
-			
-			
-			
 			<control type="group" id="1">
 				<visible>!Skin.HasSetting(HideSeekBarOSD) | Window.IsActive(VideoOSD) | Player.ShowInfo | [!Skin.HasSetting(HideInfoStartOSD) + !IntegerGreaterThan(Player.time,8)]</visible>
 				<posx>330</posx>
