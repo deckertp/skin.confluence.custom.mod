@@ -100,7 +100,7 @@
 			</control>
 		</control>
 		<control type="group" id="1">
-			<!--visible>IntegerGreaterThan(Player.time,3) + !StringCompare(VideoPlayer.Title,XBMC-Intro-Video.mkv)</visible-->
+			<visible>IntegerGreaterThan(Player.time,3) + !StringCompare(VideoPlayer.Title,XBMC-Intro-Video.mkv)</visible>
 			<visible>[Player.ShowInfo | Window.IsActive(VideoOSD)] | Player.Seeking | Player.DisplayAfterSeek | Player.Paused | Player.Forwarding | Player.Rewinding | [!Skin.HasSetting(HideInfoStartOSD) + !IntegerGreaterThan(Player.time,8)]</visible>
 			<visible>![Window.IsVisible(osdvideosettings) | Window.IsVisible(osdaudiosettings) | Window.IsVisible(videobookmarks) | Window.IsVisible(PVROSDChannels) | Window.IsVisible(PVROSDGuide)]</visible>
 			<control type="group" id="1">
