@@ -453,21 +453,21 @@
 		</control>
 		<!-- codec info -->
 		<control type="group" id="0">
-			<left>0</left>
-			<top>10</top>
+			<posx>0</posx>
+			<posy>20</posy>
 			<animation effect="fade" time="200">VisibleChange</animation>
 			<control type="image">
 				<description>media info background image</description>
-				<left>0</left>
-				<top>0</top>
+				<posx>0</posx>
+				<posy>0</posy>
 				<width>1280</width>
-				<height>150</height>
+				<height>140</height>
 				<texture>black-back.png</texture>
 			</control>
 			<control type="label" id="10">
 				<description>row 1 label</description>
-				<left>50</left>
-				<top>10</top>
+				<posx>50</posx>
+				<posy>10</posy>
 				<width>1180</width>
 				<height>30</height>
 				<align>left</align>
@@ -477,8 +477,8 @@
 			</control>
 			<control type="label" id="11">
 				<description>row 2 label</description>
-				<left>50</left>
-				<top>55</top>
+				<posx>50</posx>
+				<posy>40</posy>
 				<width>1180</width>
 				<height>30</height>
 				<align>left</align>
@@ -488,8 +488,8 @@
 			</control>
 			<control type="label" id="12">
 				<description>row 3 label</description>
-				<left>50</left>
-				<top>100</top>
+				<posx>50</posx>
+				<posy>85</posy>
 				<width>1180</width>
 				<height>30</height>
 				<align>left</align>
