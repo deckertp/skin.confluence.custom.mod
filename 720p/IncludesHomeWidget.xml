@@ -2,7 +2,8 @@
 <includes>
 	<include name="HomeWidgetPanel">
 		<control type="group" id="9003">
-			<onup>21</onup>
+            <onup condition="!Skin.HasSetting(HideFavouritesBtn)">21</ondown>
+            <onup condition="Skin.HasSetting(HideFavouritesBtn) + !Skin.HasSetting(AutoHidePowerBtn)">20</ondown>
 			<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
 			<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 			<animation effect="fade" start="100" end="65" time="200" condition="Window.IsVisible(2123) | Window.IsVisible(2124) | Window.IsVisible(2125) | Window.IsVisible(Favourites)">conditional</animation>
@@ -40,7 +41,8 @@
 					<height>220</height>
 					<onleft>8000</onleft>
 					<onright>8000</onright>
-					<onup>21</onup>
+                    <onup condition="!Skin.HasSetting(HideFavouritesBtn)">21</ondown>
+                    <onup condition="Skin.HasSetting(HideFavouritesBtn) + !Skin.HasSetting(AutoHidePowerBtn)">20</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
 					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
@@ -192,7 +194,8 @@
 					<height>240</height>
 					<onleft>8001</onleft>
 					<onright>8001</onright>
-					<onup>21</onup>
+                    <onup condition="!Skin.HasSetting(HideFavouritesBtn)">21</ondown>
+                    <onup condition="Skin.HasSetting(HideFavouritesBtn) + !Skin.HasSetting(AutoHidePowerBtn)">20</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
 					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
@@ -431,7 +434,8 @@
 					<height>240</height>
 					<onleft>8002</onleft>
 					<onright>8002</onright>
-					<onup>21</onup>
+                    <onup condition="!Skin.HasSetting(HideFavouritesBtn)">21</ondown>
+                    <onup condition="Skin.HasSetting(HideFavouritesBtn) + !Skin.HasSetting(AutoHidePowerBtn)">20</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
 					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
@@ -613,7 +617,8 @@
 					<height>220</height>
 					<onleft>8003</onleft>
 					<onright>8003</onright>
-					<onup>21</onup>
+                    <onup condition="!Skin.HasSetting(HideFavouritesBtn)">21</ondown>
+                    <onup condition="Skin.HasSetting(HideFavouritesBtn) + !Skin.HasSetting(AutoHidePowerBtn)">20</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
 					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
@@ -766,7 +771,8 @@
 					<height>220</height>
 					<onleft>8004</onleft>
 					<onright>8004</onright>
-					<onup>21</onup>
+                    <onup condition="!Skin.HasSetting(HideFavouritesBtn)">21</ondown>
+                    <onup condition="Skin.HasSetting(HideFavouritesBtn) + !Skin.HasSetting(AutoHidePowerBtn)">20</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
 					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
@@ -918,7 +924,8 @@
 					<height>240</height>
 					<onleft>8005</onleft>
 					<onright>8005</onright>
-					<onup>21</onup>
+                    <onup condition="!Skin.HasSetting(HideFavouritesBtn)">21</ondown>
+                    <onup condition="Skin.HasSetting(HideFavouritesBtn) + !Skin.HasSetting(AutoHidePowerBtn)">20</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
 					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
@@ -1157,7 +1164,8 @@
 					<height>240</height>
 					<onleft>8006</onleft>
 					<onright>8006</onright>
-					<onup>21</onup>
+                    <onup condition="!Skin.HasSetting(HideFavouritesBtn)">21</ondown>
+                    <onup condition="Skin.HasSetting(HideFavouritesBtn) + !Skin.HasSetting(AutoHidePowerBtn)">20</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
 					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
@@ -1339,7 +1347,8 @@
 					<height>220</height>
 					<onleft>8007</onleft>
 					<onright>8007</onright>
-					<onup>21</onup>
+                    <onup condition="!Skin.HasSetting(HideFavouritesBtn)">21</ondown>
+                    <onup condition="Skin.HasSetting(HideFavouritesBtn) + !Skin.HasSetting(AutoHidePowerBtn)">20</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
 					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
@@ -1492,7 +1501,8 @@
 					<height>220</height>
 					<onleft>8008</onleft>
 					<onright>8008</onright>
-					<onup>21</onup>
+                    <onup condition="!Skin.HasSetting(HideFavouritesBtn)">21</ondown>
+                    <onup condition="Skin.HasSetting(HideFavouritesBtn) + !Skin.HasSetting(AutoHidePowerBtn)">20</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
 					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
@@ -1644,7 +1654,8 @@
 					<height>240</height>
 					<onleft>8009</onleft>
 					<onright>8009</onright>
-					<onup>21</onup>
+                    <onup condition="!Skin.HasSetting(HideFavouritesBtn)">21</ondown>
+                    <onup condition="Skin.HasSetting(HideFavouritesBtn) + !Skin.HasSetting(AutoHidePowerBtn)">20</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
 					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
@@ -1883,7 +1894,8 @@
 					<height>240</height>
 					<onleft>8010</onleft>
 					<onright>8010</onright>
-					<onup>21</onup>
+                    <onup condition="!Skin.HasSetting(HideFavouritesBtn)">21</ondown>
+                    <onup condition="Skin.HasSetting(HideFavouritesBtn) + !Skin.HasSetting(AutoHidePowerBtn)">20</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
 					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
@@ -2065,7 +2077,8 @@
 					<height>220</height>
 					<onleft>8011</onleft>
 					<onright>8011</onright>
-					<onup>21</onup>
+                    <onup condition="!Skin.HasSetting(HideFavouritesBtn)">21</ondown>
+                    <onup condition="Skin.HasSetting(HideFavouritesBtn) + !Skin.HasSetting(AutoHidePowerBtn)">20</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
 					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
@@ -2235,7 +2248,8 @@
 					<height>220</height>
 					<onleft>8012</onleft>
 					<onright>8012</onright>
-					<onup>21</onup>
+                    <onup condition="!Skin.HasSetting(HideFavouritesBtn)">21</ondown>
+                    <onup condition="Skin.HasSetting(HideFavouritesBtn) + !Skin.HasSetting(AutoHidePowerBtn)">20</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
 					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
@@ -2257,7 +2271,8 @@
 					<height>220</height>
 					<onleft>8012</onleft>
 					<onright>8012</onright>
-					<onup>21</onup>
+                    <onup condition="!Skin.HasSetting(HideFavouritesBtn)">21</ondown>
+                    <onup condition="Skin.HasSetting(HideFavouritesBtn) + !Skin.HasSetting(AutoHidePowerBtn)">20</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
 					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
@@ -2279,7 +2294,8 @@
 					<height>220</height>
 					<onleft>8012</onleft>
 					<onright>8012</onright>
-					<onup>21</onup>
+                    <onup condition="!Skin.HasSetting(HideFavouritesBtn)">21</ondown>
+                    <onup condition="Skin.HasSetting(HideFavouritesBtn) + !Skin.HasSetting(AutoHidePowerBtn)">20</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
 					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
@@ -2301,7 +2317,8 @@
 					<height>220</height>
 					<onleft>8012</onleft>
 					<onright>8012</onright>
-					<onup>21</onup>
+                    <onup condition="!Skin.HasSetting(HideFavouritesBtn)">21</ondown>
+                    <onup condition="Skin.HasSetting(HideFavouritesBtn) + !Skin.HasSetting(AutoHidePowerBtn)">20</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
 					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
@@ -2323,7 +2340,8 @@
 					<height>220</height>
 					<onleft>8012</onleft>
 					<onright>8012</onright>
-					<onup>21</onup>
+                    <onup condition="!Skin.HasSetting(HideFavouritesBtn)">21</ondown>
+                    <onup condition="Skin.HasSetting(HideFavouritesBtn) + !Skin.HasSetting(AutoHidePowerBtn)">20</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
 					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
@@ -2345,7 +2363,8 @@
 					<height>220</height>
 					<onleft>8012</onleft>
 					<onright>8012</onright>
-					<onup>21</onup>
+                    <onup condition="!Skin.HasSetting(HideFavouritesBtn)">21</ondown>
+                    <onup condition="Skin.HasSetting(HideFavouritesBtn) + !Skin.HasSetting(AutoHidePowerBtn)">20</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
 					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
@@ -2367,7 +2386,8 @@
 					<height>220</height>
 					<onleft>8012</onleft>
 					<onright>8012</onright>
-					<onup>21</onup>
+                    <onup condition="!Skin.HasSetting(HideFavouritesBtn)">21</ondown>
+                    <onup condition="Skin.HasSetting(HideFavouritesBtn) + !Skin.HasSetting(AutoHidePowerBtn)">20</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
 					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
@@ -2389,7 +2409,8 @@
 					<height>220</height>
 					<onleft>8012</onleft>
 					<onright>8012</onright>
-					<onup>21</onup>
+                    <onup condition="!Skin.HasSetting(HideFavouritesBtn)">21</ondown>
+                    <onup condition="Skin.HasSetting(HideFavouritesBtn) + !Skin.HasSetting(AutoHidePowerBtn)">20</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
 					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
@@ -2411,7 +2432,8 @@
 					<height>220</height>
 					<onleft>8012</onleft>
 					<onright>8012</onright>
-					<onup>21</onup>
+                    <onup condition="!Skin.HasSetting(HideFavouritesBtn)">21</ondown>
+                    <onup condition="Skin.HasSetting(HideFavouritesBtn) + !Skin.HasSetting(AutoHidePowerBtn)">20</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
 					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
@@ -2433,7 +2455,8 @@
 					<height>220</height>
 					<onleft>8012</onleft>
 					<onright>8012</onright>
-					<onup>21</onup>
+                    <onup condition="!Skin.HasSetting(HideFavouritesBtn)">21</ondown>
+                    <onup condition="Skin.HasSetting(HideFavouritesBtn) + !Skin.HasSetting(AutoHidePowerBtn)">20</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
 					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
@@ -2515,7 +2538,8 @@
 					<height>240</height>
 					<onleft>8013</onleft>
 					<onright>8013</onright>
-					<onup>21</onup>
+                    <onup condition="!Skin.HasSetting(HideFavouritesBtn)">21</ondown>
+                    <onup condition="Skin.HasSetting(HideFavouritesBtn) + !Skin.HasSetting(AutoHidePowerBtn)">20</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
 					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
@@ -2538,7 +2562,8 @@
 					<height>240</height>
 					<onleft>8013</onleft>
 					<onright>8013</onright>
-					<onup>21</onup>
+                    <onup condition="!Skin.HasSetting(HideFavouritesBtn)">21</ondown>
+                    <onup condition="Skin.HasSetting(HideFavouritesBtn) + !Skin.HasSetting(AutoHidePowerBtn)">20</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
 					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
@@ -2561,7 +2586,8 @@
 					<height>240</height>
 					<onleft>8013</onleft>
 					<onright>8013</onright>
-					<onup>21</onup>
+                    <onup condition="!Skin.HasSetting(HideFavouritesBtn)">21</ondown>
+                    <onup condition="Skin.HasSetting(HideFavouritesBtn) + !Skin.HasSetting(AutoHidePowerBtn)">20</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
 					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
@@ -2584,7 +2610,8 @@
 					<height>240</height>
 					<onleft>8013</onleft>
 					<onright>8013</onright>
-					<onup>21</onup>
+                    <onup condition="!Skin.HasSetting(HideFavouritesBtn)">21</ondown>
+                    <onup condition="Skin.HasSetting(HideFavouritesBtn) + !Skin.HasSetting(AutoHidePowerBtn)">20</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
 					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
@@ -2607,7 +2634,8 @@
 					<height>240</height>
 					<onleft>8013</onleft>
 					<onright>8013</onright>
-					<onup>21</onup>
+                    <onup condition="!Skin.HasSetting(HideFavouritesBtn)">21</ondown>
+                    <onup condition="Skin.HasSetting(HideFavouritesBtn) + !Skin.HasSetting(AutoHidePowerBtn)">20</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
 					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
@@ -2630,7 +2658,8 @@
 					<height>240</height>
 					<onleft>8013</onleft>
 					<onright>8013</onright>
-					<onup>21</onup>
+                    <onup condition="!Skin.HasSetting(HideFavouritesBtn)">21</ondown>
+                    <onup condition="Skin.HasSetting(HideFavouritesBtn) + !Skin.HasSetting(AutoHidePowerBtn)">20</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
 					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
@@ -2653,7 +2682,8 @@
 					<height>240</height>
 					<onleft>8013</onleft>
 					<onright>8013</onright>
-					<onup>21</onup>
+                    <onup condition="!Skin.HasSetting(HideFavouritesBtn)">21</ondown>
+                    <onup condition="Skin.HasSetting(HideFavouritesBtn) + !Skin.HasSetting(AutoHidePowerBtn)">20</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
 					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
@@ -2676,7 +2706,8 @@
 					<height>240</height>
 					<onleft>8013</onleft>
 					<onright>8013</onright>
-					<onup>21</onup>
+                    <onup condition="!Skin.HasSetting(HideFavouritesBtn)">21</ondown>
+                    <onup condition="Skin.HasSetting(HideFavouritesBtn) + !Skin.HasSetting(AutoHidePowerBtn)">20</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
 					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
@@ -2699,7 +2730,8 @@
 					<height>240</height>
 					<onleft>8013</onleft>
 					<onright>8013</onright>
-					<onup>21</onup>
+                    <onup condition="!Skin.HasSetting(HideFavouritesBtn)">21</ondown>
+                    <onup condition="Skin.HasSetting(HideFavouritesBtn) + !Skin.HasSetting(AutoHidePowerBtn)">20</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
 					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
@@ -2722,7 +2754,8 @@
 					<height>240</height>
 					<onleft>8013</onleft>
 					<onright>8013</onright>
-					<onup>21</onup>
+                    <onup condition="!Skin.HasSetting(HideFavouritesBtn)">21</ondown>
+                    <onup condition="Skin.HasSetting(HideFavouritesBtn) + !Skin.HasSetting(AutoHidePowerBtn)">20</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
 					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
@@ -2791,7 +2824,8 @@
 					<height>220</height>
 					<onleft>8014</onleft>
 					<onright>8014</onright>
-					<onup>21</onup>
+                    <onup condition="!Skin.HasSetting(HideFavouritesBtn)">21</ondown>
+                    <onup condition="Skin.HasSetting(HideFavouritesBtn) + !Skin.HasSetting(AutoHidePowerBtn)">20</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
 					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
@@ -2943,7 +2977,8 @@
 					<height>240</height>
 					<onleft>8015</onleft>
 					<onright>8015</onright>
-					<onup>21</onup>
+                    <onup condition="!Skin.HasSetting(HideFavouritesBtn)">21</ondown>
+                    <onup condition="Skin.HasSetting(HideFavouritesBtn) + !Skin.HasSetting(AutoHidePowerBtn)">20</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
 					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
@@ -3128,7 +3163,8 @@
 					<height>240</height>
 					<onleft>8016</onleft>
 					<onright>8016</onright>
-					<onup>21</onup>
+                    <onup condition="!Skin.HasSetting(HideFavouritesBtn)">21</ondown>
+                    <onup condition="Skin.HasSetting(HideFavouritesBtn) + !Skin.HasSetting(AutoHidePowerBtn)">20</ondown>
 					<ondown condition="Skin.HasSetting(RaiseMainMenuBar)">9004</ondown>
 					<ondown condition="!Skin.HasSetting(RaiseMainMenuBar)">9002</ondown>
 					<viewtype label="535">list</viewtype>
