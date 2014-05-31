@@ -226,7 +226,9 @@
 					<itemgap>-1</itemgap>
 					<pagecontrol>60</pagecontrol>
 					<onleft>9000</onleft>
-					<onright>60</onright>
+					<onright condition="!Skin.HasSetting(KioskMode)">60</onright>
+					<onright condition="Skin.HasSetting(KioskMode) + Skin.HasSetting(DisableHomeReturnButtons)">9000</onright>
+                    <onright condition="Skin.HasSetting(KioskMode) + !Skin.HasSetting(DisableHomeReturnButtons)">82</onright>
 					<onup>9001</onup>
 					<ondown>9001</ondown>
 					<control type="label" id="100">
@@ -1220,7 +1222,9 @@
 					<itemgap>-1</itemgap>
 					<pagecontrol>60</pagecontrol>
 					<onleft>9000</onleft>
-					<onright>60</onright>
+                    <onright condition="!Skin.HasSetting(KioskMode)">60</onright>
+                    <onright condition="Skin.HasSetting(KioskMode) + Skin.HasSetting(DisableHomeReturnButtons)">9000</onright>
+                    <onright condition="Skin.HasSetting(KioskMode) + !Skin.HasSetting(DisableHomeReturnButtons)">82</onright>
 					<onup>9002</onup>
 					<ondown>9002</ondown>
 					<control type="label" id="200">
@@ -2167,7 +2171,9 @@
 					<itemgap>-1</itemgap>
 					<pagecontrol>60</pagecontrol>
 					<onleft>9000</onleft>
-					<onright>60</onright>
+                    <onright condition="!Skin.HasSetting(KioskMode)">60</onright>
+                    <onright condition="Skin.HasSetting(KioskMode) + Skin.HasSetting(DisableHomeReturnButtons)">9000</onright>
+                    <onright condition="Skin.HasSetting(KioskMode) + !Skin.HasSetting(DisableHomeReturnButtons)">82</onright>
 					<onup>9003</onup>
 					<ondown>9003</ondown>
 					<control type="label" id="300">
@@ -3853,7 +3859,9 @@
 						<itemgap>-1</itemgap>
 						<pagecontrol>60</pagecontrol>
 						<onleft>9000</onleft>
-						<onright>60</onright>
+                        <onright condition="!Skin.HasSetting(KioskMode)">60</onright>
+                        <onright condition="Skin.HasSetting(KioskMode) + Skin.HasSetting(DisableHomeReturnButtons)">9000</onright>
+                        <onright condition="Skin.HasSetting(KioskMode) + !Skin.HasSetting(DisableHomeReturnButtons)">82</onright>
 						<onup>9004</onup>
 						<ondown>9004</ondown>
 						<control type="label" id="700">
@@ -6645,7 +6653,9 @@
 					<itemgap>-1</itemgap>
 					<pagecontrol>60</pagecontrol>
 					<onleft>9000</onleft>
-					<onright>60</onright>
+                    <onright condition="!Skin.HasSetting(KioskMode)">60</onright>
+                    <onright condition="Skin.HasSetting(KioskMode) + Skin.HasSetting(DisableHomeReturnButtons)">9000</onright>
+                    <onright condition="Skin.HasSetting(KioskMode) + !Skin.HasSetting(DisableHomeReturnButtons)">82</onright>
 					<onup>9006</onup>
 					<ondown>9006</ondown>
 					<control type="label" id="600">
