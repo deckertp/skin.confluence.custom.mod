@@ -100,7 +100,7 @@
 			<visible>Window.IsActive(FileBrowser) | Window.IsActive(PVRGuideInfo) | Window.IsActive(PVRRecordingInfo) | Window.IsActive(PVRTimerSetting) | Window.IsActive(PVRGroupManager) | Window.IsActive(PVRGuideSearch)</visible>
 		</control>
 		<control type="group">
-		    <visible>!Skin.HasSetting(KioskMode)</visible>
+            <visible>!Skin.HasSetting(KioskMode)</visible>
 			<posx>-250</posx>
 			<include>SideBladeLeft</include>
 			<control type="grouplist" id="9000">
