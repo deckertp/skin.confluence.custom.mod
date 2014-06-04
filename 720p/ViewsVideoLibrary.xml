@@ -21,7 +21,9 @@
 				<onleft>501</onleft>
 				<onright>501</onright>
 				<onup>2</onup>
-				<ondown>60</ondown>
+                <ondown condition="!Skin.HasSetting(KioskMode)">60</ondown>
+                <ondown condition="Skin.HasSetting(KioskMode) + Skin.HasSetting(DisableHomeReturnButtons)">9000</ondown>
+                <ondown condition="Skin.HasSetting(KioskMode) + !Skin.HasSetting(DisableHomeReturnButtons)">82</ondown>
 				<viewtype label="31028">bigwrap</viewtype>
 				<pagecontrol>60</pagecontrol>
 				<scrolltime>200</scrolltime>
@@ -59,7 +61,7 @@
 						<texture>$VAR[StatusBanner,StatusBanner/,.png]</texture>
 						<visible>!Skin.HasSetting(ViewStatusBanner) + !IsEmpty(ListItem.Overlay)</visible>
 					</control>
-					<!--	
+					<!--
 					<control type="group">
 						<visible>!Skin.HasSetting(ViewStatusBanner) + !IsEmpty(ListItem.Overlay)</visible>
 						<control type="image">
@@ -90,7 +92,7 @@
 							<visible>ListItem.IsResumable</visible>
 						</control>
 					</control>
-				
+
 				-->
 				</itemlayout>
 				<focusedlayout height="310" width="218">
@@ -168,7 +170,7 @@
 							<visible>ListItem.IsResumable</visible>
 						</control>
 					</control>
-					
+
 					-->
 					<control type="image">
 						<posx>6</posx>
@@ -489,7 +491,9 @@
 				<onleft>508</onleft>
 				<onright>508</onright>
 				<onup>2</onup>
-				<ondown>60</ondown>
+                <ondown condition="!Skin.HasSetting(KioskMode)">60</ondown>
+                <ondown condition="Skin.HasSetting(KioskMode) + Skin.HasSetting(DisableHomeReturnButtons)">9000</ondown>
+                <ondown condition="Skin.HasSetting(KioskMode) + !Skin.HasSetting(DisableHomeReturnButtons)">82</ondown>
 				<viewtype label="31029">wrap</viewtype>
 				<pagecontrol>60</pagecontrol>
 				<scrolltime>200</scrolltime>
@@ -549,7 +553,7 @@
 							<visible>ListItem.IsResumable</visible>
 						</control>
 					</control>
-					
+
 					-->
 					<control type="image">
 						<posx>6</posx>
@@ -662,8 +666,8 @@
 							<visible>ListItem.IsResumable</visible>
 						</control>
 					</control>
-					
-					
+
+
 					-->
 					<control type="image">
 						<posx>6</posx>
@@ -723,7 +727,9 @@
 				<width>580</width>
 				<height>401</height>
 				<onleft>2</onleft>
-				<onright>60</onright>
+                <onright condition="!Skin.HasSetting(KioskMode)">60</onright>
+                <onright condition="Skin.HasSetting(KioskMode) + Skin.HasSetting(DisableHomeReturnButtons)">9000</onright>
+                <onright condition="Skin.HasSetting(KioskMode) + !Skin.HasSetting(DisableHomeReturnButtons)">82</onright>
 				<onup>503</onup>
 				<ondown>503</ondown>
 				<viewtype label="$LOCALIZE[544] 2">list</viewtype>
@@ -1232,7 +1238,9 @@
 				<width>580</width>
 				<height>561</height>
 				<onleft>2</onleft>
-				<onright>60</onright>
+                <onright condition="!Skin.HasSetting(KioskMode)">60</onright>
+                <onright condition="Skin.HasSetting(KioskMode) + Skin.HasSetting(DisableHomeReturnButtons)">9000</onright>
+                <onright condition="Skin.HasSetting(KioskMode) + !Skin.HasSetting(DisableHomeReturnButtons)">82</onright>
 				<onup>504</onup>
 				<ondown>504</ondown>
 				<viewtype label="$LOCALIZE[544]">list</viewtype>
@@ -1694,7 +1702,9 @@
 				<width>340</width>
 				<height>561</height>
 				<onleft>2</onleft>
-				<onright>60</onright>
+                <onright condition="!Skin.HasSetting(KioskMode)">60</onright>
+                <onright condition="Skin.HasSetting(KioskMode) + Skin.HasSetting(DisableHomeReturnButtons)">9000</onright>
+                <onright condition="Skin.HasSetting(KioskMode) + !Skin.HasSetting(DisableHomeReturnButtons)">82</onright>
 				<onup>515</onup>
 				<ondown>515</ondown>
 				<viewtype label="$LOCALIZE[544] 3">list</viewtype>
@@ -2653,8 +2663,8 @@
 						<visible>!Skin.HasSetting(ViewStatusBanner) + !IsEmpty(ListItem.Overlay)</visible>
 					</control>
 					<!--
-					
-					
+
+
 					<control type="group">
 						<visible>!Skin.HasSetting(ViewStatusBanner) + !IsEmpty(ListItem.Overlay)</visible>
 						<control type="image">
@@ -2685,8 +2695,8 @@
 							<visible>ListItem.IsResumable</visible>
 						</control>
 					</control>
-					
-					
+
+
 					-->
 					<control type="image">
 						<posx>0</posx>
@@ -2771,7 +2781,7 @@
 								<visible>ListItem.IsResumable</visible>
 							</control>
 						</control>
-						
+
 						-->
 						<control type="image">
 							<posx>85</posx>

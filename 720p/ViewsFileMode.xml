@@ -10,7 +10,9 @@
 				<width>690</width>
 				<height>561</height>
 				<onleft>2</onleft>
-				<onright>60</onright>
+                <onright condition="!Skin.HasSetting(KioskMode)">60</onright>
+                <onright condition="Skin.HasSetting(KioskMode) + Skin.HasSetting(DisableHomeReturnButtons)">9000</onright>
+                <onright condition="Skin.HasSetting(KioskMode) + !Skin.HasSetting(DisableHomeReturnButtons)">82</onright>
 				<onup>50</onup>
 				<ondown>50</ondown>
 				<viewtype label="535">list</viewtype>
@@ -298,7 +300,9 @@
 				<width>1080</width>
 				<height>558</height>
 				<onleft>2</onleft>
-				<onright>60</onright>
+                <onright condition="!Skin.HasSetting(KioskMode)">60</onright>
+                <onright condition="Skin.HasSetting(KioskMode) + Skin.HasSetting(DisableHomeReturnButtons)">9000</onright>
+                <onright condition="Skin.HasSetting(KioskMode) + !Skin.HasSetting(DisableHomeReturnButtons)">82</onright>
 				<onup>500</onup>
 				<ondown>500</ondown>
 				<viewtype label="21371">list</viewtype>
@@ -514,7 +518,9 @@
 				<width>1080</width>
 				<height>550</height>
 				<onleft>2</onleft>
-				<onright>60</onright>
+                <onright condition="!Skin.HasSetting(KioskMode)">60</onright>
+                <onright condition="Skin.HasSetting(KioskMode) + Skin.HasSetting(DisableHomeReturnButtons)">9000</onright>
+                <onright condition="Skin.HasSetting(KioskMode) + !Skin.HasSetting(DisableHomeReturnButtons)">82</onright>
 				<onup>505</onup>
 				<ondown>505</ondown>
 				<viewtype label="$LOCALIZE[539]">list</viewtype>
@@ -591,7 +597,9 @@
 				<width>1080</width>
 				<height>561</height>
 				<onleft>2</onleft>
-				<onright>60</onright>
+                <onright condition="!Skin.HasSetting(KioskMode)">60</onright>
+                <onright condition="Skin.HasSetting(KioskMode) + Skin.HasSetting(DisableHomeReturnButtons)">9000</onright>
+                <onright condition="Skin.HasSetting(KioskMode) + !Skin.HasSetting(DisableHomeReturnButtons)">82</onright>
 				<onup>51</onup>
 				<ondown>51</ondown>
 				<viewtype label="537">list</viewtype>
