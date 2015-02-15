@@ -1,4 +1,4 @@
-# XBMC Media Center language file
+# Kodi Media Center language file
 # Addon Name: Confluence Customizable Mod
 # Addon id: skin.confluence.custom.mod
 # Addon Provider: Mudislander
@@ -8,7 +8,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: XBMC Translation Team\n"
+"Last-Translator: Kodi Translation Team\n"
 "Language-Team: Danish (http://www.transifex.com/projects/p/xbmc-skins/language/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -51,6 +51,10 @@ msgstr "Samlet varighed"
 msgctxt "#31010"
 msgid "Found"
 msgstr "Fundet"
+
+msgctxt "#31011"
+msgid "Kodi"
+msgstr "Kodi"
 
 msgctxt "#31016"
 msgid "Shows"
@@ -297,8 +301,8 @@ msgid "Show Video OSD Menu"
 msgstr "Vis Video OSD Menu"
 
 msgctxt "#31084"
-msgid "Enable XBMC Intro Movie"
-msgstr "Aktiver XBMC Introfilm"
+msgid "Enable Kodi Intro Movie"
+msgstr "Aktiver Kodi Introfilm"
 
 msgctxt "#31085"
 msgid "Shuffle On"
@@ -768,9 +772,17 @@ msgctxt "#31201"
 msgid "User Selection Ten"
 msgstr "Brugervalg Ti"
 
+msgctxt "#31202"
+msgid "Show Year in Movie Title"
+msgstr "Vis årstal i filmtitlen"
+
 msgctxt "#31203"
 msgid "Choose Your Song"
 msgstr "Vælg din sang"
+
+msgctxt "#31204"
+msgid "Settings level"
+msgstr "Indstillingsniveau"
 
 msgctxt "#31205"
 msgid "Lyrics Source"
@@ -1064,6 +1076,18 @@ msgctxt "#31376"
 msgid "Enable System Weather"
 msgstr "Aktivere System Vejr"
 
+msgctxt "#31387"
+msgid "Watch as 2D"
+msgstr "Se som 2D"
+
+msgctxt "#31388"
+msgid "Change mode"
+msgstr "Skift tilstand"
+
+msgctxt "#31389"
+msgid "Enabled"
+msgstr "Aktiveret"
+
 msgctxt "#31390"
 msgid "Skin Default"
 msgstr "Skin Standard"
@@ -1105,20 +1129,24 @@ msgid "[B]CONFIGURE SKIN SETTINGS[/B][CR][CR]Setup the Confluence skin · Add an
 msgstr "[B]KONFIGURER SKININDSTILLINGER[/B][CR][CR]Administrer Confluence skin · Tilføj og fjern hovedmenuelementer[CR]Skift baggrunde"
 
 msgctxt "#31408"
-msgid "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed Add-ons · Browse for and install Add-ons from xbmc.org[CR]Modify Add-on settings"
-msgstr "[B]KONFIGURER ADDONS[/B][CR][CR]Administrer dine installerede Addons · Gennemse og installer Addons fra xbmc.org[CR]Tilpas indstillinger til Addons"
+msgid "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed Add-ons · Browse for and install Add-ons from kodi.tv[CR]Modify Add-on settings"
+msgstr "[B]KONFIGURER ADDONS[/B][CR][CR]Administrer dine installerede Addons · Gennemse og installer Addons fra kodi.tv[CR]Tilpas indstillinger til Addons"
 
 msgctxt "#31409"
 msgid "[B]CONFIGURE TV SETTINGS[/B][CR][CR]Change fullscreen info · Manage EPG data settings"
 msgstr "[B]KONFIGURER TV-INDSTILLINGER[/B][CR][CR]Skift fuldskærmsinfo · Administrer dataindstillinger for EPG"
 
 msgctxt "#31410"
-msgid "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of XBMC via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
-msgstr "[B]KONFIGURER TJENESTER[/B][CR][CR]Opsæt styring af XBMC ved hjælp af UPnP og HTTP · Konfigurer fildeling[CR]Aktiver Zeroconf · Konfigurer AirPlay"
+msgid "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of Kodi via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
+msgstr "[B]KONFIGURER TJENESTER[/B][CR][CR]Opsæt styring af Kodi ved hjælp af UPnP og HTTP · Konfigurer fildeling[CR]Aktiver Zeroconf · Konfigurer AirPlay"
+
+msgctxt "#31413"
+msgid "Local subtitle available"
+msgstr "Lokal undertekst tilgængelig"
 
 msgctxt "#31421"
-msgid "Select your XBMC user Profile[CR]to login and continue"
-msgstr "Vælg din XBMC brugerprofil[CR]for at logge ind og fortsætte"
+msgid "Select your Kodi user Profile[CR]to login and continue"
+msgstr "Vælg din Kodi brugerprofil[CR]for at logge ind og fortsætte"
 
 msgctxt "#31422"
 msgid "Log-in"
@@ -1301,7 +1329,7 @@ msgid "United States"
 msgstr "USA"
 
 msgctxt "#31701"
-msgid "Great Britian"
+msgid "Great Britain"
 msgstr "Storbritannien"
 
 msgctxt "#31702"
@@ -1379,3 +1407,27 @@ msgstr "Henter vejrudsigt..."
 msgctxt "#31910"
 msgid "Map & Alerts"
 msgstr "Kort og Advarsler"
+
+msgctxt "#31945"
+msgid "Use Live Backgrounds"
+msgstr "Brug levende baggrunde"
+
+msgctxt "#31946"
+msgid "Enable Holiday Theme"
+msgstr "Aktiver Højtidstema"
+
+msgctxt "#31947"
+msgid "Holiday Theme"
+msgstr "Højtidstema"
+
+msgctxt "#31949"
+msgid "New"
+msgstr "Ny"
+
+msgctxt "#31950"
+msgid "In Progress"
+msgstr "På vej"
+
+msgctxt "#31951"
+msgid "Kodi Command"
+msgstr "Kodi kommando"

@@ -1,4 +1,4 @@
-# XBMC Media Center language file
+# Kodi Media Center language file
 # Addon Name: Confluence Customizable Mod
 # Addon id: skin.confluence.custom.mod
 # Addon Provider: Mudislander
@@ -8,7 +8,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: XBMC Translation Team\n"
+"Last-Translator: Kodi Translation Team\n"
 "Language-Team: Catalan (http://www.transifex.com/projects/p/xbmc-skins/language/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -47,6 +47,10 @@ msgstr "Duració total"
 msgctxt "#31010"
 msgid "Found"
 msgstr "Trobat"
+
+msgctxt "#31011"
+msgid "Kodi"
+msgstr "Kodi"
 
 msgctxt "#31016"
 msgid "Shows"
@@ -180,6 +184,10 @@ msgctxt "#31061"
 msgid "Current Selected"
 msgstr "Selecció actual"
 
+msgctxt "#31074"
+msgid "Clean Library"
+msgstr "Neteja la biblioteca"
+
 msgctxt "#31088"
 msgid "Next Tracks"
 msgstr "Pistes següents"
@@ -292,6 +300,10 @@ msgctxt "#31152"
 msgid "Enable Kiosk Mode"
 msgstr "Activa el mode quiosc"
 
+msgctxt "#31153"
+msgid "Home Menu"
+msgstr "Menú principal"
+
 msgctxt "#31154"
 msgid "Preset"
 msgstr "Predefinit"
@@ -300,17 +312,33 @@ msgctxt "#31163"
 msgid "Radio 105"
 msgstr "Radio 105"
 
+msgctxt "#31164"
+msgid "Monte Carlo"
+msgstr "Monte Carlo"
+
+msgctxt "#31165"
+msgid "Virgin Rock"
+msgstr "Virgin Rock"
+
+msgctxt "#31172"
+msgid "User Data"
+msgstr "Dades de l'usuari"
+
 msgctxt "#31175"
 msgid "Recent Movies"
 msgstr "Pel·lícules recents"
 
 msgctxt "#31176"
 msgid "Random Movies"
-msgstr "Pel·lícules aleatòries"
+msgstr "Pel·lícules a l'atzar"
 
 msgctxt "#31178"
 msgid "Recent Episodes"
 msgstr "Episodis recents"
+
+msgctxt "#31179"
+msgid "Random Episodes"
+msgstr "Episodis a l'atzar"
 
 msgctxt "#31180"
 msgid "Suggested Episodes"
@@ -322,7 +350,7 @@ msgstr "Àlbums recents"
 
 msgctxt "#31182"
 msgid "Random Albums"
-msgstr "Àlbums aleatoris"
+msgstr "Àlbums a l'atzar"
 
 msgctxt "#31183"
 msgid "Suggested Albums"
@@ -334,7 +362,7 @@ msgstr "Concerts recents"
 
 msgctxt "#31185"
 msgid "Random Concerts"
-msgstr "Concerts aleatoris"
+msgstr "Concerts a l'atzar"
 
 msgctxt "#31189"
 msgid "Theme"
@@ -343,6 +371,10 @@ msgstr "Tema"
 msgctxt "#31203"
 msgid "Choose Your Song"
 msgstr "Escull la teva cançó"
+
+msgctxt "#31204"
+msgid "Settings level"
+msgstr "Nivell d'opcions"
 
 msgctxt "#31205"
 msgid "Lyrics Source"
@@ -375,6 +407,14 @@ msgstr "Suggerit"
 msgctxt "#31217"
 msgid "Search"
 msgstr "Cerca"
+
+msgctxt "#31218"
+msgid "Selected"
+msgstr "Seleccionat"
+
+msgctxt "#31219"
+msgid "Global Search"
+msgstr "Cerca global"
 
 msgctxt "#31300"
 msgid "Current Temp"
@@ -419,6 +459,10 @@ msgstr "Tria un scraper"
 msgctxt "#31314"
 msgid "Content Scanning Options"
 msgstr "Opcions d'escaneig de continguts"
+
+msgctxt "#31316"
+msgid "Up One Level"
+msgstr "Puja un nivell"
 
 msgctxt "#31317"
 msgid "Set Fanart Path"
@@ -476,6 +520,18 @@ msgctxt "#31333"
 msgid "Startup"
 msgstr "Inici"
 
+msgctxt "#31337"
+msgid "UPnP Error"
+msgstr "Error UPnP"
+
+msgctxt "#31341"
+msgid "UPnp Mode"
+msgstr "Mode UPnP"
+
+msgctxt "#31342"
+msgid "UPnp Server Type"
+msgstr "Tipus de servidor UPnP"
+
 msgctxt "#31351"
 msgid "Pause"
 msgstr "Pausa"
@@ -499,6 +555,18 @@ msgstr "Menú de la pel·lícula"
 msgctxt "#31356"
 msgid "Download Subtitles"
 msgstr "Baixar-se els subtítols"
+
+msgctxt "#31387"
+msgid "Watch as 2D"
+msgstr "Veure en 2D"
+
+msgctxt "#31388"
+msgid "Change mode"
+msgstr "Canvia el mode"
+
+msgctxt "#31389"
+msgid "Enabled"
+msgstr "Habilitat"
 
 msgctxt "#31391"
 msgid "Skin default with no Caps"
@@ -537,20 +605,28 @@ msgid "[B]CONFIGURE SKIN SETTINGS[/B][CR][CR]Setup the Confluence skin · Add an
 msgstr "[B]CONFIGUREU ELS PARÀMETRES DEL TEMA[/B][CR][CR]Configureu la pell Confluence · Afegiu i elimineu elements del menú d'inici[CR]Canvieu els fons de la pell"
 
 msgctxt "#31408"
-msgid "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed Add-ons · Browse for and install Add-ons from xbmc.org[CR]Modify Add-on settings"
-msgstr "[B]CONFIGUREU ELS COMPLEMENTS[/B][CR][CR]Gestioneu els complements instal·lats · Cerqueu i instal·leu complements des de xbmc.org[CR]Modifiqueu els paràmetres dels complements"
+msgid "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed Add-ons · Browse for and install Add-ons from kodi.tv[CR]Modify Add-on settings"
+msgstr "[B]CONFIGUREU ELS COMPLEMENTS[/B][CR][CR]Gestioneu els complements instal·lats · Cerqueu i instal·leu complements des de kodi.tv[CR]Modifiqueu els paràmetres dels complements"
 
 msgctxt "#31409"
 msgid "[B]CONFIGURE TV SETTINGS[/B][CR][CR]Change fullscreen info · Manage EPG data settings"
 msgstr "[B]CONFIGURA ELS AJUSTOS DE TV[/B][CR][CR]Canvia la informació de pantalla completa · Gestiona els ajustos de les dades EPG"
 
 msgctxt "#31410"
-msgid "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of XBMC via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
-msgstr "[B]CONFIGUREU ELS PARÀMETRES DE SERVEI[/B][CR][CR]Configureu el control de l'XBMC a través de UPnP i HTTP[CR]Configureu l'ús compartit de fitxers · Habiliteu el Zeroconf · Configureu l'AirPlay"
+msgid "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of Kodi via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
+msgstr "[B]CONFIGUREU ELS PARÀMETRES DE SERVEI[/B][CR][CR]Configureu el control de l'Kodi a través de UPnP i HTTP[CR]Configureu l'ús compartit de fitxers · Habiliteu el Zeroconf · Configureu l'AirPlay"
+
+msgctxt "#31413"
+msgid "Local subtitle available"
+msgstr "Subtítol local disponible"
 
 msgctxt "#31421"
-msgid "Select your XBMC user Profile[CR]to login and continue"
-msgstr "Seleccioneu el vostre perfil d'usuari de l'XBMC[CR]per iniciar la sessió i continuar"
+msgid "Select your Kodi user Profile[CR]to login and continue"
+msgstr "Seleccioneu el vostre perfil d'usuari de l'Kodi[CR]per iniciar la sessió i continuar"
+
+msgctxt "#31422"
+msgid "Log-in"
+msgstr "Inici de sessió"
 
 msgctxt "#31501"
 msgid "Scheduled Time"
@@ -695,6 +771,10 @@ msgstr "Western"
 msgctxt "#31700"
 msgid "United States"
 msgstr "Estats Units d'Amèrica"
+
+msgctxt "#31701"
+msgid "Great Britain"
+msgstr "Gran Bretanya"
 
 msgctxt "#31702"
 msgid "Germany"

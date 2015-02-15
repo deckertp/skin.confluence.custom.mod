@@ -1,4 +1,4 @@
-# XBMC Media Center language file
+# Kodi Media Center language file
 # Addon Name: Confluence Customizable Mod
 # Addon id: skin.confluence.custom.mod
 # Addon Provider: Mudislander
@@ -8,7 +8,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: XBMC Translation Team\n"
+"Last-Translator: Kodi Translation Team\n"
 "Language-Team: Dutch (http://www.transifex.com/projects/p/xbmc-skins/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -51,6 +51,10 @@ msgstr "Totale duur"
 msgctxt "#31010"
 msgid "Found"
 msgstr "Gevonden"
+
+msgctxt "#31011"
+msgid "Kodi"
+msgstr "Kodi"
 
 msgctxt "#31016"
 msgid "Shows"
@@ -297,8 +301,8 @@ msgid "Show Video OSD Menu"
 msgstr "Toon Video OSD Menu"
 
 msgctxt "#31084"
-msgid "Enable XBMC Intro Movie"
-msgstr "Activeer XBMC Intro Film"
+msgid "Enable Kodi Intro Movie"
+msgstr "Activeer Kodi Intro Film"
 
 msgctxt "#31085"
 msgid "Shuffle On"
@@ -832,6 +836,62 @@ msgctxt "#31217"
 msgid "Search"
 msgstr "Zoeken"
 
+msgctxt "#31218"
+msgid "Selected"
+msgstr "Geselecteerde"
+
+msgctxt "#31219"
+msgid "Global Search"
+msgstr "Globaal zoeken"
+
+msgctxt "#31220"
+msgid "Edit Menu Item"
+msgstr "Wijzig menu item"
+
+msgctxt "#31221"
+msgid "Enter Kodi Command"
+msgstr "voer Kodi opdracht in"
+
+msgctxt "#31222"
+msgid "Window"
+msgstr "Scherm"
+
+msgctxt "#31223"
+msgid "Installed Add-Ons"
+msgstr "Geïnstalleerde Add-ons"
+
+msgctxt "#31224"
+msgid "User Favourites"
+msgstr "Gebruikersfavorieten"
+
+msgctxt "#31225"
+msgid "Floor Button"
+msgstr "Bodem knop"
+
+msgctxt "#31226"
+msgid "Global Floor Buttons"
+msgstr "Globale bodem knoppen"
+
+msgctxt "#31227"
+msgid "Power Button Settings"
+msgstr "aan/uit knop instellingen"
+
+msgctxt "#31228"
+msgid "Power Button Activates Shutdown Menu"
+msgstr "Aan/uit knop activeert het afsluitmenu"
+
+msgctxt "#31229"
+msgid "Home Screen Buttons"
+msgstr "Startscherm knoppen"
+
+msgctxt "#31230"
+msgid "Hide Favourites Button"
+msgstr "verberg Favorietenknop"
+
+msgctxt "#31231"
+msgid "User Button"
+msgstr "Gebruikersknop"
+
 msgctxt "#31300"
 msgid "Current Temp"
 msgstr "Huidige temperatuur"
@@ -968,6 +1028,38 @@ msgctxt "#31333"
 msgid "Startup"
 msgstr "Gebruik Scrollbar"
 
+msgctxt "#31334"
+msgid "Enable Large Widget Layout"
+msgstr "Activeer grote widget lay-out"
+
+msgctxt "#31335"
+msgid "Setup UPnP Library"
+msgstr "instellen UPnP bibliotheek"
+
+msgctxt "#31336"
+msgid "Enable UPnP Library Mode"
+msgstr "Activeer UPnP bibliotheekmodus"
+
+msgctxt "#31337"
+msgid "UPnP Error"
+msgstr "UPnP fout"
+
+msgctxt "#31338"
+msgid "Please Set Path to UPnP Server"
+msgstr "Stel de locatie in naar de UPnP Server"
+
+msgctxt "#31339"
+msgid "[COLOR=selected][B]Warning[/B][/COLOR] - Changing UPnp Settings will Reset Main Menu"
+msgstr "[COLOR=selected][B]Waarschuwing[/B][/COLOR] - Het veranderen van UPnP instellingen zal het startmenu resetten"
+
+msgctxt "#31341"
+msgid "UPnp Mode"
+msgstr "UPnP modus"
+
+msgctxt "#31342"
+msgid "UPnp Server Type"
+msgstr "UPnP server type"
+
 msgctxt "#31351"
 msgid "Pause"
 msgstr "Pauze"
@@ -1072,6 +1164,18 @@ msgctxt "#31376"
 msgid "Enable System Weather"
 msgstr "Activeer systeem weersverwachting"
 
+msgctxt "#31387"
+msgid "Watch as 2D"
+msgstr "Bekijk als 2D"
+
+msgctxt "#31388"
+msgid "Change mode"
+msgstr "Verander modus"
+
+msgctxt "#31389"
+msgid "Enabled"
+msgstr "Geactiveerd"
+
 msgctxt "#31390"
 msgid "Skin Default"
 msgstr "Standaard ontwerp"
@@ -1113,20 +1217,24 @@ msgid "[B]CONFIGURE SKIN SETTINGS[/B][CR][CR]Setup the Confluence skin · Add an
 msgstr "[B]SKININSTELLINGEN CONFIGUREREN[/B][CR][CR]Configureer de Confluence-skin · Voeg items toe aan of verwijder ze uit het beginscherm · Wijzig skinachtergronden"
 
 msgctxt "#31408"
-msgid "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed Add-ons · Browse for and install Add-ons from xbmc.org[CR]Modify Add-on settings"
-msgstr "[B]ADD-ONS CONFIGUREREN[/B][CR][CR]Beheer uw geïnstalleerde Add-ons · Zoek en installeer Add-ons via xbmc.org · Wijzig Add-oninstellingen"
+msgid "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed Add-ons · Browse for and install Add-ons from kodi.tv[CR]Modify Add-on settings"
+msgstr "[B]ADD-ONS CONFIGUREREN[/B][CR][CR]Beheer uw geïnstalleerde Add-ons · Zoek en installeer Add-ons via kodi.tv · Wijzig Add-oninstellingen"
 
 msgctxt "#31409"
 msgid "[B]CONFIGURE TV SETTINGS[/B][CR][CR]Change fullscreen info · Manage EPG data settings"
 msgstr "[[B]CONFIGUREER TV INSTELLINGEN[/B][CR][CR]Verander volledig scherm info  · Beheer EPG data instellingen"
 
 msgctxt "#31410"
-msgid "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of XBMC via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
-msgstr "[B]CONFIGUREER SERVICE-INSTELLINGEN[/B][CR][CR]Stel XBMC-beheer in via UPnP en HTTP · Configureer bestandsdeling[CR]Schakel Zeroconf in · Configureer AirPlay"
+msgid "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of Kodi via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
+msgstr "[B]CONFIGUREER SERVICE-INSTELLINGEN[/B][CR][CR]Stel Kodi-beheer in via UPnP en HTTP · Configureer bestandsdeling[CR]Schakel Zeroconf in · Configureer AirPlay"
+
+msgctxt "#31413"
+msgid "Local subtitle available"
+msgstr "Lokale ondertitels beschikbaar"
 
 msgctxt "#31421"
-msgid "Select your XBMC user Profile[CR]to login and continue"
-msgstr "Selecteer uw XBMC-gebruikersprofiel[CR]om in te loggen"
+msgid "Select your Kodi user Profile[CR]to login and continue"
+msgstr "Selecteer uw Kodi-gebruikersprofiel[CR]om in te loggen"
 
 msgctxt "#31422"
 msgid "Log-in"
@@ -1309,8 +1417,8 @@ msgid "United States"
 msgstr "Verenigde Staten van Amerika"
 
 msgctxt "#31701"
-msgid "Great Britian"
-msgstr "Groot-Brittanje"
+msgid "Great Britain"
+msgstr "Groot Britanië"
 
 msgctxt "#31702"
 msgid "Germany"
@@ -1413,8 +1521,8 @@ msgid "In Progress"
 msgstr "Bezig"
 
 msgctxt "#31951"
-msgid "XBMC Command"
-msgstr "XBMC opdracht"
+msgid "Kodi Command"
+msgstr "Kodi opdracht"
 
 msgctxt "#31952"
 msgid "Enable Play Disc Menu Item"

@@ -1,4 +1,4 @@
-# XBMC Media Center language file
+# Kodi Media Center language file
 # Addon Name: Confluence Customizable Mod
 # Addon id: skin.confluence.custom.mod
 # Addon Provider: Mudislander
@@ -8,7 +8,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: XBMC Translation Team\n"
+"Last-Translator: Kodi Translation Team\n"
 "Language-Team: Hungarian (http://www.transifex.com/projects/p/xbmc-skins/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -51,6 +51,10 @@ msgstr "Teljes időtartam"
 msgctxt "#31010"
 msgid "Found"
 msgstr "Található"
+
+msgctxt "#31011"
+msgid "Kodi"
+msgstr "Kodi"
 
 msgctxt "#31016"
 msgid "Shows"
@@ -297,8 +301,8 @@ msgid "Show Video OSD Menu"
 msgstr "Videó OSD Menü megjelenítése"
 
 msgctxt "#31084"
-msgid "Enable XBMC Intro Movie"
-msgstr "XBMC bemutató videó engedélyezése"
+msgid "Enable Kodi Intro Movie"
+msgstr "Kodi bemutató videó engedélyezése"
 
 msgctxt "#31085"
 msgid "Shuffle On"
@@ -832,6 +836,62 @@ msgctxt "#31217"
 msgid "Search"
 msgstr "Keresés"
 
+msgctxt "#31218"
+msgid "Selected"
+msgstr "Kiválasztott"
+
+msgctxt "#31219"
+msgid "Global Search"
+msgstr "Globális keresés"
+
+msgctxt "#31220"
+msgid "Edit Menu Item"
+msgstr "Menü elem szerkesztése"
+
+msgctxt "#31221"
+msgid "Enter Kodi Command"
+msgstr "Kodi Parancs kiadása"
+
+msgctxt "#31222"
+msgid "Window"
+msgstr "Ablak"
+
+msgctxt "#31223"
+msgid "Installed Add-Ons"
+msgstr "Installált Kiegészítők"
+
+msgctxt "#31224"
+msgid "User Favourites"
+msgstr "Saját Kedvencek"
+
+msgctxt "#31225"
+msgid "Floor Button"
+msgstr "Szint gomb"
+
+msgctxt "#31226"
+msgid "Global Floor Buttons"
+msgstr "Globális Szint Gombok"
+
+msgctxt "#31227"
+msgid "Power Button Settings"
+msgstr "Bekapcsológomb beállítások"
+
+msgctxt "#31228"
+msgid "Power Button Activates Shutdown Menu"
+msgstr "A Bekapcsológomb Aktiválj a Leállító Menüt"
+
+msgctxt "#31229"
+msgid "Home Screen Buttons"
+msgstr "Főképernyő gombok"
+
+msgctxt "#31230"
+msgid "Hide Favourites Button"
+msgstr "Kefvencek Gomb Elrejtése"
+
+msgctxt "#31231"
+msgid "User Button"
+msgstr "Felhasználói gomb"
+
 msgctxt "#31300"
 msgid "Current Temp"
 msgstr "Hőmérséklet most"
@@ -968,6 +1028,38 @@ msgctxt "#31333"
 msgid "Startup"
 msgstr "Indítás"
 
+msgctxt "#31334"
+msgid "Enable Large Widget Layout"
+msgstr "Nagyméretű Képernyőalkalmazás engedélyezése"
+
+msgctxt "#31335"
+msgid "Setup UPnP Library"
+msgstr "UPnP médiatár beállítása"
+
+msgctxt "#31336"
+msgid "Enable UPnP Library Mode"
+msgstr "UPnP médiatár mód engedélyezése"
+
+msgctxt "#31337"
+msgid "UPnP Error"
+msgstr "UPnP hiba"
+
+msgctxt "#31338"
+msgid "Please Set Path to UPnP Server"
+msgstr "UPnP Szerver útvonal megadása"
+
+msgctxt "#31339"
+msgid "[COLOR=selected][B]Warning[/B][/COLOR] - Changing UPnp Settings will Reset Main Menu"
+msgstr "[COLOR=selected][B]Figyelem[/B][/COLOR] - Az UPnP  Beállítások változtatása alapállapotba hozza a Főmenüt"
+
+msgctxt "#31341"
+msgid "UPnp Mode"
+msgstr "UPnP mód"
+
+msgctxt "#31342"
+msgid "UPnp Server Type"
+msgstr "UPnP szerver típusa"
+
 msgctxt "#31351"
 msgid "Pause"
 msgstr "Pillanat állj"
@@ -1072,6 +1164,18 @@ msgctxt "#31376"
 msgid "Enable System Weather"
 msgstr "Időjárás-előrejelzés engedélyezése"
 
+msgctxt "#31387"
+msgid "Watch as 2D"
+msgstr "Megtekintés 2D módban"
+
+msgctxt "#31388"
+msgid "Change mode"
+msgstr "Üzemmód váltás"
+
+msgctxt "#31389"
+msgid "Enabled"
+msgstr "Engedélyezve"
+
 msgctxt "#31390"
 msgid "Skin Default"
 msgstr "Felszín alapértelmezett"
@@ -1113,20 +1217,24 @@ msgid "[B]CONFIGURE SKIN SETTINGS[/B][CR][CR]Setup the Confluence skin · Add an
 msgstr "[B]FELSZÍN BEÁLLÍTÁSOK[/B][CR][CR]Az essence felszín beállítása · Sajátképernyő elemek hozzáadása/elvétele[CR]Felszín háttereinek megváltoztatása"
 
 msgctxt "#31408"
-msgid "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed Add-ons · Browse for and install Add-ons from xbmc.org[CR]Modify Add-on settings"
-msgstr "[B]KIEGÉSZÍTŐK BEÁLLÍTÁSA[/B][CR][CR]A telepített kiegészítők kezelése · Kiegészítők böngészése és telepítése az xbmc.org[CR]webhelyről · Kiegészítők beállításainak módosítása"
+msgid "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed Add-ons · Browse for and install Add-ons from kodi.tv[CR]Modify Add-on settings"
+msgstr "[B]KIEGÉSZÍTŐK BEÁLLÍTÁSA[/B][CR][CR]A telepített kiegészítők kezelése · Kiegészítők böngészése és telepítése az kodi.tv[CR]webhelyről · Kiegészítők beállításainak módosítása"
 
 msgctxt "#31409"
 msgid "[B]CONFIGURE TV SETTINGS[/B][CR][CR]Change fullscreen info · Manage EPG data settings"
 msgstr "[B]TV BEÁLLÍTÁSOK[/B][CR][CR]Teljesképernyős infó · Elektronikus Programújság (EPG) beállítások"
 
 msgctxt "#31410"
-msgid "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of XBMC via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
-msgstr "[B]SZOLGÁLTATÁSOK BEÁLLÍTÁSA[/B][CR][CR]XBMC UPNP-n és HTTP-n keresztüli vezérlésének beállításai · Fájlmegosztás beállításai[CR]Zeroconf engedélyezése · AirPlay beállításai"
+msgid "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of Kodi via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
+msgstr "[B]SZOLGÁLTATÁSOK BEÁLLÍTÁSA[/B][CR][CR]Kodi UPNP-n és HTTP-n keresztüli vezérlésének beállításai · Fájlmegosztás beállításai[CR]Zeroconf engedélyezése · AirPlay beállításai"
+
+msgctxt "#31413"
+msgid "Local subtitle available"
+msgstr "Helyi felirat elérhető"
 
 msgctxt "#31421"
-msgid "Select your XBMC user Profile[CR]to login and continue"
-msgstr "Válaszd ki az XBMC felhasználói profilod[CR]a belépéshez"
+msgid "Select your Kodi user Profile[CR]to login and continue"
+msgstr "Válaszd ki az Kodi felhasználói profilod[CR]a belépéshez"
 
 msgctxt "#31422"
 msgid "Log-in"
@@ -1309,8 +1417,8 @@ msgid "United States"
 msgstr "Egyesült Államok"
 
 msgctxt "#31701"
-msgid "Great Britian"
-msgstr "Nagy Britannia"
+msgid "Great Britain"
+msgstr "Nagy-Britannia"
 
 msgctxt "#31702"
 msgid "Germany"
@@ -1413,8 +1521,8 @@ msgid "In Progress"
 msgstr "Folyamatban"
 
 msgctxt "#31951"
-msgid "XBMC Command"
-msgstr "XBMC Parancs"
+msgid "Kodi Command"
+msgstr "Kodi Parancs"
 
 msgctxt "#31952"
 msgid "Enable Play Disc Menu Item"

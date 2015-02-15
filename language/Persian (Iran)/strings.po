@@ -1,4 +1,4 @@
-# XBMC Media Center language file
+# Kodi Media Center language file
 # Addon Name: Confluence Customizable Mod
 # Addon id: skin.confluence.custom.mod
 # Addon Provider: Mudislander
@@ -8,7 +8,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: XBMC Translation Team\n"
+"Last-Translator: Kodi Translation Team\n"
 "Language-Team: Persian (Iran) (http://www.transifex.com/projects/p/xbmc-skins/language/fa_IR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -16,17 +16,45 @@ msgstr ""
 "Language: fa_IR\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
+msgctxt "#31000"
+msgid "Change Your"
+msgstr "تغییر"
+
+msgctxt "#31003"
+msgid "Power Options"
+msgstr "گزینه های صرفه جویی در مصرف انرژی"
+
 msgctxt "#31004"
 msgid "Working..."
 msgstr "در حال کار..."
+
+msgctxt "#31005"
+msgid "Hide Information"
+msgstr "مخفی کردن اطلاعات"
+
+msgctxt "#31006"
+msgid "View Options"
+msgstr "نمایش انتخاب ها"
 
 msgctxt "#31008"
 msgid "Fullscreen"
 msgstr "تمام صفحه"
 
+msgctxt "#31009"
+msgid "Total Duration"
+msgstr "مدت"
+
+msgctxt "#31010"
+msgid "Found"
+msgstr "پیدا شده"
+
 msgctxt "#31022"
 msgid "Music - Files"
 msgstr "موسیقی - فایل ها"
+
+msgctxt "#31023"
+msgid "Playing"
+msgstr "در حال پخش"
 
 msgctxt "#31024"
 msgid "Page"
@@ -36,6 +64,14 @@ msgctxt "#31025"
 msgid "Items"
 msgstr "موضوعات"
 
+msgctxt "#31026"
+msgid "Misc Options"
+msgstr "تنظیمات متفرقه"
+
+msgctxt "#31027"
+msgid "Location"
+msgstr "مکان"
+
 msgctxt "#31028"
 msgid "Poster Wrap"
 msgstr "پوستر"
@@ -43,6 +79,22 @@ msgstr "پوستر"
 msgctxt "#31029"
 msgid "Fanart"
 msgstr "فن آرت"
+
+msgctxt "#31031"
+msgid "Pic Thumbs"
+msgstr "تصویر کوچک"
+
+msgctxt "#31032"
+msgid "Image Wrap"
+msgstr "برگردان تصویر"
+
+msgctxt "#31033"
+msgid "Info"
+msgstr "اطلاعات"
+
+msgctxt "#31036"
+msgid "Coverflow"
+msgstr "دیوار"
 
 msgctxt "#31040"
 msgid "Now Playing"
@@ -63,6 +115,18 @@ msgstr "حرکت سریع به جلو"
 msgctxt "#31045"
 msgid "REWIND"
 msgstr "حرکت سریع به عقب"
+
+msgctxt "#31049"
+msgid "End Time"
+msgstr "زمان اتمام"
+
+msgctxt "#31050"
+msgid "Sort: Ascending"
+msgstr "مرتب سازی صعودی"
+
+msgctxt "#31051"
+msgid "Sort: Descending"
+msgstr "مرتب سازی نزولی"
 
 msgctxt "#31055"
 msgid "Open playlist"
@@ -88,6 +152,10 @@ msgctxt "#31060"
 msgid "This file is stacked, select the part you want to play from."
 msgstr "این فایل چند بخشی است, قسمت مورد نظر را برای پخش انتخاب کنید."
 
+msgctxt "#31061"
+msgid "Current Selected"
+msgstr "انتخاب های فعلی"
+
 msgctxt "#31093"
 msgid "None"
 msgstr "هیچ"
@@ -96,6 +164,10 @@ msgctxt "#31101"
 msgid "Home screen options"
 msgstr "تنظیمات صفحه ی خانگی"
 
+msgctxt "#31102"
+msgid "Background"
+msgstr "پس زمینه"
+
 msgctxt "#31103"
 msgid "Show \"Paused\" in picture slide show"
 msgstr "نشانن دادن \"مکث شده\" در نمایش اسلایدی تصاویر"
@@ -103,6 +175,42 @@ msgstr "نشانن دادن \"مکث شده\" در نمایش اسلایدی ت�
 msgctxt "#31106"
 msgid "Miscellaneous options"
 msgstr "تنظیمات متفرقه"
+
+msgctxt "#31110"
+msgid "Background path:"
+msgstr "مسیر پس زمینه"
+
+msgctxt "#31112"
+msgid "Options"
+msgstr "گزینه ها"
+
+msgctxt "#31119"
+msgid "Hide Background Fanart"
+msgstr "مخفی کردن پس زمینه های ویئویی"
+
+msgctxt "#31127"
+msgid "TvTunes"
+msgstr "TvTunes"
+
+msgctxt "#31128"
+msgid "Lyrics"
+msgstr "اشعار"
+
+msgctxt "#31132"
+msgid "Lyrics Add-on"
+msgstr "افزونه متن ترانه"
+
+msgctxt "#31138"
+msgid "Hidden"
+msgstr "مخفی"
+
+msgctxt "#31140"
+msgid "Music OSD"
+msgstr "موسیقی"
+
+msgctxt "#31141"
+msgid "Video OSD"
+msgstr "ویدیو"
 
 msgctxt "#31142"
 msgid "Shortcuts"
@@ -120,25 +228,229 @@ msgctxt "#31154"
 msgid "Preset"
 msgstr "تنظیمات موجود"
 
+msgctxt "#31189"
+msgid "Theme"
+msgstr "تم"
+
+msgctxt "#31203"
+msgid "Choose Your Song"
+msgstr "آهننگ مورد نظر خود را انتخاب کنید"
+
+msgctxt "#31204"
+msgid "Settings level"
+msgstr "سطح تنظیمات"
+
+msgctxt "#31205"
+msgid "Lyrics Source"
+msgstr "منبع اشعار"
+
+msgctxt "#31206"
+msgid "Found"
+msgstr "پیدا شده"
+
+msgctxt "#31207"
+msgid "Find More Items"
+msgstr "یافتن آیتم های بیشتر"
+
+msgctxt "#31208"
+msgid "Upcoming Episodes"
+msgstr "قسمت های آینده"
+
+msgctxt "#31213"
+msgid "Recently Added"
+msgstr "اخیراً افزوده شده"
+
 msgctxt "#31217"
 msgid "Search"
 msgstr "جستجو"
+
+msgctxt "#31300"
+msgid "Current Temp"
+msgstr "دمای کنونی"
+
+msgctxt "#31301"
+msgid "Last Updated"
+msgstr "آخرین بروزرسانی"
+
+msgctxt "#31303"
+msgid "Data provider"
+msgstr "ارائه دهنده اطلاعات"
+
+msgctxt "#31308"
+msgid "Movie Details"
+msgstr "مشخصات فیلم"
 
 msgctxt "#31309"
 msgid "Memory Used:"
 msgstr "میزان استفاده حافظه:"
 
+msgctxt "#31310"
+msgid "Track Number"
+msgstr "شماره تراک"
+
+msgctxt "#31311"
+msgid "Fanart image[CR][CR]Unavailable[CR][CR] Click button to set"
+msgstr "تصویر Fanart [CR][CR] در دسترس نیست. [CR][CR] برای تعیین آن دکمه را فشار دهید."
+
+msgctxt "#31312"
+msgid "Current Scraper"
+msgstr "سرویس دریافت اطلاعات کنونی"
+
+msgctxt "#31313"
+msgid "Choose a Scraper"
+msgstr "سرویس دریافت اطلاعات را انتخاب کنید"
+
+msgctxt "#31314"
+msgid "Content Scanning Options"
+msgstr "انتخاب های جستجوی اجزاء"
+
 msgctxt "#31316"
 msgid "Up One Level"
 msgstr "یک مرحله به بالا"
+
+msgctxt "#31317"
+msgid "Set Fanart Path"
+msgstr "انتخاب مسیر Fanart"
+
+msgctxt "#31319"
+msgid "Selected Profile"
+msgstr "پروفایل انتخابی"
+
+msgctxt "#31320"
+msgid "Last Logged In"
+msgstr "آخرین ورود"
+
+msgctxt "#31321"
+msgid "Karaoke Song Selector"
+msgstr "انتخاب آهنگ کاراوکه"
+
+msgctxt "#31322"
+msgid "Aired"
+msgstr "پخش شده"
+
+msgctxt "#31325"
+msgid "Playlist Options"
+msgstr "گزینه های لیست پخش"
+
+msgctxt "#31326"
+msgid "Created"
+msgstr "ایجاد شده"
 
 msgctxt "#31327"
 msgid "Resolution"
 msgstr "رزولیشن"
 
+msgctxt "#31328"
+msgid "Recently Added"
+msgstr "اخیراً افزوده شده"
+
+msgctxt "#31329"
+msgid "[B]Timer set![/B] [COLOR=grey2] - System auto shutdown in[/COLOR]"
+msgstr "[B] تایمر تنظیم شد! [/B] [COLOR=grey2] زمان مانده تا خاموشی سیستم: [/COLOR]"
+
+msgctxt "#31330"
+msgid "Click button to play[CR][CR]Movie trailer"
+msgstr "برای پخش [CR] تریلر فیلم [CR] کلیک کنید."
+
+msgctxt "#31331"
+msgid "Album Details"
+msgstr "جزئیات آلبوم"
+
+msgctxt "#31351"
+msgid "Pause"
+msgstr "مکث"
+
+msgctxt "#31352"
+msgid "Stop"
+msgstr "توقف"
+
+msgctxt "#31353"
+msgid "Fast Forward"
+msgstr "جلو رفتن سریع"
+
+msgctxt "#31354"
+msgid "Rewind"
+msgstr "بازکشت"
+
+msgctxt "#31355"
+msgid "Movie menu"
+msgstr "منو فیلم"
+
+msgctxt "#31356"
+msgid "Download Subtitles"
+msgstr "دانلود زیر نویس ها"
+
+msgctxt "#31387"
+msgid "Watch as 2D"
+msgstr "تماشا بصورت دو بعدی"
+
+msgctxt "#31388"
+msgid "Change mode"
+msgstr "تغییر حالت"
+
+msgctxt "#31389"
+msgid "Enabled"
+msgstr "فعال شده"
+
+msgctxt "#31391"
+msgid "Skin default with no Caps"
+msgstr "پوسته پیش فرض"
+
+msgctxt "#31392"
+msgid "Arial based"
+msgstr "بر اساس فونت Arial"
+
+msgctxt "#31400"
+msgid "[B]CONFIGURE APPEARANCE SETTINGS[/B][CR][CR]Change the skin · Set language and region · Change file listing options[CR]Set up a screensaver"
+msgstr "[B] تنظیمات ظاهر برنامه را انجام دهید. [/B]  [CR][CR] پوسته را عوض کنید - زبان و منطقه را انتخاب کنید - تنظیمات لیست فایل ها را تغییر دهید [CR] محافظ صفحه نمایش را راه اندازی کنید."
+
+msgctxt "#31401"
+msgid "[B]CONFIGURE VIDEO SETTINGS[/B][CR][CR]Manage your video library · Set video playback options · Change video listing options[CR]Set subtitle fonts"
+msgstr "[B] تنظیمات ویدئو را انجام دهید [/B] [CR][CR] کتابخانه ویدئویی را مرتب کنید. تنظیمات پخش ویدئو را تعیین کنید. گزینه های مرتب سازی ویدئو را انتخاب کنید. [CR] قلم زیرنویس ها را انتخاب کنید."
+
+msgctxt "#31402"
+msgid "[B]CONFIGURE MUSIC SETTINGS[/B][CR][CR]Manage your music library · Set music playback options · Change music listing options[CR]Setup song submission · Set karaoke options"
+msgstr "[B] تنظیمات موسیقی را انجام دهید [/B] [CR][CR] کتابخانه موسیقی را مرتب کنید. تنظیمات پخش موسیقی را تعیین کنید. گزینه های مرتب سازی موسیقی را انتخاب کنید. [CR] گزینه های کاراوک را انتخاب کنید."
+
+msgctxt "#31403"
+msgid "[B]CONFIGURE PICTURE SETTINGS[/B][CR][CR]Set picture listing options · Configure slideshows"
+msgstr "[B] تنظیمات تصاویر را انجام دهید [/B] [CR][CR]  گزینه های مرتب سازی تصاویر را انتخاب کنید. [CR] نمایش اسلاید را تنظیم کنید."
+
+msgctxt "#31404"
+msgid "[B]CONFIGURE WEATHER SETTINGS[/B][CR][CR]Set three cities to collect weather information"
+msgstr "[B] تنظیمات وضع هوا را انجام دهید [/B] [CR][CR] حداکثر سه شهر را برای نشان دادن وضع هوا انتخاب کنید."
+
+msgctxt "#31406"
+msgid "[B]CONFIGURE SYSTEM SETTINGS[/B][CR][CR]Setup and calibrate displays · Configure audio output · Setup remote controls[CR]Set power saving options · Enable debugging · Setup master lock"
+msgstr "[B] تنظیمات سیستم را انجام دهید [/B] [CR][CR] نمایشگر ها را تنظیم و کالیبره کنید. پخش صدا را تنظیم کنید. کنترل از راه دور را تنظیم کنید. [CR] گزینه های صرفه جویی در انرژی را انتخاب کنید - خطا یابی را فعال کنید - قفل اصلی را تنظیم کنید."
+
+msgctxt "#31408"
+msgid "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed Add-ons · Browse for and install Add-ons from kodi.tv[CR]Modify Add-on settings"
+msgstr "[B] تنظیمات افزونه ها را انجام دهید [/B] [CR][CR] افزونه های نصب شده را مدیریت کنید. افزونه ها را نصب کنید. [CR] تنظیمات افزونه ها را تغییر دهید."
+
+msgctxt "#31410"
+msgid "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of Kodi via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
+msgstr "[B] تنظیمات خدمات را انجام دهید [/B] [CR][CR] دسترسی به Kodi را از طریق UPnP و HTTP امکان پذیر کنید. اشتراک گذاری فایل ها را تنظیم کنید. [CR] تنظیمات Zeroconf را انجام دهید. AirPlay را تنظیم کنید."
+
+msgctxt "#31413"
+msgid "Local subtitle available"
+msgstr "زیر نویس محلی موجود"
+
+msgctxt "#31421"
+msgid "Select your Kodi user Profile[CR]to login and continue"
+msgstr "جهت ورود و ادامه کار، کاربر kodi را انتخاب نمایید."
+
+msgctxt "#31501"
+msgid "Scheduled Time"
+msgstr "زمان بندی"
+
 msgctxt "#31502"
 msgid "Live TV"
 msgstr "تلویزیون زنده"
+
+msgctxt "#31503"
+msgid "Add Group"
+msgstr "افزودن گروه جدید"
 
 msgctxt "#31504"
 msgid "Rename Group"
@@ -152,6 +464,42 @@ msgctxt "#31506"
 msgid "Available[CR]Groups"
 msgstr "گروه های [CR]موجود"
 
+msgctxt "#31509"
+msgid "Channel Group"
+msgstr "گروه کانال ها"
+
+msgctxt "#31510"
+msgid "Timer Set"
+msgstr "تنظیم تایمر"
+
+msgctxt "#31511"
+msgid "Channel Options"
+msgstr "گزینه های کانال"
+
 msgctxt "#31600"
 msgid "Action"
 msgstr "عمل"
+
+msgctxt "#31901"
+msgid "36 Hour Forecast"
+msgstr "پیش بینی 36 ساعته"
+
+msgctxt "#31902"
+msgid "Hourly Forecast"
+msgstr "پیش بینی یک ساعته"
+
+msgctxt "#31903"
+msgid "Weekend Forecast"
+msgstr "پیش بینی هفتگی"
+
+msgctxt "#31905"
+msgid "Forecast"
+msgstr "پیش بینی"
+
+msgctxt "#31908"
+msgid "Chance of Precipitation"
+msgstr "احتمال بارندگی"
+
+msgctxt "#31909"
+msgid "Fetching forecast info..."
+msgstr "دریافت اطلاعات پیش بینی..."

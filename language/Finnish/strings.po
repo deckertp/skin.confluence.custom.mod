@@ -1,4 +1,4 @@
-# XBMC Media Center language file
+# Kodi Media Center language file
 # Addon Name: Confluence Customizable Mod
 # Addon id: skin.confluence.custom.mod
 # Addon Provider: Mudislander
@@ -8,7 +8,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: XBMC Translation Team\n"
+"Last-Translator: Kodi Translation Team\n"
 "Language-Team: Finnish (http://www.transifex.com/projects/p/xbmc-skins/language/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -272,6 +272,10 @@ msgctxt "#31150"
 msgid "Multi Image"
 msgstr "Vaihtuva kuva"
 
+msgctxt "#31152"
+msgid "Enable Kiosk Mode"
+msgstr "Ota käyttöön Kiosk Mode"
+
 msgctxt "#31154"
 msgid "Preset"
 msgstr "Esiasetukset"
@@ -284,17 +288,33 @@ msgctxt "#31175"
 msgid "Recent Movies"
 msgstr "Viimeisimmät elokuvat"
 
+msgctxt "#31176"
+msgid "Random Movies"
+msgstr "Satunnaiset elokuvat"
+
 msgctxt "#31178"
 msgid "Recent Episodes"
 msgstr "Viimeisimmät jaksot"
+
+msgctxt "#31179"
+msgid "Random Episodes"
+msgstr "Satunnaiset jaksot"
 
 msgctxt "#31181"
 msgid "Recent Albums"
 msgstr "Viimeisimmät albumit"
 
+msgctxt "#31189"
+msgid "Theme"
+msgstr "Teema"
+
 msgctxt "#31203"
 msgid "Choose Your Song"
 msgstr "Valitse kappale"
+
+msgctxt "#31204"
+msgid "Settings level"
+msgstr "Asetustaso"
 
 msgctxt "#31205"
 msgid "Lyrics Source"
@@ -440,6 +460,18 @@ msgctxt "#31356"
 msgid "Download Subtitles"
 msgstr "Lataa tekstitykset"
 
+msgctxt "#31387"
+msgid "Watch as 2D"
+msgstr "Katso 2D:nä"
+
+msgctxt "#31388"
+msgid "Change mode"
+msgstr "Vaihda tilaa"
+
+msgctxt "#31389"
+msgid "Enabled"
+msgstr "Käytössä"
+
 msgctxt "#31391"
 msgid "Skin default with no Caps"
 msgstr "Ulkoasun oletus ilman isoja kirjaimia"
@@ -477,20 +509,28 @@ msgid "[B]CONFIGURE SKIN SETTINGS[/B][CR][CR]Setup the Confluence skin · Add an
 msgstr "[B]Muokkaa ulkoasun asetuksia[/B][CR][CR]Aseta Confluence-ulkoasun asetukset · Lisää ja poista päävalikon kohteita[CR]Vaihda ulkoasun taustakuvia"
 
 msgctxt "#31408"
-msgid "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed Add-ons · Browse for and install Add-ons from xbmc.org[CR]Modify Add-on settings"
-msgstr "[B]Muokkaa lisäosia[/B][CR][CR]Hallitse asennettuja lisäosia · Valitse ja asenna lisäosia xbmc.org:sta[CR]Muokkaa lisäosien asetuksia"
+msgid "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed Add-ons · Browse for and install Add-ons from kodi.tv[CR]Modify Add-on settings"
+msgstr "[B]Muokkaa lisäosia[/B][CR][CR]Hallitse asennettuja lisäosia · Valitse ja asenna lisäosia kodi.tv:sta[CR]Muokkaa lisäosien asetuksia"
 
 msgctxt "#31409"
 msgid "[B]CONFIGURE TV SETTINGS[/B][CR][CR]Change fullscreen info · Manage EPG data settings"
 msgstr "[B]Muokkaa TV-asetuksia[/B][CR][CR]Muokkaa kokoruudun tietoja · Hallitse ohjelmaoppaan asetuksia"
 
 msgctxt "#31410"
-msgid "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of XBMC via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
-msgstr "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Määritä XBMC:n kauko ohjaus käyttäen UPnP:tä ja HTTP:tä · Määritä tiedostonjako[CR]Kytke päälle Zeroconf · Määritä AirPlay"
+msgid "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of Kodi via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
+msgstr "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Määritä Kodi:n kauko ohjaus käyttäen UPnP:tä ja HTTP:tä · Määritä tiedostonjako[CR]Kytke päälle Zeroconf · Määritä AirPlay"
+
+msgctxt "#31413"
+msgid "Local subtitle available"
+msgstr "Paikallisia tekstityksiä saatavilla"
 
 msgctxt "#31421"
-msgid "Select your XBMC user Profile[CR]to login and continue"
-msgstr "Valitse XBMC-käyttäjäprofiili[CR]kirjautuaksesi sisään"
+msgid "Select your Kodi user Profile[CR]to login and continue"
+msgstr "Valitse Kodi-käyttäjäprofiili[CR]kirjautuaksesi sisään"
+
+msgctxt "#31422"
+msgid "Log-in"
+msgstr "Kirjaudu"
 
 msgctxt "#31501"
 msgid "Scheduled Time"
@@ -556,6 +596,10 @@ msgctxt "#31700"
 msgid "United States"
 msgstr "Yhdysvallat"
 
+msgctxt "#31701"
+msgid "Great Britain"
+msgstr "Iso-Britannia"
+
 msgctxt "#31702"
 msgid "Germany"
 msgstr "Saksa"
@@ -615,3 +659,7 @@ msgstr "Noudetaan ennusteen tietoja..."
 msgctxt "#31910"
 msgid "Map & Alerts"
 msgstr "Kartta ja hälytykset"
+
+msgctxt "#31950"
+msgid "In Progress"
+msgstr "Katselu kesken"

@@ -1,4 +1,4 @@
-# XBMC Media Center language file
+# Kodi Media Center language file
 # Addon Name: Confluence Customizable Mod
 # Addon id: skin.confluence.custom.mod
 # Addon Provider: Mudislander
@@ -8,7 +8,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: XBMC Translation Team\n"
+"Last-Translator: Kodi Translation Team\n"
 "Language-Team: Persian (http://www.transifex.com/projects/p/xbmc-skins/language/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -48,6 +48,10 @@ msgctxt "#31142"
 msgid "Shortcuts"
 msgstr "نشانک‌ها"
 
+msgctxt "#31154"
+msgid "Preset"
+msgstr "استاندارد"
+
 msgctxt "#31217"
 msgid "Search"
 msgstr "جستجو"
@@ -67,6 +71,10 @@ msgstr "مستند"
 msgctxt "#31700"
 msgid "United States"
 msgstr "ایالات متحده"
+
+msgctxt "#31701"
+msgid "Great Britain"
+msgstr "بریتانیا"
 
 msgctxt "#31702"
 msgid "Germany"

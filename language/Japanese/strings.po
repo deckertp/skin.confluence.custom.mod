@@ -1,4 +1,4 @@
-# XBMC Media Center language file
+# Kodi Media Center language file
 # Addon Name: Confluence Customizable Mod
 # Addon id: skin.confluence.custom.mod
 # Addon Provider: Mudislander
@@ -8,7 +8,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: XBMC Translation Team\n"
+"Last-Translator: Kodi Translation Team\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/xbmc-skins/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -47,6 +47,10 @@ msgstr "総時間"
 msgctxt "#31010"
 msgid "Found"
 msgstr "見つかりました"
+
+msgctxt "#31011"
+msgid "Kodi"
+msgstr "Kodi"
 
 msgctxt "#31019"
 msgid "Trailers"
@@ -164,6 +168,18 @@ msgctxt "#31061"
 msgid "Current Selected"
 msgstr "現在選択中"
 
+msgctxt "#31085"
+msgid "Shuffle On"
+msgstr "シャッフル：オン"
+
+msgctxt "#31086"
+msgid "Repeat All On"
+msgstr "全体リピート：オン"
+
+msgctxt "#31087"
+msgid "Repeat One On"
+msgstr "個別リピート：オン"
+
 msgctxt "#31088"
 msgid "Next Tracks"
 msgstr "プレイリスト"
@@ -204,6 +220,10 @@ msgctxt "#31119"
 msgid "Hide Background Fanart"
 msgstr "背景のファンアートを隠す"
 
+msgctxt "#31120"
+msgid "Submenu Set"
+msgstr "サブメニューセット"
+
 msgctxt "#31125"
 msgid "Show Background \"Now Playing\" Visualization"
 msgstr "背景に「現在再生中」視覚化を表示"
@@ -240,6 +260,10 @@ msgctxt "#31142"
 msgid "Shortcuts"
 msgstr "ショートカット"
 
+msgctxt "#31143"
+msgid "Menu Item"
+msgstr "メニュー項目"
+
 msgctxt "#31149"
 msgid "Single Image"
 msgstr "単一イメージ"
@@ -248,13 +272,29 @@ msgctxt "#31150"
 msgid "Multi Image"
 msgstr "複数イメージ"
 
+msgctxt "#31153"
+msgid "Home Menu"
+msgstr "ホームメニュー"
+
 msgctxt "#31154"
 msgid "Preset"
 msgstr "プリセット"
 
+msgctxt "#31174"
+msgid "Widget Set"
+msgstr "ウィジェットセット"
+
+msgctxt "#31189"
+msgid "Theme"
+msgstr "テーマ"
+
 msgctxt "#31203"
 msgid "Choose Your Song"
 msgstr "曲を選択"
+
+msgctxt "#31204"
+msgid "Settings level"
+msgstr "設定レベル"
 
 msgctxt "#31205"
 msgid "Lyrics Source"
@@ -396,6 +436,22 @@ msgctxt "#31356"
 msgid "Download Subtitles"
 msgstr "字幕をダウンロード"
 
+msgctxt "#31387"
+msgid "Watch as 2D"
+msgstr "2D で観る"
+
+msgctxt "#31388"
+msgid "Change mode"
+msgstr "モードを変更"
+
+msgctxt "#31389"
+msgid "Enabled"
+msgstr "LCD有効"
+
+msgctxt "#31390"
+msgid "Skin Default"
+msgstr "スキンのデフォルト"
+
 msgctxt "#31391"
 msgid "Skin default with no Caps"
 msgstr "スキンのデフォルト (小文字のみ)"
@@ -433,20 +489,28 @@ msgid "[B]CONFIGURE SKIN SETTINGS[/B][CR][CR]Setup the Confluence skin · Add an
 msgstr "[B]スキン設定[/B][CR][CR]Confluence スキン設定 - ホームメニュー項目の追加と削除[CR]スキン背景設定"
 
 msgctxt "#31408"
-msgid "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed Add-ons · Browse for and install Add-ons from xbmc.org[CR]Modify Add-on settings"
-msgstr "[B]アドオン設定[/B][CR][CR]インストール済みアドオン管理 - xbmc.orgからアドオンを検索・インストール[CR]アドオン設定変更"
+msgid "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed Add-ons · Browse for and install Add-ons from kodi.tv[CR]Modify Add-on settings"
+msgstr "[B]アドオン設定[/B][CR][CR]インストール済みアドオン管理 - kodi.tvからアドオンを検索・インストール[CR]アドオン設定変更"
 
 msgctxt "#31409"
 msgid "[B]CONFIGURE TV SETTINGS[/B][CR][CR]Change fullscreen info · Manage EPG data settings"
 msgstr "[B]TV設定[/B][CR][CR]フルスクリーン情報の変更 · EPGデータ設定"
 
 msgctxt "#31410"
-msgid "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of XBMC via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
-msgstr "[B]サービス設定[/B][CR][CR]UPnP や HTTP 経由による XBMC 操作設定 · ファイル共有設定[CR]Zeroconf を有効に · AirPlay 設定"
+msgid "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of Kodi via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
+msgstr "[B]サービス設定[/B][CR][CR]UPnP や HTTP 経由による Kodi 操作設定 · ファイル共有設定[CR]Zeroconf を有効に · AirPlay 設定"
+
+msgctxt "#31413"
+msgid "Local subtitle available"
+msgstr "ローカルの字幕が利用可能"
 
 msgctxt "#31421"
-msgid "Select your XBMC user Profile[CR]to login and continue"
-msgstr "XBMC ユーザープロファイルを選択して[CR]ログインしてください"
+msgid "Select your Kodi user Profile[CR]to login and continue"
+msgstr "Kodi ユーザープロファイルを選択して[CR]ログインしてください"
+
+msgctxt "#31422"
+msgid "Log-in"
+msgstr "ログイン"
 
 msgctxt "#31501"
 msgid "Scheduled Time"
@@ -511,6 +575,10 @@ msgstr "Short"
 msgctxt "#31700"
 msgid "United States"
 msgstr "アメリカ合衆国"
+
+msgctxt "#31701"
+msgid "Great Britain"
+msgstr "イギリス"
 
 msgctxt "#31702"
 msgid "Germany"

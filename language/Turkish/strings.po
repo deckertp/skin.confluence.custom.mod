@@ -1,4 +1,4 @@
-# XBMC Media Center language file
+# Kodi Media Center language file
 # Addon Name: Confluence Customizable Mod
 # Addon id: skin.confluence.custom.mod
 # Addon Provider: Mudislander
@@ -8,7 +8,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: XBMC Translation Team\n"
+"Last-Translator: Kodi Translation Team\n"
 "Language-Team: Turkish (http://www.transifex.com/projects/p/xbmc-skins/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -47,6 +47,10 @@ msgstr "Toplam Süre"
 msgctxt "#31010"
 msgid "Found"
 msgstr "Bulundu"
+
+msgctxt "#31018"
+msgid "Movie Sets"
+msgstr "Film Setleri"
 
 msgctxt "#31019"
 msgid "Trailers"
@@ -99,6 +103,10 @@ msgstr "Kayan Resim"
 msgctxt "#31033"
 msgid "Info"
 msgstr "Bilgi"
+
+msgctxt "#31035"
+msgid "Low List"
+msgstr "Düşük Liste"
 
 msgctxt "#31036"
 msgid "Coverflow"
@@ -168,6 +176,10 @@ msgctxt "#31061"
 msgid "Current Selected"
 msgstr "Seçilen Geçerli Parça"
 
+msgctxt "#31074"
+msgid "Clean Library"
+msgstr "Kütüphaneyi Temizle"
+
 msgctxt "#31085"
 msgid "Shuffle On"
 msgstr "Karıştır Açık"
@@ -224,6 +236,10 @@ msgctxt "#31128"
 msgid "Lyrics"
 msgstr "Şarkı Sözleri"
 
+msgctxt "#31129"
+msgid "Show Search Button"
+msgstr "Arama Düğmesini Göster"
+
 msgctxt "#31132"
 msgid "Lyrics Add-on"
 msgstr "Şarkı Sözleri Eklentisi"
@@ -231,6 +247,10 @@ msgstr "Şarkı Sözleri Eklentisi"
 msgctxt "#31133"
 msgid "Subtitle Add-on"
 msgstr "Altyazı Eklentisi"
+
+msgctxt "#31134"
+msgid "Buttons"
+msgstr "Düğmeler"
 
 msgctxt "#31138"
 msgid "Hidden"
@@ -260,6 +280,14 @@ msgctxt "#31150"
 msgid "Multi Image"
 msgstr "Çoklu Resim"
 
+msgctxt "#31152"
+msgid "Enable Kiosk Mode"
+msgstr "Bilgi Noktası Modunu Etkinleştir"
+
+msgctxt "#31153"
+msgid "Home Menu"
+msgstr "Ana Menü"
+
 msgctxt "#31154"
 msgid "Preset"
 msgstr "Önayar"
@@ -267,6 +295,10 @@ msgstr "Önayar"
 msgctxt "#31175"
 msgid "Recent Movies"
 msgstr "En Son Filmler"
+
+msgctxt "#31176"
+msgid "Random Movies"
+msgstr "Tesadüfi Filmler"
 
 msgctxt "#31178"
 msgid "Recent Episodes"
@@ -276,9 +308,17 @@ msgctxt "#31181"
 msgid "Recent Albums"
 msgstr "En Son Albümler"
 
+msgctxt "#31189"
+msgid "Theme"
+msgstr "Tema"
+
 msgctxt "#31203"
 msgid "Choose Your Song"
 msgstr "Şarkını Seç"
+
+msgctxt "#31204"
+msgid "Settings level"
+msgstr "Ayarlar seviyesi"
 
 msgctxt "#31205"
 msgid "Lyrics Source"
@@ -307,6 +347,10 @@ msgstr "Son Oynatılanlar"
 msgctxt "#31217"
 msgid "Search"
 msgstr "Ara"
+
+msgctxt "#31230"
+msgid "Hide Favourites Button"
+msgstr "Favoriler Düğmesini Gizle"
 
 msgctxt "#31300"
 msgid "Current Temp"
@@ -424,6 +468,18 @@ msgctxt "#31356"
 msgid "Download Subtitles"
 msgstr "Altyazıları İndir"
 
+msgctxt "#31387"
+msgid "Watch as 2D"
+msgstr "2D olarak izleyin"
+
+msgctxt "#31388"
+msgid "Change mode"
+msgstr "Modu değiştir"
+
+msgctxt "#31389"
+msgid "Enabled"
+msgstr "Etkin"
+
 msgctxt "#31391"
 msgid "Skin default with no Caps"
 msgstr "B. Harfsiz dış görünüm varsayılanı"
@@ -461,7 +517,7 @@ msgid "[B]CONFIGURE SKIN SETTINGS[/B][CR][CR]Setup the Confluence skin · Add an
 msgstr "[B]DIŞ GÖRÜNÜM AYARLARINI YAPILANDIR[/B][CR][CR]Confluence dış görünümü ayarları · Ana menü ögelerini ekle ve kaldır[CR]Arayüz arkaplanlarını değiştir"
 
 msgctxt "#31408"
-msgid "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed Add-ons · Browse for and install Add-ons from xbmc.org[CR]Modify Add-on settings"
+msgid "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed Add-ons · Browse for and install Add-ons from kodi.tv[CR]Modify Add-on settings"
 msgstr "[B]EKLENTİLERİ YAPILANDIR[/B][CR][CR]Yüklenmiş eklentileri yönet · Eklentilere gözat ve yenilerini yükle[CR]Eklenti ayarlarını değiştir"
 
 msgctxt "#31409"
@@ -469,12 +525,20 @@ msgid "[B]CONFIGURE TV SETTINGS[/B][CR][CR]Change fullscreen info · Manage EPG 
 msgstr "[B]TV AYARLARINI YAPILANDIR[/B][CR][CR]Tam ekran bilgisini değiştir · EPG veri ayarlarını yönet"
 
 msgctxt "#31410"
-msgid "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of XBMC via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
-msgstr "[B]HİZMET AYARLARINI YAPILANDIR[/B][CR][CR]UPnP ve HTTP üzerinden XBMC kontrolü ayarları · Dosya paylaşımını yapılandır[CR]Zeroconf'u etkinleştir · AirPlay'i yapılandır"
+msgid "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of Kodi via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
+msgstr "[B]HİZMET AYARLARINI YAPILANDIR[/B][CR][CR]UPnP ve HTTP üzerinden Kodi kontrolü ayarları · Dosya paylaşımını yapılandır[CR]Zeroconf'u etkinleştir · AirPlay'i yapılandır"
+
+msgctxt "#31413"
+msgid "Local subtitle available"
+msgstr "Yerel altyazı mevcut"
 
 msgctxt "#31421"
-msgid "Select your XBMC user Profile[CR]to login and continue"
-msgstr "Oturum açıp devam etmek için[CR]XBMC kullanıcı profilinizi seçin"
+msgid "Select your Kodi user Profile[CR]to login and continue"
+msgstr "Oturum açıp devam etmek için[CR]Kodi kullanıcı profilinizi seçin"
+
+msgctxt "#31422"
+msgid "Log-in"
+msgstr "Giriş"
 
 msgctxt "#31501"
 msgid "Scheduled Time"
@@ -512,6 +576,10 @@ msgctxt "#31511"
 msgid "Channel Options"
 msgstr "Kanal Seçenekleri"
 
+msgctxt "#31600"
+msgid "Action"
+msgstr "Eylem"
+
 msgctxt "#31603"
 msgid "Biography"
 msgstr "Biyografi"
@@ -539,6 +607,10 @@ msgstr "Kısa"
 msgctxt "#31700"
 msgid "United States"
 msgstr "Amerika"
+
+msgctxt "#31701"
+msgid "Great Britain"
+msgstr "İngiltere"
 
 msgctxt "#31702"
 msgid "Germany"

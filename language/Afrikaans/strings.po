@@ -1,4 +1,4 @@
-# XBMC Media Center language file
+# Kodi Media Center language file
 # Addon Name: Confluence Customizable Mod
 # Addon id: skin.confluence.custom.mod
 # Addon Provider: Mudislander
@@ -8,7 +8,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: XBMC Translation Team\n"
+"Last-Translator: Kodi Translation Team\n"
 "Language-Team: Afrikaans (http://www.transifex.com/projects/p/xbmc-skins/language/af/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -208,6 +208,10 @@ msgctxt "#31119"
 msgid "Hide Background Fanart"
 msgstr "Stel verpersoonlikte byvoegsel knoppie in staat"
 
+msgctxt "#31121"
+msgid "Concerts"
+msgstr "Konserte"
+
 msgctxt "#31125"
 msgid "Show Background \"Now Playing\" Visualization"
 msgstr "Wys agtergrond \"Speel Nou\" visualisering"
@@ -228,6 +232,10 @@ msgctxt "#31133"
 msgid "Subtitle Add-on"
 msgstr "Subtitel Byvoegsel"
 
+msgctxt "#31134"
+msgid "Buttons"
+msgstr "Knoppies"
+
 msgctxt "#31138"
 msgid "Hidden"
 msgstr "Weggesteek"
@@ -243,6 +251,10 @@ msgstr "Video OSD"
 msgctxt "#31142"
 msgid "Shortcuts"
 msgstr "Kortpaaie"
+
+msgctxt "#31146"
+msgid "Cinema"
+msgstr "Teater"
 
 msgctxt "#31149"
 msgid "Single Image"
@@ -268,9 +280,17 @@ msgctxt "#31181"
 msgid "Recent Albums"
 msgstr "Onlangse Albums"
 
+msgctxt "#31189"
+msgid "Theme"
+msgstr "Tema"
+
 msgctxt "#31203"
 msgid "Choose Your Song"
 msgstr "Kies Jou Liedjie"
+
+msgctxt "#31204"
+msgid "Settings level"
+msgstr "Verstellings vlak"
 
 msgctxt "#31205"
 msgid "Lyrics Source"
@@ -408,6 +428,18 @@ msgctxt "#31356"
 msgid "Download Subtitles"
 msgstr "Laai Subtitels Af"
 
+msgctxt "#31387"
+msgid "Watch as 2D"
+msgstr "Kyk as 2D"
+
+msgctxt "#31388"
+msgid "Change mode"
+msgstr "Verander modus"
+
+msgctxt "#31389"
+msgid "Enabled"
+msgstr "In staat gestel"
+
 msgctxt "#31391"
 msgid "Skin default with no Caps"
 msgstr "Bestek omslag met geen hoofletters"
@@ -445,20 +477,28 @@ msgid "[B]CONFIGURE SKIN SETTINGS[/B][CR][CR]Setup the Confluence skin · Add an
 msgstr "[B]KONFIGUREER OORTREKSEL VERSTELLINGS[/B][CR][CR]Stel die Confluence oortreksel op · Voeg by en verwyder tuis kieslys items[CR]Verander oortreksel agtergronde"
 
 msgctxt "#31408"
-msgid "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed Add-ons · Browse for and install Add-ons from xbmc.org[CR]Modify Add-on settings"
-msgstr "[B]KONFIGUREER BYVOEGSELS[/B][CR][CR]Bestuur jou geïnstalleerde Byvoegsels · Soek en installeer Byvoegsels vanaf xbmc.org[CR]Verander Byvoeging verstellings"
+msgid "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed Add-ons · Browse for and install Add-ons from kodi.tv[CR]Modify Add-on settings"
+msgstr "[B]KONFIGUREER BYVOEGSELS[/B][CR][CR]Bestuur jou geïnstalleerde Byvoegsels · Soek en installeer Byvoegsels vanaf kodi.tv[CR]Verander Byvoeging verstellings"
 
 msgctxt "#31409"
 msgid "[B]CONFIGURE TV SETTINGS[/B][CR][CR]Change fullscreen info · Manage EPG data settings"
 msgstr "[B]KONFIGUREER TV VERSTELLINGS[/B][CR][CR]Verander volskerm info · Bestuur EPG data verstellings"
 
 msgctxt "#31410"
-msgid "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of XBMC via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
-msgstr "[B]KONFIGUREER DIENS VERSTELLINGS[/B][CR][CR]Stel beheer van XBMC via UPnP en HTTP op · Konfigureer lêer deling[CR]Stel Zeroconf in staat · Konfigureer AirPlay"
+msgid "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of Kodi via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
+msgstr "[B]KONFIGUREER DIENS VERSTELLINGS[/B][CR][CR]Stel beheer van Kodi via UPnP en HTTP op · Konfigureer lêer deling[CR]Stel Zeroconf in staat · Konfigureer AirPlay"
+
+msgctxt "#31413"
+msgid "Local subtitle available"
+msgstr "Lokale subtitel beskikbaar"
 
 msgctxt "#31421"
-msgid "Select your XBMC user Profile[CR]to login and continue"
-msgstr "Selekteer jou XBMC gebruiker Profiel[CR]om in te log en voort te gaan"
+msgid "Select your Kodi user Profile[CR]to login and continue"
+msgstr "Selekteer jou Kodi gebruiker Profiel[CR]om in te log en voort te gaan"
+
+msgctxt "#31422"
+msgid "Log-in"
+msgstr "Teken aan"
 
 msgctxt "#31501"
 msgid "Scheduled Time"
@@ -523,6 +563,10 @@ msgstr "Kort"
 msgctxt "#31700"
 msgid "United States"
 msgstr "Verenigde State"
+
+msgctxt "#31701"
+msgid "Great Britain"
+msgstr "Groot Brittanje"
 
 msgctxt "#31702"
 msgid "Germany"

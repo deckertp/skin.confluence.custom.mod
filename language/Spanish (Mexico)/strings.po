@@ -1,4 +1,4 @@
-# XBMC Media Center language file
+# Kodi Media Center language file
 # Addon Name: Confluence Customizable Mod
 # Addon id: skin.confluence.custom.mod
 # Addon Provider: Mudislander
@@ -8,7 +8,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: XBMC Translation Team\n"
+"Last-Translator: Kodi Translation Team\n"
 "Language-Team: Spanish (Mexico) (http://www.transifex.com/projects/p/xbmc-skins/language/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -268,9 +268,17 @@ msgctxt "#31154"
 msgid "Preset"
 msgstr "Ajustes Predeterminados"
 
+msgctxt "#31189"
+msgid "Theme"
+msgstr "Tema"
+
 msgctxt "#31203"
 msgid "Choose Your Song"
 msgstr "Elige tu canción"
+
+msgctxt "#31204"
+msgid "Settings level"
+msgstr "Nivel de Ajustes"
 
 msgctxt "#31205"
 msgid "Lyrics Source"
@@ -412,6 +420,18 @@ msgctxt "#31356"
 msgid "Download Subtitles"
 msgstr "Descargar Subtítulos"
 
+msgctxt "#31387"
+msgid "Watch as 2D"
+msgstr "Ver en 2D"
+
+msgctxt "#31388"
+msgid "Change mode"
+msgstr "Cambiar modo"
+
+msgctxt "#31389"
+msgid "Enabled"
+msgstr "Activado"
+
 msgctxt "#31391"
 msgid "Skin default with no Caps"
 msgstr "Según skin sin Caps"
@@ -449,20 +469,24 @@ msgid "[B]CONFIGURE SKIN SETTINGS[/B][CR][CR]Setup the Confluence skin · Add an
 msgstr "[B]CONFIGURAR AJUSTES DE SKIN[/B][CR][CR]Configurar el skin Confluence · Añadir y eliminar elementos del menú principal[CR]Cambiar fondos de skin"
 
 msgctxt "#31408"
-msgid "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed Add-ons · Browse for and install Add-ons from xbmc.org[CR]Modify Add-on settings"
-msgstr "[B]CONFIGURAR ADD-ONS[/B][CR][CR]Administrar tus Add-ons instalados · Buscar e instalar add-ons desde xbmc.org[CR]Modificar la configuración de Add-ons"
+msgid "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed Add-ons · Browse for and install Add-ons from kodi.tv[CR]Modify Add-on settings"
+msgstr "[B]CONFIGURAR ADD-ONS[/B][CR][CR]Administrar tus Add-ons instalados · Buscar e instalar add-ons desde kodi.tv[CR]Modificar la configuración de Add-ons"
 
 msgctxt "#31409"
 msgid "[B]CONFIGURE TV SETTINGS[/B][CR][CR]Change fullscreen info · Manage EPG data settings"
 msgstr "[B]CONFIGURAR AJUSTES DE TV[/B][CR][CR]Cambiar información de pantalla completa · Administrar ajustes de datos EPG"
 
 msgctxt "#31410"
-msgid "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of XBMC via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
-msgstr "[B]CONFIGURAR AJUSTES DE SERVICIO[/B][CR][CR]Configuración de control de XBMC a través de UPnP y HTTP · Configurar el uso compartido de archivos[CR]HabilitarZeroconf · Configurar AirPlay"
+msgid "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of Kodi via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
+msgstr "[B]CONFIGURAR AJUSTES DE SERVICIO[/B][CR][CR]Configuración de control de Kodi a través de UPnP y HTTP · Configurar el uso compartido de archivos[CR]HabilitarZeroconf · Configurar AirPlay"
+
+msgctxt "#31413"
+msgid "Local subtitle available"
+msgstr "Subtitulo local disponible"
 
 msgctxt "#31421"
-msgid "Select your XBMC user Profile[CR]to login and continue"
-msgstr "Selecciona tu Perfil XBMC[CR]para iniciar sesión y continuar"
+msgid "Select your Kodi user Profile[CR]to login and continue"
+msgstr "Selecciona tu Perfil Kodi[CR]para iniciar sesión y continuar"
 
 msgctxt "#31501"
 msgid "Scheduled Time"
@@ -527,6 +551,10 @@ msgstr "Corto"
 msgctxt "#31700"
 msgid "United States"
 msgstr "Estados Unidos"
+
+msgctxt "#31701"
+msgid "Great Britain"
+msgstr "Gran Bretaña"
 
 msgctxt "#31702"
 msgid "Germany"

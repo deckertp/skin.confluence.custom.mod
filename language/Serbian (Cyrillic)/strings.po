@@ -1,4 +1,4 @@
-# XBMC Media Center language file
+# Kodi Media Center language file
 # Addon Name: Confluence Customizable Mod
 # Addon id: skin.confluence.custom.mod
 # Addon Provider: Mudislander
@@ -8,7 +8,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: XBMC Translation Team\n"
+"Last-Translator: Kodi Translation Team\n"
 "Language-Team: Serbian (Cyrillic) (http://www.transifex.com/projects/p/xbmc-skins/language/sr_RS/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -324,6 +324,10 @@ msgctxt "#31356"
 msgid "Download Subtitles"
 msgstr "Преузми титлове"
 
+msgctxt "#31389"
+msgid "Enabled"
+msgstr "Омогућено"
+
 msgctxt "#31400"
 msgid "[B]CONFIGURE APPEARANCE SETTINGS[/B][CR][CR]Change the skin · Set language and region · Change file listing options[CR]Set up a screensaver"
 msgstr "[B]КОНФИГУРИСАЊЕ ПОСТАВКИ ПРИКАЗА[/B][CR][CR]Промените маску · Изаберите језик и област где живите[CR]Промените опције излиставања датотека · Изаберите чувара екрана"
@@ -353,12 +357,16 @@ msgid "[B]CONFIGURE SKIN SETTINGS[/B][CR][CR]Setup the Confluence skin · Add an
 msgstr "[B]КОНФИГУРИСАЊЕ ПОСТАВКИ МАСКЕ[/B][CR][CR]Подесите Confluence маску · Додајте и уклоните ставке почетног екрана[CR]Промените позадине маске"
 
 msgctxt "#31408"
-msgid "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed Add-ons · Browse for and install Add-ons from xbmc.org[CR]Modify Add-on settings"
-msgstr "[B]КОНФИГУРИСАЊЕ ДОДАТНИХ ПРОГРАМА[/B][CR][CR]Управљајте вашим инсталираним додатним програмима · Потражите и инсталирајте додатне прог. са xbmc.org[CR]Прилагодите подешавање додатног програма"
+msgid "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed Add-ons · Browse for and install Add-ons from kodi.tv[CR]Modify Add-on settings"
+msgstr "[B]КОНФИГУРИСАЊЕ ДОДАТНИХ ПРОГРАМА[/B][CR][CR]Управљајте вашим инсталираним додатним програмима · Потражите и инсталирајте додатне прог. са kodi.tv[CR]Прилагодите подешавање додатног програма"
+
+msgctxt "#31413"
+msgid "Local subtitle available"
+msgstr "Локални превод доступан"
 
 msgctxt "#31421"
-msgid "Select your XBMC user Profile[CR]to login and continue"
-msgstr "Изаберите ваш XBMC кориснички[CR]профил за пријаву, а потом наставите даље"
+msgid "Select your Kodi user Profile[CR]to login and continue"
+msgstr "Изаберите ваш Kodi кориснички[CR]профил за пријаву, а потом наставите даље"
 
 msgctxt "#31603"
 msgid "Biography"

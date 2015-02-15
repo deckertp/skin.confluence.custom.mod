@@ -1,4 +1,4 @@
-# XBMC Media Center language file
+# Kodi Media Center language file
 # Addon Name: Confluence Customizable Mod
 # Addon id: skin.confluence.custom.mod
 # Addon Provider: Mudislander
@@ -8,7 +8,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: XBMC Translation Team\n"
+"Last-Translator: Kodi Translation Team\n"
 "Language-Team: Chinese (Simple) (http://www.transifex.com/projects/p/xbmc-skins/language/zh/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -51,6 +51,10 @@ msgstr "总时长"
 msgctxt "#31010"
 msgid "Found"
 msgstr "找到"
+
+msgctxt "#31011"
+msgid "Kodi"
+msgstr "Kodi"
 
 msgctxt "#31016"
 msgid "Shows"
@@ -297,8 +301,8 @@ msgid "Show Video OSD Menu"
 msgstr "显示视频OSD菜单"
 
 msgctxt "#31084"
-msgid "Enable XBMC Intro Movie"
-msgstr "启用XBMC介绍影片"
+msgid "Enable Kodi Intro Movie"
+msgstr "启用Kodi介绍影片"
 
 msgctxt "#31085"
 msgid "Shuffle On"
@@ -832,6 +836,62 @@ msgctxt "#31217"
 msgid "Search"
 msgstr "搜索"
 
+msgctxt "#31218"
+msgid "Selected"
+msgstr "已选择"
+
+msgctxt "#31219"
+msgid "Global Search"
+msgstr "全局搜索"
+
+msgctxt "#31220"
+msgid "Edit Menu Item"
+msgstr "编辑菜单项"
+
+msgctxt "#31221"
+msgid "Enter Kodi Command"
+msgstr "输入Kodi命令"
+
+msgctxt "#31222"
+msgid "Window"
+msgstr "窗口"
+
+msgctxt "#31223"
+msgid "Installed Add-Ons"
+msgstr "已安装扩展"
+
+msgctxt "#31224"
+msgid "User Favourites"
+msgstr "用户收藏"
+
+msgctxt "#31225"
+msgid "Floor Button"
+msgstr "底部按钮"
+
+msgctxt "#31226"
+msgid "Global Floor Buttons"
+msgstr "全局底部按钮"
+
+msgctxt "#31227"
+msgid "Power Button Settings"
+msgstr "电源按钮设置"
+
+msgctxt "#31228"
+msgid "Power Button Activates Shutdown Menu"
+msgstr "电源按钮激活关机菜单"
+
+msgctxt "#31229"
+msgid "Home Screen Buttons"
+msgstr "主界面按钮"
+
+msgctxt "#31230"
+msgid "Hide Favourites Button"
+msgstr "隐藏收藏按钮"
+
+msgctxt "#31231"
+msgid "User Button"
+msgstr "用户按钮"
+
 msgctxt "#31300"
 msgid "Current Temp"
 msgstr "当前温度"
@@ -968,6 +1028,38 @@ msgctxt "#31333"
 msgid "Startup"
 msgstr "启动"
 
+msgctxt "#31334"
+msgid "Enable Large Widget Layout"
+msgstr "启用大的小部件布局"
+
+msgctxt "#31335"
+msgid "Setup UPnP Library"
+msgstr "设置UPnp资料库"
+
+msgctxt "#31336"
+msgid "Enable UPnP Library Mode"
+msgstr "启用UPnP资料库模式"
+
+msgctxt "#31337"
+msgid "UPnP Error"
+msgstr "UPnP错误"
+
+msgctxt "#31338"
+msgid "Please Set Path to UPnP Server"
+msgstr "请设置UPuP服务器路径"
+
+msgctxt "#31339"
+msgid "[COLOR=selected][B]Warning[/B][/COLOR] - Changing UPnp Settings will Reset Main Menu"
+msgstr "[COLOR=selected][B]警告[/B][/COLOR] - 更改UPnP设置将重置主菜单"
+
+msgctxt "#31341"
+msgid "UPnp Mode"
+msgstr "UPnP模式"
+
+msgctxt "#31342"
+msgid "UPnp Server Type"
+msgstr "UPnp服务器类型"
+
 msgctxt "#31351"
 msgid "Pause"
 msgstr "暂停"
@@ -1072,6 +1164,18 @@ msgctxt "#31376"
 msgid "Enable System Weather"
 msgstr "启用系统天气"
 
+msgctxt "#31387"
+msgid "Watch as 2D"
+msgstr "以2D方式观看"
+
+msgctxt "#31388"
+msgid "Change mode"
+msgstr "改变模式"
+
+msgctxt "#31389"
+msgid "Enabled"
+msgstr "开启"
+
 msgctxt "#31390"
 msgid "Skin Default"
 msgstr "皮肤默认"
@@ -1113,19 +1217,23 @@ msgid "[B]CONFIGURE SKIN SETTINGS[/B][CR][CR]Setup the Confluence skin · Add an
 msgstr "[B]设置皮肤参数[/B][CR][CR]设置Confluence皮肤 · 增加和删除主菜单项 · 修改皮肤背景"
 
 msgctxt "#31408"
-msgid "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed Add-ons · Browse for and install Add-ons from xbmc.org[CR]Modify Add-on settings"
-msgstr "[B]设置扩展功能[/B][CR][CR]管理你安装的插件 · 在xbmc.org浏览并安装插件 · 修改插件设置"
+msgid "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed Add-ons · Browse for and install Add-ons from kodi.tv[CR]Modify Add-on settings"
+msgstr "[B]设置扩展功能[/B][CR][CR]管理你安装的插件 · 在kodi.tv浏览并安装插件 · 修改插件设置"
 
 msgctxt "#31409"
 msgid "[B]CONFIGURE TV SETTINGS[/B][CR][CR]Change fullscreen info · Manage EPG data settings"
 msgstr "[B]设置直播电视[/B][CR][CR]更改全屏信息 · 管理电子节目单数据设置"
 
 msgctxt "#31410"
-msgid "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of XBMC via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
-msgstr "[B]设置网络服务[/B][CR][CR]设置通过UPnP和HTTP控制XBMC · 配置文件共享[CR]启用Zeroconf · 设置AirPlay"
+msgid "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of Kodi via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
+msgstr "[B]设置网络服务[/B][CR][CR]设置通过UPnP和HTTP控制Kodi · 配置文件共享[CR]启用Zeroconf · 设置AirPlay"
+
+msgctxt "#31413"
+msgid "Local subtitle available"
+msgstr "本地字幕可用"
 
 msgctxt "#31421"
-msgid "Select your XBMC user Profile[CR]to login and continue"
+msgid "Select your Kodi user Profile[CR]to login and continue"
 msgstr "选择您的用户配置文件[CR]登录并继续"
 
 msgctxt "#31422"
@@ -1309,7 +1417,7 @@ msgid "United States"
 msgstr "美国"
 
 msgctxt "#31701"
-msgid "Great Britian"
+msgid "Great Britain"
 msgstr "英国"
 
 msgctxt "#31702"
@@ -1413,8 +1521,8 @@ msgid "In Progress"
 msgstr "进行中"
 
 msgctxt "#31951"
-msgid "XBMC Command"
-msgstr "XBMC命令"
+msgid "Kodi Command"
+msgstr "Kodi命令"
 
 msgctxt "#31952"
 msgid "Enable Play Disc Menu Item"

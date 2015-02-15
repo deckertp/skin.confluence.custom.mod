@@ -1,4 +1,4 @@
-# XBMC Media Center language file
+# Kodi Media Center language file
 # Addon Name: Confluence Customizable Mod
 # Addon id: skin.confluence.custom.mod
 # Addon Provider: Mudislander
@@ -8,7 +8,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: XBMC Translation Team\n"
+"Last-Translator: Kodi Translation Team\n"
 "Language-Team: English (Australia) (http://www.transifex.com/projects/p/xbmc-skins/language/en_AU/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -180,6 +180,10 @@ msgctxt "#31088"
 msgid "Next Tracks"
 msgstr "Next Tracks"
 
+msgctxt "#31093"
+msgid "None"
+msgstr "None"
+
 msgctxt "#31101"
 msgid "Home screen options"
 msgstr "Home screen options"
@@ -228,6 +232,10 @@ msgctxt "#31128"
 msgid "Lyrics"
 msgstr "Lyrics"
 
+msgctxt "#31129"
+msgid "Show Search Button"
+msgstr "Show Search Button"
+
 msgctxt "#31132"
 msgid "Lyrics Add-on"
 msgstr "Lyrics Add-on"
@@ -239,6 +247,10 @@ msgstr "Subtitle Add-on"
 msgctxt "#31134"
 msgid "Buttons"
 msgstr "Buttons"
+
+msgctxt "#31138"
+msgid "Hidden"
+msgstr "Hidden"
 
 msgctxt "#31140"
 msgid "Music OSD"
@@ -264,9 +276,25 @@ msgctxt "#31150"
 msgid "Multi Image"
 msgstr "Multi Image"
 
+msgctxt "#31152"
+msgid "Enable Kiosk Mode"
+msgstr "Enable Kiosk Mode"
+
+msgctxt "#31153"
+msgid "Home Menu"
+msgstr "Home Menu"
+
+msgctxt "#31154"
+msgid "Preset"
+msgstr "Preset"
+
 msgctxt "#31163"
 msgid "Radio 105"
 msgstr "Radio 105"
+
+msgctxt "#31176"
+msgid "Random Movies"
+msgstr "Random Movies"
 
 msgctxt "#31189"
 msgid "Theme"
@@ -275,6 +303,10 @@ msgstr "Theme"
 msgctxt "#31203"
 msgid "Choose Your Song"
 msgstr "Choose Your Song"
+
+msgctxt "#31204"
+msgid "Settings level"
+msgstr "Settings level"
 
 msgctxt "#31205"
 msgid "Lyrics Source"
@@ -299,6 +331,10 @@ msgstr "Recently Added"
 msgctxt "#31217"
 msgid "Search"
 msgstr "Search"
+
+msgctxt "#31230"
+msgid "Hide Favourites Button"
+msgstr "Hide Favourites Button"
 
 msgctxt "#31300"
 msgid "Current Temp"
@@ -412,6 +448,18 @@ msgctxt "#31356"
 msgid "Download Subtitles"
 msgstr "Download Subtitles"
 
+msgctxt "#31387"
+msgid "Watch as 2D"
+msgstr "Watch as 2D"
+
+msgctxt "#31388"
+msgid "Change mode"
+msgstr "Change mode"
+
+msgctxt "#31389"
+msgid "Enabled"
+msgstr "Enabled"
+
 msgctxt "#31391"
 msgid "Skin default with no Caps"
 msgstr "Skin default with no Caps"
@@ -449,20 +497,28 @@ msgid "[B]CONFIGURE SKIN SETTINGS[/B][CR][CR]Setup the Confluence skin · Add an
 msgstr "[B]CONFIGURE SKIN SETTINGS[/B][CR][CR]Setup the Confluence skin · Add and remove home menu items[CR]Change skin backgrounds"
 
 msgctxt "#31408"
-msgid "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed Add-ons · Browse for and install Add-ons from xbmc.org[CR]Modify Add-on settings"
-msgstr "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed Add-ons · Browse for and install Add-ons from xbmc.org[CR]Modify Add-on settings"
+msgid "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed Add-ons · Browse for and install Add-ons from kodi.tv[CR]Modify Add-on settings"
+msgstr "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed Add-ons · Browse for and install Add-ons from kodi.tv[CR]Modify Add-on settings"
 
 msgctxt "#31409"
 msgid "[B]CONFIGURE TV SETTINGS[/B][CR][CR]Change fullscreen info · Manage EPG data settings"
 msgstr "[B]CONFIGURE TV SETTINGS[/B][CR][CR]Change fullscreen info · Manage EPG data settings"
 
 msgctxt "#31410"
-msgid "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of XBMC via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
-msgstr "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of XBMC via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
+msgid "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of Kodi via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
+msgstr "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of Kodi via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
+
+msgctxt "#31413"
+msgid "Local subtitle available"
+msgstr "Local subtitle available"
 
 msgctxt "#31421"
-msgid "Select your XBMC user Profile[CR]to login and continue"
-msgstr "Select your XBMC user Profile[CR]to login and continue"
+msgid "Select your Kodi user Profile[CR]to login and continue"
+msgstr "Select your Kodi user Profile[CR]to login and continue"
+
+msgctxt "#31422"
+msgid "Log-in"
+msgstr "Login"
 
 msgctxt "#31501"
 msgid "Scheduled Time"
@@ -503,6 +559,26 @@ msgstr "Channel Options"
 msgctxt "#31603"
 msgid "Biography"
 msgstr "Biography"
+
+msgctxt "#31605"
+msgid "Comedy"
+msgstr "Comedy"
+
+msgctxt "#31608"
+msgid "Documentary"
+msgstr "Documentary"
+
+msgctxt "#31609"
+msgid "Drama"
+msgstr "Drama"
+
+msgctxt "#31618"
+msgid "Romance"
+msgstr "Romance"
+
+msgctxt "#31620"
+msgid "Short"
+msgstr "Short"
 
 msgctxt "#31901"
 msgid "36 Hour Forecast"

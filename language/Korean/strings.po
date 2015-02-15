@@ -1,4 +1,4 @@
-# XBMC Media Center language file
+# Kodi Media Center language file
 # Addon Name: Confluence Customizable Mod
 # Addon id: skin.confluence.custom.mod
 # Addon Provider: Mudislander
@@ -8,7 +8,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: XBMC Translation Team\n"
+"Last-Translator: Kodi Translation Team\n"
 "Language-Team: Korean (http://www.transifex.com/projects/p/xbmc-skins/language/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -51,6 +51,10 @@ msgstr "총 재생시간"
 msgctxt "#31010"
 msgid "Found"
 msgstr "찾음"
+
+msgctxt "#31011"
+msgid "Kodi"
+msgstr "Kodi"
 
 msgctxt "#31017"
 msgid "HD Movies"
@@ -104,6 +108,10 @@ msgctxt "#31029"
 msgid "Fanart"
 msgstr "팬아트"
 
+msgctxt "#31030"
+msgid "Full Wall"
+msgstr "전체 벽"
+
 msgctxt "#31031"
 msgid "Pic Thumbs"
 msgstr "사진 썸네일"
@@ -138,7 +146,7 @@ msgstr "재생 중"
 
 msgctxt "#31043"
 msgid "PAUSED"
-msgstr "일시정지"
+msgstr "일시 중지"
 
 msgctxt "#31044"
 msgid "FAST FORWARD"
@@ -226,15 +234,15 @@ msgstr "비디오 OSD 옵션"
 
 msgctxt "#31073"
 msgid "Show Story Plot on Pause"
-msgstr "일시정지시 줄거리 보이기"
+msgstr "일시 중지시 줄거리 보기"
 
 msgctxt "#31074"
 msgid "Clean Library"
 msgstr "라이브러리 정리"
 
 msgctxt "#31084"
-msgid "Enable XBMC Intro Movie"
-msgstr "XBMC 인트로 동영상 사용"
+msgid "Enable Kodi Intro Movie"
+msgstr "Kodi 인트로 동영상 사용"
 
 msgctxt "#31085"
 msgid "Shuffle On"
@@ -258,7 +266,7 @@ msgstr "배경"
 
 msgctxt "#31103"
 msgid "Show \"Paused\" in picture slide show"
-msgstr "사진 슬라이드쇼에 \"일시정지됨\" 보기"
+msgstr "사진 슬라이드쇼에 \"일시 중지됨\" 보기"
 
 msgctxt "#31104"
 msgid "Play Trailers in a window [COLOR=grey3](Video Information Dialog Only)[/COLOR]"
@@ -311,6 +319,10 @@ msgstr "TvTunes"
 msgctxt "#31128"
 msgid "Lyrics"
 msgstr "가사"
+
+msgctxt "#31129"
+msgid "Show Search Button"
+msgstr "검색 버튼 보기"
 
 msgctxt "#31132"
 msgid "Lyrics Add-on"
@@ -452,6 +464,10 @@ msgctxt "#31185"
 msgid "Random Concerts"
 msgstr "무작위 콘서트"
 
+msgctxt "#31189"
+msgid "Theme"
+msgstr "테마"
+
 msgctxt "#31203"
 msgid "Choose Your Song"
 msgstr "노래 선택"
@@ -491,6 +507,14 @@ msgstr "추천"
 msgctxt "#31217"
 msgid "Search"
 msgstr "찾기"
+
+msgctxt "#31221"
+msgid "Enter Kodi Command"
+msgstr "Kodi 명령어 입력"
+
+msgctxt "#31230"
+msgid "Hide Favourites Button"
+msgstr "즐겨찾기 버튼 숨김"
 
 msgctxt "#31300"
 msgid "Current Temp"
@@ -614,11 +638,11 @@ msgstr "시작"
 
 msgctxt "#31351"
 msgid "Pause"
-msgstr "일시정지"
+msgstr "일시 중지"
 
 msgctxt "#31352"
 msgid "Stop"
-msgstr "정지"
+msgstr "중지"
 
 msgctxt "#31353"
 msgid "Fast Forward"
@@ -635,6 +659,22 @@ msgstr "자막 애드온"
 msgctxt "#31356"
 msgid "Download Subtitles"
 msgstr "자막 다운로드"
+
+msgctxt "#31362"
+msgid "Enable TV Tunes"
+msgstr "TV Tunes 애드온 사용"
+
+msgctxt "#31387"
+msgid "Watch as 2D"
+msgstr "2D로 시청"
+
+msgctxt "#31388"
+msgid "Change mode"
+msgstr "모드 변경"
+
+msgctxt "#31389"
+msgid "Enabled"
+msgstr "사용함"
 
 msgctxt "#31391"
 msgid "Skin default with no Caps"
@@ -673,20 +713,28 @@ msgid "[B]CONFIGURE SKIN SETTINGS[/B][CR][CR]Setup the Confluence skin · Add an
 msgstr "[B]스킨 설정[/B][CR][CR]Confluence 스킨 설정 · 홈 메뉴 항목 추가 및 제거[CR]스킨 배경 변경"
 
 msgctxt "#31408"
-msgid "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed Add-ons · Browse for and install Add-ons from xbmc.org[CR]Modify Add-on settings"
-msgstr "[B]애드온 설정[/B][CR][CR]설치한 애드온 관리 · xbmc.org에서 애드온 찾기 및 설치[CR]애드온 설정 변경"
+msgid "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed Add-ons · Browse for and install Add-ons from kodi.tv[CR]Modify Add-on settings"
+msgstr "[B]애드온 설정[/B][CR][CR]설치한 애드온 관리 · kodi.tv에서 애드온 찾기 및 설치[CR]애드온 설정 변경"
 
 msgctxt "#31409"
 msgid "[B]CONFIGURE TV SETTINGS[/B][CR][CR]Change fullscreen info · Manage EPG data settings"
 msgstr "[B]TV 설정[/B][CR][CR]전체 화면 정보 변경 · EPG 데이터 설정"
 
 msgctxt "#31410"
-msgid "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of XBMC via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
-msgstr "[B]서비스 설정[/B][CR][CR]UPnP 및 HTTP를 통한 XBMC 제어 설정 · 파일 공유 설정[CR]Zeroconf 활성화 · AirPlay 설정"
+msgid "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of Kodi via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
+msgstr "[B]서비스 설정[/B][CR][CR]UPnP와 HTTP를 통한 Kodi 제어 설정 · 파일 공유 설정[CR]Zeroconf 활성화 · AirPlay 설정"
+
+msgctxt "#31413"
+msgid "Local subtitle available"
+msgstr "로컬 자막 있음"
 
 msgctxt "#31421"
-msgid "Select your XBMC user Profile[CR]to login and continue"
-msgstr "로그인할 XBMC 사용자 프로파일을[CR]선택하고 계속하세요"
+msgid "Select your Kodi user Profile[CR]to login and continue"
+msgstr "로그인할 Kodi 사용자 프로파일을[CR]선택하고 계속하세요"
+
+msgctxt "#31422"
+msgid "Log-in"
+msgstr "로그인"
 
 msgctxt "#31501"
 msgid "Scheduled Time"
@@ -774,7 +822,7 @@ msgstr "판타지"
 
 msgctxt "#31612"
 msgid "History"
-msgstr "역사"
+msgstr "기록"
 
 msgctxt "#31613"
 msgid "Holiday"
@@ -834,7 +882,7 @@ msgstr "빗방울 효과 숨기기"
 
 msgctxt "#31673"
 msgid "Enable Album Art Background Wall"
-msgstr "앨범 아트 백그라운드 월 사용"
+msgstr "앨범 아트 배경 벽 사용"
 
 msgctxt "#31674"
 msgid "Menu Item - 1 - Remembers Last Submenu Action Used"
@@ -849,7 +897,7 @@ msgid "United States"
 msgstr "미국"
 
 msgctxt "#31701"
-msgid "Great Britian"
+msgid "Great Britain"
 msgstr "영국"
 
 msgctxt "#31702"
@@ -916,6 +964,10 @@ msgctxt "#31949"
 msgid "New"
 msgstr "새"
 
+msgctxt "#31950"
+msgid "In Progress"
+msgstr "감상중"
+
 msgctxt "#31951"
-msgid "XBMC Command"
-msgstr "XBMC 명령"
+msgid "Kodi Command"
+msgstr "Kodi 명령"
