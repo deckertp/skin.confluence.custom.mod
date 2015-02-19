@@ -1,3 +1,6 @@
+[B]3.0.10[/B]
+- Updated language files from Transifex
+
 [B]3.0.9[/[B] [I]Feb 2015[/I]
 - Removed Adjustable Font Colour
 - Removed darker screen on video pause
@@ -58,4 +61,3 @@
 - Initial Commit to GitHub
 - Utilized graphics by uNiversal
 - Added User selectable main menu items
-
